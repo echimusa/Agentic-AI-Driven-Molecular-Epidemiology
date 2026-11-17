@@ -1,0 +1,14 @@
+group,level,n,pi_per_kb,n_tajima,tajima_d,segregating_sites,sites_used
+Americas,region,465,4.2935,305,-2.6085,1377,9008
+Asia-Pacific,region,113,7.5695,109,-2.2857,1215,10096
+Europe/Africa,region,13,4.2272,8,-0.248,117,10271
+Brazil,country (Americas),96,3.8219,34,-2.3471,355,9691
+Nicaragua,country (Americas),87,2.4074,75,-2.4258,388,10372
+Puerto Rico,country (Americas),67,3.0708,48,-2.483,394,9937
+Colombia,country (Americas),57,2.164,52,-2.2182,246,10111
+Mexico,country (Americas),40,2.9176,16,-2.1078,173,10472
+USA,country (Americas),29,2.9732,16,-1.1829,174,10426
+Cuba,country (Americas),19,5.3014,11,-0.9334,197,9816
+Honduras,country (Americas),18,1.961,11,-1.6219,84,10315
+Dominican Republic,country (Americas),16,1.6371,10,-1.6863,66,10307
+Haiti,country (Americas),13,1.7913,13,-0.6959,71,10806

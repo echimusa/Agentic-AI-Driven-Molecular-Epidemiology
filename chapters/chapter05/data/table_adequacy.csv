@@ -1,0 +1,9 @@
+model,statistic,observed,sim_mean,lo,hi,p_two_sided,adequate
+JC (equal rates),constant_sites,0.8654,0.8292,0.813,0.8466,0.0,False
+JC (equal rates),informative_sites,118.0,118.415,97.95,136.0,0.95,True
+JC (equal rates),transition_share,0.7328,0.3276,0.2493,0.4072,0.0,False
+JC (equal rates),gc_variance,0.0,0.0,0.0,0.0,0.11,True
+HKY+F+G4,constant_sites,0.8654,0.864,0.8506,0.8795,0.86,True
+HKY+F+G4,informative_sites,118.0,122.67,104.975,146.025,0.72,True
+HKY+F+G4,transition_share,0.7328,0.7696,0.6908,0.8449,0.36,True
+HKY+F+G4,gc_variance,0.0,0.0,0.0,0.0,0.27,True

@@ -1,0 +1,70 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 9 - ANTIMICROBIAL RESISTANCE GENOMICS IN A ONE HEALTH CONTEXT
+Book: Agentic AI-driven Molecular Epidemiology
+Package revised 15 November 2026 (first version 9 November 2026)
+
+CONTENTS
+Chapter_9_Antimicrobial_Resistance_Genomics_One_Health.docx   the chapter (A4, 27 pages, 12 objectives, 8 hands-on sections, 17 figure files, 21 tables)
+code/
+    amr9.py                          helper module: sectors, genotype parsing, drug classes, genotype-to-phenotype rules, Wilson intervals
+    ex9_1_sampling_frame.py          Hands-on 1: sectors and the US 2015-2024 frame; Figures 1 and 2
+    ex9_7_metadata_completeness.py   Hands-on 1, step 3: completeness of the core data fields by sector (table for Figure 3)
+    ex9_2_resistance_by_sector.py    Hands-on 2: class prevalence, genotypic MDR, cluster-robust odds ratios; Figures 4 and 5
+    ex9_2b_glm.R                     Hands-on 2: the same model in R (cross-check); Figure 5b
+    ex9_3_genotype_phenotype.py      Hands-on 3: genotype versus susceptibility result; Figure 6
+    ex9_3b_discordance.py            Hands-on 3, extension: what the false-susceptible calls carry; azithromycin in detail
+    ex9_4_clusters_cooccurrence.py   Hands-on 4: permutation test of mixed SNP clusters, gene co-occurrence; Figures 8 and 9
+    ex9_5_amrfinder_genomes.py       Hands-on 5: AMRFinderPlus on eight assemblies compared with the public record
+    ex9_5b_two_tools.py              Hands-on 6: RGI (CARD) against AMRFinderPlus on the same eight assemblies, background hits, Loose hits
+    ex9_5c_summarise.R               Hands-on 6, step 5: the Session 9 live demo in R (counts by class)
+    ex9_6_snp_thresholds.py          Hands-on 7: cross-sector pairs at SNP thresholds, from the NCBI SNP trees of the 89 clusters of Hands-on 4
+    ex9_8_study_audit.py             Hands-on 8: figures of three published sources recomputed from the counts around them
+    ex9_9_new_figures.py             Figures 3, 7, 10 and the surveillance-stages diagram
+    validate_ch9.py                  validation harness (independent recomputation; --chapter, --doi, --full)
+figures/    Figures 1-12 and 5b, and the four chapter diagrams (numbering follows the chapter)
+data/       what the scripts need to run offline, plus the result tables (table_*.csv)
+    sal_us_frame.csv.gz, salmonella_cluster_list.tsv, sal_ast_subset.csv.gz, frame_for_r.csv.gz     the frame, cluster list, susceptibility subset, R input
+    amrf_db_catalog/                 AMRFinderPlus Reference Gene Catalog and point-mutation table, database 2026-10-29.1
+    amrfinder_outputs/               raw AMRFinderPlus output for the eight genomes of Hands-on 5
+    rgi_outputs/                     raw RGI 6.0.8 / CARD 4.0.2 output for the eight genomes (default run) and the Loose run of four of them
+    snp_trees/                       the Newick SNP trees of the 89 clusters (NCBI Pathogen Detection build 4298, fetched 15 November 2026)
+lecture/    the Session 9 deck (39 slides: 35 main + 4 backup), its validator and the slide checks, with a negative control
+review/     validation results of the package (and of a deliberately altered copy), the chapter source in Markdown
+(the evaluation report is also delivered as a Claude Doc; Chapter_9_Review_Evaluation_and_Benchmark.docx is its Word copy)
+
+HOW TO RUN FROM THE SHIPPED DATA (about 2 minutes; needs about 4 GB of free memory, because ex9_2 peaks near 2.5 GB)
+Install: pip install pandas numpy scipy matplotlib statsmodels networkx biopython python-docx python-pptx ; R with ggplot2 (for the companions)
+    cd code
+    cp -r ../data/* .          # puts the frame, cluster list, AST subset, catalogue, tool outputs and trees next to the scripts
+    mkdir -p figs9
+    python ex9_2_resistance_by_sector.py     # about 40 s
+    Rscript ex9_2b_glm.R                     # about 15 s; should print 3.220 (Food), 2.577 (Animal), 0.762 (Environment)
+    python ex9_3_genotype_phenotype.py       # uses sal_ast_subset.csv.gz when the full table is absent
+    python ex9_4_clusters_cooccurrence.py    # about 70 s; permutation seed is fixed
+    python ex9_3b_discordance.py ; python ex9_5b_two_tools.py ; Rscript ex9_5c_summarise.R ; python ex9_6_snp_thresholds.py ; python ex9_7_metadata_completeness.py ; python ex9_8_study_audit.py ; python ex9_9_new_figures.py
+    python validate_ch9.py --chapter ../Chapter_9_Antimicrobial_Resistance_Genomics_One_Health.docx --doi --full
+Expected: ex9_2 odds ratios Food 3.22, Animal 2.58, Environment 0.76; ex9_3 135,892 of 138,111 tests agree (98.4%); ex9_4 mixed clusters 2,707 against a null mean of about 6,139;
+ex9_5b 261 RGI hits against 23 AMRFinderPlus elements, 17/1/5/3 after the background; ex9_6 31 of 89 clusters within 5 SNPs, 75 within 21, 89 within 50.
+
+HOW TO REBUILD FROM NCBI AND FROM THE TOOLS (internet needed)
+    python ex9_1_sampling_frame.py           # downloads the 883 MB Salmonella table, builds the frame; the table keeps growing, so counts will differ
+Hands-on 5 (about 1.5 minutes per genome on one core): apt-get install ncbi-blast+ hmmer ; download the AMRFinderPlus 4.2.7 binary release into ./amrf ;
+    download the 43 files of database 4.2/2026-10-29.1 from https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/ into ./amrf/db and run ./amrf/amrfinder_index amrf/db
+    python ex9_5_amrfinder_genomes.py        # the built-in updater failed in the environment used to prepare the chapter, so the files were fetched by hand
+Hands-on 6 (RGI): pip install rgi found no distribution; clone https://github.com/arpcard/rgi into a virtual environment (RGI 6.0.8; pandas 2.2 and numpy 2.2 worked), apt-get install diamond-aligner prodigal,
+    download CARD 4.0.2 from https://card.mcmaster.ca/latest/data, then: rgi load --card_json card.json --local ; rgi main -i genome.fna -o out -t contig -a DIAMOND --local --clean [--include_loose]
+Hands-on 7: ex9_6 reads the cached trees in data/snp_trees; delete the folder to refetch the current trees (the numbers will then differ).
+
+PROVENANCE AND LIMITS
+- Data: NCBI Pathogen Detection Salmonella table PDG000000002.4290 and its SNP cluster list, downloaded 9 November 2026; SNP trees of build 4298, fetched 15 November 2026 (all 1,313 frame isolates of the 89 clusters were found).
+- Sectors are assigned by the rules in amr9.py; 8.9% of isolates are unclassified and are left out. Only 21 human isolates of the frame have a susceptibility result.
+- Genotypic MDR means determinants for three or more drug classes; it is not a phenotype. Genotype-to-phenotype rules are class-level rules written for the chapter.
+- The susceptibility table holds categories, not MICs, so the cause of the azithromycin misses cannot be tested; genotypic cutoff values could not be recomputed.
+- Hands-on 5 and 6 cover eight genomes: a smoke test and an illustration, not a validation. The doubled rows in the AMRFinderPlus output (21 of 23 elements listed twice) were not investigated.
+- SNP distances of Hands-on 7 are path lengths on NCBI's parsimony trees and can exceed true pairwise differences; the 89 clusters were chosen for sharing a multi-class genotype.
+- Hands-on 8 recomputes only what the text prints; supplements were not seen. The Kitamura et al. PDF read was the accepted version (article in press). The NARMS agreement figures for E. coli, Campylobacter and Enterococcus come from course slides; the original papers were not read.
+- Licences: Quadripartite guidance CC BY-NC-SA 3.0 IGO; Muloi et al. and Klaas et al. CC BY 4.0; Kitamura et al. CC BY-NC-ND 4.0; Djordjevic et al. copyright Springer Nature; the NARMS slides state no licence. The chapter paraphrases and adapts nothing.
+- ex9_2 and ex9_4 were changed in this revision to use less memory (ex9_2 peak 3.4 GB to 2.5 GB, ex9_4 2.6 GB to 0.7 GB); their result tables are byte-identical to the 9 November versions.
+- References: every DOI in the chapter (32) was resolved against Crossref (the 21 original ones on 9 November 2026, the 11 added ones on 15 November 2026).
+- Word file: validated and rendered to PDF (27 A4 pages); not opened in Word itself. The deck was rendered with LibreOffice and not opened in PowerPoint.

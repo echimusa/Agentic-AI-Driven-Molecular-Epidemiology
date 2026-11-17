@@ -1,0 +1,47 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 10 - HOST GENETIC EPIDEMIOLOGY AND GENOME-WIDE ASSOCIATION
+Book: Agentic AI-driven Molecular Epidemiology
+Package extended 16 November 2026 (first version 9 November 2026)
+
+CONTENTS
+Chapter_10_Host_Genetic_Epidemiology_and_GWAS.docx   the chapter (A4): 14 objectives, nine hands-on exercises, 10 numbered figures and 3 diagrams
+code/        ex10_1 .. ex10_10 (Python, one R script)
+    ex10_1_catalog.py            Hands-on 1: infection GWAS and ancestry in the GWAS Catalog; Figure 1
+    ex10_2_qc_manhattan.py       Hands-on 2: QC, inflation, loci, Manhattan and QQ plots for COVID-19 HGI release 5 (GCST011081); Figure 2
+    ex10_2b_r_check.R            Hands-on 2: R recomputation of the lead-variant P values and odds ratios
+    ex10_3_stratification.py     Hands-on 3: stratification on 1000 Genomes chromosome 22 with a simulated trait; Figures 3 and 4
+    ex10_4_finemap.py            Hands-on 4: approximate Bayes factors and a credible set at 3p21.31; Figure 5
+    ex10_5_qc_structure.py       Hands-on 5: the PLINK QC command, a known-fault test, Hardy-Weinberg pooled and within ancestry, Hudson FST, LD by distance; Figure 6
+    ex10_6_power_lambda.py       Hands-on 6: power at P < 5e-8 (formula and Monte Carlo) and the inflation factor against sample size; Figure 7
+    ex10_7_ancestry_3p21.py      Hands-on 7: the 3p21.31 variants in five ancestries (frequency, LD, cases needed to replicate); Figure 8
+    ex10_8_admixture_mapping.py  Hands-on 8: admixture mapping with a known truth (ancestry odds ratio, power, confounding); Figure 9
+    ex10_9_notes_audit.py        Hands-on 9: recomputes 37 worked numbers printed in the course sources
+    ex10_10_diagrams.py          the chapter diagrams
+figures/     the figures and diagrams of the chapter
+data/        result tables (table_*.csv) and the small inputs that let the offline scripts rerun
+lecture/     MEPI7_Chapter10_Host_Genetics_GWAS_Lecture.pptx (42 slides, 110 minutes) and validate_slides_ch10.py with its results
+review/      validate_ch10.py, its results, the evaluation report and the negative-control results
+
+HOW TO RUN
+Install: pip install pandas numpy scipy matplotlib python-docx python-pptx ; apt-get install plink1.9 bcftools tabix ; R with ggplot2 ; pandoc.
+Check everything (about 2-4 minutes, needs the network only for --doi):
+    cd review ; python validate_ch10.py --chapter ../Chapter_10_Host_Genetic_Epidemiology_and_GWAS.docx --doi --full
+        default checks A-H: recomputation with code that does not import the chapter scripts; --full reruns the offline scripts in a scratch folder
+    cd ../lecture ; python validate_slides_ch10.py MEPI7_Chapter10_Host_Genetics_GWAS_Lecture.pptx --data ../data --chapter ../Chapter_10_Host_Genetic_Epidemiology_and_GWAS.docx
+Offline reruns from the shipped data (cd code ; cp ../data/* . ; mkdir -p figs10):
+    Rscript ex10_2b_r_check.R ; python ex10_4_finemap.py ; python ex10_6_power_lambda.py ; python ex10_7_ancestry_3p21.py ; python ex10_8_admixture_mapping.py ; python ex10_9_notes_audit.py ; python ex10_10_diagrams.py
+With internet (the scripts download what they need and keep it):
+    python ex10_1_catalog.py            # two GWAS Catalog tables; counts change as the catalogue grows
+    python ex10_2_qc_manhattan.py       # 336 MB harmonised file; expected lambda 1.045, 7 loci with P < 5e-8
+    python ex10_3_stratification.py     # 205 MB chromosome 22 VCF; expected lambda 71.68 / 1.26 / 1.10
+    python ex10_5_qc_structure.py       # the same VCF; about 3 minutes; expected 4,006 variants failing pooled HWE of 16,312
+
+PROVENANCE AND LIMITS
+- GWAS Catalog release tables: studies added to 15 October 2026; infection traits are found by keyword, so the groups are approximate.
+- GCST011081 is a European-ancestry COVID-19 meta-analysis (hospitalised vs population): 9,986 cases and 1,877,672 controls as listed in the catalogue.
+- Hands-on 3 simulates the trait (seed 10). Hands-on 5 uses 100,000 random biallelic SNPs of 1000 Genomes chromosome 22 (seed 10). PLINK makes A1 the minor allele of each subset unless --keep-allele-order is given; the script gives it.
+- Hands-on 7 uses 50 kb either side of the lead variant and 2,504 people; estimates in groups where the allele is rare (AFR, EAS) rest on a handful of haplotypes.
+- Hands-on 8 is a simulation, not a real cohort; its thresholds (1e-5 for admixture mapping, 5e-8 for variants) are assumptions stated in the script.
+- Hands-on 9 recomputes numbers typed from course slides; 35 of 37 agree. The slides are course material with third-party acknowledgements (student slides and the genetic-epidemiology slides state no licence): they were paraphrased, not copied.
+- The Word file and the deck were rendered with LibreOffice and were not opened in Word or PowerPoint; the lecture was not timed live.

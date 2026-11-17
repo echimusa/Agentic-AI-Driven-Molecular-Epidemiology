@@ -1,0 +1,3 @@
+adjusted_for_global_ancestry,share_local_ancestry_p_lt_0_001,share_unrelated_snp_p_lt_0_001,repeats
+False,0.0125,0.0025,400
+True,0.0,0.0,400

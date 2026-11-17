@@ -1,0 +1,87 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 6 - PHYLODYNAMICS AND MOLECULAR CLOCKS
+Book: Agentic AI-driven Molecular Epidemiology
+Package prepared 15 November 2026 (reviewed, extended and validated version; adds Exercise 5, the BEAST 2 analysis)
+
+CONTENTS
+Chapter_6_Phylodynamics_and_Molecular_Clocks.docx
+    The chapter: 17 sections, 5 hands-on exercises, 45 references. A4 layout; equations are native Word equations.
+code/
+    ex6_root_to_tip.py        Exercise 1 (Python): root-to-tip regression and date randomisation, 327 SARS-CoV-2 genomes
+    ex6_skyline.R             Exercise 2 (R): skyline plots from simulated genealogies, checked against the known truth
+    ex6_treetime.py           Exercise 3 (Python): time-scaled trees with TreeTime for Ebola virus and SARS-CoV-2
+    ex6_time_dependent.py     Exercise 4 (Python): time-dependent rates in a model, and reproduction numbers from growth rates
+    ex6_beast.py              Exercise 5: writes the BEAST 2 XML files (six models) for 60 of the 195 Ebola genomes
+    run_all.sh                Exercise 5: runs every BEAST 2 chain and path-sampling run, one after the other (about 90 minutes on one processor)
+    ex6_beast_analysis.py     Exercise 5: posteriors, effective sample sizes, marginal likelihoods, Bayes factors, TreeTime on the same genomes
+    validate_ch6.py           independent recomputation of every number in the chapter (see CHECKS)
+    diagram_ch6_pipeline.py   draws the five-step diagram that opens the chapter
+data/
+    sars2.fasta, sars2_meta.csv                 the 431 GenBank genomes sampled for Exercise 1, with metadata (cached copy)
+    sars2_root_to_tip_table.csv                 Exercise 1 result, one row per genome kept (327)
+    ex6_skyline_output.txt                      printed output of ex6_skyline.R
+    ebola_aln.fasta, ebola_dates.csv, ebola_tree.nwk
+                                                195 Ebola virus genomes of Chapter 5: alignment, collection dates, ML tree without support values
+    sars2_aln.fasta.gz, sars2_dates.csv, sars2_tree.nwk
+                                                328 SARS-CoV-2 genomes (Exercise 1 genomes plus the reference as a dated tip), reference-anchored alignment, FastTree tree
+    table_treetime.csv, table_treetime_drt.csv, table_skyline_ebola.csv     Exercise 3 results
+    table_time_dependent.csv, table_time_dependent_dating.csv, table_growth_R.csv     Exercise 4 results
+    divergence_tree_*.nexus, dates_*_covariation.tsv     TreeTime output used by the checks
+    ch5_table_root_to_tip.csv                   Chapter 5 table, used to check the comparison quoted in Exercise 3
+    beast/                                      Exercise 5: table_beast_posterior.csv, table_beast_marginal.csv, table_beast_bf.csv, table_beast_treetime.csv,
+                                                ps_step_samples.csv.gz (likelihood samples of every path-sampling step), run_all.log,
+                                                xml/ (the 12 BEAST 2 files, the printed output of the 6 path-sampling runs, the 3 posterior logs)
+figures/        Figures 1 to 6 and the opening diagram
+lecture/        MEPI7_Chapter6_Phylodynamics_and_Molecular_Clocks_Lecture.pptx (38 slides, 11 native charts, notes on every slide),
+                validate_slides_ch6.py, slide_validation_negative_control.csv
+review/         Chapter_6_Review_Evaluation_and_Benchmark.docx, validation_results_ch6.csv, validation_sim_run_ch6.txt, eval_ch6.py, chapter_stats.csv, deck_metrics.json
+
+HOW TO RUN
+Exercise 1 (Python 3.12). pip install biopython mappy numpy pandas scipy matplotlib
+    cd code; cp ../data/sars2.fasta ../data/sars2_meta.csv .; python ex6_root_to_tip.py
+  Expected: 327 genomes; slope 6.59e-04 per site per year (SE 1.4e-05) = 19.7 per genome per year; R2 = 0.87; x-intercept 17 Nov 2019;
+  date randomisation one-sided p = 0.001. Writes sars2_root_to_tip_table.csv and figs6/. Without the two data files the script downloads a fresh sample
+  from NCBI GenBank, which gives similar but not identical numbers.
+Exercise 2 (R 4.3 with ggplot2). cd code; Rscript ex6_skyline.R
+  Expected: one genealogy (seed 42) 0.39 per year by skyline regression and 0.42 by maximum likelihood; 200 genealogies 0.46 (SD 0.04) and 0.51 (SD 0.04), true 0.50.
+Exercise 3 (TreeTime 0.12.1, pip install phylo-treetime; FastTree 2.1.11 on the path; about 25 minutes from scratch).
+    cd code; cp ../data/ebola_* ../data/sars2_* .; python ex6_treetime.py
+  Writes table_treetime.csv, table_treetime_drt.csv, table_skyline_ebola.csv and figs6/fig_ch6_timetree.png. A second call reuses the runs in tt_runs/ and the shuffle table;
+  RERUN=1 repeats everything. Delete sars2_tree.nwk to rebuild the SARS-CoV-2 tree with FastTree.
+  Expected (covariation): Ebola 17.6 +/- 3.4 substitutions per genome-year, root 9 Mar 2014 (22 Jan to 21 Apr 2014); SARS-CoV-2 16.6 +/- 1.2, root 12 Sep 2019 (30 Jul to 4 Nov 2019).
+Exercise 4 (Python). cd code; python ex6_time_dependent.py   (about 10 seconds)
+  Expected: apparent rate 49.6, 46.3, 27.3, 12.0 and 10.2 per genome-year at 1, 10, 100, 1,000 and 10,000 years; a 10-year rate dates a 1,000-year divergence at 259 years.
+Exercise 5 (BEAST 2.7.7 with its bundled Java runtime, and the MODEL_SELECTION package 1.6.2; about 90 minutes on one processor).
+    Install BEAST 2.7.7 and put its bin folder on the path. If the package manager cannot reach a repository, download
+    https://github.com/BEAST2-Dev/model-selection/releases/download/v1.6.0/MODEL_SELECTION.addon.v1.6.2.zip and unzip it into ~/.beast/2.7/MODEL_SELECTION/.
+    cd code; cp ../data/ebola_aln.fasta ../data/ebola_dates.csv ../data/ebola_tree.nwk .
+    python ex6_beast.py make --mcmc-length 6000000 --ps-steps 20 --ps-length 250000 --ps-pre 100000
+    ./run_all.sh            # skips runs that finished; a log is copied only after the run that wrote it
+    python ex6_beast_analysis.py
+  Expected: strict clock 27.8 substitutions per genome-year (95% HPD 21.2 to 34.4), common ancestor on 27 April 2014; log Bayes factors of the real-date strict model of 49.3 against no dates and
+  44.4 to 47.8 against three randomisations of the dates (stepping stone), 2.5 against the relaxed clock. Chains with the same seeds should give the same logs on the same BEAST 2 version,
+  but the analyses were not repeated from scratch for this package. The analysis script needs the full BEAST 2 output (step folders), which run_all.sh creates;
+  the shipped ps_step_samples.csv.gz holds the step samples that validate_ch6.py uses.
+
+CHECKS
+python validate_ch6.py --chapter ../Chapter_6_Phylodynamics_and_Molecular_Clocks.docx [--doi] [--full] [--sim]
+    37 checks of the files and the chapter text (Exercises 1 to 5 and the text); --doi resolves all 45 DOIs in Crossref (38); --full reruns Exercises 1, 2 and 4, checks that their result files are
+    reproduced byte for byte, and reruns TreeTime on the 60 genomes of Exercise 5 (43; 44 with --doi); --sim, with --full, also reruns the TreeTime analyses of Exercise 3 (about 25 minutes). Needs pandoc and python-docx.
+    Last result: 44 of 44 with --doi --full (review/validation_results_ch6.csv). The --sim run in review/validation_sim_run_ch6.txt dates from before Exercise 5 was added (32 of 32, without --doi).
+cd lecture; python validate_slides_ch6.py MEPI7_Chapter6_Phylodynamics_and_Molecular_Clocks_Lecture.pptx --data ../data --chapter ../Chapter_6_Phylodynamics_and_Molecular_Clocks.docx
+    39 of 39 checks. On a corrupted copy of the deck 6 of 39 fail, as they should (slide_validation_negative_control.csv). Needs python-pptx and pandoc.
+
+PROVENANCE AND LIMITS
+- Sections 7 (Omicron) and 9 (Zika), and the tuberculosis-complex paragraph of Section 8, summarise published analyses. The Omicron common-ancestor date (early October 2021)
+  is taken from the institutional press summary of the paper. The calibration, time-dependence and circularity material follows Soares and Rito (2026), Biology 15:1329 (open access, CC BY).
+- Sections 6 (MRSA) and 8 (TB-MDR scenario) are illustrative teaching scenarios; their numbers are not real results.
+- Exercise 5 is a demonstration: 60 of the 195 Ebola genomes (every third by collection date), chains of 6 million steps (smallest effective sample sizes 132 for the strict and 106 for the relaxed clock),
+  one marginal-likelihood run of 20 steps for each model, three randomisations of the dates. The effective sample size of the likelihood is below 100 at 17 to 20 of the 20 steps of each run, so the
+  Bayes factors of 44 to 49 for the real dates are safe and the 1.0 to 2.5 for strict against relaxed clock is not. The estimate BEAST 2 prints at the end of a path-sampling run is the stepping-stone estimate.
+- BEAST 2 and TreeTime disagree on the clock rate on the same 60 genomes (27.8 against 10.8 substitutions per genome-year); the cause was not tested.
+- TreeTime intervals are conditional on one fixed tree; intervals for imposed rates reflect an assumed 20% standard deviation of the rate. Exercise 4 is a model with assumed parameters.
+- Five of 50 Ebola shuffles and one of 30 SARS-CoV-2 shuffles could not be rooted with a positive rate; they count as rates below the observed one.
+- The statement that reported Ebola cases kept rising through 2014 is general knowledge and is not cited in the chapter.
+- References were checked against PubMed and Crossref on 8 November 2026; the 21 added on 14 and 15 November 2026 were resolved against Crossref.
+- Equations in the Word file were verified by converting them back to LaTeX; they were not viewed in Word. Slides were rendered through LibreOffice and not opened in PowerPoint.

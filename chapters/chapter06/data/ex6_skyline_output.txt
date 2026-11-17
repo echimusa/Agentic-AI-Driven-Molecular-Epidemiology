@@ -1,0 +1,6 @@
+simulated: N0 = 1000, r = 0.50 per year, 100 lineages, root at 12.94 years
+recovered growth rate from the generalised skyline: 0.39 per year (95% CI 0.31 to 0.48)
+recovered current size (intercept): 601 (true 1000)
+maximum-likelihood exponential fit on the same genealogy: N0 = 686, r = 0.42 per year
+over 200 simulated genealogies (true r = 0.50): skyline regression 0.46 (SD 0.04); exponential ML 0.51 (SD 0.04)
+figure written to figs6/fig_ch6_skyline.png

@@ -1,0 +1,592 @@
+id,country,place_group,latitude,longitude,year,month,day,date_precision
+EU545988.1,Micronesia,Other Asia-Pacific,6.9,158.2,2007,6,,month
+KU681082.3,Philippines,Other Asia-Pacific,16.0,121.4,2012,5,9,day
+KY120353.1,South Korea,Other Asia-Pacific,36.5,127.9,2016,4,28,day
+OQ661915.1,Thailand,Thailand,15.1,101.0,2013,8,19,day
+KY272987.1,Thailand,Thailand,15.1,101.0,2016,8,30,day
+MT377498.1,Thailand,Thailand,15.1,101.0,2016,4,26,day
+KF993678.1,Canada,Other Americas,57.9,-102.4,2013,2,19,day
+KX694532.2,Thailand,Thailand,15.1,101.0,2013,2,12,day
+MT377503.1,Thailand,Thailand,15.1,101.0,2015,8,27,day
+MH119185.1,Thailand,Thailand,15.1,101.0,2016,12,1,day
+MT377493.2,Thailand,Thailand,15.1,101.0,2017,2,23,day
+OQ661916.1,Thailand,Thailand,15.1,101.0,2016,9,12,day
+KU179098.2,Indonesia,Other Asia-Pacific,-0.2,114.0,2014,12,30,day
+MK238035.1,India,Other Asia-Pacific,22.9,79.6,2018,9,18,day
+MK238037.1,India,Other Asia-Pacific,22.9,79.6,2018,10,10,day
+MK238038.1,India,Other Asia-Pacific,22.9,79.6,2018,10,15,day
+MT377491.2,Thailand,Thailand,15.1,101.0,2017,3,20,day
+KY126351.1,Taiwan,Other Asia-Pacific,23.8,121.0,2016,5,,month
+MT377499.2,Thailand,Thailand,15.1,101.0,2016,12,8,day
+MT377500.2,Thailand,Thailand,15.1,101.0,2016,12,20,day
+MT377494.1,Thailand,Thailand,15.1,101.0,2017,11,24,day
+OQ661919.1,Thailand,Thailand,15.1,101.0,2018,11,6,day
+MT377501.2,Thailand,Thailand,15.1,101.0,2017,11,22,day
+MF996804.1,Thailand,Thailand,15.1,101.0,2017,8,7,day
+MT377492.1,Thailand,Thailand,15.1,101.0,2016,3,20,day
+KY241688.1,Singapore,Singapore,1.4,103.8,2016,9,13,day
+KY241712.1,Singapore,Singapore,1.4,103.8,2016,8,30,day
+KY241729.1,Singapore,Singapore,1.4,103.8,2016,8,29,day
+KY241714.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241751.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241738.1,Singapore,Singapore,1.4,103.8,2016,8,30,day
+KY241773.1,Singapore,Singapore,1.4,103.8,2016,9,7,day
+KY241734.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241671.1,Singapore,Singapore,1.4,103.8,2016,9,4,day
+KY241716.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241697.1,Singapore,Singapore,1.4,103.8,2016,8,27,day
+KY241749.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241721.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KX813683.1,Singapore,Singapore,1.4,103.8,2016,8,27,day
+KY241713.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241673.1,Singapore,Singapore,1.4,103.8,2016,9,4,day
+KY241766.1,Singapore,Singapore,1.4,103.8,2016,9,15,day
+KY241682.1,Singapore,Singapore,1.4,103.8,2016,9,8,day
+KY241727.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241689.1,Singapore,Singapore,1.4,103.8,2016,9,13,day
+KY241736.1,Singapore,Singapore,1.4,103.8,2016,8,29,day
+KX827309.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241726.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+MH255601.1,Singapore,Singapore,1.4,103.8,2016,9,1,day
+KY241683.1,Singapore,Singapore,1.4,103.8,2016,9,8,day
+KY241756.1,Singapore,Singapore,1.4,103.8,2016,9,5,day
+KY241678.1,Singapore,Singapore,1.4,103.8,2016,9,7,day
+KY241675.1,Singapore,Singapore,1.4,103.8,2016,9,6,day
+KY241767.1,Singapore,Singapore,1.4,103.8,2016,9,7,day
+KY241685.1,Singapore,Singapore,1.4,103.8,2016,9,12,day
+KY241684.1,Singapore,Singapore,1.4,103.8,2016,9,8,day
+KY241681.1,Singapore,Singapore,1.4,103.8,2016,9,8,day
+KY241686.1,Singapore,Singapore,1.4,103.8,2016,9,12,day
+KY241693.1,Singapore,Singapore,1.4,103.8,2016,9,15,day
+KY241692.1,Singapore,Singapore,1.4,103.8,2016,9,14,day
+KY241769.1,Singapore,Singapore,1.4,103.8,2016,9,10,day
+KY241725.1,Singapore,Singapore,1.4,103.8,2016,8,26,day
+KY241704.1,Singapore,Singapore,1.4,103.8,2016,8,27,day
+KY241687.1,Singapore,Singapore,1.4,103.8,2016,9,13,day
+KY241695.1,Singapore,Singapore,1.4,103.8,2016,9,20,day
+KY241753.1,Singapore,Singapore,1.4,103.8,2016,8,26,day
+KY241735.1,Singapore,Singapore,1.4,103.8,2016,8,27,day
+KY241723.1,Singapore,Singapore,1.4,103.8,2016,8,27,day
+KY241710.1,Singapore,Singapore,1.4,103.8,2016,8,27,day
+KY241709.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241708.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241748.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241747.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241741.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241724.1,Singapore,Singapore,1.4,103.8,2016,8,28,day
+KY241719.1,Singapore,Singapore,1.4,103.8,2016,8,29,day
+KY241718.1,Singapore,Singapore,1.4,103.8,2016,8,29,day
+KY241758.1,Singapore,Singapore,1.4,103.8,2016,8,30,day
+KY241745.1,Singapore,Singapore,1.4,103.8,2016,8,30,day
+KY241770.1,Singapore,Singapore,1.4,103.8,2016,8,30,day
+KY241765.1,Singapore,Singapore,1.4,103.8,2016,8,30,day
+KY241705.1,Singapore,Singapore,1.4,103.8,2016,8,30,day
+KY241764.1,Singapore,Singapore,1.4,103.8,2016,8,31,day
+KY241761.1,Singapore,Singapore,1.4,103.8,2016,9,3,day
+KY241674.1,Singapore,Singapore,1.4,103.8,2016,9,5,day
+KY241760.1,Singapore,Singapore,1.4,103.8,2016,9,13,day
+MW915413.1,Viet Nam,Other Asia-Pacific,16.7,106.3,2016,11,17,day
+KJ776791.2,French Polynesia,Other Asia-Pacific,-17.7,-149.4,2013,11,28,day
+KX447515.1,French Polynesia,Other Asia-Pacific,-17.7,-149.4,2013,11,,month
+KX806557.3,Australia,Other Asia-Pacific,-25.6,134.4,2016,2,,month
+LC191864.1,Japan,Other Asia-Pacific,36.7,138.0,2016,4,21,day
+KU761560.1,China,China,36.6,103.8,2016,2,,month
+KU820899.2,China,China,36.6,103.8,2016,2,17,day
+KU997667.1,China,China,36.6,103.8,2016,2,16,day
+KX013000.1,China,China,36.6,103.8,2016,2,17,day
+MG674718.1,China,China,36.6,103.8,2016,4,16,day
+KX253996.1,China,China,36.6,103.8,2016,2,16,day
+KX266255.1,China,China,36.6,103.8,2016,2,14,day
+KU955589.1,China,China,36.6,103.8,2016,2,16,day
+KY967711.1,China,China,36.6,103.8,2016,11,1,day
+MF036115.1,China,China,36.6,103.8,2016,11,2,day
+KX447513.1,French Polynesia,Other Asia-Pacific,-17.7,-149.4,2013,12,,month
+MG976700.1,French Polynesia,Other Asia-Pacific,-17.7,-149.4,2014,1,6,day
+KX447510.1,French Polynesia,Other Asia-Pacific,-17.7,-149.4,2013,12,,month
+KY559032.1,Brazil,Brazil,-10.8,-53.1,2016,1,,month
+KY785446.1,Brazil,Brazil,-10.8,-53.1,2016,3,22,day
+MH882547.1,Brazil,Brazil,-10.8,-53.1,2016,6,2,day
+KX197205.1,Brazil,Brazil,-10.8,-53.1,2015,12,1,day
+MT439643.1,Brazil,Brazil,-10.8,-53.1,2016,4,12,day
+MT439644.1,Brazil,Brazil,-10.8,-53.1,2016,4,20,day
+KY014313.2,Brazil,Brazil,-10.8,-53.1,2016,4,5,day
+KY559031.1,Brazil,Brazil,-10.8,-53.1,2016,1,,month
+KY014320.2,Brazil,Brazil,-10.8,-53.1,2016,3,23,day
+KY014309.1,Brazil,Brazil,-10.8,-53.1,2016,3,28,day
+KY785479.1,Brazil,Brazil,-10.8,-53.1,2016,3,30,day
+KY785427.1,Brazil,Brazil,-10.8,-53.1,2016,3,30,day
+OQ727573.1,Brazil,Brazil,-10.8,-53.1,2015,5,21,day
+OQ727575.1,Brazil,Brazil,-10.8,-53.1,2015,5,26,day
+OQ727576.1,Brazil,Brazil,-10.8,-53.1,2015,5,26,day
+KX051563.1,USA,USA,39.5,-99.1,2016,2,5,day
+KU321639.1,Brazil,Brazil,-10.8,-53.1,2015,3,,month
+KU509998.3,Haiti,Haiti,18.9,-72.7,2014,12,12,day
+MT636065.1,Argentina,Other Americas,-35.2,-65.2,2016,1,2,day
+KY559005.1,Brazil,Brazil,-10.8,-53.1,2016,4,18,day
+KY559024.1,Brazil,Brazil,-10.8,-53.1,2016,3,3,day
+KY559019.1,Brazil,Brazil,-10.8,-53.1,2016,5,24,day
+KY559009.1,Brazil,Brazil,-10.8,-53.1,2016,4,19,day
+KY559017.1,Brazil,Brazil,-10.8,-53.1,2016,5,19,day
+KY559010.1,Brazil,Brazil,-10.8,-53.1,2016,4,19,day
+KY559011.1,Brazil,Brazil,-10.8,-53.1,2016,4,19,day
+OQ727578.1,Brazil,Brazil,-10.8,-53.1,2015,7,9,day
+KY003153.1,Italy,Other Europe/Africa,43.5,12.1,2016,4,,month
+KY003154.1,Italy,Other Europe/Africa,43.5,12.1,2016,4,,month
+KX101060.1,Brazil,Brazil,-10.8,-53.1,2015,5,,month
+KX101067.1,Brazil,Brazil,-10.8,-53.1,2015,5,,month
+KU940228.1,Brazil,Brazil,-10.8,-53.1,2015,7,1,day
+KU940227.1,Brazil,Brazil,-10.8,-53.1,2015,7,15,day
+KX101065.1,Brazil,Brazil,-10.8,-53.1,2016,1,,month
+KX101066.1,Brazil,Brazil,-10.8,-53.1,2015,5,,month
+KX101064.1,Brazil,Brazil,-10.8,-53.1,2015,4,,month
+KY785429.1,Brazil,Brazil,-10.8,-53.1,2016,4,14,day
+KU497555.1,Brazil,Brazil,-10.8,-53.1,2015,11,30,day
+KY559027.1,Brazil,Brazil,-10.8,-53.1,2016,2,16,day
+KY559030.1,Brazil,Brazil,-10.8,-53.1,2016,1,,month
+KY559003.1,Brazil,Brazil,-10.8,-53.1,2015,8,28,day
+KY559001.1,Brazil,Brazil,-10.8,-53.1,2015,8,20,day
+KY559015.1,Brazil,Brazil,-10.8,-53.1,2016,4,24,day
+KY785455.1,Brazil,Brazil,-10.8,-53.1,2016,4,6,day
+PP431239.1,Colombia,Colombia,3.9,-73.1,2016,4,5,day
+KX548902.1,Colombia,Colombia,3.9,-73.1,2015,10,7,day
+PP431229.1,Colombia,Colombia,3.9,-73.1,2016,4,6,day
+PP431245.1,Colombia,Colombia,3.9,-73.1,2016,10,5,day
+MK049246.1,Colombia,Colombia,3.9,-73.1,2016,3,9,day
+KY317937.1,Colombia,Colombia,3.9,-73.1,2016,1,7,day
+KY693678.1,Peru,Other Americas,-9.2,-74.4,2016,6,28,day
+KY693679.1,Peru,Other Americas,-9.2,-74.4,2016,7,11,day
+KY785451.1,Martinique,Other Americas,14.6,-61.0,2016,3,22,day
+KY075932.1,USA,USA,39.5,-99.1,2016,3,22,day
+KU922923.1,Mexico,Mexico,23.9,-102.5,2016,2,25,day
+KU647676.1,Martinique,Other Americas,14.6,-61.0,2015,12,,month
+PP431224.1,Colombia,Colombia,3.9,-73.1,2016,3,30,day
+PP431243.1,Colombia,Colombia,3.9,-73.1,2016,4,27,day
+KY785469.1,Colombia,Colombia,3.9,-73.1,2016,4,5,day
+PP431249.1,Colombia,Colombia,3.9,-73.1,2016,2,16,day
+MK049250.1,Colombia,Colombia,3.9,-73.1,2016,6,22,day
+MK049251.1,Colombia,Colombia,3.9,-73.1,2016,8,30,day
+PP431222.1,Colombia,Colombia,3.9,-73.1,2016,3,1,day
+PP431250.1,Colombia,Colombia,3.9,-73.1,2016,3,1,day
+OP898542.1,Colombia,Colombia,3.9,-73.1,2018,4,1,day
+PP431231.1,Colombia,Colombia,3.9,-73.1,2016,5,18,day
+PP431218.1,Colombia,Colombia,3.9,-73.1,2016,2,9,day
+PP431221.1,Colombia,Colombia,3.9,-73.1,2016,3,9,day
+KY317936.1,Colombia,Colombia,3.9,-73.1,2016,1,16,day
+KY317939.1,Colombia,Colombia,3.9,-73.1,2016,1,6,day
+PP431248.1,Colombia,Colombia,3.9,-73.1,2016,2,16,day
+KY317938.1,Colombia,Colombia,3.9,-73.1,2016,1,10,day
+KY317940.1,Colombia,Colombia,3.9,-73.1,2016,1,9,day
+PP431226.1,Colombia,Colombia,3.9,-73.1,2016,3,31,day
+KX156775.2,Panama,Other Americas,8.5,-80.1,2015,12,11,day
+MN100039.1,Panama,Other Americas,8.5,-80.1,2015,12,11,day
+MN124091.1,Panama,Other Americas,8.5,-80.1,2015,12,11,day
+KX156774.2,Panama,Other Americas,8.5,-80.1,2015,12,18,day
+MF574587.1,Colombia,Colombia,3.9,-73.1,2016,12,,month
+MF574585.1,Colombia,Colombia,3.9,-73.1,2016,12,,month
+MN577543.1,Haiti,Haiti,18.9,-72.7,2014,12,11,day
+MF574557.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+KX247646.1,Colombia,Colombia,3.9,-73.1,2016,2,9,day
+KX893855.1,Venezuela,Other Americas,7.1,-66.2,2016,3,25,day
+OK571913.1,Haiti,Haiti,18.9,-72.7,2014,11,25,day
+MF574555.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574559.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574567.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574575.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574562.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574558.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574564.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574568.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574566.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574565.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574573.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574570.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+KU820897.5,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574553.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574552.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574574.1,Colombia,Colombia,3.9,-73.1,2015,12,,month
+MF574584.1,Colombia,Colombia,3.9,-73.1,2016,12,,month
+MF574582.1,Colombia,Colombia,3.9,-73.1,2016,12,,month
+MF574581.1,Colombia,Colombia,3.9,-73.1,2016,12,,month
+MK216697.1,Brazil,Brazil,-10.8,-53.1,2016,4,26,day
+MH513599.1,Brazil,Brazil,-10.8,-53.1,2015,12,11,day
+MK829153.1,Angola,Other Europe/Africa,-12.3,17.6,2017,6,,month
+MK829154.1,Portugal,Other Europe/Africa,39.7,-8.0,2017,10,26,day
+PP431246.1,Colombia,Colombia,3.9,-73.1,2016,5,11,day
+PP431236.1,Colombia,Colombia,3.9,-73.1,2016,3,9,day
+PP431220.1,Colombia,Colombia,3.9,-73.1,2016,3,7,day
+PP431228.1,Colombia,Colombia,3.9,-73.1,2016,4,5,day
+PP431234.1,Colombia,Colombia,3.9,-73.1,2016,6,13,day
+PP431214.1,Colombia,Colombia,3.9,-73.1,2016,2,1,day
+PP431217.1,Colombia,Colombia,3.9,-73.1,2016,2,21,day
+KX879604.1,Ecuador,Other Americas,-1.4,-78.4,2016,4,,month
+KX879603.1,Ecuador,Other Americas,-1.4,-78.4,2016,4,,month
+MF794971.1,Ecuador,Other Americas,-1.4,-78.4,2016,5,1,day
+MF073359.1,Brazil,Brazil,-10.8,-53.1,2015,3,1,day
+KY120352.1,South Korea,Other Asia-Pacific,36.5,127.9,2016,3,22,day
+MF073358.1,Brazil,Brazil,-10.8,-53.1,2015,6,1,day
+OL423647.1,Brazil,Brazil,-10.8,-53.1,2016,4,20,day
+OL423652.1,Brazil,Brazil,-10.8,-53.1,2016,3,31,day
+OL423658.1,Brazil,Brazil,-10.8,-53.1,2017,11,23,day
+OL423660.1,Brazil,Brazil,-10.8,-53.1,2017,1,2,day
+MH882528.1,Brazil,Brazil,-10.8,-53.1,2016,4,26,day
+MH882527.1,Brazil,Brazil,-10.8,-53.1,2016,4,26,day
+MH882541.1,Brazil,Brazil,-10.8,-53.1,2016,4,19,day
+MH882535.1,Brazil,Brazil,-10.8,-53.1,2016,6,16,day
+MW123922.1,Brazil,Brazil,-10.8,-53.1,2016,5,10,day
+MW123923.1,Brazil,Brazil,-10.8,-53.1,2016,6,16,day
+MH882534.1,Brazil,Brazil,-10.8,-53.1,2016,6,8,day
+MH882537.1,Brazil,Brazil,-10.8,-53.1,2016,7,5,day
+MH882531.1,Brazil,Brazil,-10.8,-53.1,2016,5,17,day
+MH882532.1,Brazil,Brazil,-10.8,-53.1,2016,5,24,day
+KY558989.1,Brazil,Brazil,-10.8,-53.1,2015,2,23,day
+MF098767.1,Russia,Other Europe/Africa,61.7,99.1,2016,7,25,day
+MT439645.1,Brazil,Brazil,-10.8,-53.1,2016,3,18,day
+OL423661.1,Brazil,Brazil,-10.8,-53.1,2017,1,20,day
+KY559026.1,Brazil,Brazil,-10.8,-53.1,2016,1,15,day
+KY817930.1,Brazil,Brazil,-10.8,-53.1,2016,1,,month
+KY014302.3,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,21,day
+KY014304.2,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,18,day
+KY785476.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,18,day
+KY785441.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,6,13,day
+MF438286.1,Cuba,Cuba,21.6,-78.9,2017,2,12,day
+KY785473.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,6,15,day
+KY785475.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,7,day
+OP858764.1,Cuba,Cuba,21.6,-78.9,2017,10,17,day
+OP858774.1,Cuba,Cuba,21.6,-78.9,2018,3,20,day
+MH063264.1,Cuba,Cuba,21.6,-78.9,2017,8,13,day
+MF098768.1,Russia,Other Europe/Africa,61.7,99.1,2016,8,25,day
+MF098769.1,Russia,Other Europe/Africa,61.7,99.1,2016,8,25,day
+KY415989.1,Haiti,Haiti,18.9,-72.7,2014,6,10,day
+KY415991.1,Haiti,Haiti,18.9,-72.7,2014,6,24,day
+KY415988.1,Haiti,Haiti,18.9,-72.7,2014,6,5,day
+OL450364.1,Haiti,Haiti,18.9,-72.7,2015,4,13,day
+OL450366.1,Haiti,Haiti,18.9,-72.7,2015,10,20,day
+KY415990.1,Haiti,Haiti,18.9,-72.7,2014,6,2,day
+MN566106.1,Haiti,Haiti,18.9,-72.7,2016,5,31,day
+MN566108.1,Haiti,Haiti,18.9,-72.7,2016,5,31,day
+MN566107.1,Haiti,Haiti,18.9,-72.7,2016,5,31,day
+MN566104.1,Haiti,Haiti,18.9,-72.7,2016,5,31,day
+MK560179.1,Cuba,Cuba,21.6,-78.9,2018,1,18,day
+OP858737.1,Cuba,Cuba,21.6,-78.9,2016,9,,month
+KY014318.3,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,27,day
+KY785470.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,6,18,day
+KY014321.2,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,11,day
+KY785415.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,11,day
+LC190723.1,Japan,Other Asia-Pacific,36.7,138.0,2016,5,20,day
+KY785447.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,9,22,day
+MF098764.1,Russia,Other Europe/Africa,61.7,99.1,2016,5,11,day
+KX922707.1,USA,USA,39.5,-99.1,2016,8,17,day
+KU853012.1,Italy,Other Europe/Africa,43.5,12.1,2016,2,1,day
+KU853013.1,Italy,Other Europe/Africa,43.5,12.1,2016,2,1,day
+MW122428.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,9,15,day
+KY014305.2,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,5,day
+KY785423.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,5,day
+KY785424.1,Jamaica,Other Americas,18.2,-77.3,2016,7,10,day
+KY785432.1,Jamaica,Other Americas,18.2,-77.3,2016,10,12,day
+KY014300.2,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,20,day
+KY785453.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,5,10,day
+KY325471.1,USA,USA,39.5,-99.1,2016,8,8,day
+KY325464.1,USA,USA,39.5,-99.1,2016,9,19,day
+KY325476.1,USA,USA,39.5,-99.1,2016,10,11,day
+KY325482.1,USA,USA,39.5,-99.1,2016,8,24,day
+KY325474.1,USA,USA,39.5,-99.1,2016,9,13,day
+KX922705.1,USA,USA,39.5,-99.1,2016,8,5,day
+KY785459.1,USA,USA,39.5,-99.1,2016,8,15,day
+MF098765.1,Russia,Other Europe/Africa,61.7,99.1,2016,5,23,day
+KY785425.1,Dominican Republic,Dominican Republic,18.9,-70.5,2016,4,4,day
+KY785457.1,USA,USA,39.5,-99.1,2016,8,1,day
+KY785443.1,USA,USA,39.5,-99.1,2016,8,1,day
+MK269358.1,USA,USA,39.5,-99.1,2016,9,1,day
+KY075936.1,USA,USA,39.5,-99.1,2016,8,4,day
+KX922704.1,USA,USA,39.5,-99.1,2016,8,2,day
+KX832731.1,USA,USA,39.5,-99.1,2016,8,24,day
+KY325467.1,USA,USA,39.5,-99.1,2016,7,29,day
+KY785412.1,USA,USA,39.5,-99.1,2016,7,22,day
+KY325468.1,USA,USA,39.5,-99.1,2016,8,4,day
+KY325469.1,USA,USA,39.5,-99.1,2016,8,4,day
+KY325478.1,USA,USA,39.5,-99.1,2016,9,26,day
+KY785474.1,USA,USA,39.5,-99.1,2016,8,4,day
+KY325483.1,USA,USA,39.5,-99.1,2016,8,24,day
+KY014326.1,USA,USA,39.5,-99.1,2016,8,5,day
+MK269359.1,USA,USA,39.5,-99.1,2016,8,18,day
+KY559004.1,Brazil,Brazil,-10.8,-53.1,2016,4,16,day
+OL423653.1,Brazil,Brazil,-10.8,-53.1,2016,4,1,day
+MT439641.1,Brazil,Brazil,-10.8,-53.1,2016,4,5,day
+OL423649.1,Brazil,Brazil,-10.8,-53.1,2016,4,29,day
+MT439642.1,Brazil,Brazil,-10.8,-53.1,2016,4,6,day
+MT439646.1,Brazil,Brazil,-10.8,-53.1,2016,4,6,day
+MT439647.1,Brazil,Brazil,-10.8,-53.1,2016,4,14,day
+OL423663.1,Brazil,Brazil,-10.8,-53.1,2018,4,18,day
+OL423648.1,Brazil,Brazil,-10.8,-53.1,2016,5,1,day
+OL423664.1,Brazil,Brazil,-10.8,-53.1,2017,3,8,day
+KY441401.1,Brazil,Brazil,-10.8,-53.1,2016,2,29,day
+MH513600.1,Brazil,Brazil,-10.8,-53.1,2015,12,11,day
+OL423668.1,Brazil,Brazil,-10.8,-53.1,2017,3,17,day
+MK216692.1,Brazil,Brazil,-10.8,-53.1,2016,4,1,day
+KY693680.1,Venezuela,Other Americas,7.1,-66.2,2016,10,19,day
+MK216688.1,Brazil,Brazil,-10.8,-53.1,2016,3,10,day
+MK216745.1,Brazil,Brazil,-10.8,-53.1,2015,12,8,day
+MK216690.1,Brazil,Brazil,-10.8,-53.1,2016,3,18,day
+MK216699.1,Brazil,Brazil,-10.8,-53.1,2016,5,16,day
+MK216726.1,Brazil,Brazil,-10.8,-53.1,2016,1,25,day
+MK216741.1,Brazil,Brazil,-10.8,-53.1,2017,3,28,day
+KY631492.1,Brazil,Brazil,-10.8,-53.1,2016,1,8,day
+MK216727.1,Brazil,Brazil,-10.8,-53.1,2016,1,30,day
+MK216696.1,Brazil,Brazil,-10.8,-53.1,2016,4,8,day
+KU707826.1,Brazil,Brazil,-10.8,-53.1,2015,7,1,day
+MH513598.1,Brazil,Brazil,-10.8,-53.1,2015,12,9,day
+MK241417.1,Cape Verde,Other Europe/Africa,15.1,-23.6,2016,6,4,day
+KY441402.1,Brazil,Brazil,-10.8,-53.1,2016,4,5,day
+KY441403.1,Brazil,Brazil,-10.8,-53.1,2016,1,11,day
+KU740184.2,China,China,36.6,103.8,2016,2,,month
+KU820898.1,China,China,36.6,103.8,2016,2,14,day
+OP858729.1,Cuba,Cuba,21.6,-78.9,2016,3,,month
+OP858730.1,Cuba,Cuba,21.6,-78.9,2016,3,,month
+KY379148.1,China,China,36.6,103.8,2016,2,29,day
+KU955590.1,China,China,36.6,103.8,2016,2,26,day
+MF167360.1,China,China,36.6,103.8,2016,2,26,day
+OL423669.1,Brazil,Brazil,-10.8,-53.1,2016,2,22,day
+KY348640.1,Suriname,Other Americas,4.1,-55.9,2016,1,22,day
+KU758877.1,French Guiana,Other Americas,3.9,-53.1,2015,12,,month
+KU937936.1,Suriname,Other Americas,4.1,-55.9,2016,2,11,day
+PQ129533.1,Suriname,Other Americas,4.1,-55.9,2016,1,1,day
+OP858753.1,Cuba,Cuba,21.6,-78.9,2017,3,,month
+OP858756.1,Cuba,Cuba,21.6,-78.9,2017,6,,month
+OP858763.1,Cuba,Cuba,21.6,-78.9,2017,10,22,day
+KY785481.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,4,12,day
+KY785456.1,Brazil,Brazil,-10.8,-53.1,2016,4,15,day
+MW122430.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,11,3,day
+MW122432.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,28,day
+MW122422.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,9,7,day
+MW122412.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,11,3,day
+MW122448.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,4,day
+MH675621.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,5,,month
+MW122445.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,12,8,day
+MW122449.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,12,8,day
+MW122376.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,28,day
+MW122395.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,7,23,day
+MW122418.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,5,26,day
+MH675620.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,5,,month
+MW122446.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,20,day
+MH675628.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,,month
+MW122393.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,24,day
+MW122375.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,7,13,day
+MW122454.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,27,day
+MW122398.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,9,19,day
+MW122417.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,13,day
+MW122374.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,4,27,day
+MW122425.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,29,day
+MW122441.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,23,day
+MW122444.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,9,10,day
+MW122394.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,7,14,day
+MW122382.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,23,day
+MW122400.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,11,10,day
+MW122451.1,Puerto Rico,Puerto Rico,18.2,-66.5,2017,1,3,day
+MW122385.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,23,day
+MW122404.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,15,day
+MH675624.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,,month
+MW122429.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,2,day
+MW122436.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,9,day
+MW122437.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,20,day
+KU501215.1,Puerto Rico,Puerto Rico,18.2,-66.5,2015,12,1,day
+KX087101.3,Puerto Rico,Puerto Rico,18.2,-66.5,2015,12,,month
+MK713748.1,Puerto Rico,Puerto Rico,18.2,-66.5,2015,12,1,day
+KX601168.1,Puerto Rico,Puerto Rico,18.2,-66.5,2015,12,1,day
+KY785436.1,Brazil,Brazil,-10.8,-53.1,2016,3,15,day
+MF574578.1,Colombia,Colombia,3.9,-73.1,2016,12,,month
+MF574579.1,Colombia,Colombia,3.9,-73.1,2016,12,,month
+KY075934.1,USA,USA,39.5,-99.1,2016,7,3,day
+KY785462.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,6,26,day
+MW122438.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,11,21,day
+MH675627.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,,month
+MW122443.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,31,day
+MW122410.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,25,day
+MW122379.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,15,day
+MW122421.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,17,day
+MW122377.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,7,30,day
+MW122411.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,16,day
+MW122392.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,11,7,day
+MW122408.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,9,27,day
+MW122433.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,7,27,day
+MW122435.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,17,day
+MW122405.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,19,day
+MW122406.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,18,day
+MW122442.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,26,day
+MH675626.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,,month
+KY272991.1,Brazil,Brazil,-10.8,-53.1,2016,2,12,day
+KY559025.1,Brazil,Brazil,-10.8,-53.1,2016,1,15,day
+KU926309.2,Brazil,Brazil,-10.8,-53.1,2016,1,14,day
+KY785437.1,Brazil,Brazil,-10.8,-53.1,2016,3,14,day
+OK054373.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,15,day
+OK054371.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,23,day
+OK054423.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,23,day
+OK054441.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,3,day
+OK054377.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,3,day
+OK054384.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,16,day
+OK054382.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,15,day
+OK054481.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,29,day
+KY606274.1,Mexico,Mexico,23.9,-102.5,2016,7,7,day
+MF801421.1,Mexico,Mexico,23.9,-102.5,2016,7,1,day
+OK054415.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,2,day
+MN577550.1,Nicaragua,Nicaragua,12.8,-85.0,2016,1,19,day
+OK054468.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,27,day
+MF801407.1,Mexico,Mexico,23.9,-102.5,2016,7,5,day
+MF801422.1,Mexico,Mexico,23.9,-102.5,2016,7,1,day
+MF801418.1,Mexico,Mexico,23.9,-102.5,2016,6,30,day
+MF801402.1,Mexico,Mexico,23.9,-102.5,2016,5,26,day
+KY606271.1,Mexico,Mexico,23.9,-102.5,2016,3,5,day
+MH157210.1,Mexico,Mexico,23.9,-102.5,2016,8,25,day
+MF434520.1,Nicaragua,Nicaragua,12.8,-85.0,2016,2,7,day
+KU501216.1,Guatemala,Other Americas,15.7,-90.4,2015,12,1,day
+KY606273.1,Mexico,Mexico,23.9,-102.5,2016,6,30,day
+MF801423.1,Mexico,Mexico,23.9,-102.5,2016,6,30,day
+KY785417.1,Colombia,Colombia,3.9,-73.1,2016,4,6,day
+MF801404.1,Mexico,Mexico,23.9,-102.5,2016,7,8,day
+KY927808.1,China,China,36.6,103.8,2016,9,,month
+MF593625.1,China,China,36.6,103.8,2016,9,14,day
+MF801415.1,Mexico,Mexico,23.9,-102.5,2016,7,5,day
+MF801419.1,Mexico,Mexico,23.9,-102.5,2016,7,1,day
+MF801412.1,Mexico,Mexico,23.9,-102.5,2016,7,7,day
+MF801391.1,Mexico,Mexico,23.9,-102.5,2016,7,6,day
+MH157197.1,Mexico,Mexico,23.9,-102.5,2016,7,13,day
+MH157209.1,Mexico,Mexico,23.9,-102.5,2016,7,5,day
+MF988734.1,Singapore,Singapore,1.4,103.8,2017,8,,month
+OP858749.1,Cuba,Cuba,21.6,-78.9,2016,10,,month
+MH063263.1,Cuba,Cuba,21.6,-78.9,2017,8,5,day
+MK560178.1,Cuba,Cuba,21.6,-78.9,2017,10,9,day
+OP858754.1,Cuba,Cuba,21.6,-78.9,2017,3,,month
+OP858743.1,Cuba,Cuba,21.6,-78.9,2016,9,,month
+OP858768.1,Cuba,Cuba,21.6,-78.9,2018,1,21,day
+OP858769.1,Cuba,Cuba,21.6,-78.9,2018,2,15,day
+OP858781.1,Cuba,Cuba,21.6,-78.9,2018,10,29,day
+OK054400.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,5,day
+OK054453.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,27,day
+OK054451.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,28,day
+OK054436.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,14,day
+OK054428.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,3,day
+OK054430.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,26,day
+OK054463.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,14,day
+OK054464.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,15,day
+OK054386.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,5,day
+OK054410.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,28,day
+OK054445.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,18,day
+MF801395.1,Mexico,Mexico,23.9,-102.5,2016,5,9,day
+MF801398.1,Mexico,Mexico,23.9,-102.5,2016,5,20,day
+MH157206.1,Mexico,Mexico,23.9,-102.5,2016,9,23,day
+KY631494.1,Mexico,Mexico,23.9,-102.5,2015,10,15,day
+MF801416.1,Mexico,Mexico,23.9,-102.5,2016,7,,month
+KX766029.1,Mexico,Mexico,23.9,-102.5,2016,6,23,day
+MG595216.1,Mexico,Mexico,23.9,-102.5,2016,6,23,day
+MF098771.1,Russia,Other Europe/Africa,61.7,99.1,2017,1,30,day
+MF801393.1,Mexico,Mexico,23.9,-102.5,2016,4,22,day
+MH157195.1,Mexico,Mexico,23.9,-102.5,2016,8,24,day
+MH157207.1,Mexico,Mexico,23.9,-102.5,2016,8,29,day
+MH157200.1,Mexico,Mexico,23.9,-102.5,2016,10,21,day
+MH157204.1,Mexico,Mexico,23.9,-102.5,2016,10,25,day
+MH157201.1,Mexico,Mexico,23.9,-102.5,2016,6,28,day
+MH157213.1,Mexico,Mexico,23.9,-102.5,2016,6,23,day
+MH157205.1,Mexico,Mexico,23.9,-102.5,2016,8,15,day
+MH157199.1,Mexico,Mexico,23.9,-102.5,2016,8,8,day
+MH157202.1,Mexico,Mexico,23.9,-102.5,2016,8,10,day
+MF801414.1,Mexico,Mexico,23.9,-102.5,2016,7,5,day
+MF801417.1,Mexico,Mexico,23.9,-102.5,2016,7,1,day
+MH157203.1,Mexico,Mexico,23.9,-102.5,2016,6,27,day
+KY325465.1,USA,USA,39.5,-99.1,2016,9,28,day
+KY325479.1,USA,USA,39.5,-99.1,2016,9,28,day
+KX906952.1,Honduras,Honduras,14.8,-86.6,2016,4,16,day
+OK054435.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,25,day
+KY785416.1,Honduras,Honduras,14.8,-86.6,2016,4,28,day
+OK054434.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,12,day
+KY693677.1,Honduras,Honduras,14.8,-86.6,2016,8,26,day
+KY765325.1,Nicaragua,Nicaragua,12.8,-85.0,2016,4,22,day
+KY765327.1,Nicaragua,Nicaragua,12.8,-85.0,2016,4,22,day
+MF801408.1,Mexico,Mexico,23.9,-102.5,2016,7,5,day
+MF801384.1,Honduras,Honduras,14.8,-86.6,2016,2,3,day
+MF801386.1,Honduras,Honduras,14.8,-86.6,2016,2,24,day
+MF801378.1,Guatemala,Other Americas,15.7,-90.4,2016,7,21,day
+MW122434.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,7,19,day
+MW122381.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,17,day
+KY785444.1,Honduras,Honduras,14.8,-86.6,2016,5,31,day
+MF801403.1,Mexico,Mexico,23.9,-102.5,2016,5,25,day
+MF801383.1,Honduras,Honduras,14.8,-86.6,2016,6,3,day
+OK054388.1,Nicaragua,Nicaragua,12.8,-85.0,2016,6,28,day
+KY785431.1,Honduras,Honduras,14.8,-86.6,2016,6,13,day
+OK054472.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,19,day
+OK054385.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,23,day
+OK054389.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,29,day
+OK054482.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,27,day
+OK054484.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,31,day
+OK054398.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,29,day
+OK054459.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,12,day
+OK054439.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,24,day
+OK054369.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,24,day
+OK054457.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,24,day
+OK054383.1,Nicaragua,Nicaragua,12.8,-85.0,2016,9,27,day
+MF801425.1,Nicaragua,Nicaragua,12.8,-85.0,2016,6,24,day
+OK054412.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,25,day
+OK054471.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,26,day
+OK054427.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,28,day
+OK054483.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,12,day
+KY785448.1,Honduras,Honduras,14.8,-86.6,2016,6,10,day
+KY785458.1,Honduras,Honduras,14.8,-86.6,2016,6,10,day
+PX404510.1,Honduras,Honduras,14.8,-86.6,2016,5,4,day
+MF434522.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,29,day
+OK054411.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,29,day
+KY693676.1,Honduras,Honduras,14.8,-86.6,2016,8,26,day
+KY785414.1,Honduras,Honduras,14.8,-86.6,2016,5,28,day
+OK054406.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,28,day
+OK054409.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,9,day
+OK054405.1,Nicaragua,Nicaragua,12.8,-85.0,2016,2,26,day
+OK054461.1,Nicaragua,Nicaragua,12.8,-85.0,2016,2,1,day
+OK054454.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,16,day
+OK054390.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,15,day
+OK054421.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,30,day
+OK054485.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,17,day
+KX421194.1,Nicaragua,Nicaragua,12.8,-85.0,2016,1,13,day
+KX421195.1,Nicaragua,Nicaragua,12.8,-85.0,2016,1,19,day
+OK054438.1,Nicaragua,Nicaragua,12.8,-85.0,2016,1,13,day
+OK054387.1,Nicaragua,Nicaragua,12.8,-85.0,2016,10,11,day
+OK054408.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,20,day
+OK054431.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,4,day
+OK054397.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,29,day
+OK054467.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,9,day
+OK054419.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,22,day
+OK054433.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,29,day
+OK054477.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,16,day
+KY765324.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,7,day
+MF434518.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,26,day
+OK054417.1,Nicaragua,Nicaragua,12.8,-85.0,2016,9,8,day
+KY328289.1,Honduras,Honduras,14.8,-86.6,2016,5,,month
+MW122390.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,11,day
+MW122401.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,9,15,day
+MW122450.1,Puerto Rico,Puerto Rico,18.2,-66.5,2017,1,10,day
+MW122455.1,Puerto Rico,Puerto Rico,18.2,-66.5,2017,1,19,day
+MW122427.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,23,day
+MW122409.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,20,day
+MW122423.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,10,6,day
+MW122431.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,11,3,day
+KY014310.2,Honduras,Honduras,14.8,-86.6,2016,5,9,day
+MH675629.1,Puerto Rico,Puerto Rico,18.2,-66.5,2016,8,,month
+MH675630.1,USA,USA,39.5,-99.1,2016,9,,month
+PX404475.1,Honduras,Honduras,14.8,-86.6,2016,4,20,day
+PX404502.1,Honduras,Honduras,14.8,-86.6,2016,5,4,day
+PX404503.1,Honduras,Honduras,14.8,-86.6,2016,5,19,day
+MF434521.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,19,day
+OK054370.1,Nicaragua,Nicaragua,12.8,-85.0,2016,10,3,day
+OK054478.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,21,day
+OK054479.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,8,day
+OK054443.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,15,day
+OK054404.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,1,day
+OK054473.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,4,day
+OK054444.1,Nicaragua,Nicaragua,12.8,-85.0,2016,2,7,day
+OK054452.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,3,day
+OK054403.1,Nicaragua,Nicaragua,12.8,-85.0,2016,9,29,day
+OK054414.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,25,day
+OK054429.1,Nicaragua,Nicaragua,12.8,-85.0,2016,8,2,day
+OK054399.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,13,day
+KY765318.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,10,day
+OK054466.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,13,day
+KY765317.1,Nicaragua,Nicaragua,12.8,-85.0,2016,6,29,day
+KY765322.1,Nicaragua,Nicaragua,12.8,-85.0,2016,6,29,day
+OK054425.1,Nicaragua,Nicaragua,12.8,-85.0,2016,9,7,day
+OK054487.1,Nicaragua,Nicaragua,12.8,-85.0,2016,7,23,day

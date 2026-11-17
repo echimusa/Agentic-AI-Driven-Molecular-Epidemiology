@@ -1,0 +1,7 @@
+dataset,tree,rf_to_ml,parsimony_score,loglik,parsimony_excess,loglik_deficit
+H3N2 HA (60 sequences),ML (IQ-TREE),0.0,318,-4715.16,0,0.0
+H3N2 HA (60 sequences),NJ (JC69),0.18,321,-4724.19,3,9.02
+H3N2 HA (60 sequences),UPGMA (JC69),0.48,342,-4818.64,24,103.48
+Ebola virus (195 genomes),ML (IQ-TREE),0.0,256,-28600.95,0,0.0
+Ebola virus (195 genomes),NJ (JC69),0.12,257,-28612.17,1,11.21
+Ebola virus (195 genomes),UPGMA (JC69),0.49,281,-28783.54,25,182.58

@@ -1,0 +1,4 @@
+rule,max_contigs,min_n50_kb,fail_pct,fail_n,fails_on_contigs_pct,fails_on_n50_pct
+Lenient,500,20,1.089,9923,0.072,0.079
+Moderate,300,50,4.821,43933,1.042,3.794
+Strict,200,100,14.883,135612,3.795,13.851

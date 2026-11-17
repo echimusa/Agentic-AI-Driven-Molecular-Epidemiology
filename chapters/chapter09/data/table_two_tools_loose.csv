@@ -1,0 +1,6 @@
+assembly,element,loose_hit,cut_off,identity_pct,length_pct,loose_hits_in_genome,strict_or_perfect_in_genome
+GCA_010670385.1,floR,floR,Loose,98.5,100.0,475,36
+GCA_010670385.1,tet(G),tet(G),Loose,94.6,100.0,475,36
+GCA_011246915.1,floR,floR,Loose,99.3,100.0,484,39
+GCA_018413125.1,floR,floR,Loose,99.3,100.0,482,36
+GCA_019546675.1,aph(3'')-Ib,APH(3'')-Ib,Loose,100.0,52.1,497,40

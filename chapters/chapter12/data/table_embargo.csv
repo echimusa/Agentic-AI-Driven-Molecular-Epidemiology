@@ -1,0 +1,6 @@
+embargo_days,clusters,median_delay_days,p90_delay_days,detected_within_30_days_pct,median_isolates_collected_before_detection,mean_isolates_collected_before_detection
+0,520,29.0,92.0,52.1,1.0,3.6
+30,520,59.0,122.0,1.2,1.0,5.9
+90,520,119.0,182.0,0.0,2.0,7.4
+180,520,209.0,272.0,0.0,3.0,8.7
+365,520,394.0,457.0,0.0,5.0,10.8

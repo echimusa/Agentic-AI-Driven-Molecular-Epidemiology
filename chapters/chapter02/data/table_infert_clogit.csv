@@ -1,0 +1,5 @@
+model,term,log_or,se,odds_ratio,lo,hi
+spontaneous,spontaneous,1.1768,0.2315,3.244,2.0607,5.1067
+induced,induced,0.0737,0.2097,1.0765,0.7137,1.6238
+both,spontaneous,1.9859,0.3524,7.2854,3.6513,14.5365
+both,induced,1.409,0.3607,4.0919,2.0178,8.298

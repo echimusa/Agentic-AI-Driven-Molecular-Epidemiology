@@ -1,0 +1,3 @@
+pi_true,runs,sampled_mean,links,share_sampled_infector,top1_n,top1_runmean,mean_prob_true,pairs_called,true_called,p_no_inf_when_sampled,p_no_inf_when_unsampled,ess_median,ess_min,pi_post,off_r_post,neg_post,pooled_top1,precision,recall,top1,precision_50,recall_50,p_none_if_sampled,p_none_if_unsampled
+0.25,6,18.3333,23,0.2072,22,0.9583,0.6962,27,16,0.2984,0.8017,10.1273,4.3244,0.3862,5.0915,0.939,0.9565,0.5926,0.6957,0.9565,0.5926,0.6957,0.2984,0.8017
+0.75,6,16.6667,74,0.7354,51,0.7207,0.5985,57,43,0.2218,0.7006,13.7396,7.0878,0.7091,4.5519,0.7475,0.6892,0.7544,0.5811,0.6892,0.7544,0.5811,0.2218,0.7006

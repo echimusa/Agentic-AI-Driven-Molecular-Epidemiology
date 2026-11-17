@@ -1,0 +1,41 @@
+id,check,result,detail
+I.ex10_2b,ex10_2b reruns from the shipped data without error,PASS,
+I.ex10_4,ex10_4 reruns from the shipped data without error,PASS,
+I.ex10_6,ex10_6 reruns from the shipped data without error,PASS,
+I.ex10_7,ex10_7 reruns from the shipped data without error,PASS,
+I.ex10_8,ex10_8 reruns from the shipped data without error,PASS,
+I.ex10_9,ex10_9 reruns from the shipped data without error,PASS,
+I.ex10_10,ex10_10 reruns from the shipped data without error,PASS,
+I.tables,every result table of the rerun is byte-identical to the shipped one (the credible-set table equal to 9 digits),PASS,"([], True)"
+A.1,"greedy 500 kb clumping of the genome-wide significant variants gives 7 loci with the lead variants of the chapter (rs35081325, rs13050728, rs2109069, rs1894387, rs2660, rs622568, rs920065566)",PASS,"['rs35081325', 'rs13050728', 'rs2109069', 'rs1894387', 'rs2660', 'rs622568', 'rs920065566']"
+A.2,"the odds ratios of the leads are exp(beta) (rs35081325 1.629, 95% CI 1.532 to 1.733) and the reported P agrees with the Wald P within 0.002 log10 units",PASS,0.0007282079636574679
+A.3,"the inflation factor 1.045 rescaled to 1,000 cases and 1,000 controls is 1.002",PASS,1.0022651373397178
+A.4,"the catalogue groups add up to 1,351 infection studies, 7,646 associations and 559 studies with full summary statistics (41.4%), and the ancestry shares add up to about 100%",PASS,"(np.float64(1351.0), [100.0, 100.0, 99.9, 100.0, 100.1, 100.0])"
+A.5,"an independent fine-mapping gives a 95% credible set of 11 variants at all three priors, lead rs35081325 with posterior probability 0.167 (0.161 to 0.170), r2 above 0.98 with the lead, span 45,818,159 to 45,858,159",PASS,"([11, 11, 11], ['0.161', '0.167', '0.170'])"
+A.6,"the stratification table: lambda 71.68, 27,658 of 54,197 variants away from the causal SNPs significant (51.0%) with no covariates, none with 2 or 10 components",PASS,"{'model': 'No covariates', 'lambda_all': 71.68, 'lambda_away_from_causal': 68.16, 'false_positives': 27658, 'tested_away': 54197, 'causal_found': 8}"
+B.1,"QC steps: --geno and --mind remove nothing, --maf 0.01 removes 83,688 of 100,000 variants, pooled --hwe 1e-6 removes 4,056, all four leave 12,306; the injected faults (10 people, 40 variants) are found exactly, leaving 1,960 variants and 490 people",PASS,"[0, 0, 83688, 4056, 87694]"
+B.2,"Hardy-Weinberg exact tests recomputed from the genotype counts: 16,312 variants with frequency of at least 1%; failing at P < 1e-6: pooled 4,006; AFR 227, AMR 140, EAS 161, EUR 140, SAS 163; 3,726 fail pooled but in no group; 28 fail in a group only",PASS,"(4006, [227, 140, 161, 140, 163], 3726)"
+B.3,"Hudson FST between all ten pairs of groups recomputed from the counts (all variants and common variants); East Asia against Europe 0.110 on common variants, equal to PLINK's weighted Weir-Cockerham 0.1097; Africa against East Asia 0.180, Europe against the Americas 0.027",PASS,"{'group_a': 'EAS', 'group_b': 'EUR', 'hudson_fst_all': 0.1035715084720013, 'hudson_fst_common': 0.109725314907729, 'plink_wc_mean_common': 0.0869092, 'plink_wc_weighted_c"
+B.4,mean r2 falls with distance in every group and is lowest in AFR in every bin (0.182 against 0.262 to 0.293 at 0 to 10 kb),PASS,"{'AFR': {'0-10': 0.182, '10-25': 0.081, '100-250': 0.009, '25-50': 0.042, '50-100': 0.022}, 'AMR': {'0-10': 0.262, '10-25': 0.138, '100-250': 0.022, '25-50': 0.079, '50-1"
+B.5,"power recomputed with an independent root finder: cases needed for 80% power at P < 5e-8 (OR 1.2 at frequency 0.01 needs 110,213; OR 1.1 at 0.5 needs 17,454) and the smallest detectable odds ratio (2.18 at 5% in 1,000 + 1,000; 1.21 in the HGI file)",PASS,"(True, True)"
+B.6,"a fresh Monte Carlo (3,000 repeats, own seed) agrees with the formula within 0.04, and the shipped Monte Carlo table agrees with the formula within 0.03",PASS,"[(0.986, np.float64(0.988)), (0.782, np.float64(0.783))]"
+B.7,"the allelic example of the notes (400 and 600 case alleles, 300 and 700 control alleles): chi-square 21.98, odds ratio 1.56, P 2.8e-6, power 0.22 with 500 + 500 at P < 5e-8",PASS,21.978021978021978
+B.8,"inflation scaling: F recomputed from the counts agrees with the table; a fresh simulation gives a mean chi-square within 8% of 1 + N F at N = 1,000 and 10,000; the table shows lambda 1.05, 1.48 and 5.2 for the milder imbalance; HGI: effective N 39,733, implied F 1.1e-6, lambda 1.002 at 1,000 + 1,000",PASS,"(True, [(1.0254808428076176, 1.0140449635312734), (1.1429677852622742, 1.1404496353127327)])"
+B.9,"3p21.31 by group recomputed from the phased genotypes: carriers of the risk allele 0.8% AFR, 8.4% AMR, 1.0% EAS, 15.9% EUR, 49.7% SAS; frequency 0.004, 0.043, 0.005, 0.080, 0.297; variants in the window with r2 of at least 0.8 with the lead: 18, 23, 14, 24, 23",PASS,"[('AFR', np.float64(0.004), np.float64(0.008)), ('AMR', np.float64(0.043), np.float64(0.084)), ('EAS', np.float64(0.005), np.float64(0.01)), ('EUR', np.float64(0.08), np."
+B.10,"cases needed to replicate OR 1.63 with 80% power, recomputed: at P < 0.05, SAS 146, EUR 371, AMR 644, EAS 5,283, AFR 6,916",PASS,"[6916.0, 644.0, 5283.0, 371.0, 146.0]"
+B.11,"in the credible set every variant has r2 of at least 0.98 (0.985 at the lowest) with the lead in Europeans, and only rs35731912 (0.09) and rs67959919 (0.83) fall below 0.95 in Africans",PASS,"[{'group': 'AFR', 'rsid': 'rs67959919', 'risk_allele_freq': 0.0045385779122541, 'r2_with_lead': 0.8320630081300682}, {'group': 'AFR', 'rsid': 'rs35731912', 'risk_allele_f"
+B.12,"ancestry odds ratios: the six table values (1.50, 0.67, 1.38, 1.22, 1.08, 1.00) equal the formula and the shipped simulation within 0.03; a fresh simulation of two rows agrees with the formula within 0.03",PASS,"[(np.float64(1.3846510344843332), 1.3809523809523814), (np.float64(1.0728837694502587), 1.083333333333333)]"
+B.13,"admixture mapping power: 0 at a frequency difference of 0.2 or less, 7% at 0.4, 53% at 0.6, 89% at 0.8; a fresh simulation at 0.6 (150 repeats) is within 0.12 of the shipped 0.53; the causal-variant test has 73% to 99% power",PASS,"(np.float64(0.48), np.float64(0.5333333333333333))"
+B.14,"audit of the course sources: 37 figures recomputed, 35 agree; the two that do not are cystic fibrosis (printed 500, 0.25 / 0.0004 = 625) and the Wellcome Trust study total (printed 23, parts add to 24); the Hardy-Weinberg example, the r2 and D', and all 12 admixture figures agree",PASS,"[500.0, 23.0]"
+G.1,"figures are numbered 10.1 to 10.13 in order, one caption for every image; 13 images (3 diagrams and 10 figures; the R check plot is not in the chapter), 24 tables",PASS,"(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'], 13, 24)"
+G.2,"fourteen learning objectives, from what host genetics asks to the connection with Chapter 11",PASS,14
+G.3,nine hands-on sections numbered 1 to 9 in order,PASS,"['Hands-on 1 (Python): what GWAS of infection have found, and in whom', 'Hands-on 2 (Python and R): quality control and loci from public summary statistics', 'Hands-on 3 "
+G.4,the sentences quote the validated numbers,PASS,[]
+G.5,"no stray backslash, image path, header artefact or placeholder in the text",PASS,[]
+G.6,the Hardy-Weinberg table of the chapter equals the result file,PASS,"['Pooled sample', '4,006']"
+G.7,the table of cases needed equals the result file,PASS,
+G.8,the 3p21.31 table of the chapter equals the result file,PASS,"['AFR', '661', '0.004', '0.8%', '18', '6,916', '34,895']"
+G.9,"the audit table of the chapter ends with 37 figures, 35 agreeing, 2 not",PASS,"['All', '37', '35', '2']"
+G.10,the chapter links 56 distinct DOIs,PASS,56
+G.11,every DOI of the chapter resolves in Crossref,SKIP,run with --doi
+H.1,"all 14 figure files are present (3 diagrams, 10 figures and the R check plot)",PASS,[]

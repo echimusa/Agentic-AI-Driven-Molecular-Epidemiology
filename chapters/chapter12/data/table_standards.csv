@@ -1,0 +1,6 @@
+field,records,distinct_raw,distinct_lower_trimmed,top10_share_pct,top100_share_pct,used_once_pct_of_distinct
+Place (geo_loc_name),859823,1828,1783,72.6,94.0,34.5
+Host,369986,959,872,94.4,99.1,45.7
+Isolation source,530601,9248,8481,66.0,86.9,51.5
+Serovar (cleaned),911210,4211,4191,52.5,90.9,39.2
+Place reduced to the text before the colon,859823,205,204,92.9,99.9,14.6

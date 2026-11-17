@@ -1,0 +1,5 @@
+quantity,value
+"Population size for which independent samples of 2,417 and 2,527 persons overlap by 894",6831.9451901566
+Coverage of CTDB persons in that population,0.3537791848041155
+Coverage of GDB persons in that population,0.3698800165494414
+Equal coverage c that gives a Jaccard coefficient of 0.22 (c / (2 - c) = JC),0.3616504854368932

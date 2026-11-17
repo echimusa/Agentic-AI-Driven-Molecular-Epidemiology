@@ -1,0 +1,6 @@
+filter,variants_left,variants_removed,people_left,people_removed
+--geno 0.02,100000,0,2504,0
+--mind 0.02,100000,0,2504,0
+--maf 0.01,16312,83688,2504,0
+"--hwe 1e-6 (pooled, all 2,504 people)",95944,4056,2504,0
+all four together,12306,87694,2504,0

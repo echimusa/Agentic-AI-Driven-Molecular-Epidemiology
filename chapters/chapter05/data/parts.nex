@@ -1,0 +1,7 @@
+#nexus
+begin sets;
+  charset cp1 = 1-1701\3;
+  charset cp2 = 2-1701\3;
+  charset cp3 = 3-1701\3;
+  charpartition byposition = HKY+F+G4:cp1, HKY+F+G4:cp2, HKY+F+G4:cp3;
+end;

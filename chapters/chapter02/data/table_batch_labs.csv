@@ -1,0 +1,16 @@
+lab,isolates,median_contigs,median_n50_kb,human_share
+Public Health England,17338,45.0,212.991,0.982
+CDC,13270,28.0,477.511,1.0
+Public Health Agency of Canada,5700,32.0,467.884,0.994
+United States Department of Agriculture|Food Safety and Inspection Service,2634,57.0,189.296,0.0
+NY,2275,32.0,406.079,0.998
+MI,1549,28.0,406.91,0.966
+MA,1465,29.0,406.074,0.997
+TN,1394,31.0,406.326,0.985
+PA,1317,27.0,412.519,0.976
+CA,1292,28.0,478.498,0.991
+Microbiological Diagnostic Unit Public Health Laboratory,1232,55.0,177.826,1.0
+Statens Serum Institut,1139,44.0,262.978,0.414
+NYC,983,26.0,478.498,1.0
+FL,960,29.0,467.874,0.998
+New York State Department of Health,906,30.0,375.792,0.88

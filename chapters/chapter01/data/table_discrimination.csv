@@ -1,0 +1,4 @@
+level,types,singleton_types_pct,isolates_in_singletons_pct,largest_type_pct,D,D_lo,D_hi
+Serotype,163,26.3804,0.8938,10.9956,0.9569,0.9547,0.959
+PFGE (XbaI),1832,62.3362,23.7373,5.2172,0.9949,0.9942,0.9956
+SNP cluster,1312,48.628,13.2613,3.1179,0.9942,0.9936,0.9947

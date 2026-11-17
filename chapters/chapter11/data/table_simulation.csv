@@ -1,0 +1,19 @@
+scenario,method,mean_F,mean_estimate,bias,sd,coverage
+"1 Valid, strong (F about 60)",IVW,61.5,0.295,-0.005,0.014,0.922
+"1 Valid, strong (F about 60)",MR-Egger,61.5,0.296,-0.004,0.022,0.94
+"1 Valid, strong (F about 60)",Weighted median,61.5,0.295,-0.005,0.018,0.958
+"2 Weak (F about 4), no overlap",IVW,5.0,0.241,-0.059,0.05,0.722
+"2 Weak (F about 4), no overlap",MR-Egger,5.0,0.237,-0.063,0.076,0.886
+"2 Weak (F about 4), no overlap",Weighted median,5.0,0.241,-0.059,0.066,0.874
+"3 Weak, full sample overlap",IVW,5.0,0.339,0.039,0.041,0.892
+"3 Weak, full sample overlap",MR-Egger,5.0,0.337,0.037,0.067,0.942
+"3 Weak, full sample overlap",Weighted median,5.0,0.341,0.041,0.052,0.964
+4 Balanced pleiotropy,IVW,61.1,0.296,-0.004,0.027,0.942
+4 Balanced pleiotropy,MR-Egger,61.1,0.295,-0.005,0.048,0.916
+4 Balanced pleiotropy,Weighted median,61.1,0.297,-0.003,0.038,0.792
+5 Directional pleiotropy,IVW,61.3,0.488,0.188,0.031,0.0
+5 Directional pleiotropy,MR-Egger,61.3,0.333,0.033,0.047,0.924
+5 Directional pleiotropy,Weighted median,61.3,0.446,0.146,0.042,0.006
+6 Invalid and strongest (15%),IVW,89.0,0.415,0.115,0.029,0.016
+6 Invalid and strongest (15%),MR-Egger,89.0,0.416,0.116,0.042,0.144
+6 Invalid and strongest (15%),Weighted median,89.0,0.386,0.086,0.049,0.21

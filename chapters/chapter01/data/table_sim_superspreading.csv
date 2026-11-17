@@ -1,0 +1,4 @@
+offspring,top20_share_of_transmission,largest_identical_group_pct,mean_cases
+k = 0.3,79.66,10.84,250.0
+k = 1,60.83,7.6,245.95
+Poisson,44.08,5.17,250.0

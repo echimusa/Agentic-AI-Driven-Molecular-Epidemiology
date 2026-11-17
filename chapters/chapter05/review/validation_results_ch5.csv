@@ -1,0 +1,68 @@
+id,check,result,detail
+A.1,"Ebola alignment: 195 genomes, 18,961 positions, 241 variable sites, 84 parsimony-informative, 98.7% constant",PASS,"((195, 18961), 241, 84, np.float64(98.72896999103423))"
+A.2,"H3N2 alignment: 60 sequences, 1,762 positions, 230 variable sites, 119 parsimony-informative, 86.9% constant",PASS,"((60, 1762), 230, 119, np.float64(86.9466515323496))"
+A.3,"H3N2 coding region: 1,701 nt, no gap characters, 118 parsimony-informative, 86.5% constant, codon positions 91.9%, 93.1% and 74.6% constant",PASS,"(((60, 1701), 229, 118, np.float64(86.53733098177543)),)"
+B.1,"p, JC69 and K80 distances, transition share and identical pairs recomputed from the alignments equal table_distances.csv (both datasets)",PASS,"[[np.float64(0.01578), np.float64(0.0341), np.float64(0.0349), np.float64(0.00017), np.float64(0.73295), np.float64(0.22599)], [np.float64(0.00032), np.float64("
+B.2,closed forms: JC69 distance of p = 0.1 is 0.107326 and equals the numerical maximum of the two-sequence likelihood; P_ii(0.2) = 0.824446,PASS,
+B.3,"own neighbour-joining tree (Q criterion) shares the same number of resolved splits with the ML tree as table_tree_comparison.csv, within one split (ties are broken differently by Biopython)",PASS,"[(40, 43, 34, 0.181), (50, 45, 42, 0.116)]"
+C.1,"own pruning (matrix exponentials from scipy) gives the JC69 log-likelihood of the eight-sequence alignment, −2,908.301, on the IQ-TREE topology and branch lengths",PASS,-2908.3012
+C.2,"own pruning gives the HKY85 log-likelihood, −2,839.058, from the IQ-TREE tree, base frequencies and κ = 5.34",PASS,"(-2839.0558, 5.3723)"
+C.3,"AIC = 2k − 2 ln L and BIC = k ln N − 2 ln L (N = 1,701) recomputed from the log-likelihoods of the pruning code for the four models; AIC picks GTR, BIC picks HKY85 (19.2 and 2.6 units apart); GTR has four more free parameters than HKY85, and 4 ln N − 2 Δln L gives the 19.2",PASS,
+D.1,"internal branches, branches shorter than one substitution and resolved splits recomputed from the tree files, and the support shares and correlations recomputed from the support arrays, equal table_support_real.csv",PASS,"[[57, 17, 40], [192, 142, 50]]"
+D.2,"tie check at low divergence: of 17 splits with bootstrap 95 or more, the 8 with a supporting column were all correct and the 9 without one were correct 11.1% of the time; 84.4% of splits have no supporting column",PASS,"(17, 8, 9, np.float64(84.4))"
+D.3,"calibration bands of the low-divergence simulation: 585, 255, 134 and 106 splits; correct shares 0.5%, 34.1%, 26.1% and 8.5%",PASS,
+E.1,"root-to-tip regression over every position on every branch (own shortest-path code, 4,257 and 1,267 candidates): best-root R², rate per genome-year, root date and permutation p equal table_root_to_tip.csv",PASS,"[(4257, np.float64(0.5838), np.float64(23.67), np.float64(2014.23), np.float64(0.033)), (1267, np.float64(0.7909), np.float64(5.49), np.float64(2011.9), np.floa"
+E.2,"95th percentile of the best-root R² for shuffled dates is 0.034 (Ebola) and 0.105 (H3N2), within 0.01 over 1,000 own shuffles",PASS,"(np.float64(0.033), np.float64(0.113))"
+F.1,"model ladder: AIC and BIC recomputed from ln L and k (N = 1,701) for all 16 models; BIC selects HKY+F+G4, AIC selects GTR+F+G4",PASS,16
+F.2,"codon positions: relative rates 0.59, 0.53 and 1.88 are the tree lengths divided by their mean; the third position is 3.2 times the first and 3.5 times the second",PASS,"[0.588, 0.532, 1.88]"
+F.3,"adequacy: the real transition share among pairwise differences is 0.733 (own count); equal-rate simulations give about one third (0.328, expected 1/3)",PASS,0.7328
+G.1,"full ModelFinder run: BIC selects HKY+F+I; GTR+F+G4 is 40.9 and HKY+F+G4 10.0 BIC units behind; ln L −28,599.45",PASS,"('HKY+F+I', 48)"
+G.2,"the two Ebola trees have identical resolved splits (50 of 50); support of the 50 resolved branches: ultrafast bootstrap ≥95 76%, ≥80 86%, SH-aLRT ≥80 66%, both thresholds 58%; of the 142 unresolved branches none reaches 95 and 87% are below 50",PASS,"(50, 142)"
+H.1,"four-point and three-point tests on own random quartets and triples (percentages within one point, percentiles within a substitution), and the correlation and mean absolute residual of JC69 distances against ML-tree path lengths over all pairs, equal table_tree_likeness.csv",PASS,"[(np.float64(42.4), np.float64(7.1), np.float64(0.976)), (np.float64(92.7), np.float64(21.7), np.float64(0.975))]"
+H.2,"Fitch parsimony score of the ML tree (own bit-mask implementation, polytomies counted exactly) is 318 for H3N2 and 256 for Ebola",PASS,"[318, 256]"
+H.3,"parsimony scores of the NJ and UPGMA trees (own Fitch on Biopython's trees): 321 and 342 (H3N2), 257 and 281 (Ebola); the ML tree has the best log-likelihood and UPGMA is more than ten times further from it than NJ",PASS,"[321, 342, 257, 281]"
+H.4,"log-likelihood of the ML tree: −4,715.16 (H3N2) equals the search value; the Ebola re-evaluation −28,600.95 is within one unit of the search value −28,599.98",PASS,"(-4715.163, -28599.9792)"
+I.1,tree lengths read from the IQ-TREE reports and the share of the resolved splits of the full-alignment tree that each tree recovers (own split code) equal table_ascertainment.csv,PASS,"[[1.0, 7.62, 2.74, 0.98], [1.0, 78.48, 7.52, 0.99]]"
+I.2,"constant-site counts passed to -fconst equal the counts of A, C, G and T in the constant sites of each alignment; 230 and 241 variable sites",PASS,"([5979, 4008, 3721, 5012], [526, 293, 334, 379])"
+J.1,"table_recombination.csv equals the means of the 15 replicates per setting in table_recombination_raw.csv (tree length, Robinson–Foulds distance, sensitivity, false positives)",PASS,
+J.2,paired Robinson–Foulds differences quoted in the chapter: recombinant minus clonal −0.017 (SE 0.006) and −0.027 (0.012); masked minus clonal +0.011 (0.004) and +0.025 (0.008),PASS,"[(np.float64(-0.017), np.float64(0.006)), (np.float64(-0.027), np.float64(0.012)), (np.float64(0.011), np.float64(0.004)), (np.float64(0.025), np.float64(0.008)"
+J.3,"worst-case sensitivity is 10% (one alignment with three events); the Poisson tail written out in the chapter equals scipy's survival function and is 5e-6 for 4 substitutions on a branch of 4 over 18,961 sites in a 500-site window (flagged); 3 would not be flagged by the count rule",PASS,"(4.74e-06, np.float64(0.1))"
+J.4,scan of the Ebola alignment for genomes whose private substitutions cluster in a 500-site window (own definition: a base found in no other genome): exactly KR105247.1 and KR105300.1 are flagged; H3N2 has none,PASS,"{'KR105247.1': (11, 10), 'KR105300.1': (4, 4)}"
+K.1,"outlier rule (median distance more than three times the median of all): one Ebola genome, KR105312.1, and no H3N2 sequence, as in the agent reports",PASS,"{'ebola': ['KR105312.1'], 'h3n2': []}"
+K.2,"support check of the agent reports: 86% (Ebola, ultrafast bootstrap) and 85% (H3N2) of resolved branches at 80 or more; model lines HKY+F+I and TPM2+F+G4; the substitution-cluster check warns for Ebola and passes for H3N2",PASS,"(np.float64(86.0), np.float64(85.0))"
+T.1,"Hands-on 1 table (distances, ML splits, NJ and UPGMA comparison) equals table_distances.csv and table_tree_comparison.csv",PASS,[]
+T.2,"Hands-on 1, part C table equals table_tree_likeness.csv",PASS,[]
+T.3,"Hands-on 1, part D table (parsimony scores and log-likelihoods) equals table_tree_scores.csv",PASS,[]
+T.4,"Hands-on 2 table (four models: log-likelihoods, AIC, BIC, κ) equals table_likelihood_models.csv",PASS,[]
+T.5,Hands-on 3 table (support in the real trees) equals table_support_real.csv,PASS,[]
+T.6,Hands-on 3 accuracy table equals table_accuracy_sim.csv,PASS,[]
+T.7,Hands-on 3 calibration table equals table_calibration_sim.csv (splits and share correct in each band),PASS,[]
+T.8,"Hands-on 4 table (R², rate per genome-year, root date for three rootings) equals table_root_to_tip.csv",PASS,[]
+T.9,Hands-on 5 gain table (log-likelihood gained by each feature) equals the differences in table_model_ladder.csv,PASS,[]
+T.10,"Hands-on 5 model table (k, ln L, AIC, BIC, α, invariant share) equals table_model_ladder.csv",PASS,[]
+T.11,Hands-on 5 codon-position table equals table_codon_positions.csv,PASS,[]
+T.12,Hands-on 5 adequacy table equals table_adequacy.csv,PASS,[]
+T.13,Hands-on 6 table equals table_ascertainment.csv,PASS,[]
+T.14,Hands-on 7 table equals table_recombination.csv,PASS,[]
+T.15,"20 sentences of the narrative that quote results (Hands-on 1, 3, 6, 7 and the agent section) match the result tables word for word",PASS,[]
+T.16,figure captions are numbered 5.1 to 5.9 in order (5.8 is the recombination figure and 5.9 the agent diagram),PASS,"[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+T.17,"no mention of 'uploaded' files, eleven learning objectives, Hands-on 1 to 7 present, 'Su et al., 2026' and no 'BioMaster, 2026'",PASS,
+T.12b,"adequacy table: the variance of GC content gives p = 0.11 under JC and p = 0.27 under HKY+F+G4, as in table_adequacy.csv",PASS,"(np.float64(0.11), np.float64(0.27))"
+T.18,"every DOI cited in the text is in the Sources, and the chapter cites 42 distinct DOIs in the text",PASS,"(42, 56, [])"
+REP,table_distances.csv reproduced byte for byte,PASS,
+REP,table_tree_comparison.csv reproduced byte for byte,PASS,
+REP,table_support_real.csv reproduced byte for byte,PASS,
+REP,support_H3N2.npy reproduced byte for byte,PASS,
+REP,support_Ebola.npy reproduced byte for byte,PASS,
+REP,table_likelihood_models.csv reproduced byte for byte,FAIL,
+REP,table_root_to_tip.csv reproduced byte for byte,PASS,
+REP,table_model_ladder.csv reproduced byte for byte,FAIL,
+REP,table_codon_positions.csv reproduced byte for byte,FAIL,
+REP,table_adequacy.csv reproduced byte for byte,FAIL,
+REP,table_modelfinder.csv reproduced byte for byte,FAIL,
+REP,table_tree_likeness.csv reproduced byte for byte,FAIL,
+REP,table_tree_scores.csv reproduced byte for byte,FAIL,
+REP,table_ascertainment.csv reproduced byte for byte,PASS,
+REP,table_ebola_full_support.csv reproduced byte for byte,PASS,
+REP,agent_report_ebola.md reproduced byte for byte,PASS,
+REP,agent_report_h3n2.md reproduced byte for byte,PASS,

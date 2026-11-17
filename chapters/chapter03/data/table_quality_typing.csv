@@ -1,0 +1,9 @@
+outcome,exposure,adjustment,estimate,lo,hi,kind
+In a SNP cluster,10-fold more contigs,crude,0.6249,0.571,0.6839,odds ratio
+In a SNP cluster,10-fold more contigs,adjusted,0.6617,0.5878,0.7448,odds ratio
+In a SNP cluster,fails Moderate rule,crude,0.7697,0.6904,0.8581,odds ratio
+In a SNP cluster,fails Moderate rule,adjusted,0.9766,0.8614,1.1072,odds ratio
+AMR genes detected,10-fold more contigs,crude,2.1392,2.1025,2.1764,rate ratio
+AMR genes detected,10-fold more contigs,adjusted,1.9449,1.9006,1.9902,rate ratio
+AMR genes detected,fails Moderate rule,crude,0.997,0.9695,1.0252,rate ratio
+AMR genes detected,fails Moderate rule,adjusted,1.051,1.024,1.0787,rate ratio

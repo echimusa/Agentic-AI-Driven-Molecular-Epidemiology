@@ -1,0 +1,9 @@
+test,variants_tested_maf_ge_0_01,fail_p_1e6
+pooled sample,16312,4006
+inside AFR only,16312,227
+inside AMR only,16312,140
+inside EAS only,16312,161
+inside EUR only,16312,140
+inside SAS only,16312,163
+fail pooled but pass in all five groups,16312,3726
+fail in at least one group but pass pooled,16312,28

@@ -1,0 +1,10 @@
+case,truth,callable,nearest_snps,steps,tools,decision,needs_human
+new-1,same outbreak,0.99,0.0,4,qc_check > nearest_distance > decide > draft_note,consistent with the cluster,False
+new-2,same outbreak,0.98,2.0,4,qc_check > nearest_distance > decide > draft_note,consistent with the cluster,False
+new-3,"importation, 14 days",0.97,1.0,4,qc_check > nearest_distance > decide > draft_note,consistent with the cluster,False
+new-4,"importation, 90 days",0.99,11.0,4,qc_check > nearest_distance > decide > draft_note,not linked to the cluster,False
+new-5,same outbreak,0.97,0.0,4,qc_check > nearest_distance > decide > draft_note,consistent with the cluster,False
+new-6,"importation, 14 days",0.96,1.0,4,qc_check > nearest_distance > decide > draft_note,consistent with the cluster,False
+new-7,"same outbreak, poor coverage",0.62,,2,qc_check > stop_and_report,not assessed: coverage below the quality gate; resequence,True
+new-8,"importation, 90 days",0.98,11.0,4,qc_check > nearest_distance > decide > draft_note,not linked to the cluster,False
+new-9,same outbreak,0.99,9.0,4,qc_check > nearest_distance > decide > draft_note,not linked to the cluster,False

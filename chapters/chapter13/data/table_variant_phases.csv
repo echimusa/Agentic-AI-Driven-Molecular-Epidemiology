@@ -1,0 +1,4 @@
+phase,origins,A_mean_WIS,B_mean_WIS,A_mean_logerr,B_mean_logerr
+Omicron share below 30%,7,33614.749,66891.553,-0.566,0.23
+30% to 90%,4,36382.678,799370.315,-0.421,1.915
+above 90%,8,101844.874,359937.919,0.709,1.383

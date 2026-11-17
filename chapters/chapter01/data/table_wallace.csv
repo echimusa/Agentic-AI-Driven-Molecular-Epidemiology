@@ -1,0 +1,5 @@
+,W,W,W,W_lo,W_lo,W_lo,W_hi,W_hi,W_hi,adjustedW,adjustedW,adjustedW
+,Serotype,PFGE (XbaI),SNP cluster,Serotype,PFGE (XbaI),SNP cluster,Serotype,PFGE (XbaI),SNP cluster,Serotype,PFGE (XbaI),SNP cluster
+Serotype,,0.111,0.127,,0.097,0.116,,0.124,0.138,,0.106,0.122
+PFGE (XbaI),0.933,,0.438,0.914,,0.399,0.952,,0.477,0.93,,0.434
+SNP cluster,0.938,0.385,,0.921,0.353,,0.955,0.416,,0.935,0.381,

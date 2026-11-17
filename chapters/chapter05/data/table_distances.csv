@@ -1,0 +1,3 @@
+dataset,taxa,sites,mean_p,max_p,max_jc,jc_over_p_max,k80_minus_jc_max,ts_share,identical_pairs_pct
+"H3N2 HA (60 sequences, 1,762 sites)",60,1762,0.01578,0.0341,0.0349,,0.00017,0.73295,0.22599
+"Ebola virus (195 genomes, 18,961 sites)",195,18961,0.00032,0.00143,0.00143,,0.0,0.88503,2.32091

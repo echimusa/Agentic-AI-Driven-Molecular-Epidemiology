@@ -1,0 +1,6 @@
+setting,sequences_needed,note
+"Formula: random sample, perfect assay, infinite population",149,Session 12 demo
+Assay detects a variant carrier with probability 0.8,186,replace p by p x sensitivity
+"Finite population of 2000 infections, 40 carry the variant",143,sampling without replacement
+"Households of 10, intraclass correlation 0.3: 35 households",350,design effect 1 + (m - 1) x rho = 3.7 gives 551
+Same 149 sequences taken as 15 households of 10: detection probability,149,72.9% instead of 95.1%

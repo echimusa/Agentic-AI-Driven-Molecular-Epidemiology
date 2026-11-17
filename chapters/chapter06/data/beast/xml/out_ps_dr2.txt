@@ -1,0 +1,3724 @@
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: ps_dr2.xml seed: 1 threads: 1
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Bouckaert, Remco, Timothy G. Vaughan, Jo?lle Barido-Sottani, Sebasti?n Duch?ne, Mathieu Fourment, 
+Alexandra Gavryushkina, Joseph Heled, Graham Jones, Denise K?hnert, Nicola De Maio, Michael Matschiner, 
+F?bio K. Mendes, Nicola F. M?ller, Huw A. Ogilvie, Louis du Plessis, Alex Popinga, Andrew Rambaut, 
+David Rasmussen, Igor Siveroni, Marc A. Suchard, Chieh-Hsi Wu, Dong Xie, Chi Zhang, Tanja Stadler, 
+Alexei J. Drummond 
+  BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. 
+  PLoS computational biology 15, no. 4 (2019): e1006650.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Created directory /home/claude/r6c/beast/xml/ps_dr2
+Loading package MODEL_SELECTION v1.6.2
+Loading package BEAST.app v2.7.7
+Loading package BEAST.base v2.7.7
+/home/claude/r6c/beast/xml/ps_dr2/step0/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Start likelihood: -280337.22819963546 
+Writing file ps_dr2.log
+         Sample      posterior     likelihood          prior
+Writing file likelihood.log
+              0    -27486.9328    -27342.9595      -143.9732 --
+         100000    -27500.4497    -27338.6879      -161.7618 --
+         200000    -27556.1885    -27349.7535      -206.4349 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.53465        478       8474    0.03563    0.05340 Try setting scaleFactor to about 0.731
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.41833        781       8134    0.03563    0.08761 Try setting scaleFactor to about 0.647
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      63124      25759    0.35629    0.71019 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               1.53539       5462      39388    0.17815    0.12178 
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      26021      18370    0.17815    0.58618 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        324       8678    0.03563    0.03599 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -        516       8256    0.03563    0.05882 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.47735       2592       6425    0.03563    0.28746 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.17789       1769       7068    0.03563    0.20018 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.34829        101        199    0.00119    0.33667 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.21567        132        169    0.00119    0.43854 Try setting scaleFactor to about 0.056
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.60220       2601       6454    0.03563    0.28724 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.56065        681       8045    0.03563    0.07804 Try setting scaleFactor to about 0.749
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 33.543 seconds
+End likelihood: -27549.816268702958
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step1/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27549.816268702958 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27550.2624    -27341.9357      -208.3266 --
+         100000    -27470.2321    -27355.8016      -114.4304 --
+         200000    -27506.3983    -27354.5692      -151.8291 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.48755        347       8508    0.03563    0.03919 Try setting scaleFactor to about 0.698
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.51396        951       8146    0.03563    0.10454 
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      64783      24106    0.35629    0.72881 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               1.33225       3322      41495    0.17815    0.07412 Try decreasing size to about 0.666
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      26670      17696    0.17815    0.60114 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        349       8702    0.03563    0.03856 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -        563       8248    0.03563    0.06390 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.48936       2736       6129    0.03563    0.30863 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.48577       2097       6791    0.03563    0.23594 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.34700        114        216    0.00119    0.34545 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.22792        124        182    0.00119    0.40523 Try setting scaleFactor to about 0.077
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.58714       2812       6112    0.03563    0.31511 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.53724        606       8196    0.03563    0.06885 Try setting scaleFactor to about 0.733
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 24.215 seconds
+End likelihood: -23037.46500990643
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step2/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27548.2070007633 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27548.2070    -27351.6009      -196.6060 --
+         100000    -27556.5695    -27365.6727      -190.8967 --
+         200000    -27502.5493    -27363.3760      -139.1732 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.59625        569       8295    0.03563    0.06419 Try setting scaleFactor to about 0.772
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.50460        938       7987    0.03563    0.10510 
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      65268      24075    0.35629    0.73053 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               2.02858       4657      39991    0.17815    0.10430 
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      28156      16342    0.17815    0.63275 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        396       8515    0.03563    0.04444 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -        614       8136    0.03563    0.07017 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50789       2829       6072    0.03563    0.31783 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    0.88633       2191       6716    0.03563    0.24599 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.34197        103        197    0.00119    0.34333 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.17898        114        179    0.00119    0.38908 
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.56343       2687       6111    0.03563    0.30541 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.71292       1008       7855    0.03563    0.11373 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 24.99 seconds
+End likelihood: -19057.777617976193
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step3/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27533.832982147786 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27534.3021    -27361.6638      -172.6383 --
+         100000    -27497.9630    -27371.7199      -126.2430 --
+         200000    -27530.8406    -27375.9994      -154.8411 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.68810        687       8145    0.03563    0.07779 Try setting scaleFactor to about 0.83
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.46726        815       8068    0.03563    0.09175 Try setting scaleFactor to about 0.684
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      67306      22282    0.35629    0.75128 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               2.10696       3275      41331    0.17815    0.07342 Try decreasing size to about 1.053
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      28596      15782    0.17815    0.64437 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        433       8317    0.03563    0.04949 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -        737       8059    0.03563    0.08379 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.48848       2607       6269    0.03563    0.29371 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.20529       2104       6801    0.03563    0.23627 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.27713        101        206    0.00119    0.32899 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.23086        118        158    0.00119    0.42754 Try setting scaleFactor to about 0.069
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.52576       2779       6149    0.03563    0.31127 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.77225       1257       7619    0.03563    0.14162 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 24.774 seconds
+End likelihood: -15603.152569445121
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step4/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27535.665281389425 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27535.6652    -27363.4352      -172.2300 --
+         100000    -27551.2752    -27420.1055      -131.1696 --
+         200000    -27597.1572    -27433.9296      -163.2276 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.57240        441       8480    0.03563    0.04943 Try setting scaleFactor to about 0.757
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.45490        675       8210    0.03563    0.07597 Try setting scaleFactor to about 0.674
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      67573      21687    0.35629    0.75704 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               3.89730       1599      42765    0.17815    0.03604 Try decreasing size to about 1.949
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      29704      14963    0.17815    0.66501 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        587       8306    0.03563    0.06601 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -        876       7922    0.03563    0.09957 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50831       2803       6142    0.03563    0.31336 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.52100       1965       6889    0.03563    0.22193 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.29313        106        194    0.00119    0.35333 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.23226        122        188    0.00119    0.39355 
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.48478       2560       6292    0.03563    0.28920 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.42286        366       8586    0.03563    0.04088 Try setting scaleFactor to about 0.65
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 23.911 seconds
+End likelihood: -12610.637760027836
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step5/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27540.16072117841 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27539.8990    -27381.9804      -157.9186 --
+         100000    -27615.9118    -27450.6772      -165.2346 --
+         200000    -27558.2909    -27438.1684      -120.1224 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.55990        418       8376    0.03563    0.04753 Try setting scaleFactor to about 0.748
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.47866        886       7932    0.03563    0.10048 
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      70425      18658    0.35629    0.79055 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               2.34686       2367      42419    0.17815    0.05285 Try decreasing size to about 1.173
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      30523      14109    0.17815    0.68388 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        674       8355    0.03563    0.07465 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       1156       7516    0.03563    0.13330 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.48603       2600       6263    0.03563    0.29335 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.37181       2454       6263    0.03563    0.28152 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.28776        100        197    0.00119    0.33670 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.22323        147        138    0.00119    0.51579 Try setting scaleFactor to about 0.05
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.47243       2808       6192    0.03563    0.31200 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.30814        306       8719    0.03563    0.03391 Try setting scaleFactor to about 0.555
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 23.551 seconds
+End likelihood: -10032.457336595007
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step6/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27567.752228817757 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27567.7639    -27456.4607      -111.3032 --
+         100000    -27629.8555    -27517.7624      -112.0930 --
+         200000    -27685.3448    -27509.3603      -175.9845 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.62047        539       8308    0.03563    0.06092 Try setting scaleFactor to about 0.788
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.46951        848       8126    0.03563    0.09450 Try setting scaleFactor to about 0.685
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      71423      18003    0.35629    0.79868 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               1.95736       3507      40932    0.17815    0.07892 Try decreasing size to about 0.979
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      31119      13319    0.17815    0.70028 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        921       8180    0.03563    0.10120 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       1391       7257    0.03563    0.16085 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50171       2781       6083    0.03563    0.31374 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.44861       1969       6870    0.03563    0.22276 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.26837        101        203    0.00119    0.33224 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.24634        125        182    0.00119    0.40717 Try setting scaleFactor to about 0.087
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.43973       2825       6133    0.03563    0.31536 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.54223        531       8325    0.03563    0.05996 Try setting scaleFactor to about 0.736
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 24.37 seconds
+End likelihood: -7950.931194882169
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step7/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27685.02123748337 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27685.2032    -27494.7236      -190.4796 --
+         100000    -27649.5890    -27545.0245      -104.5644 --
+         200000    -27660.6555    -27534.8039      -125.8515 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.68725        611       8368    0.03563    0.06805 Try setting scaleFactor to about 0.829
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.52352        856       8089    0.03563    0.09570 Try setting scaleFactor to about 0.724
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      70658      18694    0.35629    0.79078 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               2.14729       2857      41727    0.17815    0.06408 Try decreasing size to about 1.074
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      33294      11192    0.17815    0.74842 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       1375       7578    0.03563    0.15358 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       1973       6741    0.03563    0.22642 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.49337       2622       6150    0.03563    0.29891 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.20251       2521       6282    0.03563    0.28638 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.23330        110        209    0.00119    0.34483 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.21272        127        185    0.00119    0.40705 Try setting scaleFactor to about 0.068
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.43225       3068       5717    0.03563    0.34923 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.82027       1316       7681    0.03563    0.14627 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 24.773 seconds
+End likelihood: -6117.575298827358
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step8/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27699.430096157103 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27699.6333    -27533.1201      -166.5132 --
+         100000    -27926.9891    -27751.2959      -175.6931 --
+         200000    -27776.9681    -27651.9813      -124.9867 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.75121        673       8041    0.03563    0.07723 Try setting scaleFactor to about 0.867
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.51293        767       8191    0.03563    0.08562 Try setting scaleFactor to about 0.716
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      67275      21834    0.35629    0.75497 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               2.11699       3962      40822    0.17815    0.08847 Try decreasing size to about 1.058
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      35758       8694    0.17815    0.80442 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       1949       6969    0.03563    0.21855 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       2436       6380    0.03563    0.27632 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50959       2771       6200    0.03563    0.30888 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    0.90511       2292       6457    0.03563    0.26197 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.22533        112        215    0.00119    0.34251 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.25999        124        179    0.00119    0.40924 Try setting scaleFactor to about 0.095
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.37480       2960       6029    0.03563    0.32929 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.79284        923       7988    0.03563    0.10358 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 26.048 seconds
+End likelihood: -4618.12475908485
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step9/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27801.47624998745 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27798.5557    -27653.3446      -145.2110 --
+         100000    -28057.1080    -27926.6905      -130.4174 --
+         200000    -28020.0467    -27873.4480      -146.5987 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.59922        424       8465    0.03563    0.04770 Try setting scaleFactor to about 0.774
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.41872        572       8257    0.03563    0.06479 Try setting scaleFactor to about 0.647
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      69178      19844    0.35629    0.77709 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               3.16437       2096      42409    0.17815    0.04710 Try decreasing size to about 1.582
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      38674       6234    0.17815    0.86118 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       2731       6223    0.03563    0.30500 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       3029       5709    0.03563    0.34665 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50507       2819       6051    0.03563    0.31781 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.36995       1777       7076    0.03563    0.20072 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.24833        125        203    0.00119    0.38110 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.24251        123        187    0.00119    0.39677 
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.38550       3218       5747    0.03563    0.35895 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.35965        297       8533    0.03563    0.03364 Try setting scaleFactor to about 0.6
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 23.6 seconds
+End likelihood: -3419.6405885356157
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step10/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -27955.768648774796 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -27956.1395    -27810.1686      -145.9708 --
+         100000    -28051.0544    -27937.2207      -113.8337 --
+         200000    -28030.5754    -27886.5878      -143.9876 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.62180        477       8308    0.03563    0.05430 Try setting scaleFactor to about 0.789
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.45983        749       8132    0.03563    0.08434 Try setting scaleFactor to about 0.678
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      72087      16861    0.35629    0.81044 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               3.22846       2381      42384    0.17815    0.05319 Try decreasing size to about 1.614
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      39748       4761    0.17815    0.89303 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       3124       5868    0.03563    0.34742 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       3432       5379    0.03563    0.38951 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50148       2799       6113    0.03563    0.31407 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.22600       2435       6517    0.03563    0.27201 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.22094        120        201    0.00119    0.37383 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.22454        126        166    0.00119    0.43151 Try setting scaleFactor to about 0.064
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.36927       3532       5409    0.03563    0.39503 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.58985        492       8400    0.03563    0.05533 Try setting scaleFactor to about 0.768
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 24.387 seconds
+End likelihood: -2466.7524787325674
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step11/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -28045.799520240987 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -28045.7995    -27889.7317      -156.0677 --
+         100000    -28138.3932    -28007.5315      -130.8617 --
+         200000    -28375.3772    -28164.9485      -210.4286 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.78652        880       8060    0.03563    0.09843 Try setting scaleFactor to about 0.887
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.48283        720       8146    0.03563    0.08121 Try setting scaleFactor to about 0.695
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      69606      19649    0.35629    0.77986 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               3.93196       2510      41936    0.17815    0.05647 Try decreasing size to about 1.966
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      42186       2587    0.17815    0.94222 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       3682       5236    0.03563    0.41287 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       3530       5184    0.03563    0.40510 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50025       2701       6125    0.03563    0.30603 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    0.93485       2461       6435    0.03563    0.27664 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.21334        119        162    0.00119    0.42349 Try setting scaleFactor to about 0.061
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.23572         88        183    0.00119    0.32472 
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.31314       3313       5539    0.03563    0.37427 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.87362       1770       7193    0.03563    0.19748 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 25.379 seconds
+End likelihood: -1639.8542280245056
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step12/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -28067.484788484802 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -28073.0506    -27999.4144       -73.6361 --
+         100000    -28235.6223    -28139.0920       -96.5303 --
+         200000    -28277.8920    -28197.1589       -80.7331 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.49886        157       8730    0.03563    0.01767 Try setting scaleFactor to about 0.706
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.48279        712       8318    0.03563    0.07885 Try setting scaleFactor to about 0.695
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      75484      13857    0.35629    0.84490 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               4.13382        685      43944    0.17815    0.01535 Try decreasing size to about 2.067
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      40401       3948    0.17815    0.91098 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       3564       5581    0.03563    0.38972 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       3944       4756    0.03563    0.45333 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50762       2939       6007    0.03563    0.32853 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    2.28131       2379       6425    0.03563    0.27022 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.32679        149        148    0.00119    0.50168 Try setting scaleFactor to about 0.107
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.18045        110        174    0.00119    0.38732 
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.24963       3180       5493    0.03563    0.36666 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.25446         99       8817    0.03563    0.01110 Try setting scaleFactor to about 0.504
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 22.567 seconds
+End likelihood: -1096.1294322734414
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step13/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -28151.03878725692 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -28151.0222    -28060.8580       -90.1641 --
+         100000    -28297.4797    -28189.5041      -107.9756 --
+         200000    -28437.0351    -28387.8500       -49.1850 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.49425        104       8544    0.03563    0.01203 Try setting scaleFactor to about 0.703
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.40092        886       7949    0.03563    0.10028 
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      76879      12826    0.35629    0.85702 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               8.48367        494      44187    0.17815    0.01106 Try decreasing size to about 4.242
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      38162       6271    0.17815    0.85887 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       2982       5996    0.03563    0.33215 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       3809       4956    0.03563    0.43457 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.49255       2647       6113    0.03563    0.30217 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    2.51508       2319       6520    0.03563    0.26236 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.22998        114        194    0.00119    0.37013 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.20780        116        184    0.00119    0.38667 
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.25112       3652       5148    0.03563    0.41500 Try setting scaleFactor to about 0.086
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.57305        199       8750    0.03563    0.02224 Try setting scaleFactor to about 0.757
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 22.046 seconds
+End likelihood: -683.7273520766851
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step14/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -28311.488309901295 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -28311.4478    -28233.1916       -78.2562 --
+         100000    -28473.1063    -28360.8006      -112.3057 --
+         200000    -28217.3627    -28121.5791       -95.7836 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.45557        205       8565    0.03563    0.02338 Try setting scaleFactor to about 0.675
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.47777        870       8057    0.03563    0.09746 Try setting scaleFactor to about 0.691
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      76300      12651    0.35629    0.85778 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               6.90444       1001      43965    0.17815    0.02226 Try decreasing size to about 3.452
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      41962       2521    0.17815    0.94333 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       3886       5019    0.03563    0.43638 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       3982       4688    0.03563    0.45928 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.48706       2718       6347    0.03563    0.29983 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    1.79015       2526       6297    0.03563    0.28630 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.20328        121        207    0.00119    0.36890 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.23864        116        196    0.00119    0.37179 
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.21825       3674       5252    0.03563    0.41161 Try setting scaleFactor to about 0.069
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.09724        129       8746    0.03563    0.01454 Try setting scaleFactor to about 0.312
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 22.114 seconds
+End likelihood: -418.4315837233747
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step15/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -28394.66964206757 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -28398.8393    -28311.7483       -87.0910 --
+         100000    -28288.8016    -28242.9543       -45.8473 --
+         200000    -28429.9503    -28341.1058       -88.8445 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.54066        108       8753    0.03563    0.01219 Try setting scaleFactor to about 0.735
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.42379       1342       7639    0.03563    0.14943 
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      75017      14554    0.35629    0.83751 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               5.17986        907      43447    0.17815    0.02045 Try decreasing size to about 2.59
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      37158       7147    0.17815    0.83869 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       2941       6117    0.03563    0.32469 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       3568       5180    0.03563    0.40786 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50326       2834       6069    0.03563    0.31832 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    2.01347       2867       5988    0.03563    0.32377 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.18387        122        188    0.00119    0.39355 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.20504        118        180    0.00119    0.39597 
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.20420       3745       5132    0.03563    0.42188 Try setting scaleFactor to about 0.057
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.15911         86       8794    0.03563    0.00968 Try setting scaleFactor to about 0.399
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 21.873 seconds
+End likelihood: -219.287579384312
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step16/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -28300.594247777837 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -28299.1270    -28236.8576       -62.2693 --
+         100000    -28602.4643    -28573.8236       -28.6406 --
+         200000    -28309.2811    -28403.0878        93.8066 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.47095         37       8690    0.03563    0.00424 Try setting scaleFactor to about 0.686
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.40094        957       7999    0.03563    0.10686 
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      72351      17086    0.35629    0.80896 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               2.62041        700      44038    0.17815    0.01565 Try decreasing size to about 1.31
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      34199      10319    0.17815    0.76821 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -       1846       7142    0.03563    0.20538 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       2616       6059    0.03563    0.30156 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.48793       2723       6161    0.03563    0.30651 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    2.69830       2895       5964    0.03563    0.32679 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.19863        118        198    0.00119    0.37342 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.21103        130        193    0.00119    0.40248 Try setting scaleFactor to about 0.069
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.19584       3614       5137    0.03563    0.41298 Try setting scaleFactor to about 0.056
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.38974         48       8781    0.03563    0.00544 Try setting scaleFactor to about 0.624
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 24.108 seconds
+End likelihood: 18.663158283324066
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step17/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -28619.279658453717 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -28624.5758    -28704.9830        80.4072 --
+         100000    -28690.3613    -28799.0350       108.6737 --
+         200000    -29096.6895    -29213.9138       117.2243 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.49265          9       8818    0.03563    0.00102 Try setting scaleFactor to about 0.702
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.42746        670       8306    0.03563    0.07464 Try setting scaleFactor to about 0.654
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      67543      21648    0.35629    0.75728 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               1.58348        309      44301    0.17815    0.00693 Try decreasing size to about 0.792
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      29962      14520    0.17815    0.67358 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        669       8462    0.03563    0.07327 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -       1343       7422    0.03563    0.15322 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.49941       2879       6045    0.03563    0.32261 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    3.33597       2871       5952    0.03563    0.32540 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.19614        127        166    0.00119    0.43345 Try setting scaleFactor to about 0.049
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.22322        126        188    0.00119    0.40127 Try setting scaleFactor to about 0.076
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.21185       3871       4884    0.03563    0.44215 Try setting scaleFactor to about 0.053
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.47229         18       8892    0.03563    0.00202 Try setting scaleFactor to about 0.687
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 26.944 seconds
+End likelihood: 152.9905628816144
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step18/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -28691.95965447196 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -28691.0765    -28859.9130       168.8364 --
+         100000    -28479.7657    -28634.3680       154.6022 --
+         200000    -29265.7569    -29567.0332       301.2763 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.58270          5       8835    0.03563    0.00057 Try setting scaleFactor to about 0.763
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.43149        466       8334    0.03563    0.05295 Try setting scaleFactor to about 0.657
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      61055      27702    0.35629    0.68789 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               1.01711        272      44604    0.17815    0.00606 Try decreasing size to about 0.509
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      26190      18514    0.17815    0.58585 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        383       8643    0.03563    0.04243 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -        774       8040    0.03563    0.08781 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.51117       2794       6168    0.03563    0.31176 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    3.64005       2876       5987    0.03563    0.32450 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.18664        126        179    0.00119    0.41311 Try setting scaleFactor to about 0.052
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.26657        139        143    0.00119    0.49291 Try setting scaleFactor to about 0.071
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.19346       3665       5302    0.03563    0.40872 Try setting scaleFactor to about 0.057
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.58993         10       8795    0.03563    0.00114 Try setting scaleFactor to about 0.768
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 32.173 seconds
+End likelihood: 243.45836592549182
+Done!
+/home/claude/r6c/beast/xml/ps_dr2/step19/run.sh
+
+                        BEAST v2.7.7, 2002-2024
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1
+
+File: beast.xml seed: 1 threads: 1
+Resuming from file
+Loading package MODEL_SELECTION v1.6.2 BEAST.app v2.7.7 BEAST.base v2.7.7    
+Alignment(ebola)
+  60 taxa
+  18961 sites
+  271 patterns
+
+KM034553.1=2014.593151
+KM034559.1=2014.615068
+KM034563.1=2014.691781
+KM034555.1=2014.519178
+KM233057.1=2014.732877
+KM233063.1=2014.612329
+KM233073.1=2014.543836
+KM233076.1=2014.464384
+KM233064.1=2014.456164
+KM233093.1=2014.450685
+KM233090.1=2014.510959
+KM233085.1=2014.524658
+KM233080.1=2014.620548
+KM233097.1=2014.732877
+KR105200.1=2014.532877
+KM233101.1=2014.445205
+KM233106.1=2014.453425
+KM233112.1=2014.453425
+KM233109.1=2014.436986
+KR105205.1=2014.461644
+KR105207.1=2014.532877
+KR105210.1=2014.656164
+KR105215.1=2014.645205
+KR105219.1=2014.453425
+KR105220.1=2014.404110
+KR105224.1=2014.543836
+KR105227.1=2014.626027
+KR105231.1=2014.590411
+KR105233.1=2014.732877
+KR105237.1=2014.546575
+KR105243.1=2014.587671
+KR105239.1=2014.450685
+KR105248.1=2014.738356
+KR105252.1=2014.724658
+KR105258.1=2014.606849
+KR105263.1=2014.535616
+KR105266.1=2014.450685
+KR105271.1=2014.401370
+KR105275.1=2014.530137
+KR105279.1=2014.708219
+KR105281.1=2014.628767
+KR105284.1=2014.524658
+KR105288.1=2014.617808
+KR105291.1=2014.453425
+KR105295.1=2014.678082
+KR105299.1=2014.478082
+KR105300.1=2014.461644
+KR105305.1=2014.694521
+KR105308.1=2014.524658
+KR105312.1=2014.552055
+KR105315.1=2014.428767
+KR105322.1=2014.404110
+KR105325.1=2014.458904
+KR105323.1=2014.741096
+KR105330.1=2014.705479
+KR105341.1=2014.710959
+KR105333.1=2014.456164
+KR105338.1=2014.453425
+KR105345.1=2014.617808
+KR105349.1=2014.469863
+KM034553.1 = 2014.593151 (0.14794499999993604)
+KM034559.1 = 2014.615068 (0.12602799999990566)
+KM034563.1 = 2014.691781 (0.04931499999997868)
+KM034555.1 = 2014.519178 (0.22191799999995965)
+KM233057.1 = 2014.732877 (0.008219000000053711)
+KM233063.1 = 2014.612329 (0.12876699999992525)
+KM233073.1 = 2014.543836 (0.19725999999991473)
+KM233076.1 = 2014.464384 (0.2767119999998613)
+KM233064.1 = 2014.456164 (0.28493200000002616)
+KM233093.1 = 2014.450685 (0.2904109999999491)
+50 more...
+Starting frequencies: [0.3190624972418007, 0.21382688590571877, 0.1980247305849694, 0.2690858862675111]
+Failed to load BEAGLE library: no hmsbeagle-jni in java.library.path: /usr/local/lib:/home/claude/beast/beast/jre/lib/amd64:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+TreeLikelihood(treeLikelihood.ebola) uses BeerLikelihoodCore4
+  Alignment(ebola): [taxa, patterns, sites] = [60, 271, 18961]
+===============================================================================
+Citations for this model:
+
+Lartillot, N., & Philippe, H. (2006).
+Computing Bayes factors using thermodynamic integration.
+Systematic biology, 55(2), 195-207.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Restoring from file
+Start likelihood: -29120.66554346325 
+WARNING: Resuming, but file ps_dr2.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file ps_dr2.log
+         Sample      posterior     likelihood          prior
+WARNING: Resuming, but file likelihood.log does not exist yet (perhaps the seed number is not the same as before?).
+Writing new file likelihood.log
+              0    -29120.6643    -29366.2117       245.5473 --
+         100000    -28428.3271    -28558.5366       130.2095 --
+         200000    -28475.0939    -28606.7906       131.6967 --
+Operator                                                                               Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(CoalescentExponentialTreeScaler.t:ebola)                                0.57648          4       8789    0.03563    0.00045 Try setting scaleFactor to about 0.759
+ScaleOperator(CoalescentExponentialTreeRootScaler.t:ebola)                            0.59980         24       8791    0.03563    0.00272 Try setting scaleFactor to about 0.774
+Uniform(CoalescentExponentialUniformOperator.t:ebola)                                       -      64897      24139    0.35629    0.72888 
+SubtreeSlide(CoalescentExponentialSubtreeSlide.t:ebola)                               1.27198        310      44467    0.17815    0.00692 Try decreasing size to about 0.636
+Exchange(CoalescentExponentialNarrow.t:ebola)                                               -      27670      16947    0.17815    0.62017 
+Exchange(CoalescentExponentialWide.t:ebola)                                                 -        676       8338    0.03563    0.07499 
+WilsonBalding(CoalescentExponentialWilsonBalding.t:ebola)                                   -        904       7836    0.03563    0.10343 
+ScaleOperator(PopSizeScaler.t:ebola)                                                  0.50641       2778       6104    0.03563    0.31277 
+beast.base.inference.operator.RealRandomWalkOperator(GrowthRateRandomWalk.t:ebola)    3.63700       2653       6201    0.03563    0.29964 
+ScaleOperator(KappaScaler.s:ebola)                                                    0.23242        112        186    0.00119    0.37584 
+ScaleOperator(gammaShapeScaler.s:ebola)                                               0.25606        127        172    0.00119    0.42475 Try setting scaleFactor to about 0.084
+ScaleOperator(StrictClockRateScaler.c:ebola)                                          0.18367       3543       5379    0.03563    0.39711 
+beast.base.inference.operator.UpDownOperator(strictClockUpDownOperator.c:ebola)       0.65641          1       8953    0.03563    0.00011 Try setting scaleFactor to about 0.81
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 33.153 seconds
+End likelihood: 201.2758752840521
+Done!
+
+Loading ps_dr2/step0/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[0 ] = -27344.243402892436
+
+Loading ps_dr2/step1/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[1 ] = -27353.622869100724
+
+Loading ps_dr2/step2/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[2 ] = -27364.06853255022
+
+Loading ps_dr2/step3/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[3 ] = -27374.946441669414
+
+Loading ps_dr2/step4/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[4 ] = -27402.906620700083
+
+Loading ps_dr2/step5/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[5 ] = -27446.475449646758
+
+Loading ps_dr2/step6/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[6 ] = -27485.474352991907
+
+Loading ps_dr2/step7/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[7 ] = -27569.588251045432
+
+Loading ps_dr2/step8/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[8 ] = -27669.507554644337
+
+Loading ps_dr2/step9/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[9 ] = -27851.914769902913
+
+Loading ps_dr2/step10/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[10 ] = -27930.62530433865
+
+Loading ps_dr2/step11/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[11 ] = -28038.328264764423
+
+Loading ps_dr2/step12/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[12 ] = -28131.89316938544
+
+Loading ps_dr2/step13/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[13 ] = -28240.575216076864
+
+Loading ps_dr2/step14/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[14 ] = -28246.97010484871
+
+Loading ps_dr2/step15/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[15 ] = -28373.29925736578
+
+Loading ps_dr2/step16/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[16 ] = -28509.21222488237
+
+Loading ps_dr2/step17/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[17 ] = -28808.836077036496
+
+Loading ps_dr2/step18/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[18 ] = -28952.68959146545
+
+Loading ps_dr2/step19/likelihood.log, burnin 20%, skipping 200 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[19 ] = -28799.53966261383
+
+Step        theta         likelihood   contribution ESS
+0            1            -27344.2434  0            42.3225      
+1            0.8351       -27353.6229  -4510.3997   30.2316      
+2            0.6902       -27364.0685  -3963.566    21.1848      
+3            0.5639       -27374.9464  -3456.3362   35.0298      
+4            0.4548       -27402.9066  -2989.4424   19.7541      
+5            0.3613       -27446.4754  -2562.7913   34.9818      
+6            0.2822       -27485.4744  -2171.7255   25.092       
+7            0.2162       -27569.5883  -1820.3367   40.4874      
+8            0.1617       -27669.5076  -1503.4878   22.9486      
+9            0.1177       -27851.9148  -1221.6453   17.9891      
+10           0.0829       -27930.6253  -972.0917    36.2052      
+11           0.0559       -28038.3283  -753.0392    33.7669      
+12           0.0358       -28131.8932  -564.7338    14.7969      
+13           0.0214       -28240.5752  -406.2505    9.1684       
+14           0.0117       -28246.9701  -275.5926    39.7962      
+15           0.0056       -28373.2993  -173.6299    14.3522      
+16           0.0021       -28509.2122  -97.4324     23.7629      
+17           0.0006       -28808.8361  -45.3563     15.5972      
+18           0.0001       -28952.6896  -14.3526     9.6603       
+19           0            -28799.5397  -1.5734      57.9287      
+sum(ESS) = 545.0566    
+
+marginal L estimate = -27503.783401174784
+
+
+Total wall time: 529 seconds
+Done
+Done!

@@ -1,0 +1,16 @@
+scenario,source,replicates,mean_cases,true_r,mean_r,bias,sd,coverage
+"1 Full reporting, resolved genomes",Cases,120,3702.6667,0.0549,0.0546,-0.0003,0.003,0.5667
+"1 Full reporting, resolved genomes",Genomes,120,3702.6667,0.0549,0.0562,0.0013,0.0099,0.8583
+"1 Full reporting, resolved genomes",Combined,120,3702.6667,0.0549,0.0546,-0.0003,0.0029,0.5667
+2 Reporting falls 80% to 30%,Cases,120,3818.3167,0.0549,0.0423,-0.0126,0.0038,0.0
+2 Reporting falls 80% to 30%,Genomes,120,3818.3167,0.0549,0.0568,0.0018,0.0109,0.8417
+2 Reporting falls 80% to 30%,Combined,120,3818.3167,0.0549,0.0429,-0.012,0.0038,0.0
+"3 As 2, genomes unresolved (14 d)",Cases,120,3758.0667,0.0549,0.042,-0.013,0.0038,0.0083
+"3 As 2, genomes unresolved (14 d)",Genomes,120,3758.0667,0.0549,0.0513,-0.0037,0.0099,0.825
+"3 As 2, genomes unresolved (14 d)",Combined,120,3758.0667,0.0549,0.0423,-0.0126,0.0037,0.0083
+"4 Constant 30%, only 15 genomes",Cases,119,3538.479,0.0549,0.0544,-0.0005,0.0042,0.7395
+"4 Constant 30%, only 15 genomes",Genomes,119,3538.479,0.0549,0.0638,0.0089,0.0201,0.8151
+"4 Constant 30%, only 15 genomes",Combined,119,3538.479,0.0549,0.055,0.0,0.0046,0.7395
+"5 Full reporting, 60 genomes, unresolved (14 d)",Cases,120,3516.2667,0.0549,0.0535,-0.0014,0.0034,0.5333
+"5 Full reporting, 60 genomes, unresolved (14 d)",Genomes,120,3516.2667,0.0549,0.0498,-0.0051,0.0105,0.7083
+"5 Full reporting, 60 genomes, unresolved (14 d)",Combined,120,3516.2667,0.0549,0.0533,-0.0016,0.0038,0.4917

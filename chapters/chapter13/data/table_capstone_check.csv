@@ -1,0 +1,21 @@
+plan,rule,check,result,detail
+A: consistent,C1,All five stages of the capstone workflow are present,pass,5 stages
+A: consistent,C2,Every stage names a script in scripts/ (no manual clicks without records),pass,no script for: none
+A: consistent,C3,Every stage lists at least one written assumption,pass,none for: none
+A: consistent,C4,Every quantitative finding reports an interval or a probability,pass,missing for: none
+A: consistent,C5,"The trees are a sample or more than one, not a single best tree",pass,posterior sample of 100 trees
+A: consistent,C6,"Deliverables fall due in order: plan, presentation, portfolio, report",pass,"days [13, 15, 22, 29]"
+A: consistent,C7,The briefing leads with the decision needed,pass,Decision needed: whether to close ward 4 to admissions this 
+A: consistent,C8,Every finding carries a confidence level,pass,missing for: none
+A: consistent,C9,Evidence and recommendation are separate sections,pass,"Decision, Evidence, Recommendation"
+A: consistent,C10,One page (at most 500 words) and one figure,pass,"430 words, 1 figures"
+B: six planted faults,C1,All five stages of the capstone workflow are present,pass,5 stages
+B: six planted faults,C2,Every stage names a script in scripts/ (no manual clicks without records),FAIL,no script for: ['Clusters']
+B: six planted faults,C3,Every stage lists at least one written assumption,pass,none for: none
+B: six planted faults,C4,Every quantitative finding reports an interval or a probability,FAIL,missing for: ['Cluster of 9 isolates at 3 SNP']
+B: six planted faults,C5,"The trees are a sample or more than one, not a single best tree",FAIL,one maximum-likelihood tree
+B: six planted faults,C6,"Deliverables fall due in order: plan, presentation, portfolio, report",FAIL,"days [13, 15, 29, 22]"
+B: six planted faults,C7,The briefing leads with the decision needed,FAIL,This briefing summarises a genomic investigation of ward 4.
+B: six planted faults,C8,Every finding carries a confidence level,pass,missing for: none
+B: six planted faults,C9,Evidence and recommendation are separate sections,pass,"Decision, Evidence, Recommendation"
+B: six planted faults,C10,One page (at most 500 words) and one figure,FAIL,"620 words, 2 figures"

@@ -1,0 +1,9 @@
+asm_acc,sector,profile,serovar,year,mb,n_mine,n_ncbi,n_both,only_mine,only_ncbi,identical
+GCA_019546675.1,Human,multi-class,"I 4,[5],12:i:-",2021,5.28,5,5,5,,,True
+GCA_024976675.1,Human,no determinant,Javiana,2022,4.72,0,0,0,,,True
+GCA_010670385.1,Food,multi-class,Typhimurium var. 5-,2015,4.95,5,5,5,,,True
+GCA_026315705.1,Food,no determinant,Kentucky,2022,4.93,0,0,0,,,True
+GCA_011246915.1,Animal,multi-class,Dublin,2019,5.06,7,7,7,,,True
+GCA_017103535.1,Animal,no determinant,Infantis,2021,4.74,0,0,0,,,True
+GCA_018413125.1,Environment,multi-class,Infantis,2019,5.06,6,6,6,,,True
+GCA_006209825.1,Environment,no determinant,Typhimurium,2017,4.88,0,0,0,,,True

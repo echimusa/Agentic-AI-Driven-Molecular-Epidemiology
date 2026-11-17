@@ -1,0 +1,6 @@
+sector,n_month_or_day,within_1_month,within_3_months,within_12_months,median_months,n_day_level,median_days_day_level,within_21_days_day_level
+Human,328107,60.5,74.5,84.7,1.0,27775,1287.0,0.2
+Food,15483,36.0,46.5,65.3,5.0,8095,188.0,13.5
+Animal,9683,10.2,17.1,53.5,11.0,8352,349.0,2.8
+Environment,13007,14.6,17.5,39.4,17.0,11560,515.0,6.3
+All isolates,379394,54.9,68.3,81.1,1.0,65963,719.0,3.3

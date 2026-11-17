@@ -1,0 +1,58 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 2 - EPIDEMIOLOGICAL STUDY DESIGN, BIAS AND SAMPLING FOR MOLECULAR STUDIES
+Book: Agentic AI-driven Molecular Epidemiology
+Package prepared 13 November 2026
+
+CONTENTS
+Chapter_2_Epidemiological_Study_Design_Bias_and_Sampling_for_Molecular_Studies.docx   the chapter (A4)
+code/
+    ex2_1_nested_case_control.py   Hands-on 1: nested case-control sampling (risk-set sampling against the uploaded control rule), efficiency by control ratio, infert data; Figure 1
+    ex2_1b_infert_clogit.R         Hands-on 1: conditional logistic regression written from the likelihood in base R, on the infert data
+    ex2_2a_batch_pca.R             Hands-on 2: the uploaded R batch-effect script, unchanged apart from saving its figure and printing the PCA summary
+    ex2_2_batch_effects.py         Hands-on 2: batch effects in three designs (randomised, partly and fully confounded) and the laboratory effect in public Salmonella genomes; Figure 2
+    ex2_3_stratification.py        Hands-on 3: population stratification, 1,000 repeats of the uploaded design, adjustment, restriction and ancestry-informative markers; Figure 3
+    ex2_4_sampling.py              Hands-on 4: sample-size formula checked by simulation; open SARS-CoV-2 sequencing coverage and detection power for 36 countries; Figure 4
+    validate_ch2.py                validation harness: recomputes the chapter's numbers with independent code and checks them against the result tables and the chapter text (--chapter, --full)
+    ex2_0_prepare_assembly.py      builds asm_batch_enteritidis.csv.gz from the NCBI Pathogen Detection files (needs the 883 MB metadata table; optional)
+    original_scripts/            the three scripts supplied with the first draft (Chapter_2_2.py was empty and is not included)
+figures/    Figures 1-4, the R PCA figure and the two chapter diagrams
+data/       result tables (table_*.csv) and the inputs needed to rerun every hands-on offline
+    infert.csv                     the infert matched case-control data of base R
+    asm_batch_enteritidis.csv.gz   assembly metrics, sequencing laboratory, platform and sector of 90,554 Salmonella Enteritidis isolates (NCBI Pathogen Detection)
+    lapis_daily_2021_2022.csv      daily SARS-CoV-2 sequence counts by country (CoV-Spectrum open API; INSDC data)
+    owid_cases_2021_2022.csv       reported COVID-19 cases by country (Our World in Data, WHO data)
+
+HOW TO RUN FROM THE SHIPPED DATA (about 5 minutes)
+Install: pip install pandas numpy scipy statsmodels scikit-learn matplotlib ; R with ggplot2 (the R scripts otherwise use base R only).
+    cd code ; cp ../data/* . ; mkdir -p figs2
+    python ex2_1_nested_case_control.py   # expected: Risk-set sampling mean estimate 0.399 at 1:2 (true 0.400); efficiency 0.59; infert OR 3.24 (spontaneous alone) and 7.29 / 4.09 (together); about 2 minutes
+    Rscript ex2_1b_infert_clogit.R        # expected: the same odds ratios from the base R likelihood
+    Rscript ex2_2a_batch_pca.R            # expected: PC1 explains 41.3% of the variance; t-test of PC1 against batch p = 3.2e-54
+    python ex2_2_batch_effects.py         # expected: partly confounded design: naive 98.3% false positives, adjusted 5.5%; laboratory explains 34% of contig-count variance
+    python ex2_3_stratification.py        # expected: naive 100% false positives; 2 PCs 7.8%; ancestry label 3.7%; restriction 4.5%
+    python ex2_4_sampling.py              # expected: draft formula power 30-33% at alpha 0.05; with outcome variance 79-92%; 96.1% of open sequences from four countries
+
+HOW TO REBUILD FROM PUBLIC SOURCES (internet needed)
+    Cases: download owid-covid-data.csv from the Our World in Data repository and filter the 36 countries. Sequences: query https://lapis.cov-spectrum.org/open/v2/sample/aggregated with fields=date for each country.
+    Salmonella: run ex2_0_prepare_assembly.py on the Pathogen Detection metadata (see Chapters 9 and 12). Counts change as the NCBI table grows.
+
+PROVENANCE AND LIMITS
+- The sample-size formula of the draft chapter is garbled in the uploaded file; ex2_4_sampling.py tests the reading N = (Z_a + Z_b)^2 / (2 p (1 - p) (ln OR)^2), which gave 30-33% power at 80% target, and the same formula with the outcome variance added.
+- The open sequence counts are INSDC deposits only; many countries share through GISAID or keep sequences nationally, so the figures describe the open public sample and not sequencing capacity.
+- Reported cases are not infections; a country with few reported cases (Kenya) looks well sampled.
+- Simulations use stated, simple data-generating processes (Hands-on 1: constant hazard of 0.4 per SD and a 3% annual risk; Hands-on 2: a 1.5-unit batch shift; Hands-on 3: allele frequencies 0.10 and 0.45).
+- The laboratory comparison for S. Enteritidis restricts to Illumina isolates; the platform field is almost entirely Illumina, so laboratory, not platform, is the batch.
+- The reference list of the uploaded draft was checked against Crossref; corrected details are in the Sources section. Khoury 1999 could not be found.
+- Every DOI was resolved against Crossref on 13 November 2026. The Word file was validated and rendered to PDF (18 A4 pages); not opened in Word itself.
+
+
+REVIEW AND VALIDATION (14 November 2026)
+python validate_ch2.py --chapter ../Chapter_2_Epidemiological_Study_Design_Bias_and_Sampling_for_Molecular_Studies.docx   # 53 checks (41 independent recomputations and 12 text checks)
+python validate_ch2.py --full         # also reruns every analysis in a scratch folder and checks that all 8 result tables are reproduced byte for byte
+lecture/                              the Chapter 2 lecture deck, its 38-check validation script and its source
+review/                               validation_results_ch2.csv, the evaluation report (Word) and the benchmark scripts
+Corrections made in the review: (1) the nested case-control efficiency now reads against an asymptotic calculation (0.43, 0.60, 0.75, 0.86): M/(M+1) is the small-effect limit, and 16 points for 12 became 12.5; (2) the 'laboratory' is the BioProject centre for 47% of the S. Enteritidis isolates, so the 34% is stated
+together with the 25% found with recorded sequencing laboratories only (34 laboratories, 36,194 isolates); (3) the 2021 and 2022 sequencing shares use weeks ending on Sundays (calendar years: 2.91% and 1.05%); (4) a first-person phrase, a citation label (Su et al., 2026) and a typo were corrected.
+(5) in the worked examples, the platform counts of the 911,210 isolates are stated as they are: 856,982 Illumina, 153 not (150 Ion Torrent, 3 LS454) and 54,075 with no platform recorded (the sentence had read 'only 150 of 911,210 isolates were not Illumina').
+Limits that remain: the chapter text still refers to the uploaded draft files in places, and the reference list keeps twelve background entries that the text does not cite.

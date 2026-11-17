@@ -1,0 +1,7 @@
+threshold,groups,singletons_pct,isolates_in_groups_of_2plus_pct,largest_group,median_group_size_2plus,mean_subgroups_per_50snp_cluster
+0,58804,67.95,32.05,164,2.0,8.5
+2,42879,43.27,56.73,337,2.0,6.2
+5,32090,28.01,71.99,373,2.0,4.64
+10,23866,17.55,82.45,397,3.0,3.45
+20,14711,7.62,92.38,1786,3.0,2.13
+50,6922,0.0,100.0,3380,3.0,1.0

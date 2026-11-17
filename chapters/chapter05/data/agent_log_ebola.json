@@ -1,0 +1,57 @@
+[
+ {
+  "step": 1,
+  "tool": "read_alignment",
+  "time": "18:48:31",
+  "taxa": 195,
+  "sites": 18961,
+  "gap_or_ambiguous_fraction": 0.0045,
+  "invalid_characters": []
+ },
+ {
+  "step": 2,
+  "tool": "outlier_check",
+  "time": "18:48:33",
+  "median_distance_to_others": 0.00027,
+  "outliers": [
+   "KR105312.1"
+  ]
+ },
+ {
+  "step": 3,
+  "tool": "read_iqtree",
+  "time": "18:48:33",
+  "best_model_bic": "HKY+F+I",
+  "lnL": -28599.4522,
+  "constant_sites_pct": 98.729
+ },
+ {
+  "step": 4,
+  "tool": "branch_resolution",
+  "time": "18:48:33",
+  "internal_branches": 192,
+  "shorter_than_one_substitution": 142,
+  "share_short": 0.74,
+  "resolved_support_ge80": 0.86
+ },
+ {
+  "step": 5,
+  "tool": "recombination_screen",
+  "time": "18:48:33",
+  "genomes_flagged": [
+   "KR105247.1",
+   "KR105300.1"
+  ],
+  "windows": [
+   "5101-6000",
+   "6301-7100"
+  ]
+ },
+ {
+  "step": 6,
+  "tool": "temporal_signal",
+  "time": "18:48:33",
+  "best_root_r2": 0.584,
+  "permutation_p": 0.001
+ }
+]

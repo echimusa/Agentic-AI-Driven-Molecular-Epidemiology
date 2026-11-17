@@ -1,0 +1,7 @@
+dataset,method,splits,ml_splits,shared,rf
+"H3N2 HA (60 sequences, 1,762 sites)",NJ (JC69),43,40,34,0.181
+"H3N2 HA (60 sequences, 1,762 sites)",NJ (p-distance),43,40,34,0.181
+"H3N2 HA (60 sequences, 1,762 sites)",UPGMA (JC69),52,40,24,0.478
+"Ebola virus (195 genomes, 18,961 sites)",NJ (JC69),45,50,42,0.116
+"Ebola virus (195 genomes, 18,961 sites)",NJ (p-distance),45,50,42,0.116
+"Ebola virus (195 genomes, 18,961 sites)",UPGMA (JC69),63,50,29,0.487

@@ -1,0 +1,8 @@
+measure,key,shipped,min,median,max,range
+Clock rate (substitutions per site per year),clock_rate,0.000576,0.000534,0.000579,0.000654,0.00012
+Date of the root,root,1993.63698,1992.136268,1993.617871,1996.027882,3.891615
+Parent of the Brazilian common ancestor,brazil_parent,2012.213682,2011.926642,2012.252709,2012.660033,0.733392
+Common ancestor of the Brazilian genomes,brazil_mrca,2012.442323,2012.168449,2012.475355,2012.85904,0.690592
+Inferred migration events,n_events,92.0,91.0,92.0,93.0,2.0
+Introductions into the Americas,n_intro,4.0,3.0,4.0,4.0,1.0
+Genomes below the main introduction,main_tips,487.0,487.0,487.0,487.0,0.0

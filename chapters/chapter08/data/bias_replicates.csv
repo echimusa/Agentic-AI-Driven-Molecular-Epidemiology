@@ -1,0 +1,1217 @@
+cap,rep,state,tips,out_events,in_events,n_events,n_intro,main_src,main_dst,main_date,main_tips
+full,0,Brazil,96,16,3,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Nicaragua,87,24,2,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Puerto Rico,67,4,6,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Singapore,62,0,2,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Colombia,57,7,5,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Mexico,40,2,10,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,USA,29,1,8,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Other Americas,23,4,13,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Cuba,19,1,7,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Other Asia-Pacific,18,5,3,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Honduras,18,7,12,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,China,17,1,3,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Dominican Republic,16,16,2,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Thailand,16,3,3,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Haiti,13,0,4,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+full,0,Other Europe/Africa,13,1,9,92,4,Other Asia-Pacific,Brazil,2012.3290021804064,487
+10,0,Honduras,10,5,2,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,USA,10,0,5,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,China,10,0,3,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Haiti,10,0,2,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Thailand,10,4,1,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Singapore,10,0,2,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Cuba,10,1,5,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Other Europe/Africa,10,4,6,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Dominican Republic,10,12,2,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Puerto Rico,10,0,2,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Brazil,10,10,1,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Mexico,10,9,2,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Colombia,10,2,2,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Other Americas,10,1,6,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Other Asia-Pacific,10,3,4,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,0,Nicaragua,10,0,6,51,5,Other Asia-Pacific,Brazil,2012.3290021804064,126
+10,1,Brazil,10,14,1,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Cuba,10,0,7,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,China,10,1,3,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Haiti,10,1,4,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Puerto Rico,10,0,3,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Honduras,10,7,2,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,USA,10,0,6,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Other Europe/Africa,10,0,9,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Dominican Republic,10,14,1,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Other Americas,10,2,7,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Thailand,10,6,0,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Singapore,10,0,1,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Mexico,10,10,2,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Other Asia-Pacific,10,2,6,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Nicaragua,10,0,8,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,1,Colombia,10,5,2,62,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,2,China,10,0,3,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Haiti,10,0,3,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Nicaragua,10,0,4,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Honduras,10,4,2,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Brazil,10,11,1,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Colombia,10,5,2,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Cuba,10,0,6,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Dominican Republic,10,11,1,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Other Europe/Africa,10,0,8,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Thailand,10,1,2,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,USA,10,0,3,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Mexico,10,7,2,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Singapore,10,0,1,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Other Americas,10,4,6,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Puerto Rico,10,0,2,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,2,Other Asia-Pacific,10,4,1,47,1,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,3,Honduras,10,8,2,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,USA,10,0,7,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,China,10,1,2,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Haiti,10,1,3,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Thailand,10,4,0,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Puerto Rico,10,1,2,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Nicaragua,10,0,8,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Cuba,10,0,4,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Brazil,10,13,1,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Dominican Republic,10,11,1,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Other Europe/Africa,10,0,6,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Mexico,10,7,1,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Colombia,10,4,2,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Other Asia-Pacific,10,2,5,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Singapore,10,0,1,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,3,Other Americas,10,1,8,53,2,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,4,Brazil,10,14,1,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Cuba,10,0,7,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Honduras,10,4,2,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Thailand,10,4,0,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Puerto Rico,10,0,1,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Haiti,10,0,3,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,USA,10,0,5,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Other Europe/Africa,10,0,8,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Dominican Republic,10,14,1,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Singapore,10,0,1,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Colombia,10,5,2,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Other Americas,10,1,8,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Nicaragua,10,7,5,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Other Asia-Pacific,10,2,4,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,Mexico,10,2,3,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,4,China,10,1,3,54,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,5,Cuba,10,0,6,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Brazil,10,11,1,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,USA,10,0,3,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,China,10,1,2,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Haiti,10,0,3,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Honduras,10,7,2,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Nicaragua,10,0,8,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Other Europe/Africa,10,0,7,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Dominican Republic,10,10,1,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Thailand,10,5,0,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Mexico,10,8,2,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Colombia,10,5,2,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Puerto Rico,10,1,2,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Other Asia-Pacific,10,2,5,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Other Americas,10,4,8,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,5,Singapore,10,0,2,54,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,6,Honduras,10,8,2,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Singapore,10,0,1,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,China,10,0,2,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Haiti,10,0,3,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Thailand,10,7,0,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Other Europe/Africa,10,1,9,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Brazil,10,10,1,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Dominican Republic,10,10,2,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Cuba,10,4,3,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Other Americas,10,2,9,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Mexico,10,8,3,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Nicaragua,10,0,8,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,USA,10,1,4,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Colombia,10,5,2,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Puerto Rico,10,0,2,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,6,Other Asia-Pacific,10,2,7,58,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,7,Honduras,10,9,2,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Haiti,10,0,3,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Thailand,10,2,2,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Puerto Rico,10,3,2,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Nicaragua,10,0,8,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Other Europe/Africa,10,0,6,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Brazil,10,12,2,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,China,10,1,2,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Colombia,10,5,2,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Dominican Republic,10,10,1,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Cuba,10,0,4,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Singapore,10,0,1,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Other Asia-Pacific,10,4,3,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,USA,10,0,5,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Mexico,10,6,2,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,7,Other Americas,10,1,8,53,2,Other Asia-Pacific,Brazil,2003.8673975954064,126
+10,8,Cuba,10,0,6,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Singapore,10,0,1,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,USA,10,0,5,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Thailand,10,6,0,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Honduras,10,3,5,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Nicaragua,10,4,4,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Haiti,10,0,2,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Other Europe/Africa,10,0,7,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,China,10,1,3,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Dominican Republic,10,11,1,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Other Americas,10,2,5,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Colombia,10,3,2,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Mexico,10,8,2,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Brazil,10,11,1,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Other Asia-Pacific,10,2,6,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,8,Puerto Rico,10,0,1,51,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Brazil,10,12,1,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Cuba,10,0,5,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Nicaragua,10,1,7,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Singapore,10,0,1,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Haiti,10,0,4,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Puerto Rico,10,0,2,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Other Europe/Africa,10,0,8,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,China,10,1,3,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Dominican Republic,10,9,1,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Thailand,10,5,0,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Other Americas,10,3,6,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Mexico,10,7,3,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Colombia,10,5,2,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,USA,10,0,3,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Honduras,10,8,2,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,9,Other Asia-Pacific,10,2,5,53,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,10,Nicaragua,10,0,5,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,USA,10,0,5,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Haiti,10,1,4,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Honduras,10,6,2,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Puerto Rico,10,0,3,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Colombia,10,6,2,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Cuba,10,1,6,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Other Europe/Africa,10,1,8,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Other Americas,10,2,8,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Mexico,10,8,1,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Brazil,10,10,1,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Thailand,10,4,1,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Dominican Republic,10,13,2,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Other Asia-Pacific,10,3,3,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,China,10,1,3,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,10,Singapore,10,0,2,56,4,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,11,Cuba,10,0,6,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Honduras,10,7,2,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,USA,10,0,4,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,China,10,1,2,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Haiti,10,1,3,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Nicaragua,10,0,7,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Other Europe/Africa,10,1,9,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Thailand,10,4,0,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Dominican Republic,10,11,2,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Mexico,10,8,2,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Singapore,10,0,1,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Other Americas,10,4,8,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Brazil,10,13,1,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Puerto Rico,10,1,2,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Colombia,10,4,3,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,11,Other Asia-Pacific,10,2,5,57,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,12,Honduras,10,3,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,USA,10,0,5,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Puerto Rico,10,2,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Haiti,10,0,3,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Cuba,10,1,6,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Other Europe/Africa,10,0,8,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Dominican Republic,10,12,1,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Mexico,10,1,5,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Other Americas,10,3,7,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Singapore,10,0,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Thailand,10,2,4,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Other Asia-Pacific,10,6,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,China,10,1,3,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Colombia,10,3,1,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Brazil,10,11,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,12,Nicaragua,10,11,3,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,127
+10,13,Honduras,10,5,2,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Singapore,10,0,1,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Nicaragua,10,0,5,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,China,10,1,2,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Haiti,10,0,3,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Thailand,10,1,2,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,USA,10,0,5,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Cuba,10,0,4,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Dominican Republic,10,11,1,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Other Europe/Africa,10,0,6,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Mexico,10,5,1,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Colombia,10,4,2,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Other Americas,10,3,7,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Other Asia-Pacific,10,4,2,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Puerto Rico,10,2,2,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,13,Brazil,10,11,2,47,2,Other Asia-Pacific,Brazil,2012.1235473804063,126
+10,14,Cuba,10,0,4,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Singapore,10,0,1,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Honduras,10,12,1,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Thailand,10,2,3,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Nicaragua,10,0,5,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Haiti,10,0,3,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Colombia,10,3,2,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Puerto Rico,10,2,2,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,China,10,1,3,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Mexico,10,1,3,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Other Europe/Africa,10,0,6,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Dominican Republic,10,6,1,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,USA,10,0,4,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Other Americas,10,2,6,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Other Asia-Pacific,10,5,0,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,14,Brazil,10,11,1,45,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Honduras,10,3,3,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,USA,10,0,5,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Haiti,10,1,3,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Nicaragua,10,3,7,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Thailand,10,4,1,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Puerto Rico,10,2,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Brazil,10,13,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Other Europe/Africa,10,0,7,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,China,10,1,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Other Americas,10,4,8,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Dominican Republic,10,11,1,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Colombia,10,3,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Singapore,10,0,1,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Cuba,10,0,5,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Mexico,10,7,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,15,Other Asia-Pacific,10,3,4,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,16,Honduras,10,8,2,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Cuba,10,4,6,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Singapore,10,0,2,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,USA,10,0,6,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Haiti,10,1,4,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Thailand,10,4,2,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Other Europe/Africa,10,1,7,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Dominican Republic,10,11,2,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Colombia,10,5,2,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Brazil,10,10,1,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Puerto Rico,10,2,1,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Nicaragua,10,1,8,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,China,10,0,3,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Other Americas,10,2,7,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Mexico,10,7,3,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,16,Other Asia-Pacific,10,4,4,60,2,Other Asia-Pacific,Brazil,2012.1235473804063,125
+10,17,Honduras,10,8,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Cuba,10,0,6,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,USA,10,0,6,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,China,10,1,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Haiti,10,1,4,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Thailand,10,3,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Other Europe/Africa,10,0,8,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Dominican Republic,10,10,1,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Mexico,10,7,1,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Brazil,10,13,1,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Puerto Rico,10,2,4,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Nicaragua,10,0,5,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Other Americas,10,2,9,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Colombia,10,5,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Other Asia-Pacific,10,4,2,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,17,Singapore,10,0,1,56,3,Other Asia-Pacific,Brazil,2012.3290021804064,124
+10,18,Brazil,10,13,1,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Cuba,10,0,5,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Honduras,10,5,2,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,USA,10,0,4,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,China,10,1,3,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Haiti,10,0,3,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Thailand,10,4,1,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Other Europe/Africa,10,1,8,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Dominican Republic,10,12,2,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Other Americas,10,1,7,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Mexico,10,8,2,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Colombia,10,3,3,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Puerto Rico,10,2,2,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Nicaragua,10,0,5,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Singapore,10,0,1,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,18,Other Asia-Pacific,10,3,4,53,3,Other Asia-Pacific,Brazil,2012.2135735954064,124
+10,19,Cuba,10,0,6,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Honduras,10,1,3,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,USA,10,1,4,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,China,10,0,3,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Nicaragua,10,9,2,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Haiti,10,0,3,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Singapore,10,0,1,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Other Europe/Africa,10,0,8,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Mexico,10,1,3,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Dominican Republic,10,11,1,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Puerto Rico,10,2,2,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Thailand,10,3,2,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Other Asia-Pacific,10,4,2,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Other Americas,10,1,8,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Brazil,10,14,1,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,19,Colombia,10,4,2,51,1,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,20,Honduras,10,6,2,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,China,10,1,3,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Haiti,10,0,3,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Nicaragua,10,0,8,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Thailand,10,3,3,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Cuba,10,0,4,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Dominican Republic,10,8,1,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Other Europe/Africa,10,0,7,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,USA,10,0,2,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Colombia,10,6,2,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Mexico,10,8,1,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Puerto Rico,10,0,2,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Singapore,10,0,1,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Other Americas,10,1,8,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Other Asia-Pacific,10,5,1,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,20,Brazil,10,11,1,49,3,Other Asia-Pacific,Brazil,2012.3290021804064,123
+10,21,Honduras,10,9,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Cuba,10,0,5,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Nicaragua,10,0,7,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,USA,10,0,4,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,China,10,0,3,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Thailand,10,5,1,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Haiti,10,1,3,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Puerto Rico,10,2,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Other Europe/Africa,10,1,7,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Singapore,10,0,1,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Other Americas,10,2,5,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Brazil,10,12,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Colombia,10,3,3,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Dominican Republic,10,11,2,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Other Asia-Pacific,10,3,5,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,21,Mexico,10,6,3,55,2,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,22,Honduras,10,4,3,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,USA,10,0,3,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Haiti,10,0,4,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Puerto Rico,10,0,3,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Cuba,10,1,6,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Other Europe/Africa,10,1,8,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Other Americas,10,0,6,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Dominican Republic,10,13,2,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Mexico,10,2,5,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Brazil,10,14,1,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Thailand,10,5,1,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Other Asia-Pacific,10,3,4,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Nicaragua,10,9,4,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,China,10,0,3,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Colombia,10,5,2,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,22,Singapore,10,0,2,57,3,Other Asia-Pacific,Brazil,2012.2135735954064,125
+10,23,Nicaragua,10,0,7,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Haiti,10,1,4,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Puerto Rico,10,0,2,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,USA,10,0,4,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Brazil,10,12,1,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Cuba,10,0,5,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Other Europe/Africa,10,0,9,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Dominican Republic,10,13,1,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Colombia,10,5,2,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Thailand,10,1,4,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Mexico,10,5,2,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Singapore,10,0,1,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Honduras,10,9,2,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Other Asia-Pacific,10,6,1,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,Other Americas,10,2,7,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,23,China,10,0,2,54,1,Other Asia-Pacific,Brazil,2008.4993039954063,125
+10,24,Honduras,10,5,2,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,USA,10,0,2,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Haiti,10,0,4,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Thailand,10,4,1,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Singapore,10,0,1,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Cuba,10,0,4,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Other Europe/Africa,10,1,9,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,China,10,1,3,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Dominican Republic,10,11,2,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Other Americas,10,2,6,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Mexico,10,1,3,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Colombia,10,4,2,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Other Asia-Pacific,10,3,3,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Nicaragua,10,7,5,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Puerto Rico,10,0,3,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+10,24,Brazil,10,12,1,51,3,Other Asia-Pacific,Brazil,2012.3290021804064,125
+20,0,Brazil,20,14,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Nicaragua,20,0,8,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,USA,20,0,7,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Puerto Rico,20,3,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Other Americas,20,5,10,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Mexico,20,11,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Colombia,20,4,5,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Singapore,20,0,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Cuba,19,1,7,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Honduras,18,7,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Other Asia-Pacific,18,5,4,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,China,17,1,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Thailand,16,4,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Dominican Republic,16,14,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Haiti,13,2,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,0,Other Europe/Africa,13,1,9,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Nicaragua,20,1,9,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,USA,20,0,7,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Puerto Rico,20,3,4,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Colombia,20,6,4,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Other Americas,20,5,12,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Mexico,20,11,3,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Singapore,20,0,1,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Brazil,20,13,1,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Cuba,19,0,7,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Honduras,18,11,2,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Other Asia-Pacific,18,5,4,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,China,17,1,3,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Thailand,16,3,3,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Dominican Republic,16,15,2,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Haiti,13,0,4,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,1,Other Europe/Africa,13,1,9,75,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,2,Singapore,20,0,1,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,USA,20,0,6,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Nicaragua,20,0,10,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Colombia,20,6,3,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Other Americas,20,2,11,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Brazil,20,14,2,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Mexico,20,12,1,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Puerto Rico,20,3,3,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Cuba,19,0,7,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Honduras,18,7,2,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Other Asia-Pacific,18,5,3,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,China,17,1,3,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Thailand,16,3,3,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Dominican Republic,16,16,2,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Haiti,13,0,4,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,2,Other Europe/Africa,13,1,9,70,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Nicaragua,20,0,9,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,USA,20,0,7,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Puerto Rico,20,1,4,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Brazil,20,13,1,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Mexico,20,11,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Colombia,20,6,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Singapore,20,0,1,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Other Americas,20,4,12,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Cuba,19,0,7,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Honduras,18,12,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Other Asia-Pacific,18,5,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,China,17,1,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Thailand,16,3,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Dominican Republic,16,15,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Haiti,13,0,4,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,3,Other Europe/Africa,13,1,9,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Brazil,20,14,1,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,USA,20,0,5,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Nicaragua,20,0,11,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Puerto Rico,20,0,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Other Americas,20,4,11,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Singapore,20,0,1,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Colombia,20,6,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Mexico,20,11,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Cuba,19,0,7,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Honduras,18,12,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Other Asia-Pacific,18,5,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,China,17,1,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Thailand,16,3,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Dominican Republic,16,14,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Haiti,13,0,4,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,4,Other Europe/Africa,13,1,9,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,5,Brazil,20,15,1,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,USA,20,1,8,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Nicaragua,20,10,5,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Puerto Rico,20,2,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Other Americas,20,3,11,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Mexico,20,2,5,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Colombia,20,6,5,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Singapore,20,0,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Cuba,19,1,7,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Honduras,18,8,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Other Asia-Pacific,18,5,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,China,17,1,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Thailand,16,3,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Dominican Republic,16,14,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Haiti,13,1,4,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,5,Other Europe/Africa,13,1,9,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,6,Nicaragua,20,1,10,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,USA,20,0,6,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Colombia,20,6,3,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Other Americas,20,3,12,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Brazil,20,15,1,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Mexico,20,10,4,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Singapore,20,0,1,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Puerto Rico,20,2,3,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Cuba,19,0,7,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Honduras,18,10,2,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Other Asia-Pacific,18,5,4,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,China,17,1,3,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Thailand,16,4,3,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Dominican Republic,16,15,2,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Haiti,13,1,4,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,6,Other Europe/Africa,13,1,9,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,7,Puerto Rico,20,3,4,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Nicaragua,20,0,10,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,USA,20,0,7,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Other Americas,20,3,12,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Mexico,20,12,3,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Colombia,20,6,4,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Brazil,20,16,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Singapore,20,0,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Cuba,19,1,7,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Honduras,18,10,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Other Asia-Pacific,18,5,4,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,China,17,1,3,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Thailand,16,4,3,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Dominican Republic,16,16,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Haiti,13,0,4,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,7,Other Europe/Africa,13,1,9,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,8,Brazil,20,15,2,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Nicaragua,20,1,6,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,USA,20,0,6,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Puerto Rico,20,2,1,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Colombia,20,7,2,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Other Americas,20,2,12,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Mexico,20,9,3,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Singapore,20,0,1,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Cuba,19,0,7,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Honduras,18,6,3,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Other Asia-Pacific,18,5,3,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,China,17,1,3,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Thailand,16,3,3,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Dominican Republic,16,14,2,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Haiti,13,1,4,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,8,Other Europe/Africa,13,1,9,67,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,9,Nicaragua,20,0,11,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,USA,20,0,7,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Colombia,20,6,3,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Brazil,20,15,1,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Mexico,20,12,3,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Singapore,20,0,2,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Other Americas,20,4,12,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Puerto Rico,20,2,3,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Cuba,19,1,7,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Honduras,18,10,2,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Other Asia-Pacific,18,5,4,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,China,17,1,3,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Thailand,16,4,3,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Dominican Republic,16,14,2,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Haiti,13,1,4,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,9,Other Europe/Africa,13,1,9,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Singapore,20,0,1,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,USA,20,0,7,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Nicaragua,20,0,11,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Puerto Rico,20,1,3,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Colombia,20,7,2,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Brazil,20,13,1,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Other Americas,20,4,12,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Mexico,20,12,2,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Cuba,19,0,7,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Honduras,18,10,2,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Other Asia-Pacific,18,5,3,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,China,17,1,3,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Thailand,16,2,3,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Dominican Republic,16,15,2,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Haiti,13,1,4,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,10,Other Europe/Africa,13,1,9,72,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,11,Brazil,20,15,1,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Nicaragua,20,10,6,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,USA,20,0,6,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Puerto Rico,20,2,3,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Singapore,20,0,2,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Other Americas,20,2,10,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Mexico,20,1,4,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Colombia,20,4,3,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Cuba,19,1,7,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Honduras,18,8,2,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Other Asia-Pacific,18,5,3,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,China,17,1,3,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Thailand,16,2,3,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Dominican Republic,16,15,2,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Haiti,13,1,4,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,11,Other Europe/Africa,13,1,9,68,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,12,Singapore,20,0,1,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Nicaragua,20,0,9,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,USA,20,0,8,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Colombia,20,8,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Other Americas,20,3,12,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Puerto Rico,20,2,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Brazil,20,12,1,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Mexico,20,11,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Cuba,19,0,7,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Honduras,18,10,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Other Asia-Pacific,18,5,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,China,17,1,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Thailand,16,3,3,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Dominican Republic,16,15,2,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Haiti,13,1,4,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,12,Other Europe/Africa,13,1,9,72,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,USA,20,0,6,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Nicaragua,20,0,9,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Puerto Rico,20,2,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Colombia,20,8,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Mexico,20,11,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Other Americas,20,1,13,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Singapore,20,0,1,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Brazil,20,16,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Cuba,19,0,7,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Honduras,18,8,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Other Asia-Pacific,18,5,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,China,17,1,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Thailand,16,3,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Dominican Republic,16,14,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Haiti,13,1,4,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,13,Other Europe/Africa,13,1,9,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,14,Brazil,20,16,1,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Nicaragua,20,0,12,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,USA,20,0,7,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Puerto Rico,20,1,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Singapore,20,0,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Colombia,20,6,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Other Americas,20,2,11,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Mexico,20,13,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Cuba,19,1,7,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Honduras,18,9,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Other Asia-Pacific,18,5,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,China,17,1,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Thailand,16,3,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Dominican Republic,16,15,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Haiti,13,0,4,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,14,Other Europe/Africa,13,1,9,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,15,Nicaragua,20,0,11,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Puerto Rico,20,3,2,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Colombia,20,6,4,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,USA,20,0,8,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Other Americas,20,3,10,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Singapore,20,0,1,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Brazil,20,14,3,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Mexico,20,13,1,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Cuba,19,0,7,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Honduras,18,9,2,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Other Asia-Pacific,18,5,4,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,China,17,1,3,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Thailand,16,4,3,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Dominican Republic,16,14,2,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Haiti,13,1,4,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,15,Other Europe/Africa,13,1,9,74,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,16,Brazil,20,13,1,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Nicaragua,20,0,10,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,USA,20,0,6,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Puerto Rico,20,2,5,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Colombia,20,6,1,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Other Americas,20,2,11,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Mexico,20,10,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Singapore,20,0,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Cuba,19,1,7,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Honduras,18,11,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Other Asia-Pacific,18,5,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,China,17,1,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Thailand,16,3,3,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Dominican Republic,16,15,2,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Haiti,13,1,4,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,16,Other Europe/Africa,13,1,9,71,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,17,Singapore,20,0,1,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,USA,20,0,6,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Colombia,20,6,4,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Puerto Rico,20,1,4,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Other Americas,20,6,10,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Brazil,20,13,1,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Nicaragua,20,1,11,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Mexico,20,10,4,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Cuba,19,0,7,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Honduras,18,12,2,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Other Asia-Pacific,18,5,4,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,China,17,1,3,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Thailand,16,4,3,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Dominican Republic,16,15,2,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Haiti,13,0,4,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,17,Other Europe/Africa,13,1,9,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,18,Brazil,20,14,2,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Nicaragua,20,0,10,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,USA,20,0,7,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Puerto Rico,20,2,4,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Other Americas,20,4,9,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Mexico,20,11,3,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Singapore,20,0,1,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Colombia,20,6,3,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Cuba,19,0,7,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Honduras,18,11,2,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Other Asia-Pacific,18,5,4,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,China,17,1,3,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Thailand,16,3,3,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Dominican Republic,16,14,2,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Haiti,13,1,4,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,18,Other Europe/Africa,13,1,9,73,3,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,19,Brazil,20,12,1,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Singapore,20,0,1,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,USA,20,0,6,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Puerto Rico,20,1,2,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Nicaragua,20,0,13,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Colombia,20,3,6,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Other Americas,20,6,11,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Mexico,20,13,2,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Cuba,19,0,7,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Honduras,18,12,2,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Other Asia-Pacific,18,5,4,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,China,17,1,3,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Thailand,16,4,3,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Dominican Republic,16,14,2,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Haiti,13,3,3,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,19,Other Europe/Africa,13,1,9,75,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,20,Singapore,20,0,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Puerto Rico,20,3,4,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Nicaragua,20,0,13,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,USA,20,0,7,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Brazil,20,15,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Other Americas,20,3,11,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Mexico,20,10,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Colombia,20,6,3,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Cuba,19,1,7,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Honduras,18,13,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Other Asia-Pacific,18,5,4,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,China,17,1,3,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Thailand,16,4,3,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Dominican Republic,16,15,2,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Haiti,13,1,4,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,20,Other Europe/Africa,13,1,9,78,4,Other Asia-Pacific,Brazil,2012.3290021804064,228
+20,21,Brazil,20,14,1,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Nicaragua,20,0,11,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,USA,20,0,6,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Puerto Rico,20,2,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Colombia,20,7,5,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Other Americas,20,4,11,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Mexico,20,12,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Singapore,20,0,1,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Cuba,19,0,7,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Honduras,18,11,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Other Asia-Pacific,18,5,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,China,17,1,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Thailand,16,3,3,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Dominican Republic,16,13,2,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Haiti,13,0,4,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,21,Other Europe/Africa,13,1,9,73,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Brazil,20,16,1,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,USA,20,0,8,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Nicaragua,20,0,11,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Colombia,20,7,3,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Other Americas,20,2,12,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Mexico,20,13,2,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Singapore,20,0,1,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Puerto Rico,20,1,4,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Cuba,19,0,7,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Honduras,18,10,2,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Other Asia-Pacific,18,5,4,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,China,17,1,3,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Thailand,16,4,3,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Dominican Republic,16,16,2,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Haiti,13,0,4,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,22,Other Europe/Africa,13,1,9,76,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,23,USA,20,0,6,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Puerto Rico,20,1,4,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Nicaragua,20,9,7,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Colombia,20,7,3,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Singapore,20,0,2,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Brazil,20,13,1,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Other Americas,20,4,12,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Mexico,20,2,5,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Cuba,19,1,7,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Honduras,18,10,2,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Other Asia-Pacific,18,5,4,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,China,17,1,3,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Thailand,16,3,3,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Dominican Republic,16,16,2,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Haiti,13,1,4,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,23,Other Europe/Africa,13,1,9,74,3,Other Asia-Pacific,Brazil,2012.3290021804064,229
+20,24,Singapore,20,0,1,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Nicaragua,20,1,10,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,USA,20,0,7,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Puerto Rico,20,3,4,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Colombia,20,4,5,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Other Americas,20,7,12,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Brazil,20,13,1,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Mexico,20,10,4,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Cuba,19,0,7,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Honduras,18,11,2,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Other Asia-Pacific,18,5,4,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,China,17,1,3,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Thailand,16,4,3,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Dominican Republic,16,14,2,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Haiti,13,3,3,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+20,24,Other Europe/Africa,13,1,9,77,4,Other Asia-Pacific,Brazil,2012.3290021804064,227
+40,0,Nicaragua,40,5,8,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Puerto Rico,40,3,4,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Brazil,40,16,1,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Colombia,40,7,4,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Singapore,40,0,2,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Mexico,40,10,4,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,USA,29,0,8,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Other Americas,23,4,13,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Cuba,19,1,7,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Honduras,18,10,6,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Other Asia-Pacific,18,5,3,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,China,17,1,3,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Dominican Republic,16,15,2,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Thailand,16,3,3,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Haiti,13,0,4,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,0,Other Europe/Africa,13,1,9,81,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,1,Nicaragua,40,0,15,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Puerto Rico,40,4,6,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Brazil,40,15,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Singapore,40,0,1,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Mexico,40,13,4,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Colombia,40,7,5,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,USA,29,0,8,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Other Americas,23,4,13,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Cuba,19,0,7,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Honduras,18,17,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Other Asia-Pacific,18,5,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,China,17,1,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Dominican Republic,16,16,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Thailand,16,3,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Haiti,13,1,4,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,1,Other Europe/Africa,13,1,9,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,2,Puerto Rico,40,4,6,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Nicaragua,40,1,14,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Brazil,40,15,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Colombia,40,6,5,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Singapore,40,0,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Mexico,40,11,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,USA,29,0,8,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Other Americas,23,4,12,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Cuba,19,1,7,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Honduras,18,17,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Other Asia-Pacific,18,5,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,China,17,1,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Dominican Republic,16,16,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Thailand,16,3,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Haiti,13,1,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,2,Other Europe/Africa,13,1,9,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Nicaragua,40,2,12,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Puerto Rico,40,3,4,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Brazil,40,14,2,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Singapore,40,0,2,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Mexico,40,12,4,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Colombia,40,7,4,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,USA,29,0,8,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Other Americas,23,6,13,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Cuba,19,1,7,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Honduras,18,13,3,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Other Asia-Pacific,18,5,3,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,China,17,1,3,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Dominican Republic,16,15,2,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Thailand,16,3,3,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Haiti,13,0,4,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,3,Other Europe/Africa,13,1,9,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,4,Nicaragua,40,2,11,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Puerto Rico,40,3,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Brazil,40,16,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Colombia,40,7,5,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Singapore,40,0,1,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Mexico,40,10,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,USA,29,0,8,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Other Americas,23,4,13,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Cuba,19,0,7,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Honduras,18,15,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Other Asia-Pacific,18,5,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,China,17,1,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Dominican Republic,16,15,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Thailand,16,3,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Haiti,13,0,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,4,Other Europe/Africa,13,1,9,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Nicaragua,40,2,11,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Puerto Rico,40,4,5,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Brazil,40,15,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Colombia,40,7,5,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Singapore,40,0,1,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Mexico,40,12,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,USA,29,0,8,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Other Americas,23,4,13,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Cuba,19,0,7,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Honduras,18,13,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Other Asia-Pacific,18,5,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,China,17,1,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Dominican Republic,16,16,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Thailand,16,3,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Haiti,13,1,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,5,Other Europe/Africa,13,1,9,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,6,Nicaragua,40,2,12,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Puerto Rico,40,4,5,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Colombia,40,7,5,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Singapore,40,0,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Mexico,40,11,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Brazil,40,15,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,USA,29,0,8,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Other Americas,23,4,13,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Cuba,19,1,7,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Honduras,18,15,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Other Asia-Pacific,18,5,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,China,17,1,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Dominican Republic,16,16,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Thailand,16,3,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Haiti,13,1,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,6,Other Europe/Africa,13,1,9,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Nicaragua,40,1,16,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Puerto Rico,40,2,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Brazil,40,16,1,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Colombia,40,7,5,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Singapore,40,0,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Mexico,40,13,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,USA,29,0,8,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Other Americas,23,4,13,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Cuba,19,1,7,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Honduras,18,17,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Other Asia-Pacific,18,5,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,China,17,1,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Dominican Republic,16,15,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Thailand,16,3,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Haiti,13,0,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,7,Other Europe/Africa,13,1,9,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Nicaragua,40,1,17,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Puerto Rico,40,5,6,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Colombia,40,7,4,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Brazil,40,15,3,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Singapore,40,0,2,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Mexico,40,12,4,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,USA,29,0,8,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Other Americas,23,4,13,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Cuba,19,1,7,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Honduras,18,18,2,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Other Asia-Pacific,18,5,3,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,China,17,1,3,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Dominican Republic,16,16,2,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Thailand,16,3,3,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Haiti,13,1,4,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,8,Other Europe/Africa,13,1,9,90,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,9,Nicaragua,40,0,14,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Colombia,40,7,5,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Puerto Rico,40,3,5,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Singapore,40,0,1,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Brazil,40,15,1,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Mexico,40,14,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,USA,29,0,8,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Other Americas,23,4,13,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Cuba,19,0,7,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Honduras,18,15,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Other Asia-Pacific,18,5,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,China,17,1,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Dominican Republic,16,15,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Thailand,16,3,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Haiti,13,1,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,9,Other Europe/Africa,13,1,9,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Nicaragua,40,1,15,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Puerto Rico,40,2,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Colombia,40,7,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Brazil,40,13,1,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Singapore,40,0,1,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Mexico,40,14,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,USA,29,0,8,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Other Americas,23,6,13,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Cuba,19,0,7,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Honduras,18,14,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Other Asia-Pacific,18,5,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,China,17,1,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Dominican Republic,16,16,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Thailand,16,3,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Haiti,13,1,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,10,Other Europe/Africa,13,1,9,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,11,Nicaragua,40,2,11,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Puerto Rico,40,3,5,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Brazil,40,15,1,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Colombia,40,7,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Singapore,40,0,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Mexico,40,13,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,USA,29,0,8,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Other Americas,23,3,13,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Cuba,19,1,7,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Honduras,18,12,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Other Asia-Pacific,18,5,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,China,17,1,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Dominican Republic,16,15,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Thailand,16,3,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Haiti,13,1,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,11,Other Europe/Africa,13,1,9,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Nicaragua,40,1,14,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Puerto Rico,40,4,6,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Brazil,40,15,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Colombia,40,7,5,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Singapore,40,0,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Mexico,40,12,4,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,USA,29,0,8,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Other Americas,23,4,13,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Cuba,19,1,7,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Honduras,18,16,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Other Asia-Pacific,18,5,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,China,17,1,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Dominican Republic,16,16,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Thailand,16,3,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Haiti,13,1,4,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,12,Other Europe/Africa,13,1,9,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Nicaragua,40,1,13,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Puerto Rico,40,3,5,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Brazil,40,16,1,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Colombia,40,7,5,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Singapore,40,0,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Mexico,40,13,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,USA,29,0,8,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Other Americas,23,4,13,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Cuba,19,1,7,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Honduras,18,13,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Other Asia-Pacific,18,5,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,China,17,1,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Dominican Republic,16,16,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Thailand,16,3,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Haiti,13,0,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,13,Other Europe/Africa,13,1,9,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Puerto Rico,40,3,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Brazil,40,16,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Nicaragua,40,1,16,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Colombia,40,7,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Singapore,40,0,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Mexico,40,11,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,USA,29,1,8,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Other Americas,23,4,13,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Cuba,19,1,7,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Honduras,18,16,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Other Asia-Pacific,18,5,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,China,17,1,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Dominican Republic,16,16,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Thailand,16,3,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Haiti,13,0,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,14,Other Europe/Africa,13,1,9,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,15,Nicaragua,40,0,14,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Brazil,40,15,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Colombia,40,7,5,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Puerto Rico,40,4,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Singapore,40,0,1,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Mexico,40,14,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,USA,29,0,8,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Other Americas,23,4,13,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Cuba,19,0,7,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Honduras,18,14,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Other Asia-Pacific,18,5,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,China,17,1,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Dominican Republic,16,15,2,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Thailand,16,3,3,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Haiti,13,1,4,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,15,Other Europe/Africa,13,1,9,84,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,16,Nicaragua,40,1,15,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Puerto Rico,40,3,4,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Colombia,40,7,5,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Brazil,40,16,1,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Singapore,40,0,2,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Mexico,40,14,4,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,USA,29,0,8,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Other Americas,23,4,13,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Cuba,19,1,7,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Honduras,18,14,2,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Other Asia-Pacific,18,5,3,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,China,17,1,3,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Dominican Republic,16,15,2,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Thailand,16,3,3,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Haiti,13,0,4,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,16,Other Europe/Africa,13,1,9,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Nicaragua,40,1,14,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Puerto Rico,40,5,5,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Colombia,40,7,5,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Singapore,40,0,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Brazil,40,15,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Mexico,40,11,4,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,USA,29,0,8,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Other Americas,23,4,13,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Cuba,19,1,7,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Honduras,18,17,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Other Asia-Pacific,18,5,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,China,17,1,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Dominican Republic,16,15,2,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Thailand,16,3,3,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Haiti,13,1,4,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,17,Other Europe/Africa,13,1,9,87,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Nicaragua,40,2,12,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Puerto Rico,40,3,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Brazil,40,16,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Colombia,40,7,5,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Singapore,40,0,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Mexico,40,10,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,USA,29,0,8,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Other Americas,23,4,13,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Cuba,19,1,7,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Honduras,18,14,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Other Asia-Pacific,18,5,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,China,17,1,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Dominican Republic,16,15,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Thailand,16,3,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Haiti,13,0,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,18,Other Europe/Africa,13,1,9,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,19,Nicaragua,40,2,13,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Puerto Rico,40,3,4,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Brazil,40,15,2,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Colombia,40,7,4,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Singapore,40,0,1,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Mexico,40,10,4,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,USA,29,0,8,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Other Americas,23,4,13,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Cuba,19,0,7,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Honduras,18,16,3,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Other Asia-Pacific,18,5,3,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,China,17,1,3,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Dominican Republic,16,15,2,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Thailand,16,3,3,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Haiti,13,1,4,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,19,Other Europe/Africa,13,1,9,83,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Nicaragua,40,5,11,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Puerto Rico,40,3,6,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Brazil,40,12,1,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Colombia,40,7,4,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Singapore,40,0,1,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Mexico,40,12,4,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,USA,29,0,8,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Other Americas,23,7,13,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Cuba,19,0,7,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Honduras,18,12,6,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Other Asia-Pacific,18,5,3,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,China,17,1,3,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Dominican Republic,16,16,2,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Thailand,16,3,3,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Haiti,13,1,4,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,20,Other Europe/Africa,13,1,9,85,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,21,Nicaragua,40,1,15,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Puerto Rico,40,3,5,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Brazil,40,15,1,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Colombia,40,7,5,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Singapore,40,0,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Mexico,40,13,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,USA,29,0,8,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Other Americas,23,4,13,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Cuba,19,1,7,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Honduras,18,15,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Other Asia-Pacific,18,5,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,China,17,1,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Dominican Republic,16,16,2,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Thailand,16,3,3,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Haiti,13,1,4,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,21,Other Europe/Africa,13,1,9,86,4,Other Asia-Pacific,Brazil,2012.3290021804064,340
+40,22,Nicaragua,40,3,9,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Puerto Rico,40,3,4,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Colombia,40,7,4,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Brazil,40,16,2,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Singapore,40,0,1,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Mexico,40,9,4,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,USA,29,1,8,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Other Americas,23,4,13,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Cuba,19,0,7,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Honduras,18,10,3,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Other Asia-Pacific,18,5,3,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,China,17,1,3,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Dominican Republic,16,16,2,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Thailand,16,3,3,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Haiti,13,0,4,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,22,Other Europe/Africa,13,1,9,79,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Nicaragua,40,2,16,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Puerto Rico,40,4,5,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Colombia,40,7,5,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Brazil,40,15,2,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Singapore,40,0,1,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Mexico,40,14,4,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,USA,29,0,8,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Other Americas,23,4,13,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Cuba,19,0,7,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Honduras,18,15,3,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Other Asia-Pacific,18,5,3,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,China,17,1,3,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Dominican Republic,16,16,2,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Thailand,16,3,3,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Haiti,13,1,4,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,23,Other Europe/Africa,13,1,9,88,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Nicaragua,40,2,11,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Puerto Rico,40,2,5,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Brazil,40,15,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Colombia,40,7,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Singapore,40,0,1,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Mexico,40,12,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,USA,29,0,8,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Other Americas,23,4,13,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Cuba,19,0,7,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Honduras,18,13,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Other Asia-Pacific,18,5,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,China,17,1,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Dominican Republic,16,16,2,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Thailand,16,3,3,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Haiti,13,1,4,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339
+40,24,Other Europe/Africa,13,1,9,82,4,Other Asia-Pacific,Brazil,2012.3290021804064,339

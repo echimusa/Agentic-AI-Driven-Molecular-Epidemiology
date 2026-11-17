@@ -1,0 +1,42 @@
+PASS  I.ex10_2b ex10_2b reruns from the shipped data without error
+PASS  I.ex10_4 ex10_4 reruns from the shipped data without error
+PASS  I.ex10_6 ex10_6 reruns from the shipped data without error
+PASS  I.ex10_7 ex10_7 reruns from the shipped data without error
+PASS  I.ex10_8 ex10_8 reruns from the shipped data without error
+PASS  I.ex10_9 ex10_9 reruns from the shipped data without error
+PASS  I.ex10_10 ex10_10 reruns from the shipped data without error
+PASS  I.tables every result table of the rerun is byte-identical to the shipped one (the credible-set table equal to 9 digits)
+PASS  A.1      greedy 500 kb clumping of the genome-wide significant variants gives 7 loci with the lead variants of the chapter (rs35081325, rs13050728, rs2109069, 
+PASS  A.2      the odds ratios of the leads are exp(beta) (rs35081325 1.629, 95% CI 1.532 to 1.733) and the reported P agrees with the Wald P within 0.002 log10 unit
+PASS  A.3      the inflation factor 1.045 rescaled to 1,000 cases and 1,000 controls is 1.002
+PASS  A.4      the catalogue groups add up to 1,351 infection studies, 7,646 associations and 559 studies with full summary statistics (41.4%), and the ancestry shar
+PASS  A.5      an independent fine-mapping gives a 95% credible set of 11 variants at all three priors, lead rs35081325 with posterior probability 0.167 (0.161 to 0.
+PASS  A.6      the stratification table: lambda 71.68, 27,658 of 54,197 variants away from the causal SNPs significant (51.0%) with no covariates, none with 2 or 10 
+PASS  B.1      QC steps: --geno and --mind remove nothing, --maf 0.01 removes 83,688 of 100,000 variants, pooled --hwe 1e-6 removes 4,056, all four leave 12,306; the
+PASS  B.2      Hardy-Weinberg exact tests recomputed from the genotype counts: 16,312 variants with frequency of at least 1%; failing at P < 1e-6: pooled 4,006; AFR 
+PASS  B.3      Hudson FST between all ten pairs of groups recomputed from the counts (all variants and common variants); East Asia against Europe 0.110 on common var
+PASS  B.4      mean r2 falls with distance in every group and is lowest in AFR in every bin (0.182 against 0.262 to 0.293 at 0 to 10 kb)
+PASS  B.5      power recomputed with an independent root finder: cases needed for 80% power at P < 5e-8 (OR 1.2 at frequency 0.01 needs 110,213; OR 1.1 at 0.5 needs 
+PASS  B.6      a fresh Monte Carlo (3,000 repeats, own seed) agrees with the formula within 0.04, and the shipped Monte Carlo table agrees with the formula within 0.
+PASS  B.7      the allelic example of the notes (400 and 600 case alleles, 300 and 700 control alleles): chi-square 21.98, odds ratio 1.56, P 2.8e-6, power 0.22 with
+PASS  B.8      inflation scaling: F recomputed from the counts agrees with the table; a fresh simulation gives a mean chi-square within 8% of 1 + N F at N = 1,000 an
+PASS  B.9      3p21.31 by group recomputed from the phased genotypes: carriers of the risk allele 0.8% AFR, 8.4% AMR, 1.0% EAS, 15.9% EUR, 49.7% SAS; frequency 0.004
+PASS  B.10     cases needed to replicate OR 1.63 with 80% power, recomputed: at P < 0.05, SAS 146, EUR 371, AMR 644, EAS 5,283, AFR 6,916
+PASS  B.11     in the credible set every variant has r2 of at least 0.98 (0.985 at the lowest) with the lead in Europeans, and only rs35731912 (0.09) and rs67959919 
+PASS  B.12     ancestry odds ratios: the six table values (1.50, 0.67, 1.38, 1.22, 1.08, 1.00) equal the formula and the shipped simulation within 0.03; a fresh simu
+PASS  B.13     admixture mapping power: 0 at a frequency difference of 0.2 or less, 7% at 0.4, 53% at 0.6, 89% at 0.8; a fresh simulation at 0.6 (150 repeats) is wit
+PASS  B.14     audit of the course sources: 37 figures recomputed, 35 agree; the two that do not are cystic fibrosis (printed 500, 0.25 / 0.0004 = 625) and the Wellc
+PASS  G.1      figures are numbered 1 to 10 in order; 13 images (3 diagrams and 10 figures; the R check plot is not in the chapter), 24 tables
+PASS  G.2      fourteen learning objectives, from what host genetics asks to the connection with Chapter 11
+PASS  G.3      nine hands-on sections numbered 1 to 9 in order
+PASS  G.4      the sentences quote the validated numbers
+PASS  G.5      no stray backslash, image path, header artefact or placeholder in the text
+PASS  G.6      the Hardy-Weinberg table of the chapter equals the result file
+PASS  G.7      the table of cases needed equals the result file
+PASS  G.8      the 3p21.31 table of the chapter equals the result file
+PASS  G.9      the audit table of the chapter ends with 37 figures, 35 agreeing, 2 not
+PASS  G.10     the chapter links 56 distinct DOIs
+PASS  G.11     every DOI of the chapter resolves in Crossref
+PASS  H.1      all 14 figure files are present (3 diagrams, 10 figures and the R check plot)
+
+40 PASS, 0 FAIL, 0 SKIP

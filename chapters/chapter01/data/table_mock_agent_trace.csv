@@ -1,0 +1,10 @@
+case,final,needs_human,tool_calls,guardrail_events,escalated_by,model_proposed,input_tokens,output_tokens,run,truth,rule_agent_decision,agrees_with_rule_agent
+new-1,consistent with the cluster,False,3,,,consistent with the cluster,0,0,1,same outbreak,consistent with the cluster,True
+new-2,consistent with the cluster,False,4,G2,,consistent with the cluster,0,0,1,same outbreak,consistent with the cluster,True
+new-3,consistent with the cluster,False,4,G3,,consistent with the cluster,0,0,1,"importation, 14 days",consistent with the cluster,True
+new-4,ambiguous: escalate to a person,True,4,G3,G3,consistent with the cluster,0,0,1,"importation, 90 days",not linked to the cluster,False
+new-5,ambiguous: escalate to a person,True,2,G5,G5,,0,0,1,same outbreak,consistent with the cluster,False
+new-6,ambiguous: escalate to a person,True,8,G4,G4,,0,0,1,"importation, 14 days",consistent with the cluster,False
+new-7,not assessed: coverage below the quality gate; resequence,True,2,,,not assessed: coverage below the quality gate; resequence,0,0,1,"same outbreak, poor coverage",not assessed: coverage below the quality gate; resequence,True
+new-8,not linked to the cluster,False,4,G1,,not linked to the cluster,0,0,1,"importation, 90 days",not linked to the cluster,True
+new-9,not linked to the cluster,False,3,,,not linked to the cluster,0,0,1,same outbreak,not linked to the cluster,True

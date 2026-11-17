@@ -1,0 +1,38 @@
+source,item,printed,recomputed,agrees,tolerance,note
+Notes: population structure,frequency of allele M,0.54,0.5425,True,0.005,0.5425 rounds to 0.54
+Notes: population structure,"95% interval, lower limit",0.52,0.520666,True,0.005,
+Notes: population structure,"95% interval, upper limit",0.56,0.564334,True,0.005,
+Notes: population structure,expected count MM,294.3,294.30625,True,0.05,
+Notes: population structure,expected count MN,496.4,496.3875,True,0.05,
+Notes: population structure,expected count NN,209.3,209.30625,True,0.05,
+Notes: population structure,D = P(MM) - p^2,0.004,0.003694,True,0.0005,
+Notes: population structure,chi-square printed (from the rounded D and p),0.25,0.259309,True,0.01,0.259 from the rounded inputs: the printed 0.25 is truncated
+Notes: population structure,chi-square from the observed and expected counts,0.25,0.22149,True,0.05,0.22 from unrounded values; the notes round D and p first
+Notes: population structure,P value of the printed chi-square,0.61,0.617075,True,0.01,0.617
+Notes: population structure,"r2 for pA 0.25, pB 0.4, pAB 0.25",0.5,0.5,True,0.005,
+Notes: population structure,D' for the same haplotype frequencies,1.0,1.0,True,0.005,
+Notes: population structure,"between-population share of variation, 5-7%, against 93-95% within (Rosenberg et al.)",100.0,100.0,True,0.0,the two ranges are complements
+Notes: GWAS and stratification,median of the chi-square distribution with 1 df,0.455,0.454936,True,0.0005,0.4549
+Notes: GWAS and stratification,T2D example: lambda from median chi-square 0.48,1.05,1.055092,True,0.011,"1.055; the median is itself rounded to two digits, which allows +/- 0.011"
+Notes: GWAS and stratification,T2D example: P value at the median chi-square 0.48,0.49,0.488422,True,0.005,
+Notes: GWAS and stratification,T2D example: -log10 P at the median,0.31,0.311205,True,0.005,
+Notes: GWAS and stratification,lactase SNP: P value of chi-square 25.9 (printed 4 x 10^-7),4e-07,0.0,True,5e-08,3.6 x 10^-7
+Notes: GWAS and stratification,lactase SNP: corrected chi-square 25.9 / 1.11,23.3,23.333333,True,0.05,
+Notes: GWAS and stratification,lactase SNP: corrected P (printed 1 x 10^-6),1e-06,1e-06,True,5e-07,1.4 x 10^-6
+Notes: GWAS and stratification,"lactase SNP: 1,123 tall + 1,056 short individuals",2179.0,2179.0,True,0.0,
+Notes: admixture mapping,case probability of SNP1=A with POP1 ancestry,0.06,0.06,True,0.005,
+Notes: admixture mapping,case probability of SNP1=A with POP2 ancestry,0.54,0.54,True,0.005,
+Notes: admixture mapping,case probability of SNP1=C with POP1 ancestry,0.36,0.36,True,0.005,
+Notes: admixture mapping,case probability of SNP1=C with POP2 ancestry,0.04,0.04,True,0.005,
+Notes: admixture mapping,P(SNP1 = A) in cases,0.6,0.6,True,0.005,
+Notes: admixture mapping,P(POP2) in cases,0.58,0.58,True,0.005,
+Notes: admixture mapping,"ancestry odds ratio, pE 100%, pA 0%",1.5,1.5,True,0.005,
+Notes: admixture mapping,"ancestry odds ratio, pE 0%, pA 100%",0.67,0.666667,True,0.005,
+Notes: admixture mapping,"ancestry odds ratio, pE 90%, pA 10%",1.38,1.380952,True,0.005,
+Notes: admixture mapping,"ancestry odds ratio, pE 75%, pA 25%",1.22,1.222222,True,0.005,
+Notes: admixture mapping,"ancestry odds ratio, pE 60%, pA 40%",1.08,1.083333,True,0.005,
+Notes: admixture mapping,"ancestry odds ratio, pE 50%, pA 50%",1.0,1.0,True,0.005,
+Van Steen slides,cystic fibrosis: sibling risk 0.25 over population risk 0.0004,500.0,625.0,False,0.5,625; 500 would need a population risk of 0.0005
+Van Steen slides,Huntington disease: 0.5 over 0.0001,5000.0,5000.0,True,0.5,
+Student GWAS slides,"WTCCC: associations in the seven diseases, as the slide counts them by disease (0, 1, 9, 7, 3, 4) against its stated total of 23",23.0,24.0,False,0.0,"the slide's own parts add up to 24; the paper reports 24 signals at P < 5 x 10^-7 (1, 1, 9, 3, 7, 3)"
+Student GWAS slides,"WTCCC paper: signals by disease (bipolar 1, coronary artery 1, Crohn 9, rheumatoid 3, type 1 diabetes 7, type 2 diabetes 3)",24.0,24.0,True,0.0,

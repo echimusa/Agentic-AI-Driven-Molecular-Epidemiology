@@ -1,0 +1,5 @@
+analysis,false_positive_rate_pct,median_p,lambda_gc
+Naive,100.0,0.0,81.375
+Adjusted for 2 PCs,7.8,0.425,1.4
+Adjusted for ancestry label,3.7,0.517,0.922
+Restricted to ancestry A,4.5,0.499,1.007

@@ -1,0 +1,77 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 7 - TRANSMISSION INFERENCE AND OUTBREAK INVESTIGATION
+Book: Agentic AI-driven Molecular Epidemiology
+Package prepared 15 November 2026 (reviewed, extended and validated version)
+
+CONTENTS
+Chapter_7_Transmission_Inference_and_Outbreak_Investigation.docx
+    The chapter: 20 sections, 3 hands-on exercises and 2 R companions. A4 layout; equations are native Word equations.
+code/
+    ex1_hagelloch.py          Exercise 1 (Python): serial interval, offspring distribution, R_t and cross-validated infector ranking, Hagelloch measles 1861
+    ex2_ebola.py              Exercise 2 (Python): SNP matrix, clock, thresholds, network and candidate infectors, Ebola virus Sierra Leone 2014
+    ex3_outbreaker2.R         R companion (R): Bayesian reconstruction with outbreaker2 on the Hagelloch data
+    ex4_descriptive.py        Exercise 3 (Python): time, place and person, onset definition, tracing windows and contact definitions, Hagelloch
+    ex5_transphylo.R          R companion 2 (R): 12 simulated outbreaks inferred with TransPhylo (about 40 minutes on one processor)
+    ex5_transphylo_analysis.py  scores the TransPhylo runs against the truth and writes the tables and Figure 12
+    diagram_chain_timeline.py draws the timeline of two linked cases
+    validate_ch7.py           independent recomputation of the numbers in the chapter (see CHECKS)
+data/
+    measles_hagelloch_1861.RData     Hagelloch data from the CRAN package outbreaks 1.9.0 (GPL >= 2); original sources Pfeilsticker (1863) and Oesterle (1992)
+    ebola.fasta, ebola_meta.csv      the 249 Ebola virus genomes of NCBI BioProject PRJNA257197 with metadata (cached copy)
+    ebola_candidate_ranking.csv      output of Exercise 2: candidate-infector summary for the 61 early cases
+    hagelloch_outbreaker2.rds        saved outbreaker2 posterior samples from the R companion
+    table_generations, table_person, table_place, table_tracing, table_descriptive_summary (csv)   Exercise 3 results
+    transphylo_{runs,truth,pairs}.csv and transphylo_short_{runs,truth,pairs}.csv   raw output of ex5_transphylo.R (100,000 and 2,000 iterations)
+    table_transphylo_{summary,runs,calibration}.csv and the _short versions   scored results of ex5_transphylo_analysis.py
+    ex1_output.txt, ex2_output.txt, ex3_output.txt   printed output of the three original scripts, used by the slide checks
+figures/        Figures 1 to 13 and the chapter diagrams
+lecture/        MEPI7_Chapter7_Transmission_Inference_and_Outbreak_Investigation_Lecture.pptx (37 slides, 10 native charts, notes on every slide),
+                validate_slides_ch7.py, slide_validation_negative_control.csv
+review/         Chapter_7_Review_Evaluation_and_Benchmark.docx, validation_results_ch7.csv, eval_ch7.py, chapter_stats.csv, deck_metrics.json
+
+HOW TO RUN
+Exercise 1 (Python 3.12). pip install pandas numpy scipy matplotlib pyreadr
+    cd code; cp ../data/measles_hagelloch_1861.RData .; python ex1_hagelloch.py
+  Without the data file the script downloads the CRAN package archive (internet needed). Writes figs/.
+  Expected: 188 cases, 184 documented infectors; serial interval mean 10.4 d; offspring dispersion k = 0.25; Rt peak 8.1 on day 27; infector ranking top-1 correct 14.7% (timing only) and 40.8% (timing + distance).
+Exercise 2 (Python). pip install biopython mappy networkx numpy pandas scipy matplotlib
+    cd code; cp ../data/ebola.fasta ../data/ebola_meta.csv .; python ex2_ebola.py
+  Writes figs2/ and ranking.csv (identical to data/ebola_candidate_ranking.csv). Expected: 195 genomes kept; 238 variable sites; clock 19.6 SNPs per genome per year (1.04e-03 per site);
+  61 early genomes; median effective number of candidate infectors 21.0 (timing only) and 12.5 (timing + genetics).
+R companion (R 4.3). install.packages(c("outbreaks", "outbreaker2"))
+    cd code; Rscript -e 'source("ex3_outbreaker2.R")'     (about 3 to 5 minutes on one core)
+  Expected: top-ranked infector is the documented one for 14.7% of cases; mean posterior probability on the documented infector 10.7%; 3 of 184 above 50%.
+Exercise 3 (Python). cd code; cp ../data/measles_hagelloch_1861.RData .; python ex4_descriptive.py     (about a minute)
+  Writes the five tables of data/ and figs3/fig11_descriptive.png. Expected: 6 generations of 4, 8, 50, 102, 22 and 2 cases; recorded deaths 12 of 188; the documented infector shares the family in 41.9% of pairs
+  against 1.3% of all earlier-later pairs; a 14-day look-back finds 98% of documented infectors with anyone as a candidate (73 per case), 89% with family or class (29), 41% with family alone (1.2).
+R companion 2 (TransPhylo 1.4.5; CRAN removed the package on 25 December 2025, so install from the archive):
+    install.packages("coda")
+    install.packages("https://cran.r-project.org/src/contrib/Archive/TransPhylo/TransPhylo_1.4.5.tar.gz", repos = NULL, type = "source")
+    cd code; Rscript ex5_transphylo.R                       (12 runs of 100,000 iterations, about 40 minutes; finished runs are saved as .rds and skipped on a restart)
+    TP_ITER=2000 TP_THIN=1 TP_PREFIX=transphylo_short Rscript ex5_transphylo.R       (the same outbreaks with 2,000 iterations, about a minute)
+    python ex5_transphylo_analysis.py
+  Expected (pooled over six outbreaks per setting): at sampling probability 0.25, 21% of sampled cases have a sampled true infector, top-1 23 of 23, calls above 0.5 18 of 24 true;
+  at 0.75, 74%, top-1 52 of 74, 42 of 49. Smallest effective sample size 142 and 106 (100,000 iterations) against 4.3 and 7.1 (2,000). The simulation sets dateStartOutbreak = 2005;
+  with the package default start my test ran past five minutes and was stopped.
+
+CHECKS
+python validate_ch7.py --chapter ../Chapter_7_Transmission_Inference_and_Outbreak_Investigation.docx [--doi] [--full] [--sim]
+    30 checks of the files and the chapter text; --doi resolves all 21 DOIs in Crossref (31); --full reruns Exercises 1 to 3 and the scoring of the TransPhylo runs and checks that their result files are
+    reproduced byte for byte (43; 44 with --doi); --sim, with --full, also reruns ex5_transphylo.R from scratch (about 40 minutes) and compares the effective sample sizes and posterior means; this option was NOT run.
+    Last result: 44 of 44 with --doi --full (review/validation_results_ch7.csv). Altering three result files makes 7 of the 30 checks fail, as they should.
+    The determinism of ex5_transphylo.R was checked by rerunning the first three outbreaks, which reproduced the effective sample sizes of the shipped runs to the digit. Needs pandoc and python-docx.
+cd lecture; python validate_slides_ch7.py MEPI7_Chapter7_Transmission_Inference_and_Outbreak_Investigation_Lecture.pptx --data ../data --chapter ../Chapter_7_Transmission_Inference_and_Outbreak_Investigation.docx
+    32 of 32 checks. On a corrupted copy of the deck 6 of 32 fail, as they should (slide_validation_negative_control.csv). Needs python-pptx and pandoc.
+
+PROVENANCE AND LIMITS
+- The Hagelloch "infector" column is the putative source recorded by the original investigators, not a laboratory-confirmed link. The complications column is recorded as yes for all 188 cases and carries no information.
+  Deaths are counted only where a date of death is recorded (12 of 188).
+- No true infectors are recorded for the Ebola genomes, so Exercise 2 measures information gain, not accuracy.
+- The outbreaker2 run is a single chain; no effective-sample-size check was run. The TransPhylo experiment is a best case: six outbreaks per setting, simulated from the model used to infer them, with the true
+  phylogeny supplied and one chain per outbreak. Top-1, precision and recall are pooled over runs (counts summed before the ratios are taken).
+- The MRSA and TB-MDR examples cited from Chapter 6 are illustrative scenarios.
+- The outbreak and investigation material paraphrases course documents: WHO Module 2.1 (CC BY-NC-SA 3.0 IGO, non-commercial and share-alike), Larkin and Mavji (year and publisher not stated), the Bhutan Department of Public Health manual
+  (2015, scanned and read by OCR), CDC Introduction to Epidemiology (public domain), the USDA APHIS and CFSPH tracing overview (2014) and the Chain of transmission slides (author and year not stated).
+- The Part B tutorial calls simulateOutbreak without a start date and runs 2,000 iterations; both can fail as described above.
+- Equations in the Word file were verified by converting them back to LaTeX; they were not viewed in Word. Slides were rendered through LibreOffice and not opened in PowerPoint.

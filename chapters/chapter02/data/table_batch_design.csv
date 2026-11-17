@@ -1,0 +1,7 @@
+design,true_effect,naive_hit_rate,naive_any_of_20,corrected_hit_rate,corrected_any_of_20
+Randomised,0.0,1.26,22.0,4.81,65.0
+Randomised,0.6,69.42,100.0,84.15,100.0
+Partly confounded,0.0,98.28,100.0,5.5,66.4
+Partly confounded,0.6,100.0,100.0,65.87,100.0
+Fully confounded,0.0,100.0,100.0,,
+Fully confounded,0.6,100.0,100.0,,

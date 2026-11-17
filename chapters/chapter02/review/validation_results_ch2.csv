@@ -1,0 +1,62 @@
+id,check,result,detail
+H1.1,efficiency at 1 controls: table 0.37 against the asymptotic value at the true effect 0.43,PASS,
+H1.1,efficiency at 2 controls: table 0.59 against the asymptotic value at the true effect 0.60,PASS,
+H1.1,efficiency at 4 controls: table 0.73 against the asymptotic value at the true effect 0.75,PASS,
+H1.1,efficiency at 8 controls: table 0.89 against the asymptotic value at the true effect 0.86,PASS,
+H1.2,"the rule of thumb M/(M+1) is the small-effect limit (beta = 0.01) for M = 1, 2, 4, 8",PASS,
+H1.3,"at the true effect (0.4 per SD) efficiency lies below M/(M+1); gaps for M = 1, 2, 4, 8 recorded",PASS,"[0.07, 0.07, 0.05, 0.03]"
+H1.4,risk-set estimate unbiased: mean 0.399 against a true 0.400 (M = 2),PASS,
+H1.5,1:1 to 1:2 buys 22 points of efficiency for 3 of assay cost; 1:4 to 1:8 buys 16 for 12.5,PASS,
+H1.6,infert: log odds ratios 1.9859 and 1.4090 together (the documented clogit result for these data),PASS,
+H1.7,"infert: 248 women, 83 cases, 83 matched sets",PASS,
+H1.8,infert by a third implementation (Newton on the softmax likelihood): 1.986 and 1.409,PASS,"(array([1.9859, 1.409 ]), array([0.3524, 0.3607]))"
+H2.1,"Randomised: false positives per assay, naive 1.5% and adjusted 5.1% by fresh simulation against table 1.3% and 4.8%",PASS,
+H2.2,"Randomised: power at 0.6, adjusted 84.0% against table 84.2%",PASS,
+H2.1,"Partly confounded: false positives per assay, naive 98.4% and adjusted 5.0% by fresh simulation against table 98.3% and 5.5%",PASS,
+H2.2,"Partly confounded: power at 0.6, adjusted 66.1% against table 65.9%",PASS,
+H2.3,fully confounded: 100% false positives naive; adjustment impossible,PASS,
+H2.4,with 20 assays a nominal 5% test gives at least one false positive in 64% of studies,PASS,
+H2.5,"Salmonella Enteritidis, Illumina: 68,878 isolates from 45 laboratories with at least 300",PASS,"(68878, 45)"
+H2.6,"laboratory explains 34% of log contig variance, 38% of log N50, 15% of genome length, 9% of AMR genes",PASS,"[34, 38, 15, 9]"
+H2.7,sensitivity: with the laboratory taken from the sequenced-by field only (not filled from the BioProject centre) the share for contig count stays above 20%,PASS,"25% in 34 laboratories, 36,194 isolates"
+H2.8,229 laboratories deposited Enteritidis genomes; 11 sequenced 30+ human and 30+ non-human; 70.2% of non-human isolates from laboratories with no human isolates,PASS,"(229, 11, np.float64(70.2))"
+H2.9,non-human minus human isolates: 23% more contigs (ratio 1.23),PASS,1.231
+H3.1,"false positives by fresh simulation: naive 100%, 2 PCs 10.8%, label 7.0%, restricted 5.8% against 100 / 7.8 / 3.7 / 4.5",PASS,
+H3.2,with no extra risk in B the naive rate is the nominal 5% (fresh simulation 3.6%),PASS,
+H3.3,with 2 informative background SNPs two components fail (fresh simulation 97% against the table's 98%),PASS,
+H3.4,two components stay between 3.3% and 6.7% across the risk-gap series,PASS,
+H3.5,"restriction discards 40% of the sample (400 of 1,000)",PASS,
+H4.1,all 16 draft-formula sample sizes recomputed from the normal quantiles (to 0.1%),PASS,
+H4.2,adding the outcome variance 0.25 multiplies every sample size by four,PASS,
+H4.3,"power at the draft N and at four times it (maf 0.05, OR 1.5, alpha 0.05) by fresh simulation against the table",PASS,
+H4.3,"power at the draft N and at four times it (maf 0.3, OR 1.2, alpha 0.05) by fresh simulation against the table",PASS,
+H4.3,"power at the draft N and at four times it (maf 0.3, OR 1.5, alpha 5e-08) by fresh simulation against the table",PASS,
+H4.4,draft formula gives 30-33% power at alpha 0.05 and 1-2% at 5e-8; with the outcome variance 79-92%,PASS,"(np.float64(0.007), np.float64(0.332), np.float64(0.787), np.float64(0.922))"
+H4.5,"detection arithmetic: 59, 299, 598 and 2,995 sequences for 5%, 1%, 0.5% and 0.1% at 95% confidence",PASS,
+H4.6,"36 countries; over the 104 weeks ending 3 January 2021 to 25 December 2022: 4,187,286 and 3,874,278 open sequences, shares of cases 2.81% and 1.08%",PASS,"(4187286, 3874278, np.float64(2.81), np.float64(1.08))"
+H4.6b,"sensitivity: by calendar year the shares are 2.91% and 1.05%, within 0.15 points of the weekly-bin shares",PASS,"(np.float64(2.91), np.float64(1.05))"
+H4.7,"the USA, UK, Germany and Denmark supply 96.1% of open sequences",PASS,96.1
+H4.8,9 countries above 0.5% of cases in 2021 and 7 in 2022,PASS,"(9, 7)"
+H4.9,"2022 sequences per 100 cases: UK 11.4, Denmark 11.3, USA 3.1, Germany 2.3, Switzerland 1.6, Mexico 0.39, Japan 0.047, France 0.038, Kenya 4.0",PASS,
+H4.10,13 of 36 countries have at least one week with 299+ open sequences in 2022,PASS,13
+H4.11,"five countries (UK, USA, Germany, Switzerland, Denmark) could detect a 1% variant in every week of 2022",PASS,"countries at 100% of weeks: ['Denmark', 'Germany', 'Switzerland', 'USA', 'United Kingdom']; countries above 50% of weeks: {'Denmark': 100.0, 'Germany'"
+TXT,chapter text contains '0.399',PASS,
+TXT,chapter text contains '7.29 (3.65–14.54)',PASS,
+TXT,chapter text contains '98.3%',PASS,
+TXT,"chapter text contains '68,878'",PASS,
+TXT,"chapter text contains '4,187,286'",PASS,
+TXT,"chapter text contains '3,874,278'",PASS,
+TXT,chapter text contains '96.1%',PASS,
+TXT,chapter text contains '299 sequences',PASS,
+TXT,"chapter text contains '2,995'",PASS,
+TXT,chapter text contains '81',PASS,
+TXT,chapter text contains '7.8%',PASS,
+TXT,chapter text contains '30–33%',PASS,
+REP,table_batch_design.csv reproduced byte for byte,PASS,
+REP,table_batch_labs.csv reproduced byte for byte,PASS,
+REP,table_infert_clogit.csv reproduced byte for byte,PASS,
+REP,table_ncc_design.csv reproduced byte for byte,PASS,
+REP,table_sample_size.csv reproduced byte for byte,PASS,
+REP,table_sequencing_coverage.csv reproduced byte for byte,PASS,
+REP,table_stratification.csv reproduced byte for byte,PASS,
+REP,table_stratification_strength.csv reproduced byte for byte,PASS,

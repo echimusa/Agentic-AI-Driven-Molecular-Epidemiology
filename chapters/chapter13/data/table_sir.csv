@@ -1,0 +1,10 @@
+quantity,value,note
+R0 = beta / gamma,2.9999999999999996,"beta 0.3, gamma 0.1 per day"
+"Early growth rate per day (log-linear slope, days 0 to 10)",0.1987811380667311,theory beta - gamma = 0.200
+Doubling time (days) = ln 2 / r,3.4869866794265705,theory 3.47
+Peak infected,3007.9336332527023,on day 38.4
+"Fraction ever infected, numerical",0.940551991345118,day 200
+"Fraction ever infected, final-size equation",0.940334695147864,ln(S0/S_inf) = R0 (S0 - S_inf)
+Instantaneous R at the peak = R0 S / N,0.9959751506892888,equals 1 at the peak
+Control: peak infected with beta halved on day 30,2056.5697848219415,on day 30.0
+Control: fraction ever infected,0.7299193507795613,day 200

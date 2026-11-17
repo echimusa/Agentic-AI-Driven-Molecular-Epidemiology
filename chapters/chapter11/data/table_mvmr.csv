@@ -1,0 +1,3 @@
+case,true_x1,true_x2,univariable_x1,multivariable_x1,multivariable_x2,multivariable_x1_covers_truth,reps
+"C1 X1 has no effect, X2 does",0.0,0.4,0.2729314383150981,0.01087847150741968,0.38455354248787604,0.898,500
+C2 both have effects,0.3,0.4,0.5673066551122761,0.299932205937508,0.39205282495460575,0.946,500

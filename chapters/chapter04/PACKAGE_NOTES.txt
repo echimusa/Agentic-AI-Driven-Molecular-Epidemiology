@@ -1,0 +1,51 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 4 - GENOMIC CLUSTERING: SNP AND cgMLST APPROACHES
+Book: Agentic AI-driven Molecular Epidemiology
+Package prepared 13 November 2026
+
+CONTENTS
+Chapter_4_Genomic_Clustering_SNP_and_cgMLST_Approaches.docx   the chapter (A4; built directly from Markdown with pandoc because the document service was unavailable)
+code/
+    validate_ch4.py               validation harness: recomputes the chapter's numbers with independent code and checks them against the result tables and the chapter text (--chapter, --parquet, --full)
+    ex4_0_prepare_listeria.py     streams the NCBI Pathogen Detection Listeria SNP-distance table (17.3 million pairs) and writes per-cluster statistics and the pairs of two example clusters (downloads the 148 MB parquet file if absent)
+    ex4_1_distance_matrices.py    Hands-on 1: the uploaded SNP simulation repaired (integer XOR), then linkage rules and thresholds on two real Listeria clusters; Figure 1
+    ex4_2_cgmlst_alleles.R        Hands-on 2: the uploaded cgMLST R simulation (base-R heatmap) with single, average and complete linkage; Figure 2
+    ex4_3_snp_vs_allele.py        Hands-on 3: SNP against allele distance with and without recombination; Figure 3
+    ex4_4_real_clusters.py        Hands-on 4: cluster diameters, fragmentation at tighter thresholds and opposite-type neighbours in 74,758 real genomes; Figure 4 (downloads the parquet file if absent)
+    original_scripts/           Chapter_4_3.py and Chapter_4_4.R as supplied (the Python script stops with a TypeError)
+figures/    Figures 1-4 and the two chapter diagrams
+data/       result tables (table_*.csv) and inputs
+    listeria_pairs_selected.csv.gz  all pairwise SNP distances of two Listeria clusters (111 and 220 isolates)
+    listeria_cluster_stats.csv      per-cluster summary of 6,920 clusters (isolates, pairs, diameter, pairs within 5/10/20/50 SNPs)
+    listeria_cluster_list.tsv       isolate-to-cluster assignments (NCBI)
+    listeria_all_isolates.tsv       nearest same-type and opposite-type neighbour distance per isolate (NCBI)
+
+HOW TO RUN (about 5 minutes; Hands-on 4 downloads 148 MB)
+Install: pip install pandas numpy scipy seaborn pyarrow matplotlib ; R (base graphics only).
+    cd code ; cp ../data/* . ; mkdir -p figs4
+    python ex4_1_distance_matrices.py   # expected: 9 pairs within 12 SNPs in the simulation; at 20 SNPs the 220-isolate cluster forms 59 (single), 79 (average), 89 (complete) clusters
+    Rscript ex4_2_cgmlst_alleles.R      # expected: 8 pairs within 3 alleles; Isolate_6 and Isolate_7 differ by 4 alleles but share a single-linkage cluster
+    python ex4_3_snp_vs_allele.py       # expected: allele distance 0.60 of SNP distance without recombination; at 1 event per pair 39.0% of pairs 5 mutations apart called linked by a SNP rule of 10
+    python ex4_4_real_clusters.py       # expected: 26.4% of 1,022 clusters wider than 50 SNPs; 23,866 groups at 10 SNPs; opposite-type neighbour within 5 SNPs for 24.6% of isolates
+    python ex4_0_prepare_listeria.py    # optional; regenerates listeria_cluster_stats.csv and listeria_pairs_selected.csv.gz
+
+PROVENANCE AND LIMITS
+- NCBI re-runs the Pathogen Detection analysis and retires old versions (accessions are not archival). The chapter uses Listeria version PDG000000001.4985, downloaded 13 November 2026; a later download gives different numbers.
+- Clusters in the public table are single-linkage clusters at 50 SNPs; the table holds only isolates that entered a cluster. "Opposite type" is the pipeline's label for the isolation source (clinical against environmental).
+- The SNP-versus-allele analysis is a simulation (independent mutations, one recombination tract per event, 60% of SNPs in scheme loci, 1,700 loci); it is not a real cgMLST analysis.
+- Chapter_4_3.py as uploaded fails because it applies XOR to a floating-point array; ex4_1 stores integers. Chapter_4_4.R needs gplots for its heatmap; ex4_2 uses base R.
+- The implied time to a common ancestor uses a published Listeria rate (2.5e-7 per site per year) and the 2.86 Mb aligned in the data; it is a derived figure.
+- Every DOI was resolved against Crossref on 13 November 2026. The Word file renders to 13 A4 pages in LibreOffice; it was not opened in Word, and the style-XML schema check of the validator reports errors on pandoc-generated files.
+- The uploaded draft was used for its structure (SNP and cgMLST paradigms, workflow diagram, comparison table); its cut-off ranges and its statement about autonomous threshold adjustment were checked against the literature and replaced (see the chapter), and its reference list was corrected.
+
+REVIEW AND VALIDATION (14 November 2026)
+python validate_ch4.py --chapter ../Chapter_4_Genomic_Clustering_SNP_and_cgMLST_Approaches.docx                                   # 38 checks from the shipped files (one more is skipped)
+python validate_ch4.py --chapter ... --parquet listeria_SNP_distances.parquet             # 48 checks: the width, fragmentation and pipeline-agreement numbers are recomputed from the 17.3 million pairs (the 148 MB file is not shipped; ex4_4 downloads it)
+python validate_ch4.py --chapter ... --parquet ... --full                                 # also reruns ex4_1, ex4_3, ex4_4 in a scratch folder and checks that their result tables are reproduced byte for byte
+lecture/                              the Chapter 4 lecture deck, its 33-check validation script and its source
+review/                               validation_results_ch4.csv, the evaluation report (Word) and the benchmark scripts
+Corrections made in the review: (1) 16 SNPs is the median of the cluster mean distances, not 'the median pair': pooled over all pairs of the 1,022 clusters the median pair is 44 SNPs (about 31 years, not 11); (2) the components at 50 SNPs equal the pipeline clusters in 6,918 of 6,920 cases, not all:
+two clusters (PDS000041936.59, the 220-isolate cluster of Hands-on 1, and PDS000025192.48) divide into two components; (3) 3.5 sub-clusters at 10 SNPs is 3.4 (3.449), and 17.6% / 82.4% alone / in groups are 17.5% / 82.5%; (4) a caveat that complete and average linkage on integer distances depend on tie-breaking;
+(5) Ebola 'about 21 SNPs per genome per year' is 21 to 24 and the MRSA conservative cut-offs of 25 and 15 are added; (6) ex4_3 wrote lambda rounded in table_snp_allele_calls.csv (0.25 as 0.2): the script and the shipped table are fixed, every other column is unchanged; (7) the citation label Su et al. (2026).
+Limits that remain: the chapter text still refers to the uploaded draft files in places, and the reference list keeps background entries that the text does not cite.

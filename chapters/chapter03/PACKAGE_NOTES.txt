@@ -1,0 +1,52 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 3 - MOLECULAR TYPING AND SEQUENCING METHODS AND DATA QUALITY
+Book: Agentic AI-driven Molecular Epidemiology
+Package prepared 13 November 2026
+
+CONTENTS
+Chapter_3_Molecular_Typing_and_Sequencing_Methods_and_Data_Quality.docx   the chapter (A4; built directly from Markdown with pandoc because the document service was unavailable)
+code/
+    asm3.py                        loader for the Salmonella assembly-quality table (reads salmonella_assembly_qc.csv.gz)
+    ex3_1_assembly_qc.py           Hands-on 1: assembly quality control of 911,210 public genomes; three rule sets; laboratory failure rates; Figure 1
+    ex3_2_read_qc.py               Hands-on 2: read-level QC of four public ENA runs (downloads the start of each FASTQ, about 125 MB); Figure 2
+    ex3_2b_per_base_quality.R      Hands-on 2: the draft's per-base quality plot redrawn in R from per_base_quality.csv
+    ex3_3_snp_calling_simulation.py  Hands-on 3: depth, hotspots and contamination on a real viral genome; Figure 3
+    validate_ch3.py                validation harness: recomputes the chapter's numbers with independent code and checks them against the result tables and the chapter text (--chapter, --reads, --full)
+    ex3_4_quality_and_typing.py    Hands-on 4: assembly quality against SNP-cluster membership and AMR counts, crude and adjusted; Figure 4
+figures/    Figures 1-4, the R quality plot and the two chapter diagrams
+data/       result tables (table_*.csv, per_base_quality.csv) and the inputs needed to rerun the offline parts
+    salmonella_assembly_qc.csv.gz  assembly length, contigs, N50, AMR gene count, laboratory, serovar, year, sector, country and cluster membership of 911,210 isolates (NCBI Pathogen Detection)
+    ebola_aln.fasta                195 aligned Ebola virus genomes (NCBI BioProject PRJNA257197; Chapter 13), the source of the reference genome
+    ena_illumina.csv, ena2_illumina.csv, ena2_ont.csv, ena2_pacbio.csv   ENA run listings used to locate the FASTQ files
+    *_demo.fastq.gz                the first reads of each of the four runs, used if the ENA cannot be reached
+
+HOW TO RUN (about 5 minutes; Hands-on 2 needs internet)
+Install: pip install pandas numpy scipy statsmodels biopython matplotlib ; R with ggplot2.
+    cd code ; cp ../data/* . ; mkdir -p figs3
+    python ex3_1_assembly_qc.py            # expected: robust length range 4.37-5.31 Mb; Moderate rule fails 4.82%, Strict 14.88%; laboratory failure 0.5% to 47.1%
+    python ex3_3_snp_calling_simulation.py # expected: 20-fold depth: 84.2% callable, observed distance <= 2 in 40.8% of replicates (true distance 3)
+    python ex3_4_quality_and_typing.py     # expected: adjusted odds ratio 0.66 for clustering and rate ratio 1.94 for AMR genes per 10-fold more contigs
+    python ex3_2_read_qc.py                # downloads four FASTQ slices from the ENA (retries on HTTP 503); if the ENA is unavailable it falls back to the shipped *_demo.fastq.gz subsets (first 20,000 / 20,000 / 300 / 200 reads), which give slightly different numbers; full-run expectation: MiSeq error-probability mean Q20.4; Nanopore reads kept by the trimming rule 0%
+    Rscript ex3_2b_per_base_quality.R      # needs per_base_quality.csv (shipped, or written by ex3_2_read_qc.py)
+
+PROVENANCE AND LIMITS
+- The public Salmonella table is already filtered by the Pathogen Detection pipeline; failure rates in a laboratory's own data are higher. The three rule sets are illustrations, not programme standards.
+- Only the start of each FASTQ file is read in Hands-on 2; duplication and per-base profiles describe those reads. The MiSeq reads were trimmed before deposit.
+- The Nanopore chemistry of the run analysed is not stated in the ENA metadata.
+- The SNP-calling simulation is deliberately simple (independent positions, fixed hotspot rate, one reference, no mapping error).
+- Hands-on 4 uses a random sample of 100,000 of 322,735 eligible Illumina isolates; laboratory (40 largest) and serovar (20 commonest) are adjusted for as fixed effects, the rest pooled.
+- The AMR association with contig count is not explained by assembly statistics alone.
+- Every DOI was resolved against Crossref on 13 November 2026. The Word file renders to 14 A4 pages in LibreOffice; it was not opened in Word, and the style-XML schema check of the validator reported errors on the pandoc-generated styles.
+- The uploaded draft was used for its structure (typing, FASTQ and Phred scores, quality assessment, pre-processing, simulated example, comparison table); its reference list was checked and corrected (see Sources in the chapter).
+
+REVIEW AND VALIDATION (14 November 2026)
+python validate_ch3.py --chapter ../Chapter_3_Molecular_Typing_and_Sequencing_Methods_and_Data_Quality.docx    # 50 checks from the shipped files
+python validate_ch3.py --reads DIR --chapter ...   # 56 checks: DIR holds the four *_prefix.fastq files that ex3_2_read_qc.py writes; the read-level table of the chapter is then recomputed in full
+python validate_ch3.py --full         # also reruns ex3_1, ex3_3 and ex3_4 in a scratch folder and checks that their 7 result tables are reproduced byte for byte (about 6 minutes)
+lecture/                              the Chapter 3 lecture deck, its 34-check validation script and its source
+review/                               validation_results_ch3.csv, the evaluation report (Word) and the benchmark scripts
+Corrections made in the review: (1) the odds ratio of 0.66 per tenfold more contigs is described as lower odds, not 'about one third less likely' (92.6% of isolates are in a cluster); (2) the contig-decile pattern is described as it is: 95.5% in the lowest decile, 91.1% at the fifth, 92.9% at the ninth, 91.3% at the top;
+(3) five numbers now equal the result tables rounded half-up (0.62, 0.74 and 1.94 in Hands-on 4; 82.4% and 76.9% in Hands-on 2); (4) the Hands-on 4 'moderate rule' (contigs and N50 only, 4.0%) is distinguished from that of Hands-on 1 (with the length criterion, 4.8%); (5) the citation label Su et al. (2026);
+(6) ex3_3 wrote the hotspot share rounded to 0.0 in table_snp_calling.csv, which made the rows with and without hotspots indistinguishable: the script and the shipped table are fixed and every other column is unchanged.
+Limits that remain: the chapter text still refers to the uploaded draft files in places, and the reference list keeps background entries that the text does not cite. The four *_prefix.fastq files (about 350 MB) are not shipped.

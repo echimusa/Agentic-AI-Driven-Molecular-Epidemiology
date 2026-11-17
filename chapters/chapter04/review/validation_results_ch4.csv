@@ -1,0 +1,42 @@
+id,check,result,detail
+H1.1,"single linkage, which is unique: both real clusters (111 and 220 isolates) at four thresholds, by own agglomerative code: clusters, largest, singletons and diameter of the largest equal the table (8 combinations)",PASS,
+H1.1b,average and complete linkage on integer distances depend on how ties are broken: with a different tie-break the number of clusters and of singletons are equal in all 16 combinations; the largest cluster differs in at most 2 (recorded),PASS,"[(220, 'complete', 20, 'largest 15 against 14'), (111, 'complete', 10, 'largest 27 against 20')]"
+H1.2,"220-isolate cluster: 24,090 pairs, median 61, widest 122, 1.1% within 10 SNPs, 33.5% within 50; 111-isolate cluster: median 45, widest 90, 7.5% within 10",PASS,
+H1.3,"single linkage at 50 SNPs leaves 219 of the 220 isolates in one cluster of diameter 106 and one isolate alone (not one cluster, although NCBI formed it by single linkage at 50)",PASS,"(2, 219, 1, {106})"
+H1.4,at 10 SNPs single linkage gives a cluster of 21 with a widest pair of 23 (more than twice the threshold); complete linkage a largest cluster of 7 with diameter 9,PASS,
+H2.1,"R simulation: 8 pairs within 3 alleles (six among isolates 1–4 at 1 or 2 alleles, isolate 5 with 6 and with 7 at 2); isolates 6 and 7 differ by 4",PASS,"(8, [np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2)], [np.int64(2), np.int64(2), np.int64(4)])"
+H2.2,own linkage at 3 alleles: single and average give the two clusters {1–4} and {5–7}; complete linkage separates one of isolates 6 and 7 from the second cluster,PASS,"((2, 4, 0), (2, 4, 0), (3, 4, 1))"
+H2.3,mean allele distance within the first outbreak 1.5 and between unrelated isolates 16.9 of 20 loci,PASS,"(1.5, 16.9)"
+H3.1,without recombination the allele distance is 0.60 of the SNP distance (mean allele / mean SNP at true distances 1 to 20),PASS,
+H3.2,"mean SNP distance = d + 22.5 λ and mean allele distance = 0.6 (d + λ) at d = 10 for λ = 0, 0.25, 0.5, 1 (exact expectations)",PASS,
+H3.3,SNP rule of 10 at d = 5: the pair is linked if there is no event or one event of exactly 5 SNPs: e^-λ (1 + λ/36); the exact values are within 3 points of the table,PASS,"[(0.0, 100.0, np.float64(100.0), np.float64(78.3), np.float64(78.7)), (0.25, 78.4, np.float64(79.3), np.float64(75.5), np.float64(75.6)), (0.5, 61.5, "
+H3.4,"allele rule of 10 at d = 15: Binomial(15, 0.6) + Poisson(0.6 λ) at most 10; the exact values are within 3 points of the table (78.7%, 75.6%, 72.8%, 67.6%)",PASS,
+H3.5,SNP rule at d = 15 never links (0%); allele rule at d = 5 always links (100%) at every λ,PASS,
+H4.1,"6,920 clusters and 74,758 isolates in the cluster list",PASS,"(6920, 74758)"
+H4.2,"nearest same-type and opposite-type neighbour within 0, 2, 5, 10, 20 and 50 SNPs recomputed from the isolate table (34.4/5.5, 72.3/24.6, 81.9/37.1, 91.4/60.4 at 0, 5, 10, 20)",PASS,
+H4.3,"1,022 clusters of at least 10 isolates; median diameter 37, 90th percentile 65, maximum 122; 26.4% wider than 50 SNPs and 1.4% wider than 100 (from the cluster-level table)",PASS,
+H4.4,"diameter rises with cluster size (Spearman 0.51); pairs within 5, 10, 20, 50 SNPs across the 1,022 clusters are 2.6%, 4.3%, 8.3%, 68.5%",PASS,"(np.float64(0.508), [np.float64(2.58), np.float64(4.3), np.float64(8.25), np.float64(68.47)])"
+H4.5,"17.3 million pairs: cluster widths, fragmentation, pipeline agreement",SKIP,no --parquet file given
+TXT,"chapter text contains '59, 79 or 89'",PASS,
+TXT,chapter text contains '219 of the 220',PASS,
+TXT,"chapter text contains '6,918 of the 6,920'",PASS,
+TXT,chapter text contains '26.4%',PASS,
+TXT,chapter text contains '3.4 sub-clusters',PASS,
+TXT,chapter text contains '24.6%',PASS,
+TXT,chapter text contains '79%',PASS,
+TXT,chapter text contains '39%',PASS,
+TXT,chapter text contains '44 SNPs apart',PASS,
+TXT,chapter text contains '21 to 24 SNPs',PASS,
+TXT,chapter text contains 'conservative cutoffs of 25 and 15',PASS,
+TXT,chapter text contains 'ties are broken',PASS,
+TXT,"chapter text no longer contains 'BioMaster, 2026'",PASS,
+TXT,"chapter text no longer contains 'in all 6,920 cases'",PASS,
+TXT,chapter text no longer contains '3.5 sub-clusters',PASS,
+TXT,chapter text no longer contains '21 SNPs per genome per year',PASS,
+TAB.1,"Hands-on 1 table of the chapter equals the linkage result table (12 cells per row, four thresholds)",PASS,
+TAB.2,"Hands-on 4 fragmentation table equals the result table, with the shares of isolates alone and in groups recomputed exactly from the components when the pairs are supplied",PASS,[]
+TAB.3,neighbour table equals the result table (same-type and opposite-type shares at six thresholds),PASS,
+TAB.4,Hands-on 3 table equals the result tables (mean distances at d = 10; shares linked at d = 5 and 15 under both rules),PASS,
+REP,table_linkage_rules.csv reproduced byte for byte,PASS,
+REP,table_snp_vs_allele.csv reproduced byte for byte,PASS,
+REP,table_snp_allele_calls.csv reproduced byte for byte,PASS,

@@ -1,0 +1,2 @@
+clusters_10plus,diameter_median,diameter_p90,diameter_max,share_over_50,share_over_100,pairs_le5_pct,pairs_le10_pct,pairs_le20_pct,pairs_le50_pct,spearman_size_diameter
+1022,37.0,65.0,122.0,26.419,1.37,2.578,4.302,8.254,68.474,0.508

@@ -1,0 +1,2 @@
+case_alleles_a,case_alleles_t,control_alleles_a,control_alleles_t,chi_square,p_value,odds_ratio,cases,controls,power_at_5e8
+400,600,300,700,21.978021978021978,2.757905777054695e-06,1.5555555555555556,500,500,0.22266069675764863

@@ -1,0 +1,1173 @@
+PUBMEDID,DISEASE/TRAIT,INITIAL SAMPLE SIZE,REGION,CHR_ID,CHR_POS,MAPPED_GENE,STRONGEST SNP-RISK ALLELE,SNPS,RISK ALLELE FREQUENCY,P-VALUE,OR or BETA
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.31,6,34709326,ILRUN-AS1 - ATP6V1FP1,rs6932930-A,rs6932930,0.785,1e-40,0.0257
+30239722,Body mass index,"806,834 European ancestry individuals",6p22.3,6,21920795,CASC15,rs6934973-A,rs6934973,0.7028,4e-10,0.0117
+30239722,Body mass index,"806,834 European ancestry individuals",7q11.23,7,77002781,"DTX2P1, DTX2P1-UPK3BP1-PMS2P11",rs6954694-A,rs6954694,0.835,1e-20,0.0241
+30239722,Body mass index,"806,834 European ancestry individuals",7p13,7,44749058,ZMIZ2,rs6962280-A,rs6962280,0.4363,3e-13,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",7p21.1,7,17247482,AHR,rs6968554-A,rs6968554,0.3871,2e-10,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",7q11.23,7,77797165,TMEM60,rs6970595-T,rs6970595,0.5762,4e-09,0.0101
+30239722,Body mass index,"806,834 European ancestry individuals",5p15.33,5,3513371,LINC01019,rs698147-A,rs698147,0.447,1e-11,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",9q31.2,9,106309794,LINC01505,rs7024334-T,rs7024334,0.2254,5e-12,0.0135
+30239722,Body mass index,"806,834 European ancestry individuals",9p22.3,9,14455078,NFIB-AS1,rs7031064-A,rs7031064,0.5267,1e-10,0.011
+30239722,Body mass index,"806,834 European ancestry individuals",9p24.1,9,6942940,KDM4C,rs7037266-A,rs7037266,0.3576,1e-09,0.0106
+30239722,Body mass index,"806,834 European ancestry individuals",12q21.33,12,89378126,DUSP6 - POC1B,rs704061-T,rs704061,0.5535,8e-17,0.0142
+30239722,Body mass index,"806,834 European ancestry individuals",10q21.2,10,60082887,ANK3,rs7070670-T,rs7070670,0.3228,7e-10,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",10p12.31,10,21532345,MLLT10,rs7084454-A,rs7084454,0.3086,5e-27,0.0198
+30239722,Body mass index,"806,834 European ancestry individuals",14q32.33,14,103683138,"KLC1-AS1, KLC1",rs709400-A,rs709400,0.6214,6e-19,0.0148
+30239722,Body mass index,"806,834 European ancestry individuals",11q13.4,11,72733538,ARAP1,rs7123876-T,rs7123876,0.7494,3e-10,0.0118
+30239722,Body mass index,"806,834 European ancestry individuals",11p11.2,11,47508395,CELF1,rs7124681-A,rs7124681,0.4162,4e-55,0.0257
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.31,12,123924955,"CCDC92, DNAH10",rs7133378-A,rs7133378,0.3335,3e-13,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",12q13.13,12,53392077,SP1,rs7134628-A,rs7134628,0.1019,3e-09,0.0168
+30239722,Body mass index,"806,834 European ancestry individuals",22q13.32,22,48475207,MIR3201 - TAFA5,rs713763-A,rs713763,0.4168,4e-12,0.0136
+30239722,Body mass index,"806,834 European ancestry individuals",12q13.12,12,49853685,BCDIN3D - RPL35AP28,rs7138803-A,rs7138803,0.387,2.9999999999999997e-71,0.0297
+30239722,Body mass index,"806,834 European ancestry individuals",14q31.3,14,87908696,GALC,rs7141307-T,rs7141307,0.7397,6e-13,0.0141
+30239722,Body mass index,"806,834 European ancestry individuals",14q31.1,14,79474040,NRXN3,rs7144011-T,rs7144011,0.2334,2e-40,0.0263
+30239722,Body mass index,"806,834 European ancestry individuals",2q34,2,210678331,CPS1,rs715-T,rs715,0.6953,1e-16,0.0157
+30239722,Body mass index,"806,834 European ancestry individuals",15q14,15,35534658,DPH6,rs7181610-A,rs7181610,0.8553,5e-09,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",16p12.1,16,24795099,TNRC6A,rs7186893-T,rs7186893,0.2631,1e-13,0.0143
+30239722,Body mass index,"806,834 European ancestry individuals",16q13,16,56437498,NUDT21,rs7189122-T,rs7189122,0.8331,4e-11,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",11q23.2,11,113363957,TTC12,rs719802-T,rs719802,0.3974,1e-09,0.0106
+30239722,Body mass index,"806,834 European ancestry individuals",16q23.3,16,82839023,CDH13,rs7206608-C,rs7206608,0.6751,1e-12,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",17p13.3,17,2232771,SMG6,rs7217226-T,rs7217226,0.656,9e-16,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",17q21.2,17,41129928,KRTAP4-12 - KRTAP4-6,rs7219230-T,rs7219230,0.3394,5e-10,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",18p11.32,18,1840657,LINC00470 - AIDAP3,rs7238896-A,rs7238896,0.8584,2e-15,0.0218
+30239722,Body mass index,"806,834 European ancestry individuals",18q21.1,18,48394843,ZBTB7C,rs7239114-A,rs7239114,0.5414,6e-13,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",18q21.32,18,59216087,SEC11C - GRP,rs7243357-T,rs7243357,0.8349,1e-20,0.0198
+30239722,Body mass index,"806,834 European ancestry individuals",19q12,19,30119493,TAF9P3 - ZNF536,rs7259325-A,rs7259325,0.4826,4e-10,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",8q24.11,8,117872140,EXT1,rs72673947-A,rs72673947,0.8902,4e-13,0.0223
+30239722,Body mass index,"806,834 European ancestry individuals",15q24.1,15,72715552,BBS4,rs730180-A,rs730180,0.7917,2e-18,0.0172
+30239722,Body mass index,"806,834 European ancestry individuals",13q12.2,13,28043571,FLT3,rs7318817-T,rs7318817,0.6303,4e-16,0.0143
+30239722,Body mass index,"806,834 European ancestry individuals",4p15.1,4,28513208,IGBP1P5 - RN7SL101P,rs73213501-A,rs73213501,0.8263,1e-14,0.0194
+30239722,Body mass index,"806,834 European ancestry individuals",3p14.3,3,56080833,ERC2,rs12488237-T,rs12488237,0.9391,3e-10,0.0225
+30239722,Body mass index,"806,834 European ancestry individuals",4q26,4,119398279,KLHL2P1 - RNU6-1217P,rs12509234-T,rs12509234,0.7214,4e-10,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",5q12.3,5,64791196,CWC27,rs12522567-T,rs12522567,0.4928,2e-13,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",8q21.3,8,86493739,RMDN1,rs12546331-T,rs12546331,0.508,2e-10,0.0108
+30239722,Body mass index,"806,834 European ancestry individuals",9q22.33,9,99356808,NAMA,rs12551906-A,rs12551906,0.294,8e-11,0.0117
+30239722,Body mass index,"806,834 European ancestry individuals",22q13.1,22,40258272,TNRC6B,rs12628051-T,rs12628051,0.6407,3e-19,0.0161
+30239722,Body mass index,"806,834 European ancestry individuals",22q13.1,22,37921130,MICALL1,rs12628891-T,rs12628891,0.3186,6e-10,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",3q26.31,3,171395925,TNIK,rs12635553-A,rs12635553,0.486,4e-09,0.0099
+30239722,Body mass index,"806,834 European ancestry individuals",2q33.3,2,207112529,KLF7,rs1263627-A,rs1263627,0.7595,7e-11,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",5q21.3,5,107135417,LINC01950 - PSMC1P5,rs12651833-C,rs12651833,0.8077,2e-09,0.0129
+30239722,Body mass index,"806,834 European ancestry individuals",8q22.1,8,94570378,VIRMA-DT,rs12680842-A,rs12680842,0.6839,3e-16,0.0142
+30239722,Body mass index,"806,834 European ancestry individuals",8q12.2,8,61141904,CLVS1,rs12681792-A,rs12681792,0.2024,3e-12,0.015
+30239722,Body mass index,"806,834 European ancestry individuals",6q22.31,6,125719289,"LINC02523, HEY2-AS1",rs1269175-A,rs1269175,0.5111,8e-10,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",2q24.2,2,160409399,RBMS1,rs12692596-T,rs12692596,0.3618,1e-12,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",7q31.1,7,113852779,SMIM30 - PPP1R3A,rs12705916-T,rs12705916,0.6201,1e-18,0.0156
+30239722,Body mass index,"806,834 European ancestry individuals",2p11.2,2,86585426,"RNF103-CHMP3, CHMP3-AS1",rs12714199-T,rs12714199,0.6146,3e-16,0.0141
+30239722,Body mass index,"806,834 European ancestry individuals",10p11.22,10,33724579,LINC02628 - LINC00838,rs12765914-T,rs12765914,0.0801,2e-13,0.0226
+30239722,Body mass index,"806,834 European ancestry individuals",10p12.33,10,18273609,CACNB2,rs1277733-T,rs1277733,0.7664,4e-09,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",17q25.3,17,79823090,LINC01977,rs1285245-C,rs1285245,0.3864,2e-09,0.0106
+30239722,Body mass index,"806,834 European ancestry individuals",13q34,13,111566577,TEX29 - LINC02337,rs12868881-A,rs12868881,0.4066,1e-15,0.0138
+30239722,Body mass index,"806,834 European ancestry individuals",14q12,14,29267632,LINC02327,rs12885454-A,rs12885454,0.3559,4.9999999999999996e-26,0.018
+30239722,Body mass index,"806,834 European ancestry individuals",14q21.1,14,42416133,LRFN5 - YWHAQP1,rs12889085-A,rs12889085,0.5777,8e-12,0.0132
+30239722,Body mass index,"806,834 European ancestry individuals",14q24.1,14,69286652,GALNT16,rs12890931-T,rs12890931,0.6324,4e-09,0.0103
+30239722,Body mass index,"806,834 European ancestry individuals",15q21.1,15,46849892,RN7SKP101 - SEMA6D,rs12899905-T,rs12899905,0.2613,6e-10,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",15q21.1,15,47655094,SEMA6D,rs12912380-T,rs12912380,0.1131,2e-10,0.0171
+30239722,Body mass index,"806,834 European ancestry individuals",15q25.1,15,80701229,ABHD17C,rs12914623-C,rs12914623,0.2722,2e-16,0.0159
+30239722,Body mass index,"806,834 European ancestry individuals",16q23.3,16,82404732,MPHOSPH6-DT - CDH13,rs12922346-C,rs12922346,0.2641,1e-11,0.0133
+30239722,Body mass index,"806,834 European ancestry individuals",17q25.3,17,80637924,RPTOR,rs12939549-A,rs12939549,0.5572,4.0000000000000003e-28,0.018
+30239722,Body mass index,"806,834 European ancestry individuals",2q11.2,2,100185497,AFF3,rs13002946-A,rs13002946,0.2652,4e-20,0.0177
+30239722,Body mass index,"806,834 European ancestry individuals",2p25.3,2,632348,LINC01875 - TMEM18,rs13021737-A,rs13021737,0.1567,3e-161,0.0578
+30239722,Body mass index,"806,834 European ancestry individuals",2q21.2,2,132766032,NCKAP5,rs13033310-A,rs13033310,0.2519,3e-11,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",3p22.3,3,35625565,RNU6-243P - ARPP21,rs13062093-T,rs13062093,0.6319,3e-12,0.0122
+30239722,Body mass index,"806,834 European ancestry individuals",4q24,4,102267552,SLC39A8,rs13107325-T,rs13107325,0.082,4e-47,0.0468
+30239722,Body mass index,"806,834 European ancestry individuals",4q32.2,4,161208692,RPS14P7 - FSTL5,rs13110266-A,rs13110266,0.4037,4e-14,0.0124
+30239722,Body mass index,"806,834 European ancestry individuals",5q32,5,145243874,ASS1P10 - PRELID2,rs13155259-A,rs13155259,0.6681,2e-10,0.0114
+30239722,Body mass index,"806,834 European ancestry individuals",5q31.2,5,139701160,CXXC5 - RNU6-236P,rs13174863-A,rs13174863,0.8542,2e-17,0.0197
+30239722,Body mass index,"806,834 European ancestry individuals",6q26,6,162612318,PRKN,rs13191362-A,rs13191362,0.8572,4e-21,0.0235
+30239722,Body mass index,"806,834 European ancestry individuals",17p11.2,17,21361084,MAP2K3 - KCNJ12,rs1320251-T,rs1320251,0.4566,6e-25,0.0177
+30239722,Body mass index,"806,834 European ancestry individuals",6q16.1,6,97305347,MMS22L - MIR2113,rs13209872-C,rs13209872,0.3455,2e-16,0.0148
+30239722,Body mass index,"806,834 European ancestry individuals",8q12.3,8,63789828,"LINC01289, LINC01414",rs13264909-A,rs13264909,0.5654,4e-10,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",9p23,9,13941514,LINC00583,rs13298062-A,rs13298062,0.8111,2e-09,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",9p21.1,9,28941461,LINGO2,rs13299788-C,rs13299788,0.8492,3e-10,0.0148
+30239722,Body mass index,"806,834 European ancestry individuals",1q32.1,1,203516014,OPTC - ATP2B4,rs13303252-T,rs13303252,0.1812,9e-10,0.0153
+30239722,Body mass index,"806,834 European ancestry individuals",2q22.2,2,142074189,LRP1B,rs13396415-A,rs13396415,0.8395,5e-11,0.0149
+30239722,Body mass index,"806,834 European ancestry individuals",2p15,2,62621184,RSL24D1P2 - EHBP1,rs13417156-T,rs13417156,0.5755,7e-16,0.0135
+30239722,Body mass index,"806,834 European ancestry individuals",2p16.1,2,56376850,CCDC85A,rs13432055-T,rs13432055,0.712,6e-11,0.0117
+30239722,Body mass index,"806,834 European ancestry individuals",4q13.1,4,64786012,MTCO3P28 - LINC02232,rs1346841-A,rs1346841,0.4116,3e-13,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",6p22.3,6,23871472,SPTLC1P2 - ISG20L2P1,rs1355459-A,rs1355459,0.3157,1e-09,0.0112
+30239722,Body mass index,"806,834 European ancestry individuals",18q12.3,18,43128073,RIT2 - SYT4,rs1356506-T,rs1356506,0.6287,8e-15,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",5q23.3,5,131042334,ARL2BPP4 - HINT1,rs1363695-T,rs1363695,0.2359,8e-10,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",8q23.1,8,105418448,ZFPM2,rs1383592-A,rs1383592,0.212,5e-09,0.0122
+30239722,Body mass index,"806,834 European ancestry individuals",13q21.31,13,62109526,LINC00358 - LINC01075,rs1394879-C,rs1394879,0.3998,2e-10,0.011
+30239722,Body mass index,"806,834 European ancestry individuals",21q22.3,21,46628861,S100B - PRMT2,rs140733155-A,rs140733155,0.9889,3e-09,0.0559
+30239722,Body mass index,"806,834 European ancestry individuals",20p11.22,20,21400483,NKX2-4 - RN7SKP140,rs1409818-T,rs1409818,0.1074,3e-12,0.0195
+30239722,Body mass index,"806,834 European ancestry individuals",9p22.2,9,16728723,BNC2,rs1411431-A,rs1411431,0.1598,1e-18,0.0229
+30239722,Body mass index,"806,834 European ancestry individuals",6q16.3,6,104369069,NPM1P10 - HACE1,rs1417665-T,rs1417665,0.8026,5e-18,0.0186
+30239722,Body mass index,"806,834 European ancestry individuals",15q21.3,15,58764513,MINDY2-DT,rs1426652-A,rs1426652,0.1672,2e-10,0.0149
+30239722,Body mass index,"806,834 European ancestry individuals",8q21.11,8,72526835,RNA5SP271 - KCNB2,rs1431659-A,rs1431659,0.2737,2.0000000000000002e-23,0.0191
+30239722,Body mass index,"806,834 European ancestry individuals",3q13.11,3,104887300,EZRP1 - ALCAM,rs1436344-C,rs1436344,0.5703,1e-17,0.0147
+30239722,Body mass index,"806,834 European ancestry individuals",4q34.1,4,172675865,GALNTL6,rs1437842-A,rs1437842,0.4907,8e-10,0.0106
+30239722,Body mass index,"806,834 European ancestry individuals",2q22.3,2,147143639,LINC01911 - RNU6-692P,rs1451077-A,rs1451077,0.5776,1e-18,0.0169
+30239722,Body mass index,"806,834 European ancestry individuals",4q28.3,4,136150180,RNU1-89P - TERF1P3,rs1451109-A,rs1451109,0.6849,1e-19,0.0158
+30239722,Body mass index,"806,834 European ancestry individuals",16q23.3,16,81694476,CMIP,rs2012502-A,rs2012502,0.3826,2e-12,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.2,6,40380914,"LINC00951, TDRG1",rs2033529-A,rs2033529,0.7251,2.0000000000000002e-29,0.0201
+30239722,Body mass index,"806,834 European ancestry individuals",2q31.1,2,174096760,OLA1,rs2044469-A,rs2044469,0.6619,1e-13,0.0133
+30239722,Body mass index,"806,834 European ancestry individuals",4p16.3,4,3297073,RGS12,rs2051559-T,rs2051559,0.8588,4e-11,0.0167
+30239722,Body mass index,"806,834 European ancestry individuals",5q35.1,5,171172323,RANBP17,rs2053682-A,rs2053682,0.6784,3e-20,0.017
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.3,16,6654748,RBFOX1,rs2058527-T,rs2058527,0.2715,2e-09,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",2p22.1,2,41485709,HNRNPA1P57 - LDHAP3,rs2063177-A,rs2063177,0.3534,2e-11,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",11p14.1,11,30400521,MPPED2,rs2065418-T,rs2065418,0.646,6e-15,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",1p33,1,47217935,TAL1,rs2070929-C,rs2070929,0.2858,3e-13,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",16q12.2,16,54118818,FTO,rs2072518-A,rs2072518,0.5707,7e-11,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",19p13.13,19,12885926,KLF1,rs2072597-A,rs2072597,0.6946,2e-09,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",19p13.3,19,1970022,CSNK1G2,rs2074881-T,rs2074881,0.1875,2e-12,0.016
+30239722,Body mass index,"806,834 European ancestry individuals",8p21.2,8,25794012,CDCA2 - EBF2,rs2081493-C,rs2081493,0.2997,1e-09,0.0112
+30239722,Body mass index,"806,834 European ancestry individuals",11q25,11,132770106,OPCML,rs2105808-A,rs2105808,0.6745,3e-11,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",16p12.1,16,24298961,CACNG3,rs2107118-A,rs2107118,0.4998,3e-10,0.0111
+30239722,Body mass index,"806,834 European ancestry individuals",5q13.3,5,75719417,POC5 - SLC25A5P9,rs2112347-T,rs2112347,0.6298,1e-61,0.0276
+30239722,Body mass index,"806,834 European ancestry individuals",9q21.12,9,71222239,TRPM3,rs2134858-T,rs2134858,0.5119,6e-12,0.0117
+30239722,Body mass index,"806,834 European ancestry individuals",11q23.2,11,113042225,NCAM1,rs2155645-T,rs2155645,0.259,8e-10,0.0114
+30239722,Body mass index,"806,834 European ancestry individuals",7p14.3,7,32307723,PDE1C,rs215614-A,rs215614,0.6246,3e-16,0.0144
+30239722,Body mass index,"806,834 European ancestry individuals",8q21.11,8,73777053,STAU2 - UBE2W,rs2170382-T,rs2170382,0.1103,4e-11,0.0177
+30239722,Body mass index,"806,834 European ancestry individuals",14q23.2,14,61893357,SYT16,rs217669-T,rs217669,0.7224,6e-16,0.0172
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.33,6,31638979,BAG6,rs2178899-A,rs2178899,0.8833,5e-23,0.0243
+30239722,Body mass index,"806,834 European ancestry individuals",9p21.1,9,28412080,LINGO2,rs2183824-T,rs2183824,0.3135,2e-41,0.0234
+30239722,Body mass index,"806,834 European ancestry individuals",11q25,11,133842787,SPATA19,rs2187449-A,rs2187449,0.7667,4e-14,0.0156
+30239722,Body mass index,"806,834 European ancestry individuals",4q12,4,54639193,LINC02260 - KIT,rs2192158-A,rs2192158,0.4492,7e-16,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",4q21.1,4,76174965,SCARB2,rs17001561-A,rs17001561,0.1548,2e-10,0.0145
+30239722,Body mass index,"806,834 European ancestry individuals",1q32.2,1,209370215,LINC01698,rs17014375-T,rs17014375,0.8691,4e-11,0.0165
+30239722,Body mass index,"806,834 European ancestry individuals",4q31.21,4,144412457,GUSBP5 - KRT18P51,rs17019336-A,rs17019336,0.2291,2e-11,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",1p13.3,1,109612066,GNAT2,rs17024393-T,rs17024393,0.9689,7e-39,0.0644
+30239722,Body mass index,"806,834 European ancestry individuals",1p34.1,1,46039475,MAST2 - PIK3R3,rs1707322-A,rs1707322,0.3155,2e-14,0.0136
+30239722,Body mass index,"806,834 European ancestry individuals",14q24.3,14,77063440,"LINC02289, LINC02288",rs17105272-T,rs17105272,0.3189,2e-10,0.0117
+30239722,Body mass index,"806,834 European ancestry individuals",21q22.13,21,37513203,DYRK1A,rs17193211-T,rs17193211,0.0695,2e-09,0.0209
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.2,20,51785540,SALL4,rs17201143-T,rs17201143,0.3054,1e-09,0.0112
+30239722,Body mass index,"806,834 European ancestry individuals",7q31.1,7,109574082,BUB3P1 - EIF3IP1,rs1721447-T,rs1721447,0.5096,4e-09,0.01
+30239722,Body mass index,"806,834 European ancestry individuals",4q31.3,4,152107708,LINC02273,rs17276464-T,rs17276464,0.4143,5e-09,0.0096
+30239722,Body mass index,"806,834 European ancestry individuals",1p13.3,1,107075085,PRMT6 - NTNG1,rs1730859-A,rs1730859,0.651,3e-12,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",8q21.13,8,75894349,HNF4G - RNU2-54P,rs17405819-T,rs17405819,0.6845,6e-33,0.0211
+30239722,Body mass index,"806,834 European ancestry individuals",1p32.2,1,57409207,DAB1,rs17425707-T,rs17425707,0.9,6e-10,0.0173
+30239722,Body mass index,"806,834 European ancestry individuals",6q16.1,6,96938099,KLHL32,rs17448885-C,rs17448885,0.6522,5e-09,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",14q12,14,32833676,AKAP6,rs17522122-T,rs17522122,0.4667,8.000000000000001e-24,0.0167
+30239722,Body mass index,"806,834 European ancestry individuals",3p25.3,3,9986040,EMC3,rs17535749-A,rs17535749,0.1081,3e-09,0.0159
+30239722,Body mass index,"806,834 European ancestry individuals",2q22.2,2,141535577,LRP1B,rs17551974-A,rs17551974,0.1873,4e-09,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",13q32.2,13,98464130,STK24,rs17574378-T,rs17574378,0.7267,7e-14,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",3p25.3,3,11584990,VGLL4,rs17609108-T,rs17609108,0.8519,4e-10,0.0152
+30239722,Body mass index,"806,834 European ancestry individuals",10q26.13,10,124905509,NPM1P31 - ZRANB1,rs17636031-T,rs17636031,0.7244,4e-17,0.0154
+30239722,Body mass index,"806,834 European ancestry individuals",3q13.31,3,114680449,ZBTB20,rs17681451-A,rs17681451,0.0762,7e-13,0.0225
+30239722,Body mass index,"806,834 European ancestry individuals",9p21.1,9,31030919,HSPA8P17 - SLC25A6P2,rs17720922-T,rs17720922,0.1875,4e-09,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.2,6,38246374,BTBD9,rs17757975-T,rs17757975,0.8462,2e-10,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.2,20,52449315,LINC01524,rs17806224-A,rs17806224,0.1808,7.999999999999999e-32,0.026
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.3,16,2737061,PRSS27 - SRRM2-AS1,rs181179291-A,rs181179291,0.9895,5e-12,0.0658
+30239722,Body mass index,"806,834 European ancestry individuals",12q15,12,67811824,LINC02421 - LINC01479,rs1819844-A,rs1819844,0.1694,2e-11,0.0142
+30239722,Body mass index,"806,834 European ancestry individuals",7q21.11,7,78200451,MAGI2,rs1852006-A,rs1852006,0.376,7e-18,0.0153
+30239722,Body mass index,"806,834 European ancestry individuals",6q22.31,6,124590388,NKAIN2,rs1871329-A,rs1871329,0.7632,1e-10,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.3,16,4880099,UBN1,rs1876359-T,rs1876359,0.3679,3e-14,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",9q33.1,9,117902191,TLR4 - TPT1P9,rs1877875-T,rs1877875,0.4341,3e-10,0.0109
+30239722,Body mass index,"806,834 European ancestry individuals",20p13,20,1429938,FKBP1A - NSFL1C,rs1884389-T,rs1884389,0.4386,4e-10,0.0108
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.22,1,11052779,MASP2 - SRM,rs1884429-T,rs1884429,0.2348,2e-12,0.0134
+30239722,Body mass index,"806,834 European ancestry individuals",20p12.3,20,6632185,CASC20 - LINC01713,rs1884897-A,rs1884897,0.3747,3e-28,0.0184
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.23,1,7667794,CAMTA1,rs1891215-T,rs1891215,0.5397,7e-11,0.0111
+30239722,Body mass index,"806,834 European ancestry individuals",7q31.32,7,122324295,CADPS2,rs1899689-T,rs1899689,0.3939,4e-13,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",3p14.2,3,62115166,PTPRG,rs1911746-T,rs1911746,0.2095,4e-09,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",3p14.2,3,61201372,FHIT,rs1916801-A,rs1916801,0.616,2.0000000000000002e-24,0.0169
+30239722,Body mass index,"806,834 European ancestry individuals",13q32.1,13,96269937,HS6ST3,rs1927790-T,rs1927790,0.606,2e-17,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",5q35.2,5,173850244,LINC01485 - CPEB4,rs192829047-T,rs192829047,0.9848,1e-09,0.05
+30239722,Body mass index,"806,834 European ancestry individuals",9q33.1,9,117616205,ASTN2 - RPL35AP22,rs1928295-T,rs1928295,0.5712,2e-16,0.0134
+30239722,Body mass index,"806,834 European ancestry individuals",18q12.1,18,33671312,ASXL3,rs1941697-A,rs1941697,0.4466,8e-13,0.0122
+30239722,Body mass index,"806,834 European ancestry individuals",16p12.2,16,23793635,CHP2 - PRKCB,rs194809-A,rs194809,0.1871,5e-09,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",14q32.11,14,91045995,RPS6KA5,rs1951455-T,rs1951455,0.2813,6e-15,0.0148
+30239722,Body mass index,"806,834 European ancestry individuals",14q23.2,14,62126579,SERTAD4BP,rs1954494-T,rs1954494,0.5608,2e-09,0.0097
+30239722,Body mass index,"806,834 European ancestry individuals",13q12.2,13,27461925,MTIF3 - RNU6-63P,rs1967772-A,rs1967772,0.2719,9e-20,0.0173
+30239722,Body mass index,"806,834 European ancestry individuals",11p15.3,11,13328584,BMAL1,rs1982350-A,rs1982350,0.3556,2e-18,0.0156
+30239722,Body mass index,"806,834 European ancestry individuals",8p21.1,8,28164252,ELP3,rs1982441-T,rs1982441,0.1322,2e-11,0.017
+30239722,Body mass index,"806,834 European ancestry individuals",20q11.21,20,32062031,HCK,rs1987960-T,rs1987960,0.0456,5e-10,0.0293
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.2,16,9619831,LINC02177,rs1990573-A,rs1990573,0.3061,2e-13,0.0129
+30239722,Body mass index,"806,834 European ancestry individuals",15q23,15,67889196,RNU6-1 - PIAS1,rs1996120-A,rs1996120,0.4228,4.0000000000000004e-24,0.0167
+30239722,Body mass index,"806,834 European ancestry individuals",11q25,11,131607353,NTM,rs1506662-A,rs1506662,0.5281,3e-12,0.0118
+30239722,Body mass index,"806,834 European ancestry individuals",1p31.1,1,74525718,"FPGT-TNNI3K, TNNI3K",rs1514177-C,rs1514177,0.4255,7.999999999999999e-30,0.0184
+30239722,Body mass index,"806,834 European ancestry individuals",4q33,4,170711486,HSP90AA6P - LINC02382,rs1522569-T,rs1522569,0.8183,2e-10,0.0141
+30239722,Body mass index,"806,834 European ancestry individuals",3p12.3,3,77617893,ROBO2,rs1523768-A,rs1523768,0.6721,4e-13,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",13q34,13,111329944,TEX29,rs1536053-T,rs1536053,0.3104,8e-11,0.0122
+30239722,Body mass index,"806,834 European ancestry individuals",2q35,2,218722568,TTLL4,rs1541777-A,rs1541777,0.5441,2e-13,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",1p13.2,1,111730863,INKA2,rs1546924-T,rs1546924,0.4997,2e-17,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",3p26.1,3,8096354,LMCD1-AS1,rs1554194-C,rs1554194,0.5046,9e-10,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",2p22.3,2,35184631,RN7SL602P - SMIM7P1,rs1561554-C,rs1561554,0.6089,5e-11,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",3q11.2,3,94284759,NSUN3 - ARMC10P1,rs1580099-A,rs1580099,0.5775,7e-27,0.0179
+30239722,Body mass index,"806,834 European ancestry individuals",5q23.2,5,123321505,PRDM6 - CEP120,rs1582931-A,rs1582931,0.4745,2e-13,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",5q15,5,94870497,MCTP1,rs159032-T,rs159032,0.2325,6e-10,0.0124
+30239722,Body mass index,"806,834 European ancestry individuals",8q21.3,8,88450092,RNA5SP272 - RLIG1P3,rs1601817-A,rs1601817,0.3114,2e-09,0.011
+30239722,Body mass index,"806,834 European ancestry individuals",9q21.31,9,78719768,PSAT1 - MTND2P8,rs1634350-A,rs1634350,0.4355,3e-11,0.0114
+30239722,Body mass index,"806,834 European ancestry individuals",7p15.1,7,28149930,JAZF1,rs1635853-T,rs1635853,0.4139,3e-09,0.0097
+30239722,Body mass index,"806,834 European ancestry individuals",8p23.2,8,4431055,CSMD1,rs1658820-T,rs1658820,0.2389,4e-11,0.0132
+30239722,Body mass index,"806,834 European ancestry individuals",3q21.1,3,123567009,HACD2,rs16834431-T,rs16834431,0.2061,3e-11,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",3q23,3,141556594,RASA2,rs16851483-T,rs16851483,0.0717,5e-25,0.0352
+30239722,Body mass index,"806,834 European ancestry individuals",6q15,6,89612518,"LYRM2, ANKRD6",rs16882001-A,rs16882001,0.9499,3e-09,0.0227
+30239722,Body mass index,"806,834 European ancestry individuals",8q24.23,8,137202985,RNU6-144P - ZYXP1,rs16906845-A,rs16906845,0.06,1e-11,0.0244
+30239722,Body mass index,"806,834 European ancestry individuals",8q21.13,8,80463222,RNU6-1213P - Y_RNA,rs16907751-T,rs16907751,0.0877,2e-11,0.0194
+30239722,Body mass index,"806,834 European ancestry individuals",18q11.2,18,24557355,LINC01915,rs16940823-A,rs16940823,0.1705,2e-12,0.0157
+30239722,Body mass index,"806,834 European ancestry individuals",18q12.3,18,45360534,SLC14A2,rs16978350-T,rs16978350,0.2763,5e-11,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",20q12,20,40663144,LINC01370 - MAFB,rs16989232-A,rs16989232,0.3864,6e-12,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",20p12.1,20,15832830,MACROD2,rs16996644-C,rs16996644,0.8696,2e-12,0.0181
+30239722,Body mass index,"806,834 European ancestry individuals",13q21.1,13,58601593,CTAGE16P - DNAJA1P1,rs9317002-A,rs9317002,0.5094,5e-19,0.0171
+30239722,Body mass index,"806,834 European ancestry individuals",6q16.1,6,97981461,MMS22L - MIR2113,rs9320823-T,rs9320823,0.4118,2e-21,0.0165
+30239722,Body mass index,"806,834 European ancestry individuals",19p13.3,19,4064059,ZBTB7A,rs56356382-T,rs56356382,0.8054,3e-19,0.0217
+30239722,Body mass index,"806,834 European ancestry individuals",4q31.1,4,139942211,MAML3,rs57800857-A,rs57800857,0.6344,3e-15,0.0157
+30239722,Body mass index,"806,834 European ancestry individuals",15q26.3,15,98686933,IGF1R,rs58139454-C,rs58139454,0.2216,3e-10,0.0145
+30239722,Body mass index,"806,834 European ancestry individuals",11q13.3,11,69630405,LINC01488 - PNCRNA-D,rs592483-T,rs592483,0.5933,2e-16,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",3p25.3,3,9465630,SETD5,rs59302296-A,rs59302296,0.0991,9e-12,0.0217
+30239722,Body mass index,"806,834 European ancestry individuals",18q23,18,78985589,SALL3,rs594821-T,rs594821,0.0912,3e-10,0.0191
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.13,20,48879119,PREX1 - ARFGEF2,rs6019483-A,rs6019483,0.1743,4e-14,0.0175
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.2,20,54837311,DOK5 - RNU4ATAC7P,rs6023633-A,rs6023633,0.7767,2e-10,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.2,20,55803977,LINC01440 - CBLN4,rs6092179-A,rs6092179,0.197,2e-09,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",2q24.3,2,165291814,SCN2A,rs61051952-A,rs61051952,0.7549,7e-12,0.0151
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.11,20,43382356,PPIAP21 - RNU6-743P,rs6130360-A,rs6130360,0.8492,7e-12,0.0162
+30239722,Body mass index,"806,834 European ancestry individuals",20q11.22,20,33968766,PIGPP3 - RALY-AS1,rs6142067-T,rs6142067,0.6021,4e-13,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",20p13,20,3028129,PTPRA,rs615568-T,rs615568,0.52,4e-09,0.0101
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.13,1,19608406,"MICOS10, NBL1, MICOS10-NBL1",rs61740466-A,rs61740466,0.2346,2e-10,0.0142
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.33,19,50629489,SYT3,rs61746970-A,rs61746970,0.0386,1e-09,0.0308
+30239722,Body mass index,"806,834 European ancestry individuals",12q21.1,12,71785666,RAB21,rs61754230-T,rs61754230,0.0189,1e-10,0.0451
+30239722,Body mass index,"806,834 European ancestry individuals",1q22,1,156080086,MEX3A,rs61813324-T,rs61813324,0.1312,3e-24,0.0289
+30239722,Body mass index,"806,834 European ancestry individuals",1q25.1,1,174352859,RABGAP1L,rs61828641-A,rs61828641,0.1092,2e-13,0.0223
+30239722,Body mass index,"806,834 European ancestry individuals",11q14.3,11,90189249,NAALAD2,rs61903695-A,rs61903695,0.751,5e-11,0.0145
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.21,12,114096867,RBM19 - HAUS8P1,rs61930810-T,rs61930810,0.9329,3e-10,0.0241
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.32,19,45231493,"MARK4, EXOC3L2",rs62118504-A,rs62118504,0.6104,3e-09,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",7q34,7,140185477,KDM7A-DT - RNU6-797P,rs62491456-T,rs62491456,0.0953,1e-09,0.0197
+30239722,Body mass index,"806,834 European ancestry individuals",11p14.1,11,27658369,"BDNF-AS, BDNF",rs6265-T,rs6265,0.1836,7e-89,0.0413
+30239722,Body mass index,"806,834 European ancestry individuals",11q25,11,130925803,SNX19 - RN7SL167P,rs7944782-T,rs7944782,0.5016,4e-17,0.0144
+30239722,Body mass index,"806,834 European ancestry individuals",11q13.1,11,64322950,PRDX5 - CCDC88B,rs7947143-A,rs7947143,0.1541,8e-14,0.0175
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.31,12,121233458,P2RX4,rs7961979-A,rs7961979,0.1314,7e-12,0.0177
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.23,12,117976892,KSR2 - RFC5,rs7968390-A,rs7968390,0.6844,2e-10,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",12q14.1,12,60570327,Y_RNA - DUX4L52,rs7975187-A,rs7975187,0.7712,4e-11,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",12p12.3,12,19055014,CAPZA3 - RPL7P6,rs7976757-T,rs7976757,0.1772,3e-11,0.015
+30239722,Body mass index,"806,834 European ancestry individuals",14q12,14,30015516,PRKD1,rs8016859-C,rs8016859,0.0377,7e-16,0.0344
+30239722,Body mass index,"806,834 European ancestry individuals",15q21.3,15,53181793,LINC02490,rs8024806-T,rs8024806,0.9368,7e-13,0.0254
+30239722,Body mass index,"806,834 European ancestry individuals",15q22.2,15,61153315,RORA,rs8033510-T,rs8033510,0.3636,2e-09,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",15q25.1,15,79170694,ANKRD34C-AS1,rs8038464-A,rs8038464,0.397,2e-13,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",17q23.3,17,63651521,MAP3K3,rs8075273-A,rs8075273,0.2878,5e-14,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",17q25.3,17,77999748,TNRC6C,rs8081039-T,rs8081039,0.0605,6e-10,0.023
+30239722,Body mass index,"806,834 European ancestry individuals",18q21.2,18,54812256,RAB27B,rs8092503-A,rs8092503,0.7693,4e-17,0.0162
+30239722,Body mass index,"806,834 European ancestry individuals",20p11.21,20,25211413,ENTPD6,rs8122855-A,rs8122855,0.3377,4e-14,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",21q22.2,21,39272244,BRWD1,rs8134638-T,rs8134638,0.6273,2e-11,0.0133
+30239722,Body mass index,"806,834 European ancestry individuals",6p12.1,6,54130744,MLIP,rs816367-C,rs816367,0.6491,1e-09,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",13q21.31,13,64903808,LINC00355 - LGMNP1,rs8181823-A,rs8181823,0.2344,4e-10,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",10q26.13,10,123460520,LINC02641,rs845084-A,rs845084,0.2666,3e-12,0.0136
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.1,6,44837477,SUPT3H,rs857601-T,rs857601,0.7139,4e-09,0.011
+30239722,Body mass index,"806,834 European ancestry individuals",9q33.3,9,126702954,LMX1B - ZBTB43,rs867560-C,rs867560,0.568,1e-15,0.0136
+30239722,Body mass index,"806,834 European ancestry individuals",14q21.1,14,40364973,FBXO33 - LINC02315,rs872281-T,rs872281,0.1755,2e-11,0.0152
+30239722,Body mass index,"806,834 European ancestry individuals",16q22.1,16,69522812,CYB5B - NFAT5,rs889398-T,rs889398,0.4151,3e-32,0.0195
+30239722,Body mass index,"806,834 European ancestry individuals",18q11.2,18,23523945,"NPC1, RMC1",rs891387-T,rs891387,0.4951,9e-35,0.0208
+30239722,Body mass index,"806,834 European ancestry individuals",1q32.1,1,202147110,PTPN7,rs9077-A,rs9077,0.2713,3e-13,0.0136
+30239722,Body mass index,"806,834 European ancestry individuals",2p16.3,2,50006214,NRXN1,rs930295-A,rs930295,0.1548,2e-19,0.0208
+30239722,Body mass index,"806,834 European ancestry individuals",1p32.3,1,54263191,SSBP3,rs630602-C,rs630602,0.6073,1e-12,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",3p12.3,3,78409778,RN7SKP61 - MRPS17P3,rs6419734-T,rs6419734,0.1448,4e-11,0.0161
+30239722,Body mass index,"806,834 European ancestry individuals",2q34,2,211431369,ERBB4,rs6435622-C,rs6435622,0.3179,4e-12,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",3q26.33,3,181611894,SOX2-OT,rs6443750-T,rs6443750,0.1994,7e-13,0.0152
+30239722,Body mass index,"806,834 European ancestry individuals",5p12,5,43110753,ZNF131,rs6451675-C,rs6451675,0.3243,3e-14,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",7p22.1,7,5502882,FBXL18,rs6463489-T,rs6463489,0.0959,3e-10,0.0167
+30239722,Body mass index,"806,834 European ancestry individuals",9p13.2,9,37200106,ZCCHC7,rs6476617-A,rs6476617,0.3797,2e-17,0.0149
+30239722,Body mass index,"806,834 European ancestry individuals",9q31.3,9,109170062,FRRS1L - EPB41L4B,rs6477694-T,rs6477694,0.6415,7e-14,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",15q21.2,15,51462254,DMXL2,rs6493498-T,rs6493498,0.4465,5e-17,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",16q12.1,16,48977338,RNU6-257P - MTND4LP25,rs6500208-A,rs6500208,0.2021,3e-13,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",4q13.1,4,59362799,LINC02429 - Y_RNA,rs1119950-A,rs1119950,0.5688,1e-09,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",11q24.1,11,122051879,MIR100HG,rs11218510-A,rs11218510,0.3949,7e-13,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",1p34.3,1,39096955,MACF1,rs112566467-T,rs112566467,0.2071,6e-15,0.0184
+30239722,Body mass index,"806,834 European ancestry individuals",12q13.3,12,57217502,NXPH4,rs113397893-A,rs113397893,0.9231,9e-10,0.0222
+30239722,Body mass index,"806,834 European ancestry individuals",5q32,5,146515831,GPR151,rs114285050-A,rs114285050,0.0078,4e-09,0.0636
+30239722,Body mass index,"806,834 European ancestry individuals",7q34,7,139132447,ZC3HAV1 - IFT56,rs11525873-T,rs11525873,0.8995,3e-13,0.0232
+30239722,Body mass index,"806,834 European ancestry individuals",1p34.3,1,37560999,DNALI1,rs11577094-T,rs11577094,0.0791,3e-10,0.0186
+30239722,Body mass index,"806,834 European ancestry individuals",12p12.1,12,23600993,SOX5,rs11608710-T,rs11608710,0.94,1e-09,0.0247
+30239722,Body mass index,"806,834 European ancestry individuals",12p13.33,12,830314,WNK1,rs11611246-T,rs11611246,0.199,2.0000000000000002e-28,0.0223
+30239722,Body mass index,"806,834 European ancestry individuals",15q22.31,15,66449049,MAP2K1,rs11629783-C,rs11629783,0.772,1e-12,0.0143
+30239722,Body mass index,"806,834 European ancestry individuals",15q26.2,15,94728149,LINC02852 - LETR1,rs11633626-A,rs11633626,0.6313,7e-19,0.0157
+30239722,Body mass index,"806,834 European ancestry individuals",15q14,15,36099764,LINC02853,rs11636611-T,rs11636611,0.4981,9e-10,0.0104
+30239722,Body mass index,"806,834 European ancestry individuals",15q26.2,15,97758137,LINC00923,rs11638950-A,rs11638950,0.5888,6e-10,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",17q22,17,58015700,SRSF1 - DYNLL2-DT,rs11649864-A,rs11649864,0.0859,3e-10,0.0192
+30239722,Body mass index,"806,834 European ancestry individuals",17q21.32,17,49063432,IGF2BP1 - B4GALNT2P1,rs11655587-T,rs11655587,0.3572,7e-26,0.021
+30239722,Body mass index,"806,834 European ancestry individuals",5q14.1,5,81546095,SSBP2,rs10942267-A,rs10942267,0.6927,7e-16,0.0148
+30239722,Body mass index,"806,834 European ancestry individuals",7q11.22,7,71964323,CALN1,rs10950289-A,rs10950289,0.8388,1e-11,0.0177
+30239722,Body mass index,"806,834 European ancestry individuals",8p12,8,31006422,PURG,rs10954772-T,rs10954772,0.3193,5e-14,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",9p21.3,9,23341717,LINC03142,rs10965780-C,rs10965780,0.4098,9e-10,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",9p13.3,9,33827696,UBE2R2,rs10971721-T,rs10971721,0.1039,3e-13,0.0201
+30239722,Body mass index,"806,834 European ancestry individuals",9q33.2,9,119889506,BRINP1 - LINC01613,rs10984756-C,rs10984756,0.9051,4e-10,0.0176
+30239722,Body mass index,"806,834 European ancestry individuals",9q33.3,9,123331877,STRBP - CRB2,rs10985968-C,rs10985968,0.5018,8e-14,0.0129
+30239722,Body mass index,"806,834 European ancestry individuals",10q22.3,10,77001201,KCNMA1,rs11001963-T,rs11001963,0.55,9e-11,0.0112
+30239722,Body mass index,"806,834 European ancestry individuals",12p12.1,12,23855501,SOX5,rs11047132-T,rs11047132,0.9179,2e-13,0.0227
+30239722,Body mass index,"806,834 European ancestry individuals",8q24.3,8,141609134,C8orf90 - MIR1302-7,rs1106761-A,rs1106761,0.3745,2e-11,0.0134
+30239722,Body mass index,"806,834 European ancestry individuals",17q12,17,36586165,GGNBP2,rs1106908-A,rs1106908,0.4454,8.000000000000001e-23,0.0161
+30239722,Body mass index,"806,834 European ancestry individuals",16p12.3,16,20243801,SNRPEP3 - GP2,rs11074446-T,rs11074446,0.8534,4e-19,0.0214
+30239722,Body mass index,"806,834 European ancestry individuals",16q21,16,62769937,RNU6-21P - DPPA3P11,rs11075489-T,rs11075489,0.4739,1e-11,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",12q21.33,12,90844143,LINC02822,rs11105839-A,rs11105839,0.3729,1e-11,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",12q21.31,12,82072018,LINC02426 - CCDC59,rs11115176-T,rs11115176,0.7839,7e-12,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.23,1,8648470,RERE,rs11121210-T,rs11121210,0.3445,2e-10,0.0111
+30239722,Body mass index,"806,834 European ancestry individuals",2p12,2,81565612,RNA5SP99 - RN7SL201P,rs11126822-A,rs11126822,0.3139,2e-09,0.011
+30239722,Body mass index,"806,834 European ancestry individuals",9q21.31,9,79626053,TLE4,rs11138313-A,rs11138313,0.8966,6e-10,0.0176
+30239722,Body mass index,"806,834 European ancestry individuals",14q23.2,14,62581730,LINC00644 - ATP5F1AP4,rs11158434-A,rs11158434,0.1963,4e-09,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",12q12,12,39036246,CPNE8-AS1 - LINC02406,rs11170468-A,rs11170468,0.7826,1e-11,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",12q12,12,41554394,PDZRN4,rs11181001-A,rs11181001,0.4806,1e-16,0.0136
+30239722,Body mass index,"806,834 European ancestry individuals",1p13.3,1,107419706,NTNG1,rs11185111-A,rs11185111,0.2906,1e-11,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",10q23.1,10,85651147,GRID1,rs7899106-A,rs7899106,0.9496,2e-18,0.0327
+30239722,Body mass index,"806,834 European ancestry individuals",10q25.2,10,112998590,TCF7L2,rs7903146-T,rs7903146,0.2787,2.0000000000000002e-23,0.0178
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.33,1,1659060,CDK11B,rs79113395-A,rs79113395,0.266,2e-20,0.02
+30239722,Body mass index,"434,794 European ancestry female individuals",2q31.1,2,172025679,METAP1D,rs10930502-A,rs10930502,0.694,3e-13,0.0128
+30239722,Body mass index,"434,794 European ancestry female individuals",4p12,4,45180510,PRDX4P1 - THAP12P9,rs10938397-A,rs10938397,0.57,1.9999999999999998e-86,0.0322
+30239722,Body mass index,"434,794 European ancestry female individuals",5q14.1,5,81546095,SSBP2,rs10942267-A,rs10942267,0.6927,7e-16,0.0148
+30239722,Body mass index,"434,794 European ancestry female individuals",7q11.22,7,71964323,CALN1,rs10950289-A,rs10950289,0.8388,1e-11,0.0177
+30239722,Body mass index,"434,794 European ancestry female individuals",11p11.2,11,45382767,LINC02687,rs11038428-T,rs11038428,0.2807,2e-13,0.0133
+30239722,Body mass index,"434,794 European ancestry female individuals",15q26.2,15,94731120,LINC02852 - LETR1,rs11073383-A,rs11073383,0.4816,3e-16,0.0139
+30239722,Body mass index,"434,794 European ancestry female individuals",16p12.3,16,20243801,SNRPEP3 - GP2,rs11074446-T,rs11074446,0.8534,4e-19,0.0214
+30239722,Body mass index,"434,794 European ancestry female individuals",12q12,12,41554394,PDZRN4,rs11181001-A,rs11181001,0.4806,1e-16,0.0136
+30239722,Body mass index,"434,794 European ancestry female individuals",16q12.2,16,53775335,FTO,rs1121980-A,rs1121980,0.4378,1e-206,0.072
+30239722,Body mass index,"434,794 European ancestry female individuals",1p34.3,1,39096955,MACF1,rs112566467-T,rs112566467,0.2071,6e-15,0.0184
+30239722,Body mass index,"434,794 European ancestry female individuals",3p21.32,3,44117664,MIR138-1 - TOPAZ1,rs113706999-A,rs113706999,0.0227,2e-10,0.0424
+30239722,Body mass index,"434,794 European ancestry female individuals",12p13.33,12,830314,WNK1,rs11611246-T,rs11611246,0.199,2.0000000000000002e-28,0.0223
+30239722,Body mass index,"434,794 European ancestry female individuals",16p11.2,16,30018874,DOC2A,rs11642612-A,rs11642612,0.595,2e-36,0.0218
+30239722,Body mass index,"434,794 European ancestry female individuals",17q22,17,58015700,SRSF1 - DYNLL2-DT,rs11649864-A,rs11649864,0.0859,3e-10,0.0192
+30239722,Body mass index,"434,794 European ancestry female individuals",18q11.2,18,24574271,LINC01915,rs11660335-T,rs11660335,0.8231,6e-12,0.0151
+30239722,Body mass index,"434,794 European ancestry female individuals",19p13.11,19,18725864,CRTC1,rs11668500-C,rs11668500,0.5076,2.0000000000000002e-23,0.0191
+30239722,Body mass index,"434,794 European ancestry female individuals",19q13.32,19,45676926,GIPR,rs11672660-T,rs11672660,0.1871,7.000000000000001e-60,0.0338
+30239722,Body mass index,"434,794 European ancestry female individuals",11q24.1,11,122051879,MIR100HG,rs11218510-A,rs11218510,0.3949,7e-13,0.014
+30239722,Body mass index,"434,794 European ancestry female individuals",2q11.2,2,100134688,AFF3,rs11677607-T,rs11677607,0.2444,5e-20,0.0182
+30239722,Body mass index,"434,794 European ancestry female individuals",2q33.3,2,207398555,MYOSLID-AS1,rs11692326-T,rs11692326,0.2302,2e-14,0.0147
+30239722,Body mass index,"434,794 European ancestry female individuals",4q12,4,54643581,LINC02260 - KIT,rs11727273-T,rs11727273,0.5549,4e-15,0.0151
+30239722,Body mass index,"434,794 European ancestry female individuals",1p13.3,1,107458685,NTNG1,rs11802147-A,rs11802147,0.6994,1e-11,0.0125
+30239722,Body mass index,"434,794 European ancestry female individuals",11p15.3,11,13324747,BMAL1,rs11824092-T,rs11824092,0.3508,5e-18,0.0154
+30239722,Body mass index,"434,794 European ancestry female individuals",15q24.3,15,77720346,LINGO1,rs11856579-A,rs11856579,0.2608,1e-16,0.0161
+30239722,Body mass index,"434,794 European ancestry female individuals",16q22.1,16,69515846,CYB5B - NFAT5,rs11866219-A,rs11866219,0.4223,5e-28,0.019
+30239722,Body mass index,"434,794 European ancestry female individuals",3q26.2,3,171017310,SLC2A2,rs11924032-A,rs11924032,0.2521,3e-16,0.0151
+30239722,Body mass index,"434,794 European ancestry female individuals",1p13.2,1,111775862,KCND3,rs12033257-A,rs12033257,0.6324,5e-17,0.0151
+30239722,Body mass index,"434,794 European ancestry female individuals",1q43,1,243369971,SDCCAG8,rs12042959-A,rs12042959,0.8637,3e-10,0.0153
+30239722,Body mass index,"434,794 European ancestry female individuals",10q22.2,10,74287706,ADK,rs12098284-T,rs12098284,0.1212,1e-12,0.0184
+30239722,Body mass index,"434,794 European ancestry female individuals",1p33,1,49244592,AGBL4,rs12121950-T,rs12121950,0.3355,7.000000000000001e-24,0.0185
+30239722,Body mass index,"434,794 European ancestry female individuals",1p31.3,1,62114219,PATJ,rs12140153-T,rs12140153,0.0911,9.999999999999999e-26,0.0353
+30239722,Body mass index,"434,794 European ancestry female individuals",2q24.3,2,164684290,COBLL1,rs12328675-T,rs12328675,0.8692,8e-10,0.0152
+30239722,Body mass index,"434,794 European ancestry female individuals",11q25,11,134731118,LINC02706 - LINC02714,rs12364470-T,rs12364470,0.8535,2e-17,0.0187
+30239722,Body mass index,"434,794 European ancestry female individuals",13q14.3,13,53528071,ZNF646P1 - LINC00558,rs12429545-A,rs12429545,0.1218,1e-37,0.0313
+30239722,Body mass index,"434,794 European ancestry female individuals",13q21.1,13,58056517,RNA5SP30 - LINC02338,rs12431244-T,rs12431244,0.2441,2e-22,0.0195
+30239722,Body mass index,"434,794 European ancestry female individuals",16p12.3,16,19924067,GPRC5B - GPR139,rs12446632-A,rs12446632,0.1371,3e-50,0.0353
+30239722,Body mass index,"434,794 European ancestry female individuals",17q24.2,17,67951524,BPTF,rs12449442-A,rs12449442,0.2198,2e-13,0.0149
+30239722,Body mass index,"434,794 European ancestry female individuals",19q12,19,29781295,C19orf12 - CCNE1,rs12462975-A,rs12462975,0.3243,9.999999999999999e-26,0.0193
+30239722,Body mass index,"434,794 European ancestry female individuals",2p25.2,2,6019849,SILC1,rs12468070-T,rs12468070,0.2632,5e-16,0.0153
+30239722,Body mass index,"434,794 European ancestry female individuals",22q13.1,22,40162060,TNRC6B,rs12484438-T,rs12484438,0.6517,5e-19,0.016
+30239722,Body mass index,"434,794 European ancestry female individuals",10q22.3,10,78220750,LINC00595,rs1249150-A,rs1249150,0.7123,6e-08,0.0102
+30239722,Body mass index,"434,794 European ancestry female individuals",1q25.1,1,174508962,RABGAP1L,rs12564992-A,rs12564992,0.8876,3e-13,0.0189
+30239722,Body mass index,"434,794 European ancestry female individuals",15q25.1,15,80766311,ABHD17C - CEMIP,rs12593036-A,rs12593036,0.6914,2e-15,0.0147
+30239722,Body mass index,"434,794 European ancestry female individuals",4q22.3,4,95097186,BMPR1B,rs12645001-A,rs12645001,0.3538,5e-10,0.0112
+30239722,Body mass index,"434,794 European ancestry female individuals",8q12.2,8,61141904,CLVS1,rs12681792-A,rs12681792,0.2024,3e-12,0.015
+30239722,Body mass index,"434,794 European ancestry female individuals",2q24.2,2,160409399,RBMS1,rs12692596-T,rs12692596,0.3618,1e-12,0.012
+30239722,Body mass index,"434,794 European ancestry female individuals",7q31.1,7,113852779,SMIM30 - PPP1R3A,rs12705916-T,rs12705916,0.6201,1e-18,0.0156
+30239722,Body mass index,"434,794 European ancestry female individuals",2p11.2,2,86585426,"RNF103-CHMP3, CHMP3-AS1",rs12714199-T,rs12714199,0.6146,3e-16,0.0141
+30239722,Body mass index,"434,794 European ancestry female individuals",1p31.1,1,77514550,AK5,rs12729914-T,rs12729914,0.829,2e-27,0.0226
+30239722,Body mass index,"434,794 European ancestry female individuals",14q32.11,14,91046685,RPS6KA5,rs1285997-C,rs1285997,0.2882,7e-15,0.0147
+30239722,Body mass index,"374,756 European ancestry male individuals",16q22.1,16,69522812,CYB5B - NFAT5,rs889398-T,rs889398,0.4151,3e-32,0.0195
+30239722,Body mass index,"374,756 European ancestry male individuals",13q32.1,13,96368451,HS6ST3,rs912690-C,rs912690,0.5556,2e-17,0.0145
+30239722,Body mass index,"374,756 European ancestry male individuals",11q14.3,11,90202418,CHORDC1,rs1045861-T,rs1045861,0.7031,3e-09,0.0109
+30239722,Body mass index,"374,756 European ancestry male individuals",3p21.31,3,50159664,SEMA3F,rs1046953-T,rs1046953,0.4162,9e-38,0.0248
+30239722,Body mass index,"374,756 European ancestry male individuals",2q33.3,2,206368391,ZDBF2 - ACER2P1,rs10497882-T,rs10497882,0.7234,2e-12,0.0127
+30239722,Body mass index,"374,756 European ancestry male individuals",19q12,19,30537759,ZNF536,rs10518269-T,rs10518269,0.165,5e-14,0.0173
+30239722,Body mass index,"374,756 European ancestry male individuals",9q21.12,9,71165996,TRPM3,rs10746862-T,rs10746862,0.5811,3e-11,0.0114
+30239722,Body mass index,"374,756 European ancestry male individuals",9p21.1,9,29270226,LINGO2 - ME2P1,rs10757826-A,rs10757826,0.3349,5e-09,0.0102
+30239722,Body mass index,"374,756 European ancestry male individuals",12p12.3,12,16988648,LMO3 - SKP1P2,rs10772983-T,rs10772983,0.5394,6e-10,0.01
+30239722,Body mass index,"374,756 European ancestry male individuals",12q24.13,12,113627607,LINC01234,rs10850185-A,rs10850185,0.2989,5e-10,0.0116
+30239722,Body mass index,"374,756 European ancestry male individuals",10q24.2,10,98038477,CRTAC1 - R3HCC1L,rs10883027-C,rs10883027,0.5233,7e-22,0.0165
+30239722,Body mass index,"374,756 European ancestry male individuals",2p25.2,2,6015425,SILC1,rs10929925-A,rs10929925,0.4105,3e-18,0.0142
+30239722,Body mass index,"374,756 European ancestry male individuals",14q32.12,14,93465912,UNC79,rs11160119-A,rs11160119,0.4111,9e-22,0.0186
+30239722,Body mass index,"374,756 European ancestry male individuals",12q12,12,41554394,PDZRN4,rs11181001-A,rs11181001,0.4806,1e-16,0.0136
+30239722,Body mass index,"374,756 European ancestry male individuals",19q13.32,19,47054713,TMEM160 - ZC3H4,rs112551143-A,rs112551143,0.2531,7e-26,0.0233
+30239722,Body mass index,"374,756 European ancestry male individuals",8p12,8,31000538,PURG,rs1125841-T,rs1125841,0.6032,1e-12,0.0123
+30239722,Body mass index,"374,756 European ancestry male individuals",3p24.2,3,25064946,RARB,rs6804842-A,rs6804842,0.4301,8e-18,0.0141
+30239722,Body mass index,"374,756 European ancestry male individuals",6q16.3,6,100705906,ASCC3,rs6907240-T,rs6907240,0.5281,2e-10,0.0122
+30239722,Body mass index,"374,756 European ancestry male individuals",7q11.23,7,77002781,"DTX2P1, DTX2P1-UPK3BP1-PMS2P11",rs6954694-A,rs6954694,0.835,1e-20,0.0241
+30239722,Body mass index,"374,756 European ancestry male individuals",7p13,7,44749058,ZMIZ2,rs6962280-A,rs6962280,0.4363,3e-13,0.014
+30239722,Body mass index,"374,756 European ancestry male individuals",2q33.1,2,197757912,BOLL,rs700648-T,rs700648,0.4962,5e-10,0.0101
+30239722,Body mass index,"374,756 European ancestry male individuals",8p12,8,33773419,VENTXP5 - RPL6P22,rs7012923-A,rs7012923,0.4402,6e-08,0.0092
+30239722,Body mass index,"374,756 European ancestry male individuals",12q13.2,12,56041628,RPS26,rs705704-A,rs705704,0.3241,6e-15,0.0137
+30239722,Body mass index,"374,756 European ancestry male individuals",11q13.4,11,72733538,ARAP1,rs7123876-T,rs7123876,0.7494,3e-10,0.0118
+30239722,Body mass index,"374,756 European ancestry male individuals",11p11.2,11,47508395,CELF1,rs7124681-A,rs7124681,0.4162,4e-55,0.0257
+30239722,Body mass index,"374,756 European ancestry male individuals",12q13.12,12,49869365,FAIM2,rs7132908-A,rs7132908,0.3895,4.9999999999999997e-64,0.0305
+30239722,Body mass index,"374,756 European ancestry male individuals",16p11.2,16,31356857,ITGAX,rs7190997-T,rs7190997,0.4769,3e-18,0.0142
+30239722,Body mass index,"374,756 European ancestry male individuals",16q12.2,16,53776774,FTO,rs7193144-T,rs7193144,0.5933,3e-242,0.0728
+30239722,Body mass index,"374,756 European ancestry male individuals",17p13.3,17,2232771,SMG6,rs7217226-T,rs7217226,0.656,9e-16,0.0137
+30239722,Body mass index,"374,756 European ancestry male individuals",18q21.32,18,59216087,SEC11C - GRP,rs7243357-T,rs7243357,0.8349,1e-20,0.0198
+30239722,Body mass index,"374,756 European ancestry male individuals",19p13.3,19,4016007,PIAS4,rs7258309-T,rs7258309,0.7853,8e-16,0.0171
+30239722,Body mass index,"374,756 European ancestry male individuals",4p14,4,38691214,KLF3,rs1000096-T,rs1000096,0.3819,2e-16,0.0145
+30239722,Body mass index,"374,756 European ancestry male individuals",17p13.2,17,5379957,"NUP88, RABEP1",rs1000940-A,rs1000940,0.7168,8e-18,0.0152
+30239722,Body mass index,"374,756 European ancestry male individuals",8q22.1,8,94559374,VIRMA-DT,rs10104041-A,rs10104041,0.2873,1e-11,0.0143
+30239722,Body mass index,"374,756 European ancestry male individuals",14q12,14,25458973,OR7K1P - LINC02306,rs10132280-A,rs10132280,0.311,2e-33,0.0214
+30239722,Body mass index,"374,756 European ancestry male individuals",2q31.3,2,180737799,SCHLAP1,rs1019612-T,rs1019612,0.6639,1e-21,0.0172
+30239722,Body mass index,"374,756 European ancestry male individuals",2p14,2,67638833,LINC02831 - LINC01812,rs10196304-A,rs10196304,0.5958,4e-16,0.0141
+30239722,Body mass index,"374,756 European ancestry male individuals",2q12.1,2,104838132,PANTR1,rs10197031-T,rs10197031,0.7262,5e-18,0.0161
+30239722,Body mass index,"374,756 European ancestry male individuals",2p11.2,2,86579233,"CHMP3-AS1, RNF103-CHMP3",rs10209325-T,rs10209325,0.6213,1e-14,0.0151
+30239722,Body mass index,"374,756 European ancestry male individuals",19p13.11,19,18716165,CRTC1,rs10221489-T,rs10221489,0.3366,1e-22,0.0177
+30239722,Body mass index,"374,756 European ancestry male individuals",7p12.2,7,49576607,DDX43P2 - VWC2,rs10269783-A,rs10269783,0.4171,2e-14,0.0126
+30239722,Body mass index,"374,756 European ancestry male individuals",8q24.11,8,117872140,EXT1,rs72673947-A,rs72673947,0.8902,4e-13,0.0223
+30239722,Body mass index,"374,756 European ancestry male individuals",13q12.2,13,28043571,FLT3,rs7318817-T,rs7318817,0.6303,4e-16,0.0143
+30239722,Body mass index,"374,756 European ancestry male individuals",22q13.1,22,40273644,TNRC6B,rs733381-A,rs733381,0.7712,8e-16,0.0161
+30239722,Body mass index,"374,756 European ancestry male individuals",3q26.2,3,171014810,SLC2A2,rs7356034-A,rs7356034,0.2861,2e-15,0.0166
+30239722,Body mass index,"374,756 European ancestry male individuals",2q11.2,2,100137627,AFF3,rs73966422-C,rs73966422,0.8779,2e-16,0.0238
+30239722,Body mass index,"374,756 European ancestry male individuals",12q24.11,12,109873111,GLTP,rs7397059-T,rs7397059,0.5599,6e-10,0.0101
+30239722,Body mass index,"374,756 European ancestry male individuals",2q33.2,2,203099414,NBEAL1,rs7574314-T,rs7574314,0.6091,4e-12,0.012
+30239722,Body mass index,"374,756 European ancestry male individuals",2q34,2,212548507,ERBB4 - LINC01878,rs7599312-A,rs7599312,0.2737,2.0000000000000002e-23,0.0182
+30239722,Body mass index,"374,756 European ancestry male individuals",4q31.21,4,144399854,GUSBP5 - KRT18P51,rs7654571-A,rs7654571,0.2252,3e-11,0.0128
+30239722,Body mass index,"374,756 European ancestry male individuals",12p13.32,12,4275678,"CCND2, CCND2-AS1",rs76895963-T,rs76895963,0.9798,8e-08,0.0403
+30239722,Body mass index,"374,756 European ancestry male individuals",5q35.1,5,171032671,RANBP17,rs7730898-A,rs7730898,0.7318,7e-20,0.0166
+30239722,Body mass index,"374,756 European ancestry male individuals",5q14.3,5,88690467,"MIR9-2HG, MEF2C-AS2",rs7733438-T,rs7733438,0.8587,4e-31,0.0287
+30239722,Body mass index,"374,756 European ancestry male individuals",10q24.32,10,102876519,"BORCS7-ASMT, AS3MT",rs77335224-T,rs77335224,0.0901,1e-11,0.0225
+30239722,Body mass index,"374,756 European ancestry male individuals",1q25.1,1,175032043,MRPS14 - ENTR1P2,rs77560793-A,rs77560793,0.0304,1e-11,0.0379
+30239722,Body mass index,"374,756 European ancestry male individuals",6q14.1,6,80733706,RPSAP72 - TENT5A,rs7773045-T,rs7773045,0.9211,6e-06,0.0137
+30239722,Body mass index,"374,756 European ancestry male individuals",2p23.3,2,27518370,GCKR,rs780094-T,rs780094,0.3798,6e-09,0.0096
+30239722,Body mass index,"374,756 European ancestry male individuals",12q24.33,12,131929053,PUS1-AS1,rs78255464-A,rs78255464,0.8328,1e-06,0.0124
+30239722,Body mass index,"374,756 European ancestry male individuals",10q25.2,10,112998590,TCF7L2,rs7903146-T,rs7903146,0.2787,2.0000000000000002e-23,0.0178
+30239722,Body mass index,"374,756 European ancestry male individuals",11q25,11,130926353,SNX19 - RN7SL167P,rs7933085-A,rs7933085,0.4899,2e-15,0.0152
+30239722,Body mass index,"374,756 European ancestry male individuals",11p15.3,11,13267151,RASSF10 - BMAL1,rs7942486-T,rs7942486,0.591,4e-18,0.0142
+30239722,Body mass index,"374,756 European ancestry male individuals",12q24.23,12,117971558,KSR2 - RFC5,rs7963783-T,rs7963783,0.7132,7e-10,0.0117
+30239722,Body mass index,"374,756 European ancestry male individuals",2q33.3,2,204601649,PARD3B,rs79716947-A,rs79716947,0.9646,2e-13,0.0382
+30239722,Body mass index,"374,756 European ancestry male individuals",14q31.3,14,87855540,GALC,rs8008772-A,rs8008772,0.7454,2e-11,0.0133
+30239722,Body mass index,"374,756 European ancestry male individuals",15q26.2,15,94723581,LINC02852 - LETR1,rs8036171-A,rs8036171,0.3724,8e-19,0.0149
+30239722,Body mass index,"374,756 European ancestry male individuals",15q25.1,15,79173207,ANKRD34C-AS1,rs8041222-A,rs8041222,0.4106,1e-11,0.0132
+30239722,Body mass index,"374,756 European ancestry male individuals",6q15,6,89615130,"ANKRD6, LYRM2",rs1179907-A,rs1179907,0.8098,1e-08,0.0121
+30239722,Body mass index,"374,756 European ancestry male individuals",3p13,3,70490408,SAMMSON,rs11915371-A,rs11915371,0.8019,2e-13,0.0154
+30239722,Body mass index,"374,756 European ancestry male individuals",5q15,5,96525308,CAST,rs11951673-T,rs11951673,0.396,6e-14,0.0123
+30239722,Body mass index,"374,756 European ancestry male individuals",1p31.1,1,77501838,AK5,rs12049202-T,rs12049202,0.1883,3e-29,0.0239
+30239722,Body mass index,"374,756 European ancestry male individuals",1p34.2,1,39607807,PABPC4 - HEYL,rs12061406-T,rs12061406,0.0789,4e-06,0.0141
+30239722,Body mass index,"374,756 European ancestry male individuals",1p33,1,49827749,AGBL4,rs12128108-T,rs12128108,0.2333,3e-22,0.0188
+30239722,Body mass index,"374,756 European ancestry male individuals",1p31.3,1,62114219,PATJ,rs12140153-T,rs12140153,0.0911,9.999999999999999e-26,0.0353
+30239722,Body mass index,"374,756 European ancestry male individuals",10p12.31,10,21532989,MLLT10,rs12251016-A,rs12251016,0.6574,9.999999999999999e-26,0.021
+30239722,Body mass index,"374,756 European ancestry male individuals",11q23.3,11,115151684,NXPE2 - CADM1,rs12286929-A,rs12286929,0.5007,2e-27,0.0177
+30239722,Body mass index,"374,756 European ancestry male individuals",8q13.1,8,66281936,RRS1-DT,rs12334877-A,rs12334877,0.1913,2e-11,0.0144
+30239722,Body mass index,"374,756 European ancestry male individuals",12q24.31,12,122479003,ZCCHC8,rs12369179-T,rs12369179,0.085,2.0000000000000002e-28,0.034
+30239722,Body mass index,"374,756 European ancestry male individuals",13q14.3,13,53528071,ZNF646P1 - LINC00558,rs12429545-A,rs12429545,0.1218,1e-37,0.0313
+30239722,Body mass index,"374,756 European ancestry male individuals",15q24.1,15,72794390,ADPGK-AS1,rs12439200-A,rs12439200,0.2194,5e-16,0.0163
+30239722,Body mass index,"374,756 European ancestry male individuals",16p12.3,16,19924067,GPRC5B - GPR139,rs12446632-A,rs12446632,0.1371,3e-50,0.0353
+30239722,Body mass index,"374,756 European ancestry male individuals",16p13.3,16,3549655,NLRC3,rs12448257-A,rs12448257,0.2185,9e-16,0.0161
+30239722,Body mass index,"374,756 European ancestry male individuals",18q21.2,18,54832780,RAB27B,rs12454204-T,rs12454204,0.229,5e-17,0.0169
+30239722,Body mass index,"374,756 European ancestry male individuals",18q21.33,18,63178651,BCL2,rs12454712-T,rs12454712,0.6245,1e-14,0.0136
+30239722,Body mass index,"374,756 European ancestry male individuals",3p14.3,3,56080833,ERC2,rs12488237-T,rs12488237,0.9391,3e-10,0.0225
+30239722,Body mass index,"374,756 European ancestry male individuals",3p12.1,3,85836927,CADM2,rs12495178-T,rs12495178,0.6414,2.0000000000000002e-28,0.0185
+30239722,Body mass index,"374,756 European ancestry male individuals",6q16.1,6,97344859,MMS22L - MIR2113,rs12663742-A,rs12663742,0.3716,4e-15,0.0137
+30239722,Body mass index,"374,756 European ancestry male individuals",2p25.3,2,651430,LINC01875 - TMEM18,rs12714415-T,rs12714415,0.8476,1e-157,0.0584
+30239722,Body mass index,"374,756 European ancestry male individuals",17q25.3,17,79823090,LINC01977,rs1285245-C,rs1285245,0.3864,2e-09,0.0106
+30239722,Body mass index,"374,756 European ancestry male individuals",13q34,13,111566577,TEX29 - LINC02337,rs12868881-A,rs12868881,0.4066,1e-15,0.0138
+30239722,Body mass index,"374,756 European ancestry male individuals",14q12,14,29267632,LINC02327,rs12885454-A,rs12885454,0.3559,4.9999999999999996e-26,0.018
+30239722,Body mass index,"374,756 European ancestry male individuals",17q12,17,36603030,MRM1,rs12936319-A,rs12936319,0.6015,1e-22,0.0171
+30239722,Body mass index,"374,756 European ancestry male individuals",16p11.2,16,28883809,ATP2A1,rs8061590-A,rs8061590,0.6181,3e-66,0.0284
+30239722,Body mass index,"374,756 European ancestry male individuals",2p16.1,2,59075742,LINC01122,rs887912-T,rs887912,0.2963,1.9999999999999998e-30,0.0204
+30239722,Body mass index,"374,756 European ancestry male individuals",18q11.2,18,23523945,"NPC1, RMC1",rs891387-T,rs891387,0.4951,9e-35,0.0208
+30239722,Body mass index,"374,756 European ancestry male individuals",7q22.1,7,103777110,RELN,rs11496125-T,rs11496125,0.4053,9.000000000000001e-23,0.017
+30239722,Body mass index,"374,756 European ancestry male individuals",1p36.22,1,11152401,"MTOR, RNU6-537P",rs11581010-A,rs11581010,0.7641,9e-12,0.0135
+30239722,Body mass index,"374,756 European ancestry male individuals",12p13.33,12,830314,WNK1,rs11611246-T,rs11611246,0.199,2.0000000000000002e-28,0.0223
+30239722,Body mass index,"374,756 European ancestry male individuals",13q12.2,13,27424463,LINC01079 - GTF3A,rs11619722-T,rs11619722,0.7059,2e-15,0.0167
+30239722,Body mass index,"374,756 European ancestry male individuals",15q14,15,36099571,LINC02853,rs11636536-T,rs11636536,0.4984,1e-09,0.0103
+30239722,Body mass index,"374,756 European ancestry male individuals",7q11.23,7,75520983,"PMS2P3, PMS2P3",rs1167821-A,rs1167821,0.5535,9e-26,0.0201
+30239722,Body mass index,"806,834 European ancestry individuals",15q21.1,15,46292589,SQOR - MTND5P40,rs12439798-T,rs12439798,0.438,1e-13,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",16p12.3,16,19924067,GPRC5B - GPR139,rs12446632-A,rs12446632,0.1371,3e-50,0.0353
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.3,16,3549655,NLRC3,rs12448257-A,rs12448257,0.2185,9e-16,0.0161
+30239722,Body mass index,"806,834 European ancestry individuals",16q23.1,16,77228046,VN2R10P - ADAMTS18,rs12449219-C,rs12449219,0.856,1e-10,0.0164
+30239722,Body mass index,"806,834 European ancestry individuals",17q24.2,17,67951524,BPTF,rs12449442-A,rs12449442,0.2198,2e-13,0.0149
+30239722,Body mass index,"806,834 European ancestry individuals",18q21.33,18,63178651,BCL2,rs12454712-T,rs12454712,0.6245,1e-14,0.0136
+30239722,Body mass index,"806,834 European ancestry individuals",19q12,19,29781295,C19orf12 - CCNE1,rs12462975-A,rs12462975,0.3243,9.999999999999999e-26,0.0193
+30239722,Body mass index,"806,834 European ancestry individuals",2p23.3,2,26840393,CDKN2AIPNLP2 - DPYSL5,rs12470698-A,rs12470698,0.5698,2e-09,0.0103
+30239722,Body mass index,"806,834 European ancestry individuals",12q15,12,69280815,CPSF6 - C1GALT1P1,rs650198-T,rs650198,0.7294,6e-13,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",19p13.11,19,19281042,SUGP1,rs6511027-T,rs6511027,0.1686,1e-14,0.017
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.33,20,64060197,TCEA2,rs6512302-C,rs6512302,0.7391,2e-11,0.0134
+30239722,Body mass index,"806,834 European ancestry individuals",12q23.1,12,99166405,ANKS1B,rs651548-A,rs651548,0.3634,2e-16,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",12q23.2,12,103312976,C12orf42,rs6539064-C,rs6539064,0.7468,1.0000000000000001e-23,0.0194
+30239722,Body mass index,"806,834 European ancestry individuals",1q32.2,1,209034932,LINC01774 - TFDP1P1,rs6540498-A,rs6540498,0.6207,1e-10,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",2p16.1,2,59080590,LINC01122,rs6545714-A,rs6545714,0.6112,3.9999999999999997e-32,0.0194
+30239722,Body mass index,"806,834 European ancestry individuals",5q35.3,5,177100576,FGFR4 - NSD1,rs6556301-T,rs6556301,0.3707,8e-11,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",13q14.3,13,54117349,LINC00458,rs6561766-A,rs6561766,0.1301,7e-11,0.0175
+30239722,Body mass index,"806,834 European ancestry individuals",18q21.32,18,60161902,LINC03111 - RNU4-17P,rs6567160-T,rs6567160,0.7518,7.999999999999999e-184,0.0552
+30239722,Body mass index,"806,834 European ancestry individuals",14q24.2,14,72856974,DPF3,rs6574100-A,rs6574100,0.5887,1e-11,0.0118
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.31,1,6655330,DNAJC11,rs6577584-T,rs6577584,0.6589,3e-11,0.0118
+30239722,Body mass index,"806,834 European ancestry individuals",1p22.1,1,92754350,EVI5,rs6604015-T,rs6604015,0.9077,1e-11,0.0183
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.11,12,110465575,GPN3,rs6606686-C,rs6606686,0.6969,4e-19,0.0156
+30239722,Body mass index,"806,834 European ancestry individuals",1p21.3,1,97850337,DPYD,rs12072739-A,rs12072739,0.7762,2e-13,0.0169
+30239722,Body mass index,"806,834 European ancestry individuals",10q22.2,10,74287706,ADK,rs12098284-T,rs12098284,0.1212,1e-12,0.0184
+30239722,Body mass index,"806,834 European ancestry individuals",1p33,1,49244592,AGBL4,rs12121950-T,rs12121950,0.3355,7.000000000000001e-24,0.0185
+30239722,Body mass index,"806,834 European ancestry individuals",1p31.3,1,62114219,PATJ,rs12140153-T,rs12140153,0.0911,9.999999999999999e-26,0.0353
+30239722,Body mass index,"806,834 European ancestry individuals",14q32.2,14,100678259,LINC00523 - DLK1,rs12147845-T,rs12147845,0.1115,5e-12,0.0187
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.32,19,47060275,TMEM160 - ZC3H4,rs12151152-A,rs12151152,0.4087,7e-27,0.021
+30239722,Body mass index,"806,834 European ancestry individuals",5q11.2,5,51618892,HMGB1P47 - RNA5SP182,rs12189178-T,rs12189178,0.0343,4e-14,0.0348
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.1,6,41780614,FRS3,rs12193797-A,rs12193797,0.8704,3e-09,0.0168
+30239722,Body mass index,"806,834 European ancestry individuals",6q21,6,108584997,FOXO3,rs12206094-T,rs12206094,0.2896,2e-15,0.0143
+30239722,Body mass index,"806,834 European ancestry individuals",6q16.3,6,100708930,ASCC3,rs12209887-A,rs12209887,0.463,2e-11,0.0114
+30239722,Body mass index,"806,834 European ancestry individuals",11q25,11,132114436,NTM,rs12222235-T,rs12222235,0.3305,2e-12,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",9p21.1,9,29716657,LINGO2 - ME2P1,rs12238336-T,rs12238336,0.3828,4e-12,0.0121
+30239722,Body mass index,"806,834 European ancestry individuals",11q13.5,11,76764986,GUCY2EP - TSKU,rs12282785-A,rs12282785,0.2204,1e-11,0.0157
+30239722,Body mass index,"806,834 European ancestry individuals",11q23.3,11,115151684,NXPE2 - CADM1,rs12286929-A,rs12286929,0.5007,2e-27,0.0177
+30239722,Body mass index,"806,834 European ancestry individuals",12q23.3,12,108000068,ASCL4 - WSCD2,rs12316047-A,rs12316047,0.2392,1e-17,0.0174
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.11,12,109551423,UBE3B - MMAB,rs12321904-T,rs12321904,0.5004,3e-09,0.0096
+30239722,Body mass index,"806,834 European ancestry individuals",9p23,9,11619764,LINC03131 - JKAMPP1,rs12336441-A,rs12336441,0.6177,5e-13,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",11q25,11,134731118,LINC02706 - LINC02714,rs12364470-T,rs12364470,0.8535,2e-17,0.0187
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.31,12,122479003,ZCCHC8,rs12369179-T,rs12369179,0.085,2.0000000000000002e-28,0.034
+30239722,Body mass index,"806,834 European ancestry individuals",12p13.1,12,14260997,GNAI2P1 - RPL30P11,rs12422552-C,rs12422552,0.2689,2e-11,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",13q14.3,13,53528071,ZNF646P1 - LINC00558,rs12429545-A,rs12429545,0.1218,1e-37,0.0313
+30239722,Body mass index,"806,834 European ancestry individuals",14q32.31,14,101073662,MEG9 - LINC02285,rs12431682-T,rs12431682,0.3416,2e-10,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",15q22.2,15,61830340,LINC02349 - VPS13C,rs12438629-C,rs12438629,0.9678,2e-11,0.0347
+30239722,Body mass index,"806,834 European ancestry individuals",11q12.1,11,57146683,OR5BP1P - LRRC55,rs6591407-A,rs6591407,0.1984,4e-09,0.0124
+30239722,Body mass index,"806,834 European ancestry individuals",10p14,10,10222237,ELOCP3 - Y_RNA,rs6602411-T,rs6602411,0.1755,6e-11,0.0147
+30239722,Body mass index,"806,834 European ancestry individuals",17q12,17,36700930,MRM1 - LHX1-DT,rs6607337-T,rs6607337,0.2978,3e-11,0.0124
+30239722,Body mass index,"806,834 European ancestry individuals",8q21.2,8,84177202,TPM3P3 - RALYL,rs2196618-A,rs2196618,0.2634,1e-12,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",6p12.3,6,50830813,TFAP2B,rs2206277-T,rs2206277,0.1557,2e-83,0.0408
+30239722,Body mass index,"806,834 European ancestry individuals",6p24.1,6,12124622,HIVEP1,rs2228213-A,rs2228213,0.3374,6e-17,0.0144
+30239722,Body mass index,"806,834 European ancestry individuals",11p13,11,32104309,RCN1,rs223058-A,rs223058,0.3349,3e-10,0.0114
+30239722,Body mass index,"806,834 European ancestry individuals",7p14.1,7,39409337,POU6F2,rs2237403-T,rs2237403,0.3582,1e-12,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",4q22.3,4,95170373,UNC5C,rs2241743-A,rs2241743,0.5699,9e-11,0.0106
+30239722,Body mass index,"806,834 European ancestry individuals",6q23.2,6,131577068,"ARG1, MED23",rs2246012-T,rs2246012,0.8512,1e-13,0.0161
+30239722,Body mass index,"806,834 European ancestry individuals",7q22.1,7,103778399,RELN,rs2299383-T,rs2299383,0.3982,7.000000000000001e-23,0.0162
+30239722,Body mass index,"806,834 European ancestry individuals",16q22.1,16,68348075,PRMT7,rs2307022-A,rs2307022,0.3278,8e-15,0.0134
+30239722,Body mass index,"806,834 European ancestry individuals",13q21.2,13,59923197,DIAPH3,rs2322622-T,rs2322622,0.6472,5e-09,0.0098
+30239722,Body mass index,"806,834 European ancestry individuals",16p12.1,16,24529485,RNU7-24P - RBBP6,rs2342892-T,rs2342892,0.4855,1e-13,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",6q22.31,6,119892734,MAN1A1 - MIR3144,rs2357760-A,rs2357760,0.6735,2e-16,0.0143
+30239722,Body mass index,"806,834 European ancestry individuals",4q28.2,4,129805678,"LINC02466, LINC02465",rs2391540-A,rs2391540,0.6718,1e-14,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",7q31.1,7,113388579,SMIM30 - PPP1R3A,rs2396625-A,rs2396625,0.4183,3e-24,0.0176
+30239722,Body mass index,"806,834 European ancestry individuals",1q31.3,1,194996070,RNU6-983P - LINC01724,rs2400414-T,rs2400414,0.3461,6e-13,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.12,20,46285495,CDH22,rs2425857-A,rs2425857,0.4349,2e-11,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",11p11.2,11,43878051,HSD17B12 - ALKBH3,rs2434467-T,rs2434467,0.342,2e-11,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",10q24.2,10,98018469,CRTAC1,rs2439823-A,rs2439823,0.4514,7e-22,0.0165
+30239722,Body mass index,"806,834 European ancestry individuals",5q21.2,5,104597772,NIHCOLE - RNU6-334P,rs2447832-T,rs2447832,0.4433,2e-10,0.0109
+30239722,Body mass index,"806,834 European ancestry individuals",10q23.32,10,91302354,PCGF5 - HECTD2-AS1,rs2450448-A,rs2450448,0.6874,4e-10,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",3p25.1,3,15702337,"BTD, ANKRD28",rs2455793-A,rs2455793,0.4165,1e-09,0.01
+30239722,Body mass index,"806,834 European ancestry individuals",12p13.33,12,1996950,"CACNA1C, DCP1B",rs2470397-T,rs2470397,0.8143,3e-09,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.2,16,9318365,LINC02177,rs249293-C,rs249293,0.6985,3e-11,0.0123
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.3,16,3985067,ADCY9,rs2601777-A,rs2601777,0.386,3e-17,0.0143
+30239722,Body mass index,"806,834 European ancestry individuals",11q21,11,93487939,SMCO4,rs2605603-A,rs2605603,0.4812,2e-10,0.0103
+30239722,Body mass index,"806,834 European ancestry individuals",17q21.31,17,42933666,G6PC1 - AARSD1,rs2670854-A,rs2670854,0.7227,2e-09,0.0111
+30239722,Body mass index,"806,834 European ancestry individuals",3p25.2,3,12914482,IQSEC1,rs2596902-A,rs2596902,0.6517,2e-10,0.0114
+30239722,Body mass index,"806,834 European ancestry individuals",17q25.1,17,73758406,"LINC00469, LINC02092",rs2619976-T,rs2619976,0.4011,2e-09,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",6q12,6,63530611,PTP4A1,rs2622274-T,rs2622274,0.4553,3e-10,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",2q12.1,2,103692087,CAPZBP1 - LINC01965,rs264962-C,rs264962,0.5428,2e-12,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",3q25.32,3,158308700,RSRC1,rs2682406-A,rs2682406,0.4117,5e-13,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",14q32.2,14,99206460,BCL11B,rs2693686-C,rs2693686,0.6096,6e-11,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",15q26.3,15,98968644,"PGPEP1L, SYNM-AS1",rs2715423-A,rs2715423,0.2805,2e-09,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",19p13.11,19,18106337,MAST3,rs273505-T,rs273505,0.5783,3e-19,0.0173
+30239722,Body mass index,"806,834 European ancestry individuals",9q21.32,9,81571819,RPS20P25 - TLE1,rs2777768-A,rs2777768,0.7228,6e-10,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.33,1,1933859,CFAP74,rs2803316-A,rs2803316,0.4551,2e-16,0.0142
+30239722,Body mass index,"806,834 European ancestry individuals",1q32.1,1,201831740,IPO9,rs2820295-A,rs2820295,0.3266,6e-39,0.0235
+30239722,Body mass index,"806,834 European ancestry individuals",21q21.3,21,29318237,BACH1,rs2832283-A,rs2832283,0.2254,5e-09,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",3p22.1,3,42376954,EIF4BP4 - LYZL4,rs28350-A,rs28350,0.1717,1e-14,0.0172
+30239722,Body mass index,"806,834 European ancestry individuals",21q22.2,21,40055241,DSCAM,rs2837398-A,rs2837398,0.6075,1e-10,0.0112
+30239722,Body mass index,"806,834 European ancestry individuals",1p31.1,1,81913762,ADGRL2,rs284227-T,rs284227,0.7275,6e-15,0.0147
+30239722,Body mass index,"806,834 European ancestry individuals",5q34,5,165130948,LINC03000,rs2861089-A,rs2861089,0.3806,2e-09,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",2p14,2,67610421,LINC02831,rs2861685-T,rs2861685,0.5864,8e-18,0.0165
+30239722,Body mass index,"806,834 European ancestry individuals",11p11.2,11,43632283,MIR670HG,rs2862996-T,rs2862996,0.7012,4e-35,0.0216
+30239722,Body mass index,"806,834 European ancestry individuals",4q22.2,4,93490455,GRID2,rs2870710-C,rs2870710,0.8057,9e-13,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",5q21.3,5,108086366,FBXL17,rs288230-T,rs288230,0.8394,4.9999999999999996e-26,0.0238
+30239722,Body mass index,"806,834 European ancestry individuals",15q22.2,15,60902035,RORA,rs2899663-A,rs2899663,0.4883,2e-09,0.0098
+30239722,Body mass index,"806,834 European ancestry individuals",7q36.1,7,150941396,AOC1 - KCNH2,rs2907948-A,rs2907948,0.244,2e-14,0.0145
+30239722,Body mass index,"806,834 European ancestry individuals",5q12.3,5,66904955,MAST4,rs249612-T,rs249612,0.7138,5e-13,0.0153
+30239722,Body mass index,"806,834 European ancestry individuals",15q15.1,15,41745372,MGA,rs2577947-T,rs2577947,0.8243,7e-10,0.0135
+30239722,Body mass index,"806,834 European ancestry individuals",2p23.2,2,28751017,PPP1CB-DT,rs4372836-T,rs4372836,0.3259,7e-13,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",5q21.3,5,107043405,LINC01950 - PSMC1P5,rs4382152-T,rs4382152,0.6155,2e-09,0.0104
+30239722,Body mass index,"806,834 European ancestry individuals",1q22,1,156437061,MIR9-1HG,rs4414033-A,rs4414033,0.6048,4e-13,0.0129
+30239722,Body mass index,"806,834 European ancestry individuals",13q31.1,13,78987827,CCT5P2 - NIPA2P5,rs4421883-T,rs4421883,0.4946,2e-09,0.0103
+30239722,Body mass index,"806,834 European ancestry individuals",19p13.3,19,2245623,SF3A2,rs45521740-A,rs45521740,0.0555,3e-14,0.0317
+30239722,Body mass index,"806,834 European ancestry individuals",2p13.3,2,69428658,NFU1,rs4581940-T,rs4581940,0.5857,3e-09,0.0101
+30239722,Body mass index,"806,834 European ancestry individuals",5q22.2,5,112841059,APC,rs459552-A,rs459552,0.7747,8e-12,0.0133
+30239722,Body mass index,"806,834 European ancestry individuals",16p11.2,16,29920743,KCTD13,rs4609871-T,rs4609871,0.5397,7e-38,0.0219
+30239722,Body mass index,"806,834 European ancestry individuals",2p16.1,2,58708147,LINC01122,rs4671328-T,rs4671328,0.4496,2.9999999999999998e-36,0.0214
+30239722,Body mass index,"806,834 European ancestry individuals",5q12.2,5,63730453,ISCA1P1 - HTR1A,rs4700608-T,rs4700608,0.5236,4e-20,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",5q21.1,5,102717854,LINC00491 - PAM,rs4703019-A,rs4703019,0.3914,5e-10,0.0102
+30239722,Body mass index,"806,834 European ancestry individuals",7p22.3,7,1833285,MAD1L1,rs4721089-T,rs4721089,0.783,6e-13,0.0167
+30239722,Body mass index,"806,834 European ancestry individuals",7p21.1,7,19746265,TMEM196,rs4721823-C,rs4721823,0.1426,5e-09,0.0143
+30239722,Body mass index,"806,834 European ancestry individuals",7p22.2,7,3085586,CARD11 - SDK1-AS1,rs4722398-T,rs4722398,0.1461,4e-09,0.0147
+30239722,Body mass index,"806,834 European ancestry individuals",8p12,8,34467063,RPL10AP3 - LINC01288,rs4739570-A,rs4739570,0.6204,1e-09,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",9p22.3,9,15634328,CCDC171,rs4740619-T,rs4740619,0.5436,3.0000000000000003e-31,0.0189
+30239722,Body mass index,"806,834 European ancestry individuals",10q22.2,10,75896751,LRMDA,rs4746339-A,rs4746339,0.2601,1e-11,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",17q12,17,33920566,ASIC2,rs4794977-C,rs4794977,0.5749,2e-09,0.0118
+30239722,Body mass index,"806,834 European ancestry individuals",17q11.2,17,27991561,LINC01992,rs4795195-A,rs4795195,0.2872,3e-09,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.33,19,49143219,PPFIA3,rs4802570-C,rs4802570,0.3968,3e-09,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",20p12.1,20,16583565,KIF16B - RPLP0P1,rs4814512-A,rs4814512,0.8075,1e-09,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",21q22.3,21,41261138,BACE2,rs4818226-A,rs4818226,0.3082,2e-11,0.0123
+30239722,Body mass index,"806,834 European ancestry individuals",4q25,4,112392830,ALPK1,rs4834272-T,rs4834272,0.6852,3e-10,0.0108
+30239722,Body mass index,"806,834 European ancestry individuals",8p23.1,8,11167154,XKR6,rs4841504-A,rs4841504,0.5008,5e-24,0.0166
+30239722,Body mass index,"806,834 European ancestry individuals",2q12.2,2,105322780,TGFBRAP1,rs4851057-T,rs4851057,0.1265,3e-10,0.0163
+30239722,Body mass index,"806,834 European ancestry individuals",3p24.3,3,20673088,SGO1-AS1,rs4857968-A,rs4857968,0.2933,7e-12,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",6q25.3,6,160353454,SLC22A3,rs487152-A,rs487152,0.4973,3e-11,0.0108
+30239722,Body mass index,"806,834 European ancestry individuals",10q26.3,10,132179185,JAKMIP3,rs4880341-T,rs4880341,0.5725,3e-14,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",5q23.1,5,120052964,TUBAP15 - RNU6-718P,rs4895231-C,rs4895231,0.4669,2e-12,0.0121
+30239722,Body mass index,"806,834 European ancestry individuals",14q32.32,14,102782790,TRAF3,rs4906263-C,rs4906263,0.6562,8.000000000000001e-23,0.0176
+30239722,Body mass index,"806,834 European ancestry individuals",2q36.3,2,228137904,SPHKAP,rs4973618-A,rs4973618,0.6623,1e-16,0.0148
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.11,16,15035602,PDXDC1,rs4985155-A,rs4985155,0.6689,3e-09,0.0102
+30239722,Body mass index,"806,834 European ancestry individuals",6p22.3,6,18492119,RNF144B - MIR548A1HG,rs5017416-T,rs5017416,0.0504,1e-10,0.0285
+30239722,Body mass index,"806,834 European ancestry individuals",3q26.1,3,161736158,OTOL1 - TOMM22P6,rs507856-T,rs507856,0.5639,3e-10,0.0108
+30239722,Body mass index,"806,834 European ancestry individuals",11p15.1,11,17387083,KCNJ11,rs5215-T,rs5215,0.6314,1e-11,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",3p14.2,3,62729242,CADPS,rs539100-A,rs539100,0.2189,3e-10,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",1q25.2,1,177920345,LINC01741 - SEC16B,rs543874-A,rs543874,0.7786,3.0000000000000004e-125,0.0479
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.22,1,10682985,CASZ1,rs544722-T,rs544722,0.4545,3e-09,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",3p21.31,3,45181466,RPS24P8 - TMEM158,rs55676934-A,rs55676934,0.672,5e-12,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",20q13.2,20,55582439,LINC01440,rs559267-A,rs559267,0.6696,3e-09,0.0103
+30239722,Body mass index,"806,834 European ancestry individuals",12q23.1,12,97190579,Y_RNA - LINC02409,rs55966114-T,rs55966114,0.1885,2e-09,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.12,1,23018558,TEX46,rs561136-T,rs561136,0.8691,1e-14,0.0186
+30239722,Body mass index,"806,834 European ancestry individuals",11q24.1,11,122664625,UBASH3B,rs10892873-C,rs10892873,0.3614,2e-11,0.0118
+30239722,Body mass index,"806,834 European ancestry individuals",11q13.1,11,65510990,MALAT1 - SNRPGP19,rs10896012-T,rs10896012,0.7849,1e-14,0.0162
+30239722,Body mass index,"806,834 European ancestry individuals",1q31.1,1,190270777,BRINP3,rs10920678-A,rs10920678,0.425,7e-20,0.0149
+30239722,Body mass index,"806,834 European ancestry individuals",1p12,1,119004219,TBX15 - WARS2,rs10923724-T,rs10923724,0.5562,1e-14,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",2p25.2,2,6015425,SILC1,rs10929925-A,rs10929925,0.4105,3e-18,0.0142
+30239722,Body mass index,"806,834 European ancestry individuals",2q31.1,2,172025679,METAP1D,rs10930502-A,rs10930502,0.694,3e-13,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",3q26.33,3,182579269,LINC01994,rs10937094-A,rs10937094,0.7109,4e-10,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",4p12,4,45180510,PRDX4P1 - THAP12P9,rs10938397-A,rs10938397,0.57,1.9999999999999998e-86,0.0322
+30239722,Body mass index,"434,794 European ancestry female individuals",5q21.3,5,107981162,FBXL17,rs2916577-A,rs2916577,0.849,7e-22,0.0224
+30239722,Body mass index,"434,794 European ancestry female individuals",1p21.3,1,96421814,UBE2WP1 - EEF1A1P11,rs2968487-T,rs2968487,0.2772,8e-22,0.0176
+30239722,Body mass index,"434,794 European ancestry female individuals",7q36.1,7,150925074,AOC1 - KCNH2,rs2968864-T,rs2968864,0.7565,4e-14,0.015
+30239722,Body mass index,"434,794 European ancestry female individuals",19q13.11,19,33819895,KCTD15 - SUNO1,rs29939-A,rs29939,0.3279,1e-18,0.016
+30239722,Body mass index,"434,794 European ancestry female individuals",9q34.11,9,128226337,DNM1,rs3003612-T,rs3003612,0.5537,2e-10,0.0109
+30239722,Body mass index,"434,794 European ancestry female individuals",17p13.2,17,5377145,"RABEP1, NUP88",rs3026101-T,rs3026101,0.7201,1e-17,0.015
+30239722,Body mass index,"434,794 European ancestry female individuals",9p13.2,9,37348062,ZCCHC7,rs308499-C,rs308499,0.5984,1e-16,0.0144
+30239722,Body mass index,"434,794 European ancestry female individuals",6p21.33,6,31645962,BAG6,rs3130048-T,rs3130048,0.7315,2e-20,0.0169
+30239722,Body mass index,"434,794 European ancestry female individuals",5q31.1,5,134526066,JADE2,rs329120-T,rs329120,0.4104,5e-15,0.0138
+30239722,Body mass index,"434,794 European ancestry female individuals",15q22.2,15,60616108,"RORA-AS1, RORA",rs340025-T,rs340025,0.4081,1e-14,0.0127
+30239722,Body mass index,"434,794 European ancestry female individuals",11q13.1,11,64281549,"BAD, GPR137",rs34292685-T,rs34292685,0.1577,7e-13,0.0187
+30239722,Body mass index,"434,794 European ancestry female individuals",2p21,2,46787383,LINC01118,rs34606703-A,rs34606703,0.3585,5e-15,0.0155
+30239722,Body mass index,"434,794 European ancestry female individuals",4p15.2,4,25407216,ANAPC4,rs34811474-A,rs34811474,0.2224,9e-38,0.0293
+30239722,Body mass index,"434,794 European ancestry female individuals",10p11.22,10,33698401,LINC02628 - LINC00838,rs34930419-T,rs34930419,0.968,6e-13,0.0394
+30239722,Body mass index,"434,794 European ancestry female individuals",19p13.3,19,4086809,ZBTB7A - MAP2K2,rs350818-A,rs350818,0.2324,4e-16,0.017
+30239722,Body mass index,"434,794 European ancestry female individuals",3q25.2,3,154306376,DHX36,rs355754-T,rs355754,0.6027,7e-18,0.0145
+30239722,Body mass index,"434,794 European ancestry female individuals",6p21.1,6,43636430,MAD2L1BP,rs35679149-A,rs35679149,0.9742,7e-12,0.0413
+30239722,Body mass index,"434,794 European ancestry female individuals",19p13.3,19,1852495,"KLF16-AS1, KLF16",rs3746038-T,rs3746038,0.2162,3e-16,0.0173
+30239722,Body mass index,"434,794 European ancestry female individuals",3p21.1,3,53765933,CACNA1D,rs3774573-T,rs3774573,0.7448,3e-14,0.0151
+30239722,Body mass index,"434,794 European ancestry female individuals",6q21,6,108676925,FOXO3,rs3800230-T,rs3800230,0.8785,4e-15,0.0202
+30239722,Body mass index,"434,794 European ancestry female individuals",6p22.3,6,20482104,E2F3,rs3806114-A,rs3806114,0.6916,1e-11,0.012
+30239722,Body mass index,"434,794 European ancestry female individuals",15q23,15,67600428,MAP2K5,rs3865018-T,rs3865018,0.2655,2.0000000000000002e-29,0.0208
+30239722,Body mass index,"434,794 European ancestry female individuals",17q25.3,17,81113737,"BAIAP2, AATK",rs4076427-C,rs4076427,0.3954,4e-15,0.014
+30239722,Body mass index,"434,794 European ancestry female individuals",21q22.3,21,45150981,ADARB1,rs427943-A,rs427943,0.4288,3.9999999999999997e-25,0.0177
+30239722,Body mass index,"434,794 European ancestry female individuals",7p15.3,7,24314681,NPY - RNU6-1103P,rs4307239-A,rs4307239,0.5361,1e-11,0.0115
+30239722,Body mass index,"434,794 European ancestry female individuals",17q23.3,17,63651521,MAP3K3,rs8075273-A,rs8075273,0.2878,5e-14,0.0137
+30239722,Body mass index,"434,794 European ancestry female individuals",16q22.2,16,72217233,PMFBP1 - LINC01572,rs811054-T,rs811054,0.5333,2e-16,0.0135
+30239722,Body mass index,"434,794 European ancestry female individuals",9q33.3,9,126702954,LMX1B - ZBTB43,rs867560-C,rs867560,0.568,1e-15,0.0136
+30239722,Body mass index,"434,794 European ancestry female individuals",8q12.3,8,63803912,"LINC01289, LINC01414",rs890235-A,rs890235,0.5462,2e-09,0.0103
+30239722,Body mass index,"434,794 European ancestry female individuals",6q16.1,6,98091643,MIR2113 - EIF4EBP2P3,rs901630-T,rs901630,0.4135,2e-21,0.0157
+30239722,Body mass index,"434,794 European ancestry female individuals",12q23.1,12,99246152,ANKS1B,rs923724-C,rs923724,0.6196,2e-15,0.014
+30239722,Body mass index,"434,794 European ancestry female individuals",16q12.2,16,53832063,FTO,rs9302652-T,rs9302652,0.735,9e-40,0.0243
+30239722,Body mass index,"434,794 European ancestry female individuals",6p24.1,6,13189709,PHACTR1,rs9367369-A,rs9367369,0.7103,2e-12,0.0148
+30239722,Body mass index,"434,794 European ancestry female individuals",14q32.12,14,93565568,UNC79,rs942066-A,rs942066,0.373,2.0000000000000002e-24,0.0202
+30239722,Body mass index,"434,794 European ancestry female individuals",6p12.3,6,50898107,TNPO3P2,rs943005-T,rs943005,0.1494,1.0000000000000001e-81,0.041
+30239722,Body mass index,"434,794 European ancestry female individuals",20p12.1,20,17190728,RNU6-27P - RNU1-131P,rs947088-T,rs947088,0.7351,4e-11,0.0126
+30239722,Body mass index,"434,794 European ancestry female individuals",11q13.1,11,65535422,SCYL1,rs947791-A,rs947791,0.214,1e-14,0.0161
+30239722,Body mass index,"434,794 European ancestry female individuals",17q25.1,17,73758406,"LINC00469, LINC02092",rs2619976-T,rs2619976,0.4011,2e-09,0.0105
+30239722,Body mass index,"434,794 European ancestry female individuals",2q12.1,2,103692087,CAPZBP1 - LINC01965,rs264962-C,rs264962,0.5428,2e-12,0.0119
+30239722,Body mass index,"434,794 European ancestry female individuals",8q23.3,8,115649811,TRPS1,rs2721965-A,rs2721965,0.6689,4e-21,0.017
+30239722,Body mass index,"434,794 European ancestry female individuals",19p13.11,19,18104437,MAST3,rs273504-A,rs273504,0.577,4e-19,0.0156
+30239722,Body mass index,"434,794 European ancestry female individuals",6p21.31,6,34617174,"ILRUN, RPL7P25",rs2744968-A,rs2744968,0.7889,5.9999999999999996e-40,0.0273
+30239722,Body mass index,"434,794 European ancestry female individuals",14q12,14,25419471,OR7K1P - LINC02306,rs2754084-A,rs2754084,0.5247,2e-20,0.0158
+30239722,Body mass index,"434,794 European ancestry female individuals",1p36.33,1,1914634,GNB1-DT - CALML6,rs2803298-T,rs2803298,0.5398,2e-16,0.0141
+30239722,Body mass index,"434,794 European ancestry female individuals",1q32.1,1,201831740,IPO9,rs2820295-A,rs2820295,0.3266,6e-39,0.0235
+30239722,Body mass index,"434,794 European ancestry female individuals",21q22.3,21,41248593,BACE2,rs2837992-T,rs2837992,0.3703,2e-10,0.0112
+30239722,Body mass index,"434,794 European ancestry female individuals",1p31.1,1,81913762,ADGRL2,rs284227-T,rs284227,0.7275,6e-15,0.0147
+30239722,Body mass index,"434,794 European ancestry female individuals",4p15.31,4,20238040,RPL21P46 - SLIT2,rs28608644-A,rs28608644,0.8535,1e-12,0.0192
+30239722,Body mass index,"434,794 European ancestry female individuals",2p14,2,67610421,LINC02831,rs2861685-T,rs2861685,0.5864,8e-18,0.0165
+30239722,Body mass index,"434,794 European ancestry female individuals",11p11.2,11,43634985,MIR670HG,rs2862961-A,rs2862961,0.6978,6e-34,0.0224
+30239722,Body mass index,"806,834 European ancestry individuals",19p13.11,19,18725864,CRTC1,rs11668500-C,rs11668500,0.5076,2.0000000000000002e-23,0.0191
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.32,19,45676926,GIPR,rs11672660-T,rs11672660,0.1871,7.000000000000001e-60,0.0338
+30239722,Body mass index,"806,834 European ancestry individuals",7q11.23,7,75520983,"PMS2P3, PMS2P3",rs1167821-A,rs1167821,0.5535,9e-26,0.0201
+30239722,Body mass index,"806,834 European ancestry individuals",2q33.3,2,207398555,MYOSLID-AS1,rs11692326-T,rs11692326,0.2302,2e-14,0.0147
+30239722,Body mass index,"806,834 European ancestry individuals",21q22.2,21,38751816,LINC00114,rs11702843-A,rs11702843,0.2531,2e-09,0.0121
+30239722,Body mass index,"806,834 European ancestry individuals",8p21.2,8,27403621,PTK2B,rs117176448-C,rs117176448,0.9067,7e-11,0.0213
+30239722,Body mass index,"806,834 European ancestry individuals",5q21.3,5,106541105,RNA5SP189 - LINC01950,rs11739877-T,rs11739877,0.6231,4e-11,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",6p24.1,6,13180222,PHACTR1,rs11757278-T,rs11757278,0.6961,7e-13,0.0133
+30239722,Body mass index,"806,834 European ancestry individuals",7q22.1,7,99521178,ZKSCAN5,rs11761528-T,rs11761528,0.0874,6e-14,0.0227
+30239722,Body mass index,"806,834 European ancestry individuals",8p21.2,8,23532058,SLC25A37,rs11781222-T,rs11781222,0.853,3e-12,0.0167
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.33,12,132814436,GOLGA3,rs11836108-A,rs11836108,0.296,8e-10,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",15q24.3,15,77720346,LINGO1,rs11856579-A,rs11856579,0.2608,1e-16,0.0161
+30239722,Body mass index,"806,834 European ancestry individuals",16p13.3,16,337867,AXIN1,rs11866815-T,rs11866815,0.2568,2e-16,0.0153
+30239722,Body mass index,"806,834 European ancestry individuals",9q21.33,9,84678542,NTRK2,rs1187352-T,rs1187352,0.3426,3e-11,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",18q12.3,18,45016031,SETBP1,rs11874040-A,rs11874040,0.7144,2e-11,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",3p13,3,70490408,SAMMSON,rs11915371-A,rs11915371,0.8019,2e-13,0.0154
+30239722,Body mass index,"806,834 European ancestry individuals",4q32.2,4,162117712,FSTL5,rs11931941-A,rs11931941,0.2212,5e-10,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",7p15.2,7,26659442,LINC02860 - SKAP2,rs11971098-A,rs11971098,0.9093,8e-11,0.0196
+30239722,Body mass index,"806,834 European ancestry individuals",3q22.3,3,138372298,MRAS,rs1199334-A,rs1199334,0.1896,2e-12,0.0145
+30239722,Body mass index,"806,834 European ancestry individuals",8q24.22,8,131859361,SNORA72 - EFR3A,rs11997238-A,rs11997238,0.9077,6e-10,0.0188
+30239722,Body mass index,"806,834 European ancestry individuals",1p35.1,1,32766924,NHSL3,rs12022461-A,rs12022461,0.1674,1e-13,0.0167
+30239722,Body mass index,"806,834 European ancestry individuals",1p31.1,1,77501838,AK5,rs12049202-T,rs12049202,0.1883,3e-29,0.0239
+30239722,Body mass index,"434,794 European ancestry female individuals",12p12.3,12,19055014,CAPZA3 - RPL7P6,rs7976757-T,rs7976757,0.1772,3e-11,0.015
+30239722,Body mass index,"434,794 European ancestry female individuals",14q12,14,30015516,PRKD1,rs8016859-C,rs8016859,0.0377,7e-16,0.0344
+30239722,Body mass index,"434,794 European ancestry female individuals",15q21.1,15,46292907,SQOR - MTND5P40,rs8038522-T,rs8038522,0.4145,4e-10,0.0107
+30239722,Body mass index,"434,794 European ancestry female individuals",3q23,3,141556594,RASA2,rs16851483-T,rs16851483,0.0717,5e-25,0.0352
+30239722,Body mass index,"434,794 European ancestry female individuals",9p21.1,9,28413463,LINGO2,rs16912921-A,rs16912921,0.3135,4e-41,0.0233
+30239722,Body mass index,"434,794 European ancestry female individuals",12p12.1,12,23849191,SOX5,rs16926778-C,rs16926778,0.0771,2e-13,0.0234
+30239722,Body mass index,"434,794 European ancestry female individuals",18q12.3,18,42334905,LINC00907,rs16975921-A,rs16975921,0.6931,1e-11,0.0124
+30239722,Body mass index,"434,794 European ancestry female individuals",8q21.13,8,75894349,HNF4G - RNU2-54P,rs17405819-T,rs17405819,0.6845,6e-33,0.0211
+30239722,Body mass index,"434,794 European ancestry female individuals",14q12,14,32833676,AKAP6,rs17522122-T,rs17522122,0.4667,8.000000000000001e-24,0.0167
+30239722,Body mass index,"434,794 European ancestry female individuals",20q13.2,20,52449315,LINC01524,rs17806224-A,rs17806224,0.1808,7.999999999999999e-32,0.026
+30239722,Body mass index,"434,794 European ancestry female individuals",18q11.2,18,23524924,"NPC1, RMC1",rs1808579-T,rs1808579,0.4802,2e-33,0.0196
+30239722,Body mass index,"434,794 European ancestry female individuals",12q13.12,12,49853685,BCDIN3D - RPL35AP28,rs7138803-A,rs7138803,0.387,2.9999999999999997e-71,0.0297
+30239722,Body mass index,"434,794 European ancestry female individuals",14q31.1,14,79433111,NRXN3,rs7141420-T,rs7141420,0.5463,2e-37,0.0209
+30239722,Body mass index,"434,794 European ancestry female individuals",14q32.31,14,101073047,MEG9 - LINC02285,rs7147503-T,rs7147503,0.3479,2e-10,0.0112
+30239722,Body mass index,"434,794 European ancestry female individuals",2q34,2,210678331,CPS1,rs715-T,rs715,0.6953,1e-16,0.0157
+30239722,Body mass index,"434,794 European ancestry female individuals",16p13.3,16,3972702,ADCY9,rs7185966-A,rs7185966,0.2394,2e-16,0.0184
+30239722,Body mass index,"434,794 European ancestry female individuals",16p12.1,16,24795099,TNRC6A,rs7186893-T,rs7186893,0.2631,1e-13,0.0143
+30239722,Body mass index,"434,794 European ancestry female individuals",16p13.3,16,299331,AXIN1,rs7200589-A,rs7200589,0.2623,4e-13,0.014
+30239722,Body mass index,"434,794 European ancestry female individuals",17q22,17,56297250,ANKFN1,rs7211966-T,rs7211966,0.0273,4e-06,0.0277
+30239722,Body mass index,"434,794 European ancestry female individuals",18p11.32,18,1840657,LINC00470 - AIDAP3,rs7238896-A,rs7238896,0.8584,2e-15,0.0218
+30239722,Body mass index,"434,794 European ancestry female individuals",18q21.1,18,48394843,ZBTB7C,rs7239114-A,rs7239114,0.5414,6e-13,0.012
+30239722,Body mass index,"434,794 European ancestry female individuals",19q13.11,19,33462448,PEPD,rs7247614-T,rs7247614,0.6938,2e-10,0.0119
+30239722,Body mass index,"434,794 European ancestry female individuals",19q13.32,19,47059252,TMEM160 - ZC3H4,rs7259070-T,rs7259070,0.4126,1.9999999999999998e-26,0.0209
+30239722,Body mass index,"434,794 European ancestry female individuals",2p16.3,2,48726840,"LHCGR, GTF2A1L, STON1-GTF2A1L",rs72618637-A,rs72618637,0.1898,2e-13,0.018
+30239722,Body mass index,"434,794 European ancestry female individuals",13q12.2,13,28043571,FLT3,rs7318817-T,rs7318817,0.6303,4e-16,0.0143
+30239722,Body mass index,"434,794 European ancestry female individuals",4p15.1,4,28487717,IGBP1P5 - RN7SL101P,rs73213484-A,rs73213484,0.8565,2e-14,0.0208
+30239722,Body mass index,"434,794 European ancestry female individuals",13q33.3,13,109310231,LINC01067,rs7335249-T,rs7335249,0.5617,2e-07,0.009
+30239722,Body mass index,"434,794 European ancestry female individuals",9p22.2,9,16724057,BNC2,rs73646205-A,rs73646205,0.1676,2e-18,0.0225
+30239722,Body mass index,"434,794 European ancestry female individuals",3q13.13,3,108232045,IFT57 - HHLA2,rs1289736-T,rs1289736,0.5448,5e-10,0.0106
+30239722,Body mass index,"434,794 European ancestry female individuals",15q24.1,15,73895596,TBC1D21 - LOXL1-AS1,rs12914489-A,rs12914489,0.0836,9e-11,0.0172
+30239722,Body mass index,"434,794 European ancestry female individuals",19p13.11,19,18356588,PGPEP1,rs12984770-A,rs12984770,0.7311,6e-17,0.0182
+30239722,Body mass index,"434,794 European ancestry female individuals",2q22.2,2,143264143,ARHGAP15,rs13002158-A,rs13002158,0.8133,1e-12,0.0154
+30239722,Body mass index,"434,794 European ancestry female individuals",3p12.1,3,85771031,CADM2,rs13098327-A,rs13098327,0.1918,4.0000000000000003e-29,0.0229
+30239722,Body mass index,"434,794 European ancestry female individuals",4q24,4,102267552,SLC39A8,rs13107325-T,rs13107325,0.082,4e-47,0.0468
+30239722,Body mass index,"434,794 European ancestry female individuals",4q32.2,4,161208692,RPS14P7 - FSTL5,rs13110266-A,rs13110266,0.4037,4e-14,0.0124
+30239722,Body mass index,"434,794 European ancestry female individuals",5q31.2,5,139701160,CXXC5 - RNU6-236P,rs13174863-A,rs13174863,0.8542,2e-17,0.0197
+30239722,Body mass index,"434,794 European ancestry female individuals",6q26,6,162612318,PRKN,rs13191362-A,rs13191362,0.8572,4e-21,0.0235
+30239722,Body mass index,"434,794 European ancestry female individuals",17p11.2,17,21361084,MAP2K3 - KCNJ12,rs1320251-T,rs1320251,0.4566,6e-25,0.0177
+30239722,Body mass index,"434,794 European ancestry female individuals",9q22.2,9,89593312,SEMA4D - GADD45G,rs1329733-A,rs1329733,0.5298,3e-12,0.012
+30239722,Body mass index,"434,794 European ancestry female individuals",16q23.1,16,76844965,LINC02125,rs13330107-A,rs13330107,0.3564,1e-07,0.0095
+30239722,Body mass index,"434,794 European ancestry female individuals",2p15,2,62621184,RSL24D1P2 - EHBP1,rs13417156-T,rs13417156,0.5755,7e-16,0.0135
+30239722,Body mass index,"434,794 European ancestry female individuals",20p11.22,20,21400483,NKX2-4 - RN7SKP140,rs1409818-T,rs1409818,0.1074,3e-12,0.0195
+30239722,Body mass index,"434,794 European ancestry female individuals",6q16.3,6,104369069,NPM1P10 - HACE1,rs1417665-T,rs1417665,0.8026,5e-18,0.0186
+30239722,Body mass index,"434,794 European ancestry female individuals",3p14.2,3,62495388,CADPS,rs1452075-T,rs1452075,0.7314,3e-12,0.0128
+30239722,Body mass index,"434,794 European ancestry female individuals",2q24.3,2,163711179,FIGN,rs1460676-T,rs1460676,0.8242,2e-12,0.0153
+30239722,Body mass index,"434,794 European ancestry female individuals",2q33.3,2,204501128,DSTNP5 - PARD3B,rs1470545-T,rs1470545,0.0374,6e-18,0.037
+30239722,Body mass index,"434,794 European ancestry female individuals",4p15.31,4,18513204,LCORL - LINC02438,rs1477887-A,rs1477887,0.4432,9e-13,0.0122
+30239722,Body mass index,"434,794 European ancestry female individuals",18q12.3,18,43180181,RIT2 - SYT4,rs1518159-T,rs1518159,0.2499,2e-12,0.0138
+30239722,Body mass index,"434,794 European ancestry female individuals",7q31.1,7,113395778,SMIM30 - PPP1R3A,rs1524445-T,rs1524445,0.4163,3e-22,0.0189
+30239722,Body mass index,"434,794 European ancestry female individuals",10q26.13,10,125007104,CTBP2,rs1561589-A,rs1561589,0.3622,1e-15,0.0136
+30239722,Body mass index,"434,794 European ancestry female individuals",14q12,14,29212088,LINC02327,rs1569979-A,rs1569979,0.7737,3e-24,0.0204
+30239722,Body mass index,"434,794 European ancestry female individuals",6p21.2,6,40404179,LRFN2,rs1579557-T,rs1579557,0.288,2.0000000000000002e-28,0.0206
+30239722,Body mass index,"434,794 European ancestry female individuals",3q11.2,3,94284759,NSUN3 - ARMC10P1,rs1580099-A,rs1580099,0.5775,7e-27,0.0179
+30239722,Body mass index,"434,794 European ancestry female individuals",3q22.1,3,131860966,CPNE4,rs7428670-C,rs7428670,0.2697,6.0000000000000005e-31,0.022
+30239722,Body mass index,"434,794 European ancestry female individuals",16p11.2,16,28871920,SH2B1,rs7498665-A,rs7498665,0.6179,1.0000000000000001e-66,0.0285
+30239722,Body mass index,"434,794 European ancestry female individuals",1p13.3,1,109540264,GPR61,rs7550711-T,rs7550711,0.0279,9e-39,0.0657
+30239722,Body mass index,"434,794 European ancestry female individuals",2p23.2,2,28773429,PPP1CB,rs7579277-A,rs7579277,0.6674,4e-12,0.0125
+30239722,Body mass index,"434,794 European ancestry female individuals",2p16.1,2,55059545,RTN4,rs7582359-A,rs7582359,0.3294,2e-12,0.0128
+30239722,Body mass index,"434,794 European ancestry female individuals",2q31.3,2,180710554,SCHLAP1,rs7588437-A,rs7588437,0.3664,2e-22,0.0165
+30239722,Body mass index,"434,794 European ancestry female individuals",2q34,2,212548507,ERBB4 - LINC01878,rs7599312-A,rs7599312,0.2737,2.0000000000000002e-23,0.0182
+30239722,Body mass index,"434,794 European ancestry female individuals",3q22.3,3,136553404,STAG1,rs7621025-T,rs7621025,0.2607,8.000000000000001e-24,0.0187
+30239722,Body mass index,"434,794 European ancestry female individuals",5q12.3,5,64778903,CWC27,rs7701842-A,rs7701842,0.4899,3e-13,0.0124
+30239722,Body mass index,"434,794 European ancestry female individuals",5q33.2,5,154167849,MFAP3,rs7701886-A,rs7701886,0.5431,5e-21,0.0161
+30239722,Body mass index,"434,794 European ancestry female individuals",5q15,5,96381018,CAST,rs7713317-A,rs7713317,0.7198,2e-20,0.0166
+30239722,Body mass index,"434,794 European ancestry female individuals",13q31.1,13,85920682,SLITRK6 - MOB1AP1,rs77432547-A,rs77432547,0.7229,1e-15,0.017
+30239722,Body mass index,"434,794 European ancestry female individuals",5p12,5,43124586,ZNF131,rs782971-A,rs782971,0.7534,4e-13,0.0134
+30239722,Body mass index,"434,794 European ancestry female individuals",8q21.11,8,72537705,KCNB2,rs7845090-A,rs7845090,0.7029,5e-23,0.0207
+30239722,Body mass index,"434,794 European ancestry female individuals",10q23.1,10,85651147,GRID1,rs7899106-A,rs7899106,0.9496,2e-18,0.0327
+30239722,Body mass index,"434,794 European ancestry female individuals",1p36.33,1,1659060,CDK11B,rs79113395-A,rs79113395,0.266,2e-20,0.02
+30239722,Body mass index,"434,794 European ancestry female individuals",12q24.31,12,121233458,P2RX4,rs7961979-A,rs7961979,0.1314,7e-12,0.0177
+30239722,Body mass index,"434,794 European ancestry female individuals",12q14.1,12,60570327,Y_RNA - DUX4L52,rs7975187-A,rs7975187,0.7712,4e-11,0.0137
+30239722,Body mass index,"434,794 European ancestry female individuals",2p16.1,2,59653470,RNU6-508P - RNA5SP94,rs185581-A,rs185581,0.2052,8e-10,0.0133
+30239722,Body mass index,"434,794 European ancestry female individuals",2p16.1,2,58665930,LINC01122,rs1861412-A,rs1861412,0.4241,9.999999999999999e-33,0.0202
+30239722,Body mass index,"434,794 European ancestry female individuals",20p13,20,1429938,FKBP1A - NSFL1C,rs1884389-T,rs1884389,0.4386,4e-10,0.0108
+30239722,Body mass index,"434,794 European ancestry female individuals",20p12.3,20,6632185,CASC20 - LINC01713,rs1884897-A,rs1884897,0.3747,3e-28,0.0184
+30239722,Body mass index,"434,794 European ancestry female individuals",5q12.2,5,63725811,ISCA1P1 - HTR1A,rs1895407-T,rs1895407,0.5235,5e-20,0.0155
+30239722,Body mass index,"434,794 European ancestry female individuals",12q23.3,12,107939217,ASCL4 - WSCD2,rs1895941-A,rs1895941,0.2552,2e-15,0.0153
+30239722,Body mass index,"434,794 European ancestry female individuals",3p14.2,3,61201372,FHIT,rs1916801-A,rs1916801,0.616,2.0000000000000002e-24,0.0169
+30239722,Body mass index,"374,756 European ancestry male individuals",7p14.3,7,32298725,PDE1C,rs215607-A,rs215607,0.7786,6e-15,0.0163
+30239722,Body mass index,"374,756 European ancestry male individuals",1q32.1,1,201857212,IPO9,rs2172935-T,rs2172935,0.3232,6e-39,0.0235
+30239722,Body mass index,"374,756 European ancestry male individuals",19q12,19,29795915,C19orf12 - CCNE1,rs17513613-T,rs17513613,0.6924,6e-25,0.018
+30239722,Body mass index,"374,756 European ancestry male individuals",14q31.1,14,79473650,NRXN3,rs17109256-A,rs17109256,0.2335,1.0000000000000001e-39,0.0261
+30239722,Body mass index,"374,756 European ancestry male individuals",6p21.32,6,33308993,TAPBP,rs9277972-A,rs9277972,0.8069,5e-15,0.017
+30239722,Body mass index,"374,756 European ancestry male individuals",13q13.1,13,32601656,PDS5B,rs9595893-T,rs9595893,0.3597,4e-20,0.0162
+30239722,Body mass index,"374,756 European ancestry male individuals",13q14.11,13,40209186,LINC00598,rs9603697-T,rs9603697,0.3184,2e-13,0.0134
+30239722,Body mass index,"374,756 European ancestry male individuals",7p21.2,7,14606324,DGKB,rs9638713-A,rs9638713,0.0267,9e-09,0.0298
+30239722,Body mass index,"374,756 European ancestry male individuals",1p36.33,1,1659220,CDK11B,rs9661500-A,rs9661500,0.6933,6e-19,0.0183
+30239722,Body mass index,"374,756 European ancestry male individuals",3q27.2,3,186116710,DGKG,rs9816226-A,rs9816226,0.1755,9.999999999999999e-51,0.0315
+30239722,Body mass index,"374,756 European ancestry male individuals",1p12,1,118961661,TBX15,rs984225-A,rs984225,0.5958,1e-13,0.0122
+30239722,Body mass index,"374,756 European ancestry male individuals",3q25.32,3,158169483,RSRC1,rs9857883-A,rs9857883,0.6042,2e-12,0.0116
+30239722,Body mass index,"374,756 European ancestry male individuals",3q25.31,3,156578770,SSR3 - TIPARP-AS1,rs9870575-A,rs9870575,0.1416,1e-10,0.0153
+30239722,Body mass index,"374,756 European ancestry male individuals",11p14.1,11,30332178,ARL14EP,rs1765139-T,rs1765139,0.7689,5e-14,0.0155
+30239722,Body mass index,"374,756 European ancestry male individuals",18q22.1,18,65794402,CDH7,rs17783165-T,rs17783165,0.671,3e-13,0.0128
+30239722,Body mass index,"374,756 European ancestry male individuals",18q23,18,78982544,SALL3,rs1787267-C,rs1787267,0.0631,8e-10,0.0216
+30239722,Body mass index,"374,756 European ancestry male individuals",19q13.32,19,45678134,GIPR,rs1800437-C,rs1800437,0.1873,3e-59,0.0339
+30239722,Body mass index,"374,756 European ancestry male individuals",7q21.11,7,78200451,MAGI2,rs1852006-A,rs1852006,0.376,7e-18,0.0153
+30239722,Body mass index,"374,756 European ancestry male individuals",3p14.2,3,61201372,FHIT,rs1916801-A,rs1916801,0.616,2.0000000000000002e-24,0.0169
+30239722,Body mass index,"374,756 European ancestry male individuals",14q21.1,14,40332547,FBXO33 - LINC02315,rs1955540-T,rs1955540,0.1937,2e-11,0.0145
+30239722,Body mass index,"374,756 European ancestry male individuals",16p13.2,16,9619831,LINC02177,rs1990573-A,rs1990573,0.3061,2e-13,0.0129
+30239722,Body mass index,"374,756 European ancestry male individuals",1p31.1,1,72372846,LINC02796,rs1993709-A,rs1993709,0.1805,1e-52,0.0317
+30239722,Body mass index,"374,756 European ancestry male individuals",15q23,15,67889196,RNU6-1 - PIAS1,rs1996120-A,rs1996120,0.4228,4.0000000000000004e-24,0.0167
+30239722,Body mass index,"374,756 European ancestry male individuals",19q13.32,19,44892362,TOMM40,rs2075650-A,rs2075650,0.8566,7e-26,0.0245
+30239722,Body mass index,"374,756 European ancestry male individuals",17q21.32,17,48174984,SKAP1,rs208015-T,rs208015,0.07,7e-26,0.0352
+30239722,Body mass index,"374,756 European ancestry male individuals",14q12,14,32828192,AKAP6,rs2143975-C,rs2143975,0.4578,8e-21,0.0162
+30239722,Body mass index,"374,756 European ancestry male individuals",20p12.3,20,6641038,CASC20 - LINC01713,rs2145270-T,rs2145270,0.6162,9.999999999999999e-27,0.018
+30239722,Body mass index,"374,756 European ancestry male individuals",17q25.3,17,80637924,RPTOR,rs12939549-A,rs12939549,0.5572,4.0000000000000003e-28,0.018
+30239722,Body mass index,"374,756 European ancestry male individuals",4q24,4,102267552,SLC39A8,rs13107325-T,rs13107325,0.082,4e-47,0.0468
+30239722,Body mass index,"374,756 European ancestry male individuals",4p12,4,45173674,PRDX4P1 - THAP12P9,rs13130484-T,rs13130484,0.4296,7.999999999999999e-86,0.0321
+30239722,Body mass index,"374,756 European ancestry male individuals",6q26,6,162612318,PRKN,rs13191362-A,rs13191362,0.8572,4e-21,0.0235
+30239722,Body mass index,"374,756 European ancestry male individuals",3q22.1,3,132039233,CPNE4,rs1320903-A,rs1320903,0.3107,3.9999999999999997e-32,0.0215
+30239722,Body mass index,"374,756 European ancestry male individuals",2q14.1,2,113237018,"PAX8-AS1, PAX8",rs13405033-T,rs13405033,0.1518,2e-07,0.0139
+30239722,Body mass index,"374,756 European ancestry male individuals",1p21.3,1,95824178,LINC02607 - LINC02790,rs1361739-A,rs1361739,0.3168,3e-17,0.0153
+30239722,Body mass index,"374,756 European ancestry male individuals",9p22.2,9,16728534,BNC2,rs1411432-A,rs1411432,0.8136,3e-17,0.0207
+30239722,Body mass index,"374,756 European ancestry male individuals",5q33.2,5,154167935,MFAP3,rs1428121-A,rs1428121,0.5649,3e-21,0.0162
+30239722,Body mass index,"374,756 European ancestry male individuals",8q21.11,8,72526835,RNA5SP271 - KCNB2,rs1431659-A,rs1431659,0.2737,2.0000000000000002e-23,0.0191
+30239722,Body mass index,"374,756 European ancestry male individuals",3q13.11,3,104899129,EZRP1 - ALCAM,rs1436351-T,rs1436351,0.7376,5e-16,0.0151
+30239722,Body mass index,"374,756 European ancestry male individuals",2q22.3,2,147143639,LINC01911 - RNU6-692P,rs1451077-A,rs1451077,0.5776,1e-18,0.0169
+30239722,Body mass index,"374,756 European ancestry male individuals",4q28.3,4,136150180,RNU1-89P - TERF1P3,rs1451109-A,rs1451109,0.6849,1e-19,0.0158
+30239722,Body mass index,"374,756 European ancestry male individuals",3q11.2,3,94352637,NSUN3 - ARMC10P1,rs1492014-T,rs1492014,0.5674,1.0000000000000001e-23,0.0171
+30239722,Body mass index,"374,756 European ancestry male individuals",1p31.1,1,74525718,"FPGT-TNNI3K, TNNI3K",rs1514177-C,rs1514177,0.4255,7.999999999999999e-30,0.0184
+30239722,Body mass index,"374,756 European ancestry male individuals",2p23.3,2,24863958,ADCY3,rs1529897-T,rs1529897,0.5704,1.0000000000000001e-72,0.0307
+30239722,Body mass index,"374,756 European ancestry male individuals",2q35,2,218722568,TTLL4,rs1541777-A,rs1541777,0.5441,2e-13,0.0119
+30239722,Body mass index,"374,756 European ancestry male individuals",1p13.2,1,111730863,INKA2,rs1546924-T,rs1546924,0.4997,2e-17,0.0139
+30239722,Body mass index,"374,756 European ancestry male individuals",12q21.33,12,89364269,DUSP6 - POC1B,rs1689437-A,rs1689437,0.9461,5e-13,0.0246
+30239722,Body mass index,"374,756 European ancestry male individuals",8q21.13,8,80463222,RNU6-1213P - Y_RNA,rs16907751-T,rs16907751,0.0877,2e-11,0.0194
+30239722,Body mass index,"374,756 European ancestry male individuals",7q31.1,7,113393371,SMIM30 - PPP1R3A,rs1701829-A,rs1701829,0.3352,2e-17,0.0153
+30239722,Body mass index,"374,756 European ancestry male individuals",1p13.3,1,109612066,GNAT2,rs17024393-T,rs17024393,0.9689,7e-39,0.0644
+30239722,Body mass index,"374,756 European ancestry male individuals",10q24.31,10,100635683,HIF1AN - Metazoa_SRP,rs17094222-T,rs17094222,0.7912,4e-18,0.0173
+30239722,Body mass index,"374,756 European ancestry male individuals",4q31.3,4,152107708,LINC02273,rs17276464-T,rs17276464,0.4143,5e-09,0.0096
+30239722,Body mass index,"374,756 European ancestry male individuals",6q16.3,6,104369900,NPM1P10 - HACE1,rs17459015-T,rs17459015,0.8026,6e-18,0.0186
+30239722,Body mass index,"374,756 European ancestry male individuals",8p21.2,8,23506865,ENTPD4-DT - SLC25A37,rs34297248-A,rs34297248,0.2051,3e-09,0.014
+30239722,Body mass index,"374,756 European ancestry male individuals",5q13.3,5,75671883,ANKDD1B,rs34360-A,rs34360,0.6482,1.9999999999999999e-56,0.0269
+30239722,Body mass index,"374,756 European ancestry male individuals",20q13.13,20,48833526,PREX1 - ARFGEF2,rs34417222-T,rs34417222,0.303,7e-11,0.0136
+30239722,Body mass index,"374,756 European ancestry male individuals",4p15.2,4,25407216,ANAPC4,rs34811474-A,rs34811474,0.2224,9e-38,0.0293
+30239722,Body mass index,"374,756 European ancestry male individuals",11q14.1,11,85065805,DLG2,rs349071-A,rs349071,0.4993,4e-13,0.0139
+30239722,Body mass index,"374,756 European ancestry male individuals",20q13.2,20,52343951,LINC01524,rs35388084-A,rs35388084,0.1815,6e-26,0.0261
+30239722,Body mass index,"374,756 European ancestry male individuals",3q25.2,3,154317161,DHX36,rs355777-C,rs355777,0.3984,2e-18,0.0151
+30239722,Body mass index,"374,756 European ancestry male individuals",9q33.3,9,126652650,LMX1B,rs3814120-A,rs3814120,0.0851,1e-12,0.0213
+30239722,Body mass index,"374,756 European ancestry male individuals",3p12.2,3,81742961,GBE1,rs3849570-A,rs3849570,0.3541,7e-15,0.0134
+30239722,Body mass index,"374,756 European ancestry male individuals",9p21.2,9,27803739,CTAGE12P - LINGO2,rs3922980-T,rs3922980,0.5021,8e-14,0.0127
+30239722,Body mass index,"374,756 European ancestry male individuals",17p13.3,17,1939895,RTN4RL1,rs3923783-A,rs3923783,0.1784,4.0000000000000004e-23,0.0222
+30239722,Body mass index,"374,756 European ancestry male individuals",17q21.2,17,41112532,KRTAP4-9 - KRTAP4-11,rs4057931-A,rs4057931,0.6732,7e-09,0.0118
+30239722,Body mass index,"374,756 European ancestry male individuals",8p22,8,14233516,SGCZ,rs4123853-T,rs4123853,0.3727,1e-15,0.014
+30239722,Body mass index,"374,756 European ancestry male individuals",3q13.13,3,108400224,MYH15,rs4273371-T,rs4273371,0.5066,4e-12,0.0113
+30239722,Body mass index,"374,756 European ancestry male individuals",21q22.3,21,45150981,ADARB1,rs427943-A,rs427943,0.4288,3.9999999999999997e-25,0.0177
+30239722,Body mass index,"374,756 European ancestry male individuals",2p13.3,2,69373551,GFPT1,rs4410328-T,rs4410328,0.4113,9e-08,0.0103
+30239722,Body mass index,"374,756 European ancestry male individuals",13q21.1,13,58623402,CTAGE16P - DNAJA1P1,rs4432163-T,rs4432163,0.5037,6e-18,0.0147
+30239722,Body mass index,"374,756 European ancestry male individuals",6q16.1,6,97951645,MMS22L - MIR2113,rs4548017-A,rs4548017,0.3936,6e-20,0.0179
+30239722,Body mass index,"374,756 European ancestry male individuals",19p13.3,19,2244850,SF3A2,rs45486197-A,rs45486197,0.0635,2e-12,0.0279
+30239722,Body mass index,"374,756 European ancestry male individuals",2p16.1,2,58708147,LINC01122,rs4671328-T,rs4671328,0.4496,2.9999999999999998e-36,0.0214
+30239722,Body mass index,"374,756 European ancestry male individuals",9q34.11,9,128256360,GOLGA2,rs4734-T,rs4734,0.8402,2e-13,0.0176
+30239722,Body mass index,"374,756 European ancestry male individuals",9p22.3,9,15634328,CCDC171,rs4740619-T,rs4740619,0.5436,3.0000000000000003e-31,0.0189
+30239722,Body mass index,"374,756 European ancestry male individuals",8p23.1,8,11167154,XKR6,rs4841504-A,rs4841504,0.5008,5e-24,0.0166
+30239722,Body mass index,"374,756 European ancestry male individuals",14q21.3,14,46837215,RPL10L - MDGA2,rs4900715-A,rs4900715,0.5275,5e-18,0.0147
+30239722,Body mass index,"374,756 European ancestry male individuals",14q23.2,14,61894303,SYT16,rs217672-A,rs217672,0.7244,2e-15,0.017
+30239722,Body mass index,"374,756 European ancestry male individuals",9p21.1,9,28412377,LINGO2,rs2183825-T,rs2183825,0.6865,4e-41,0.0233
+30239722,Body mass index,"374,756 European ancestry male individuals",6p12.3,6,50830813,TFAP2B,rs2206277-T,rs2206277,0.1557,2e-83,0.0408
+30239722,Body mass index,"374,756 European ancestry male individuals",6p24.1,6,12124622,HIVEP1,rs2228213-A,rs2228213,0.3374,5e-17,0.0144
+30239722,Body mass index,"374,756 European ancestry male individuals",6p21.2,6,39065059,GLP1R,rs2254336-A,rs2254336,0.4763,3e-06,0.0081
+30239722,Body mass index,"374,756 European ancestry male individuals",1p34.1,1,46021880,MAST2,rs2275426-A,rs2275426,0.4186,5e-12,0.0113
+30239722,Body mass index,"374,756 European ancestry male individuals",16q22.1,16,68348075,PRMT7,rs2307022-A,rs2307022,0.3278,8e-15,0.0134
+30239722,Body mass index,"374,756 European ancestry male individuals",8q21.13,8,75723956,HNF4G - RNU2-54P,rs2588785-A,rs2588785,0.2819,2.0000000000000002e-28,0.0201
+30239722,Body mass index,"374,756 European ancestry male individuals",16p13.3,16,3985067,ADCY9,rs2601777-A,rs2601777,0.386,3e-17,0.0143
+30239722,Body mass index,"374,756 European ancestry male individuals",3q23,3,141616279,RASA2 - LRRC78P,rs2640017-A,rs2640017,0.9306,6e-24,0.0329
+30239722,Body mass index,"374,756 European ancestry male individuals",19p13.11,19,18106337,MAST3,rs273505-T,rs273505,0.5783,3e-19,0.0173
+30239722,Body mass index,"374,756 European ancestry male individuals",1p36.33,1,1933859,CFAP74,rs2803316-A,rs2803316,0.4551,2e-16,0.0142
+30239722,Body mass index,"374,756 European ancestry male individuals",6p21.31,6,34657434,ILRUN,rs2814998-T,rs2814998,0.2085,2.9999999999999998e-40,0.0259
+30239722,Body mass index,"374,756 European ancestry male individuals",4q28.2,4,129843450,"LINC02465, LINC02466",rs2860199-T,rs2860199,0.7136,2e-14,0.0142
+30239722,Body mass index,"374,756 European ancestry male individuals",11p11.2,11,43632283,MIR670HG,rs2862996-T,rs2862996,0.7012,4e-35,0.0216
+30239722,Body mass index,"374,756 European ancestry male individuals",5q21.3,5,108086366,FBXL17,rs288230-T,rs288230,0.8394,4.9999999999999996e-26,0.0238
+30239722,Body mass index,"374,756 European ancestry male individuals",16q12.1,16,49023277,RNU6-257P - MTND4LP25,rs2908889-A,rs2908889,0.3885,7e-12,0.0121
+30239722,Body mass index,"374,756 European ancestry male individuals",8q23.3,8,115706393,TRPS1,rs2960151-A,rs2960151,0.7639,2e-20,0.0208
+30239722,Body mass index,"374,756 European ancestry male individuals",19q13.11,19,33820576,KCTD15 - SUNO1,rs29938-T,rs29938,0.3425,4e-20,0.0158
+30239722,Body mass index,"374,756 European ancestry male individuals",1p31.3,1,65928049,PDE4B,rs2997084-C,rs2997084,0.5637,1e-11,0.0131
+30239722,Body mass index,"374,756 European ancestry male individuals",3p22.1,3,42376490,EIF4BP4 - LYZL4,rs33485-T,rs33485,0.7415,1e-14,0.015
+30239722,Body mass index,"374,756 European ancestry male individuals",6p21.2,6,40401342,LRFN2,rs34045288-T,rs34045288,0.3303,3e-28,0.0224
+30239722,Body mass index,"374,756 European ancestry male individuals",10q24.31,10,100875096,PAX2 - Y_RNA,rs34277166-A,rs34277166,0.44,8e-14,0.0144
+30239722,Body mass index,"806,834 European ancestry individuals",1q32.2,1,209922182,SYT14,rs6661316-T,rs6661316,0.5893,2e-13,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",1p31.3,1,65981711,PDE4B,rs6690398-A,rs6690398,0.5501,2e-13,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",1p31.1,1,80346335,HMGB1P18 - HNRNPA1P64,rs6696828-C,rs6696828,0.2976,6e-11,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",2q22.2,2,143203024,ARHGAP15,rs6710871-A,rs6710871,0.1422,3e-16,0.0193
+30239722,Body mass index,"806,834 European ancestry individuals",2q36.3,2,229798860,TRIP12,rs6720868-T,rs6720868,0.3083,2e-17,0.0154
+30239722,Body mass index,"806,834 European ancestry individuals",2q33.1,2,197653985,RFTN2,rs6733834-C,rs6733834,0.8077,2e-12,0.015
+30239722,Body mass index,"806,834 European ancestry individuals",3p12.2,3,80599989,HYDINP1 - LINC02050,rs6781254-T,rs6781254,0.3034,5e-09,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",3q13.31,3,117218699,LSAMP,rs6804181-A,rs6804181,0.8215,6e-10,0.0141
+30239722,Body mass index,"806,834 European ancestry individuals",3p24.2,3,25064946,RARB,rs6804842-A,rs6804842,0.4301,8e-18,0.0141
+30239722,Body mass index,"806,834 European ancestry individuals",3q26.2,3,170910120,EIF5A2 - KLF7P1,rs6804915-A,rs6804915,0.2926,2e-16,0.0172
+30239722,Body mass index,"806,834 European ancestry individuals",3q25.31,3,157144252,LINC00881,rs6809307-T,rs6809307,0.259,8e-13,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",4p15.32,4,16599041,LDB2,rs6818414-T,rs6818414,0.5164,5e-09,0.01
+30239722,Body mass index,"806,834 European ancestry individuals",4q12,4,52421410,SPATA18 - RNU6-1252P,rs6832762-A,rs6832762,0.5093,3e-09,0.0101
+30239722,Body mass index,"806,834 European ancestry individuals",4q34.3,4,179265880,RNA5SP173 - NDUFB5P1,rs6850421-A,rs6850421,0.4564,4e-09,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.32,19,44888997,"NECTIN2, LNCOB1",rs6857-T,rs6857,0.1656,6e-26,0.0246
+30239722,Body mass index,"806,834 European ancestry individuals",5q23.2,5,124994829,LINC02240,rs6864049-A,rs6864049,0.489,1e-13,0.0121
+30239722,Body mass index,"806,834 European ancestry individuals",5p14.1,5,27193466,CDH9 - PURPL,rs6890310-A,rs6890310,0.2923,3e-10,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",2p12,2,79255517,CTNNA2,rs934515-A,rs934515,0.1175,7e-12,0.0181
+30239722,Body mass index,"806,834 European ancestry individuals",6q24.1,6,141350595,RPS3AP24 - RN7SKP106,rs9376609-A,rs9376609,0.3847,2e-10,0.0112
+30239722,Body mass index,"806,834 European ancestry individuals",14q32.12,14,93565568,UNC79,rs942066-A,rs942066,0.373,2.0000000000000002e-24,0.0202
+30239722,Body mass index,"806,834 European ancestry individuals",9q33.3,9,124298152,NEK6,rs944340-T,rs944340,0.4162,6e-11,0.0112
+30239722,Body mass index,"806,834 European ancestry individuals",1p35.2,1,31726197,COL16A1 - ADGRB2,rs945211-C,rs945211,0.6269,5e-13,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",1q44,1,243520717,AKT3,rs946824-T,rs946824,0.1355,5e-15,0.0197
+30239722,Body mass index,"806,834 European ancestry individuals",20p12.1,20,17190728,RNU6-27P - RNU1-131P,rs947088-T,rs947088,0.7351,4e-11,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",6q25.2,6,153106130,RGS17,rs9479509-A,rs9479509,0.2939,3e-13,0.0136
+30239722,Body mass index,"806,834 European ancestry individuals",13q33.1,13,103438498,LINC01309 - ATP6V1G1P7,rs9514131-T,rs9514131,0.1289,3e-09,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",13q21.1,13,55891463,LINC02335 - HNF4GP1,rs9527455-A,rs9527455,0.2325,2e-09,0.0121
+30239722,Body mass index,"806,834 European ancestry individuals",13q21.32,13,65631572,STARP1 - HNRNPA3P5,rs9540493-A,rs9540493,0.458,8e-15,0.0129
+30239722,Body mass index,"806,834 European ancestry individuals",13q21.32,13,66898581,"PCDH9-AS2, PCDH9",rs9571687-A,rs9571687,0.3404,2e-11,0.0122
+30239722,Body mass index,"806,834 European ancestry individuals",13q13.1,13,32610151,PDS5B,rs9595908-T,rs9595908,0.6427,4e-20,0.0154
+30239722,Body mass index,"806,834 European ancestry individuals",13q14.11,13,40209186,LINC00598,rs9603697-T,rs9603697,0.3184,2e-13,0.0134
+30239722,Body mass index,"806,834 European ancestry individuals",2q33.3,2,206380059,ZDBF2 - ACER2P1,rs972540-A,rs972540,0.7224,4e-13,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",14q21.1,14,39636790,FBXO33 - LINC02315,rs9805893-A,rs9805893,0.7978,9e-10,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",2q37.2,2,235945806,AGAP1,rs9808302-A,rs9808302,0.5278,9e-10,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",3p22.1,3,41269871,ULK4,rs9816029-C,rs9816029,0.3443,3e-09,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",3q27.2,3,186116710,DGKG,rs9816226-A,rs9816226,0.1755,9.999999999999999e-51,0.0315
+30239722,Body mass index,"806,834 European ancestry individuals",3p12.1,3,85811914,"CADM2-AS2, CADM2",rs9818122-T,rs9818122,0.7933,3.9999999999999996e-30,0.0228
+30239722,Body mass index,"806,834 European ancestry individuals",3q25.31,3,156577552,SSR3 - TIPARP-AS1,rs9826775-A,rs9826775,0.8513,7e-11,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",3p22.1,3,42291132,CCK - SALL4P6,rs9839267-T,rs9839267,0.8919,2e-17,0.0227
+30239722,Body mass index,"806,834 European ancestry individuals",3q13.12,3,107621922,BBX,rs9839653-A,rs9839653,0.83,8e-10,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",2p22.1,2,40057790,SLC8A1-AS1,rs985060-A,rs985060,0.2721,9e-10,0.0117
+30239722,Body mass index,"806,834 European ancestry individuals",3p21.31,3,49878073,ACTL11P - MST1R,rs9862795-A,rs9862795,0.4762,4e-44,0.0264
+30239722,Body mass index,"806,834 European ancestry individuals",2q37.2,2,235877442,AGAP1,rs987071-T,rs987071,0.7662,8e-10,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",16p12.3,16,20359753,PDILT,rs9929792-A,rs9929792,0.5005,2e-19,0.0152
+30239722,Body mass index,"806,834 European ancestry individuals",16q12.2,16,53765595,FTO,rs9937053-A,rs9937053,0.4372,0.0,0.0721
+30239722,Body mass index,"806,834 European ancestry individuals",18q21.1,18,47261903,SKOR2 - MIR4527HG,rs9965170-A,rs9965170,0.4346,1e-09,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.1,6,43791136,VEGFA - LINC02537,rs6905288-A,rs6905288,0.5735,2e-09,0.01
+30239722,Body mass index,"806,834 European ancestry individuals",6q13,6,69437026,ADGRB3 - LMBRD1,rs6916553-A,rs6916553,0.2352,3e-09,0.0121
+30239722,Body mass index,"806,834 European ancestry individuals",6q24.2,6,142382346,ADGRG6,rs6922607-A,rs6922607,0.808,2e-09,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.1,6,42710096,PRPH2,rs6931385-A,rs6931385,0.4815,6e-11,0.0111
+30239722,Body mass index,"806,834 European ancestry individuals",3q22.3,3,136553404,STAG1,rs7621025-T,rs7621025,0.2607,8.000000000000001e-24,0.0187
+30239722,Body mass index,"806,834 European ancestry individuals",3q22.1,3,132032784,CPNE4,rs7631156-A,rs7631156,0.3091,3e-32,0.0215
+30239722,Body mass index,"806,834 European ancestry individuals",14q13.2,14,35159523,PRORP,rs76420714-T,rs76420714,0.9018,4e-09,0.019
+30239722,Body mass index,"806,834 European ancestry individuals",6q24.2,6,142864546,HIVEP2,rs765875-T,rs765875,0.4689,1e-14,0.0132
+30239722,Body mass index,"806,834 European ancestry individuals",3q21.3,3,128470548,DNAJB8-AS1,rs76594121-T,rs76594121,0.9547,2e-09,0.0284
+30239722,Body mass index,"806,834 European ancestry individuals",4q22.2,4,94172704,SMARCAD1-DT,rs7678054-A,rs7678054,0.4788,5e-09,0.0099
+30239722,Body mass index,"806,834 European ancestry individuals",11q23.3,11,117102531,SIK3 - PAFAH1B2,rs76942203-A,rs76942203,0.0587,9e-11,0.0263
+30239722,Body mass index,"806,834 European ancestry individuals",5q15,5,96381018,CAST,rs7713317-A,rs7713317,0.7198,2e-20,0.0166
+30239722,Body mass index,"806,834 European ancestry individuals",5q12.1,5,61436725,ZSWIM6,rs7714712-A,rs7714712,0.3678,2e-10,0.0112
+30239722,Body mass index,"806,834 European ancestry individuals",5q33.3,5,159033204,EBF1,rs7734385-A,rs7734385,0.4449,6e-10,0.0101
+30239722,Body mass index,"806,834 European ancestry individuals",6q23.1,6,130053316,L3MBTL3,rs7740107-A,rs7740107,0.7423,3e-09,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",13q31.1,13,85920682,SLITRK6 - MOB1AP1,rs77432547-A,rs77432547,0.7229,1e-15,0.017
+30239722,Body mass index,"806,834 European ancestry individuals",6q14.1,6,82738096,TPBG - UBE3D,rs7769594-T,rs7769594,0.1602,2e-12,0.0164
+30239722,Body mass index,"806,834 European ancestry individuals",7q21.3,7,93459931,CALCR,rs7777084-A,rs7777084,0.462,2e-14,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",7p22.1,7,6378644,RAC1,rs7784465-T,rs7784465,0.8594,2e-09,0.0151
+30239722,Body mass index,"806,834 European ancestry individuals",3q13.32,3,118304668,LSAMP - IGSF11,rs779206-A,rs779206,0.7218,3e-10,0.0122
+30239722,Body mass index,"806,834 European ancestry individuals",7q33,7,137751179,DGKI,rs7802342-T,rs7802342,0.7048,6e-11,0.0124
+30239722,Body mass index,"806,834 European ancestry individuals",8p12,8,32542597,NRG1,rs7826312-T,rs7826312,0.4319,3e-11,0.0109
+30239722,Body mass index,"806,834 European ancestry individuals",2p21,2,44492754,CAMKMT,rs786420-T,rs786420,0.7708,2e-12,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",9q34.11,9,128265703,GOLGA2,rs7871866-C,rs7871866,0.1596,8e-14,0.0179
+30239722,Body mass index,"806,834 European ancestry individuals",10p13,10,16708130,RSU1,rs7893571-T,rs7893571,0.6736,6e-12,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.41,19,51278201,LINC01872,rs148108087-A,rs148108087,0.0522,2e-11,0.0302
+30239722,Body mass index,"806,834 European ancestry individuals",4q32.2,4,163438526,RPL35AP12 - TKTL2,rs148636479-A,rs148636479,0.9723,5e-10,0.0386
+30239722,Body mass index,"806,834 European ancestry individuals",14q21.3,14,46827083,RPL10L - MDGA2,rs1491905-T,rs1491905,0.4725,4e-18,0.0147
+30239722,Body mass index,"806,834 European ancestry individuals",5q14.3,5,88667782,MIR9-2HG,rs1501673-A,rs1501673,0.1355,3.0000000000000003e-31,0.0289
+30239722,Body mass index,"806,834 European ancestry individuals",3p14.2,3,62495388,CADPS,rs1452075-T,rs1452075,0.7314,3e-12,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",2q24.3,2,163711179,FIGN,rs1460676-T,rs1460676,0.8242,2e-12,0.0153
+30239722,Body mass index,"806,834 European ancestry individuals",2q33.3,2,204501128,DSTNP5 - PARD3B,rs1470545-T,rs1470545,0.0374,6e-18,0.037
+30239722,Body mass index,"806,834 European ancestry individuals",15q13.3,15,31565291,OTUD7A,rs1471212-A,rs1471212,0.4732,2e-10,0.0109
+30239722,Body mass index,"806,834 European ancestry individuals",4p15.31,4,18510115,LCORL - LINC02438,rs1477890-A,rs1477890,0.4875,6e-14,0.0128
+30239722,Body mass index,"806,834 European ancestry individuals",4q22.1,4,88117930,ABCG2,rs1481012-A,rs1481012,0.8895,5e-13,0.0188
+30239722,Body mass index,"806,834 European ancestry individuals",4p15.31,4,20217972,RPL21P46 - SLIT2,rs73249175-T,rs73249175,0.8754,2e-14,0.0221
+30239722,Body mass index,"806,834 European ancestry individuals",9q22.2,9,89592393,SEMA4D - GADD45G,rs7357754-A,rs7357754,0.4985,2e-12,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",7q11.23,7,77426568,GSAP - GCNT1P5,rs740157-A,rs740157,0.4501,5e-13,0.0118
+30239722,Body mass index,"806,834 European ancestry individuals",15q26.1,15,92030409,SLCO3A1,rs7498044-A,rs7498044,0.2134,5e-12,0.0163
+30239722,Body mass index,"806,834 European ancestry individuals",16p11.2,16,28871920,SH2B1,rs7498665-A,rs7498665,0.6179,1.0000000000000001e-66,0.0285
+30239722,Body mass index,"806,834 European ancestry individuals",1p34.2,1,41942488,HIVEP3,rs7523668-A,rs7523668,0.4443,7e-10,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",1p12,1,118321993,RNA5SP56 - PSMC1P12,rs7534091-A,rs7534091,0.7182,7e-11,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.32,1,2808910,TTC34 - ACTRT2,rs7537581-A,rs7537581,0.53,6e-16,0.0138
+30239722,Body mass index,"806,834 European ancestry individuals",2q22.3,2,144859332,TEX41,rs7560871-A,rs7560871,0.0712,6e-11,0.0219
+30239722,Body mass index,"806,834 European ancestry individuals",2p16.3,2,48727766,"STON1-GTF2A1L, LHCGR, GTF2A1L",rs7561278-T,rs7561278,0.7668,5e-16,0.0169
+30239722,Body mass index,"806,834 European ancestry individuals",2q32.3,2,192936284,PCGEM1 - SLC44A3P1,rs7570446-A,rs7570446,0.5397,5e-09,0.0111
+30239722,Body mass index,"806,834 European ancestry individuals",2q31.3,2,181788998,RNU6ATAC19P - ITPRID2-DT,rs7575118-T,rs7575118,0.1561,3e-09,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",2q31.3,2,180710554,SCHLAP1,rs7588437-A,rs7588437,0.3664,2e-22,0.0165
+30239722,Body mass index,"806,834 European ancestry individuals",2q35,2,219273864,TUBA4A,rs7589023-T,rs7589023,0.8363,2e-14,0.0174
+30239722,Body mass index,"806,834 European ancestry individuals",2q34,2,212548507,ERBB4 - LINC01878,rs7599312-A,rs7599312,0.2737,2.0000000000000002e-23,0.0182
+30239722,Body mass index,"806,834 European ancestry individuals",2p16.1,2,55054765,RTN4,rs7601895-C,rs7601895,0.6899,2e-16,0.0152
+30239722,Body mass index,"806,834 European ancestry individuals",2p24.3,2,12710994,MIR3681HG - TRIB2,rs7607490-A,rs7607490,0.1099,1e-09,0.0164
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.13,1,16975177,MFAP2,rs761423-T,rs761423,0.5412,7e-10,0.0105
+30239722,Body mass index,"806,834 European ancestry individuals",3q29,3,195161027,XXYLT1,rs7616009-A,rs7616009,0.1595,4e-11,0.0157
+30239722,Body mass index,"806,834 European ancestry individuals",10q21.3,10,64866854,ANXA2P3 - LINC02671,rs2933451-A,rs2933451,0.669,2e-10,0.0129
+30239722,Body mass index,"806,834 European ancestry individuals",8q24.13,8,125469835,TRIB1AL,rs2954021-A,rs2954021,0.5089,2e-10,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",1p21.3,1,96421814,UBE2WP1 - EEF1A1P11,rs2968487-T,rs2968487,0.2772,8e-22,0.0176
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.11,19,33820576,KCTD15 - SUNO1,rs29938-T,rs29938,0.3425,4e-20,0.0158
+30239722,Body mass index,"806,834 European ancestry individuals",1p31.1,1,72285502,LINC02796,rs3101336-T,rs3101336,0.3825,4.9999999999999996e-54,0.0254
+30239722,Body mass index,"806,834 European ancestry individuals",8q22.3,8,100946205,YWHAZ,rs3134358-T,rs3134358,0.6192,4e-12,0.0122
+30239722,Body mass index,"806,834 European ancestry individuals",5q21.1,5,98968860,CHD1-DT,rs325220-A,rs325220,0.2976,4e-09,0.0106
+30239722,Body mass index,"806,834 European ancestry individuals",4q25,4,111826763,LINC02945,rs326845-A,rs326845,0.3764,3e-11,0.0117
+30239722,Body mass index,"806,834 European ancestry individuals",5q31.1,5,134529762,JADE2,rs329124-A,rs329124,0.5893,4e-15,0.0135
+30239722,Body mass index,"806,834 European ancestry individuals",15q22.2,15,60616108,"RORA-AS1, RORA",rs340025-T,rs340025,0.4081,1e-14,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",10q24.31,10,100875096,PAX2 - Y_RNA,rs34277166-A,rs34277166,0.44,8e-14,0.0144
+30239722,Body mass index,"806,834 European ancestry individuals",1q24.3,1,171486183,PRRC2C,rs34720381-T,rs34720381,0.0889,8e-12,0.0229
+30239722,Body mass index,"806,834 European ancestry individuals",3q29,3,196388626,UBXN7,rs34801745-C,rs34801745,0.3585,7e-11,0.0129
+30239722,Body mass index,"806,834 European ancestry individuals",4p15.2,4,25407216,ANAPC4,rs34811474-A,rs34811474,0.2224,9e-38,0.0293
+30239722,Body mass index,"806,834 European ancestry individuals",11q14.1,11,85103349,DLG2,rs349088-A,rs349088,0.4777,4e-14,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",8p22,8,15677717,TUSC3,rs354508-T,rs354508,0.1617,3e-10,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",3q25.2,3,154317161,DHX36,rs355777-C,rs355777,0.3984,2e-18,0.0151
+30239722,Body mass index,"806,834 European ancestry individuals",2q24.3,2,164800277,COBLL1,rs355914-C,rs355914,0.6317,7e-11,0.0108
+30239722,Body mass index,"806,834 European ancestry individuals",6p21.1,6,43636430,MAD2L1BP,rs35679149-A,rs35679149,0.9742,7e-12,0.0413
+30239722,Body mass index,"806,834 European ancestry individuals",2p21,2,46792382,LINC01118,rs35809007-A,rs35809007,0.3634,9e-16,0.0159
+30239722,Body mass index,"806,834 European ancestry individuals",4q21.21,4,79796028,LINC02469 - PCAT4,rs35851183-A,rs35851183,0.6424,1e-09,0.0121
+30239722,Body mass index,"806,834 European ancestry individuals",8p11.23,8,38472132,FGFR1 - LINC03042,rs36061954-T,rs36061954,0.3978,1e-09,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",1q21.3,1,151034063,PRUNE1,rs3738476-A,rs3738476,0.8769,3e-14,0.0195
+30239722,Body mass index,"806,834 European ancestry individuals",9q34.12,9,130907638,FIBCD1,rs3739514-A,rs3739514,0.3384,7e-11,0.0132
+30239722,Body mass index,"806,834 European ancestry individuals",17q25.1,17,75875386,TRIM47,rs3744017-A,rs3744017,0.1931,2e-10,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",19p13.3,19,1852495,"KLF16-AS1, KLF16",rs3746038-T,rs3746038,0.2162,3e-16,0.0173
+30239722,Body mass index,"806,834 European ancestry individuals",11p15.4,11,6218114,FHIP1B,rs3750944-A,rs3750944,0.5635,5e-09,0.0103
+30239722,Body mass index,"806,834 European ancestry individuals",3q27.1,3,184278280,"EEF1AKMT4-ECE2, ECE2",rs3752904-T,rs3752904,0.512,9e-13,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",1p36.21,1,15482377,CELA2B,rs3766160-A,rs3766160,0.2272,5e-09,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",2p22.2,2,36561473,FEZ2,rs3770799-A,rs3770799,0.6367,1e-10,0.0114
+30239722,Body mass index,"806,834 European ancestry individuals",3p21.1,3,53765933,CACNA1D,rs3774573-T,rs3774573,0.7448,3e-14,0.0151
+30239722,Body mass index,"806,834 European ancestry individuals",6p22.3,6,20482104,E2F3,rs3806114-A,rs3806114,0.6916,1e-11,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",8q23.3,8,115658120,TRPS1,rs3808477-T,rs3808477,0.274,9e-22,0.0182
+30239722,Body mass index,"806,834 European ancestry individuals",9q22.31,9,91424965,NFIL3,rs3811125-T,rs3811125,0.2806,9e-13,0.0152
+30239722,Body mass index,"806,834 European ancestry individuals",5q15,5,96745179,CAST,rs3822683-A,rs3822683,0.7851,1e-10,0.0131
+30239722,Body mass index,"806,834 European ancestry individuals",4p14,4,38691214,KLF3,rs1000096-T,rs1000096,0.3819,2e-16,0.0145
+30239722,Body mass index,"806,834 European ancestry individuals",4q13.2,4,66949786,RNU6-699P - RNU1-63P,rs10002111-A,rs10002111,0.2227,1e-09,0.0125
+30239722,Body mass index,"806,834 European ancestry individuals",17p13.2,17,5379957,"NUP88, RABEP1",rs1000940-A,rs1000940,0.7168,8e-18,0.0152
+30239722,Body mass index,"806,834 European ancestry individuals",5q33.2,5,154167248,MFAP3,rs10044136-C,rs10044136,0.565,3e-21,0.0162
+30239722,Body mass index,"806,834 European ancestry individuals",21q22.2,21,38931753,ETS2-AS1,rs1006893-T,rs1006893,0.757,2e-09,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",1q31.3,1,197287960,CRB1,rs1009188-T,rs1009188,0.7137,7e-11,0.0124
+30239722,Body mass index,"806,834 European ancestry individuals",8q13.1,8,66282475,RRS1-DT,rs10092723-A,rs10092723,0.2494,1e-11,0.0133
+30239722,Body mass index,"806,834 European ancestry individuals",8q24.3,8,142302333,TSNARE1,rs10099330-A,rs10099330,0.538,3e-12,0.0119
+30239722,Body mass index,"806,834 European ancestry individuals",8p21.3,8,20777377,LZTS1 - TMEM97P2,rs10101364-T,rs10101364,0.6801,6e-11,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",2p16.1,2,60438633,MIR4432HG,rs1011407-A,rs1011407,0.8883,7e-11,0.0172
+30239722,Body mass index,"806,834 European ancestry individuals",9q21.2,9,77917458,GNAQ,rs10116186-A,rs10116186,0.4591,2e-09,0.0116
+30239722,Body mass index,"806,834 European ancestry individuals",14q12,14,25458973,OR7K1P - LINC02306,rs10132280-A,rs10132280,0.311,2e-33,0.0214
+30239722,Body mass index,"806,834 European ancestry individuals",2q12.1,2,104838132,PANTR1,rs10197031-T,rs10197031,0.7262,5e-18,0.0161
+30239722,Body mass index,"806,834 European ancestry individuals",2q24.1,2,156252883,LINC01876,rs10198345-T,rs10198345,0.6565,1e-09,0.0109
+30239722,Body mass index,"806,834 European ancestry individuals",2p23.3,2,24913997,ADCY3,rs10203386-A,rs10203386,0.4506,1e-78,0.0318
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.22,12,117158983,FBXO21,rs10850777-A,rs10850777,0.4388,3e-10,0.0108
+30239722,Body mass index,"806,834 European ancestry individuals",9q34.3,9,135097939,OLFM1,rs10858334-C,rs10858334,0.8484,5e-09,0.0148
+30239722,Body mass index,"806,834 European ancestry individuals",18q22.1,18,65618547,LINC01916 - CDH7,rs10871589-A,rs10871589,0.6775,1e-15,0.0164
+30239722,Body mass index,"806,834 European ancestry individuals",10q25.3,10,116913020,SHTN1,rs10886017-A,rs10886017,0.2413,4e-15,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",10q23.2,10,86352566,GRID1,rs10887584-A,rs10887584,0.448,5e-11,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",11q23.3,11,119073965,VPS11,rs3825061-T,rs3825061,0.3863,6e-16,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",4q31.22,4,146516867,SLC10A7,rs3914628-T,rs3914628,0.8593,7e-13,0.0165
+30239722,Body mass index,"806,834 European ancestry individuals",9p21.2,9,27803739,CTAGE12P - LINGO2,rs3922980-T,rs3922980,0.5021,8e-14,0.0127
+30239722,Body mass index,"806,834 European ancestry individuals",17p13.3,17,1939895,RTN4RL1,rs3923783-A,rs3923783,0.1784,4.0000000000000004e-23,0.0222
+30239722,Body mass index,"806,834 European ancestry individuals",17q11.2,17,33148527,ASIC2,rs3930349-A,rs3930349,0.2089,8e-12,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",17q25.3,17,81110567,"AATK, BAIAP2",rs3935190-A,rs3935190,0.537,9e-16,0.0155
+30239722,Body mass index,"806,834 European ancestry individuals",3q26.31,3,173377333,SPATA16 - NLGN1,rs39654-A,rs39654,0.4513,2e-21,0.0163
+30239722,Body mass index,"806,834 European ancestry individuals",10p11.22,10,33571587,NRP1 - LINC02628,rs4097319-T,rs4097319,0.5641,4e-10,0.0107
+30239722,Body mass index,"806,834 European ancestry individuals",8p22,8,14233516,SGCZ,rs4123853-T,rs4123853,0.3727,1e-15,0.014
+30239722,Body mass index,"806,834 European ancestry individuals",13q14.3,13,50389549,DLEU1,rs41284828-A,rs41284828,0.0302,3e-09,0.0341
+30239722,Body mass index,"806,834 European ancestry individuals",5q33.1,5,151666362,SPARC,rs41290587-T,rs41290587,0.0067,3e-11,0.0776
+30239722,Body mass index,"806,834 European ancestry individuals",10q24.31,10,100687890,Metazoa_SRP - PAX2,rs41310284-A,rs41310284,0.097,4e-19,0.029
+30239722,Body mass index,"806,834 European ancestry individuals",17q25.3,17,82218765,SLC16A3,rs4239020-T,rs4239020,0.6848,6e-10,0.0108
+30239722,Body mass index,"806,834 European ancestry individuals",5q15,5,93210531,LINC02058 - POLD2P1,rs4242244-T,rs4242244,0.5788,2e-10,0.0109
+30239722,Body mass index,"806,834 European ancestry individuals",11p15.4,11,8652392,TRIM66,rs4256980-C,rs4256980,0.3305,9.000000000000001e-29,0.0187
+30239722,Body mass index,"806,834 European ancestry individuals",4p15.1,4,30701621,RPS3AP17 - PCDH7,rs4270551-A,rs4270551,0.1314,8e-12,0.0174
+30239722,Body mass index,"806,834 European ancestry individuals",3q13.13,3,108400224,MYH15,rs4273371-T,rs4273371,0.5066,4e-12,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",21q22.3,21,45150981,ADARB1,rs427943-A,rs427943,0.4288,3.9999999999999997e-25,0.0177
+30239722,Body mass index,"806,834 European ancestry individuals",10q24.32,10,102851169,PTGES3P4 - BORCS7,rs4290163-T,rs4290163,0.398,4e-15,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",7p15.3,7,24314681,NPY - RNU6-1103P,rs4307239-A,rs4307239,0.5361,1e-11,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",7p12.2,7,49576607,DDX43P2 - VWC2,rs10269783-A,rs10269783,0.4171,2e-14,0.0126
+30239722,Body mass index,"806,834 European ancestry individuals",7q21.11,7,78510264,MAGI2,rs1030015-T,rs1030015,0.5422,1e-10,0.0109
+30239722,Body mass index,"806,834 European ancestry individuals",18q21.33,18,63056554,PHLPP1 - BCL2,rs1031670-T,rs1031670,0.5169,1e-10,0.0111
+30239722,Body mass index,"806,834 European ancestry individuals",7q11.22,7,70133342,AUTS2,rs1035010-T,rs1035010,0.2517,2e-12,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",17q11.2,17,29747545,SSH2,rs1038088-T,rs1038088,0.4879,1e-12,0.0115
+30239722,Body mass index,"806,834 European ancestry individuals",19q13.11,19,33475735,PEPD,rs10402145-A,rs10402145,0.3041,2e-10,0.012
+30239722,Body mass index,"806,834 European ancestry individuals",13q12.3,13,30459095,HMGB1,rs1045411-T,rs1045411,0.2807,7e-14,0.0139
+30239722,Body mass index,"806,834 European ancestry individuals",7q22.1,7,101160859,AP1S1,rs1048303-T,rs1048303,0.5817,1e-10,0.011
+30239722,Body mass index,"806,834 European ancestry individuals",2q33.2,2,203105560,NBEAL1,rs10497870-A,rs10497870,0.6092,2e-13,0.0121
+30239722,Body mass index,"806,834 European ancestry individuals",6p12.3,6,46395820,RCAN2,rs10498767-C,rs10498767,0.4537,5e-16,0.0138
+30239722,Body mass index,"806,834 European ancestry individuals",6q13,6,73181711,KCNQ5,rs10498891-T,rs10498891,0.9321,3e-09,0.0205
+30239722,Body mass index,"806,834 European ancestry individuals",6q25.2,6,153988673,HMGB3P19 - OPRM1,rs10499276-T,rs10499276,0.1128,2e-13,0.018
+30239722,Body mass index,"806,834 European ancestry individuals",7p12.1,7,50546475,DDC,rs10499694-A,rs10499694,0.4935,1e-15,0.013
+30239722,Body mass index,"806,834 European ancestry individuals",3p25.2,3,12385437,PPARG,rs10510419-T,rs10510419,0.1467,2e-13,0.0168
+30239722,Body mass index,"806,834 European ancestry individuals",19q12,19,30537759,ZNF536,rs10518269-T,rs10518269,0.165,5e-14,0.0173
+30239722,Body mass index,"806,834 European ancestry individuals",12p12.3,12,17059947,EEF1A1P16 - RNU6-837P,rs10744146-A,rs10744146,0.5355,3e-11,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",17p12,17,16040596,"TTC19, NCOR1",rs1075901-T,rs1075901,0.4516,4e-13,0.0118
+30239722,Body mass index,"806,834 European ancestry individuals",9q22.31,9,93641085,PHF2,rs10761247-A,rs10761247,0.587,5e-11,0.0113
+30239722,Body mass index,"806,834 European ancestry individuals",10q21.3,10,63559006,REEP3,rs10761785-T,rs10761785,0.5136,3e-16,0.0133
+30239722,Body mass index,"806,834 European ancestry individuals",12q13.2,12,56098096,ERBB3,rs10783779-T,rs10783779,0.6004,5e-15,0.0137
+30239722,Body mass index,"806,834 European ancestry individuals",11q13.3,11,68954837,IGHMBP2 - MRGPRD,rs10792006-T,rs10792006,0.4527,1e-10,0.0123
+30239722,Body mass index,"806,834 European ancestry individuals",1q25.3,1,184682688,C1orf21 - EDEM3,rs10797987-T,rs10797987,0.5116,8e-10,0.0117
+30239722,Body mass index,"806,834 European ancestry individuals",10q21.1,10,51917553,PRKG1,rs10823893-A,rs10823893,0.407,2e-10,0.0124
+30239722,Body mass index,"806,834 European ancestry individuals",11p15.5,11,2213460,MIR4686 - ASCL2,rs10840606-A,rs10840606,0.817,2e-10,0.0146
+30239722,Body mass index,"806,834 European ancestry individuals",12q24.13,12,113627607,LINC01234,rs10850185-A,rs10850185,0.2989,5e-10,0.0116
+30239722,Body mass index,"434,794 European ancestry female individuals",14q32.33,14,103683138,"KLC1-AS1, KLC1",rs709400-A,rs709400,0.6214,6e-19,0.0148
+30239722,Body mass index,"434,794 European ancestry female individuals",11p11.2,11,47508395,CELF1,rs7124681-A,rs7124681,0.4162,4e-55,0.0257
+30239722,Body mass index,"434,794 European ancestry female individuals",12q24.31,12,123924955,"CCDC92, DNAH10",rs7133378-A,rs7133378,0.3335,3e-13,0.0127
+30239722,Body mass index,"434,794 European ancestry female individuals",4q13.2,4,66949786,RNU6-699P - RNU1-63P,rs10002111-A,rs10002111,0.2227,1e-09,0.0125
+30239722,Body mass index,"434,794 European ancestry female individuals",11q23.3,11,119043282,SLC37A4 - HYOU1,rs1003081-T,rs1003081,0.437,8e-15,0.0127
+30239722,Body mass index,"434,794 European ancestry female individuals",2p16.1,2,59078490,LINC01122,rs1016287-T,rs1016287,0.3035,8.999999999999999e-32,0.0208
+30239722,Body mass index,"434,794 European ancestry female individuals",2q37.1,2,231879499,COPS7B - MIR1471,rs10179086-T,rs10179086,0.7895,2e-08,0.0113
+30239722,Body mass index,"434,794 European ancestry female individuals",2p23.3,2,24913997,ADCY3,rs10203386-A,rs10203386,0.4506,1e-78,0.0318
+30239722,Body mass index,"434,794 European ancestry female individuals",7q11.22,7,70580955,AUTS2,rs10237317-A,rs10237317,0.5872,1e-11,0.0112
+30239722,Body mass index,"434,794 European ancestry female individuals",8p23.1,8,8979093,RPL10P19 - ERI1,rs1025395-C,rs1025395,0.4411,2e-20,0.0159
+30239722,Body mass index,"434,794 European ancestry female individuals",3p24.3,3,20537506,SGO1-AS1,rs10440098-T,rs10440098,0.6035,1e-08,0.01
+30239722,Body mass index,"434,794 European ancestry female individuals",11q23.3,11,115174130,CADM1,rs1048932-A,rs1048932,0.4376,4e-27,0.0177
+30239722,Body mass index,"434,794 European ancestry female individuals",7p12.1,7,50546475,DDC,rs10499694-A,rs10499694,0.4935,1e-15,0.013
+30239722,Body mass index,"434,794 European ancestry female individuals",3q27.2,3,186104564,ETV5,rs10513801-T,rs10513801,0.8762,6e-49,0.0352
+30239722,Body mass index,"434,794 European ancestry female individuals",5q14.3,5,88749212,"MEF2C, MEF2C-AS2",rs10514303-A,rs10514303,0.0778,7.999999999999999e-26,0.0337
+30239722,Body mass index,"434,794 European ancestry female individuals",17p12,17,16040596,"TTC19, NCOR1",rs1075901-T,rs1075901,0.4516,4e-13,0.0118
+30239722,Body mass index,"434,794 European ancestry female individuals",10q21.3,10,63559006,REEP3,rs10761785-T,rs10761785,0.5136,3e-16,0.0133
+30239722,Body mass index,"434,794 European ancestry female individuals",12q13.2,12,56098096,ERBB3,rs10783779-T,rs10783779,0.6004,5e-15,0.0137
+30239722,Body mass index,"434,794 European ancestry female individuals",1q25.3,1,184682688,C1orf21 - EDEM3,rs10797987-T,rs10797987,0.5116,8e-10,0.0117
+30239722,Body mass index,"434,794 European ancestry female individuals",10q21.1,10,51917553,PRKG1,rs10823893-A,rs10823893,0.407,2e-10,0.0124
+30239722,Body mass index,"434,794 European ancestry female individuals",10q22.2,10,75885471,LRMDA,rs10824347-A,rs10824347,0.7703,5e-11,0.0131
+30239722,Body mass index,"434,794 European ancestry female individuals",18q22.1,18,65618547,LINC01916 - CDH7,rs10871589-A,rs10871589,0.6775,1e-15,0.0164
+30239722,Body mass index,"434,794 European ancestry female individuals",10q25.3,10,116913020,SHTN1,rs10886017-A,rs10886017,0.2413,4e-15,0.0146
+30239722,Body mass index,"434,794 European ancestry female individuals",11q24.1,11,122664625,UBASH3B,rs10892873-C,rs10892873,0.3614,2e-11,0.0118
+30239722,Body mass index,"434,794 European ancestry female individuals",1q31.1,1,190270777,BRINP3,rs10920678-A,rs10920678,0.425,7e-20,0.0149
+30239722,Body mass index,"434,794 European ancestry female individuals",17q21.32,17,49014058,IGF2BP1,rs9906944-T,rs9906944,0.3524,9.000000000000001e-23,0.0178
+30239722,Body mass index,"434,794 European ancestry female individuals",17q25.3,17,80636743,RPTOR,rs9910745-T,rs9910745,0.4449,3e-26,0.0181
+30239722,Body mass index,"434,794 European ancestry female individuals",16p12.3,16,20359753,PDILT,rs9929792-A,rs9929792,0.5005,2e-19,0.0152
+30239722,Body mass index,"434,794 European ancestry female individuals",1q22,1,156080086,MEX3A,rs61813324-T,rs61813324,0.1312,3e-24,0.0289
+30239722,Body mass index,"434,794 European ancestry female individuals",11p14.1,11,27658369,"BDNF-AS, BDNF",rs6265-T,rs6265,0.1836,7e-89,0.0413
+30239722,Body mass index,"434,794 European ancestry female individuals",1p32.3,1,54263191,SSBP3,rs630602-C,rs630602,0.6073,1e-12,0.0126
+30239722,Body mass index,"434,794 European ancestry female individuals",2q36.3,2,228134975,SPHKAP,rs6436755-A,rs6436755,0.4316,3e-13,0.0119
+30239722,Body mass index,"434,794 European ancestry female individuals",12q15,12,69364151,YEATS4,rs645026-A,rs645026,0.741,7e-10,0.0118
+30239722,Body mass index,"434,794 European ancestry female individuals",12q24.31,12,122615850,KNTC1,rs6489156-T,rs6489156,0.7338,2.0000000000000002e-24,0.0196
+30239722,Body mass index,"434,794 European ancestry female individuals",12q24.22,12,117161544,FBXO21,rs6490117-C,rs6490117,0.5342,7e-10,0.0106
+30239722,Body mass index,"434,794 European ancestry female individuals",15q21.2,15,51462254,DMXL2,rs6493498-T,rs6493498,0.4465,5e-17,0.0137
+30239722,Body mass index,"434,794 European ancestry female individuals",12q23.2,12,103312976,C12orf42,rs6539064-C,rs6539064,0.7468,1.0000000000000001e-23,0.0194
+30239722,Body mass index,"434,794 European ancestry female individuals",2p25.3,2,621461,LINC01875 - TMEM18,rs6548237-A,rs6548237,0.161,2e-158,0.057
+30239722,Body mass index,"434,794 European ancestry female individuals",18q21.32,18,60161902,LINC03111 - RNU4-17P,rs6567160-T,rs6567160,0.7518,7.999999999999999e-184,0.0552
+30239722,Body mass index,"434,794 European ancestry female individuals",12q24.11,12,110465575,GPN3,rs6606686-C,rs6606686,0.6969,4e-19,0.0156
+30239722,Body mass index,"434,794 European ancestry female individuals",2q36.3,2,229798860,TRIP12,rs6720868-T,rs6720868,0.3083,2e-17,0.0154
+30239722,Body mass index,"434,794 European ancestry female individuals",2q12.1,2,104835868,PANTR1,rs6739199-T,rs6739199,0.2718,1e-17,0.0161
+30239722,Body mass index,"434,794 European ancestry female individuals",19q13.32,19,44888997,"NECTIN2, LNCOB1",rs6857-T,rs6857,0.1656,6e-26,0.0246
+30239722,Body mass index,"434,794 European ancestry female individuals",5q15,5,93238927,LINC02058 - POLD2P1,rs6885199-A,rs6885199,0.0362,3e-09,0.0277
+30239722,Body mass index,"434,794 European ancestry female individuals",5p14.1,5,27193466,CDH9 - PURPL,rs6890310-A,rs6890310,0.2923,3e-10,0.0119
+30239722,Body mass index,"434,794 European ancestry female individuals",7q11.23,7,75432493,POM121C,rs6944634-C,rs6944634,0.7944,7.999999999999999e-25,0.0209
+30239722,Body mass index,"434,794 European ancestry female individuals",9q31.2,9,106309794,LINC01505,rs7024334-T,rs7024334,0.2254,5e-12,0.0135
+30239722,Body mass index,"434,794 European ancestry female individuals",12q21.33,12,89378126,DUSP6 - POC1B,rs704061-T,rs704061,0.5535,8e-17,0.0142
+30239722,Body mass index,"434,794 European ancestry female individuals",10q24.32,10,102224303,NOLC1 - ELOVL3,rs7083450-T,rs7083450,0.8309,2e-13,0.0165
+30239722,Body mass index,"434,794 European ancestry female individuals",10p12.31,10,21532345,MLLT10,rs7084454-A,rs7084454,0.3086,5e-27,0.0198
+30239722,Body mass index,"434,794 European ancestry female individuals",1p21.3,1,97856823,DPYD,rs4379706-T,rs4379706,0.7895,4e-13,0.0146
+30239722,Body mass index,"434,794 European ancestry female individuals",11q24.3,11,130886281,SNX19,rs4459316-T,rs4459316,0.55,3e-11,0.0113
+30239722,Body mass index,"434,794 European ancestry female individuals",1q31.3,1,195067871,RNU6-983P - LINC01724,rs4474229-A,rs4474229,0.3401,4e-12,0.013
+30239722,Body mass index,"434,794 European ancestry female individuals",10q25.2,10,112996282,TCF7L2,rs4506565-A,rs4506565,0.6992,2e-22,0.017
+30239722,Body mass index,"434,794 European ancestry female individuals",5q22.2,5,112841059,APC,rs459552-A,rs459552,0.7747,8e-12,0.0133
+30239722,Body mass index,"434,794 European ancestry female individuals",9p22.3,9,15634328,CCDC171,rs4740619-T,rs4740619,0.5436,3.0000000000000003e-31,0.0189
+30239722,Body mass index,"434,794 European ancestry female individuals",17p13.3,17,1921011,RPA1 - RTN4RL1,rs4790292-A,rs4790292,0.1476,7e-20,0.0224
+30239722,Body mass index,"434,794 European ancestry female individuals",4q25,4,112392830,ALPK1,rs4834272-T,rs4834272,0.6852,3e-10,0.0108
+30239722,Body mass index,"434,794 European ancestry female individuals",10q26.3,10,132179185,JAKMIP3,rs4880341-T,rs4880341,0.5725,3e-14,0.013
+30239722,Body mass index,"434,794 European ancestry female individuals",5q23.1,5,120052964,TUBAP15 - RNU6-718P,rs4895231-C,rs4895231,0.4669,2e-12,0.0121
+30239722,Body mass index,"434,794 European ancestry female individuals",14q32.32,14,102782790,TRAF3,rs4906263-C,rs4906263,0.6562,8.000000000000001e-23,0.0176
+30239722,Body mass index,"434,794 European ancestry female individuals",11p15.4,11,8617653,TRIM66,rs4929923-T,rs4929923,0.3394,3e-28,0.0186
+30239722,Body mass index,"434,794 European ancestry female individuals",16q22.1,16,69153415,UTP4,rs5011579-C,rs5011579,0.2828,2e-10,0.0135
+30239722,Body mass index,"434,794 European ancestry female individuals",1q25.2,1,177920345,LINC01741 - SEC16B,rs543874-A,rs543874,0.7786,3.0000000000000004e-125,0.0479
+30239722,Body mass index,"434,794 European ancestry female individuals",10q24.2,10,98012647,CRTAC1,rs563296-A,rs563296,0.5574,9e-22,0.0168
+30239722,Body mass index,"434,794 European ancestry female individuals",4q31.1,4,139942211,MAML3,rs57800857-A,rs57800857,0.6344,3e-15,0.0157
+30239722,Body mass index,"434,794 European ancestry female individuals",11q13.3,11,69630405,LINC01488 - PNCRNA-D,rs592483-T,rs592483,0.5933,2e-16,0.0137
+30239722,Body mass index,"434,794 European ancestry female individuals",18q21.2,18,55543071,TCF4,rs613872-T,rs613872,0.8281,1e-10,0.0146
+30239722,Body mass index,"434,794 European ancestry female individuals",1p31.1,1,74511741,"FPGT-TNNI3K, TNNI3K, LRRC53",rs953567-A,rs953567,0.5903,2.0000000000000002e-28,0.0184
+30239722,Body mass index,"434,794 European ancestry female individuals",13q21.32,13,65631572,STARP1 - HNRNPA3P5,rs9540493-A,rs9540493,0.458,8e-15,0.0129
+30239722,Body mass index,"434,794 European ancestry female individuals",13q21.32,13,66898581,"PCDH9-AS2, PCDH9",rs9571687-A,rs9571687,0.3404,2e-11,0.0122
+30239722,Body mass index,"434,794 European ancestry female individuals",13q13.1,13,32610151,PDS5B,rs9595908-T,rs9595908,0.6427,4e-20,0.0154
+30239722,Body mass index,"434,794 European ancestry female individuals",2p16.3,2,49973972,NRXN1,rs9636391-A,rs9636391,0.1593,7e-19,0.0204
+30239722,Body mass index,"434,794 European ancestry female individuals",3p22.1,3,42291132,CCK - SALL4P6,rs9839267-T,rs9839267,0.8919,2e-17,0.0227
+30239722,Body mass index,"434,794 European ancestry female individuals",3p21.31,3,49878073,ACTL11P - MST1R,rs9862795-A,rs9862795,0.4762,4e-44,0.0264
+30239722,Body mass index,"434,794 European ancestry female individuals",7q21.3,7,93607198,GNGT1,rs2528531-A,rs2528531,0.6498,9e-14,0.0133
+30239722,Body mass index,"434,794 European ancestry female individuals",1p31.1,1,72299433,LINC02796,rs2568958-A,rs2568958,0.6177,1e-53,0.0253
+30239722,Body mass index,"434,794 European ancestry female individuals",11q21,11,93487939,SMCO4,rs2605603-A,rs2605603,0.4812,2e-10,0.0103
+30239722,Body mass index,"374,756 European ancestry male individuals",14q32.32,14,102782790,TRAF3,rs4906263-C,rs4906263,0.6562,8.000000000000001e-23,0.0176
+30239722,Body mass index,"374,756 European ancestry male individuals",11p15.4,11,8617653,TRIM66,rs4929923-T,rs4929923,0.3394,3e-28,0.0186
+30239722,Body mass index,"374,756 European ancestry male individuals",1p31.1,1,82000094,ADGRL2 - LINC01362,rs4970658-A,rs4970658,0.1826,1e-13,0.0147
+30239722,Body mass index,"374,756 European ancestry male individuals",16p13.11,16,15035602,PDXDC1,rs4985155-A,rs4985155,0.6689,3e-09,0.0102
+30239722,Body mass index,"374,756 European ancestry male individuals",17p11.2,17,21360381,MAP2K3 - KCNJ12,rs4986045-C,rs4986045,0.4594,8.999999999999998e-25,0.0178
+30239722,Body mass index,"374,756 European ancestry male individuals",1q25.2,1,177920345,LINC01741 - SEC16B,rs543874-A,rs543874,0.7786,3.0000000000000004e-125,0.0479
+30239722,Body mass index,"374,756 European ancestry male individuals",3p11.1,3,87975836,HTR1F,rs56398417-T,rs56398417,0.3041,1e-11,0.014
+30239722,Body mass index,"374,756 European ancestry male individuals",16p11.2,16,30130700,MAPK3 - CORO1A,rs57149692-C,rs57149692,0.4002,1e-31,0.0228
+30239722,Body mass index,"374,756 European ancestry male individuals",20q13.2,20,51209643,RPSAP1 - NFATC2,rs6021046-T,rs6021046,0.2312,5e-07,0.0102
+30239722,Body mass index,"374,756 European ancestry male individuals",20q13.2,20,55820112,LINC01440 - CBLN4,rs6024459-T,rs6024459,0.8075,8e-09,0.0127
+30239722,Body mass index,"374,756 European ancestry male individuals",1q22,1,156080086,MEX3A,rs61813324-T,rs61813324,0.1312,3e-24,0.0289
+30239722,Body mass index,"374,756 European ancestry male individuals",5q15,5,96393194,"CAST, PCSK1",rs6235-C,rs6235,0.7335,4e-20,0.0176
+30239722,Body mass index,"374,756 European ancestry male individuals",11p14.1,11,27658369,"BDNF-AS, BDNF",rs6265-T,rs6265,0.1836,7e-89,0.0413
+30239722,Body mass index,"374,756 European ancestry male individuals",3q22.3,3,136207780,RPL31P23 - PCCB,rs645040-T,rs645040,0.7703,1e-21,0.0186
+30239722,Body mass index,"374,756 European ancestry male individuals",16p12.3,16,20237144,GPR139 - SNRPEP3,rs6497451-T,rs6497451,0.8577,4e-18,0.022
+30239722,Body mass index,"374,756 European ancestry male individuals",19q13.41,19,51314897,IGLON5,rs6509525-T,rs6509525,0.4735,7e-10,0.0106
+30239722,Body mass index,"374,756 European ancestry male individuals",12q23.2,12,103312976,C12orf42,rs6539064-C,rs6539064,0.7468,1.0000000000000001e-23,0.0194
+30239722,Body mass index,"374,756 European ancestry male individuals",9q21.33,9,86257124,C9orf153,rs6559921-A,rs6559921,0.7707,3e-08,0.0112
+30239722,Body mass index,"374,756 European ancestry male individuals",18q21.32,18,60161902,LINC03111 - RNU4-17P,rs6567160-T,rs6567160,0.7518,7.999999999999999e-184,0.0552
+30239722,Body mass index,"374,756 European ancestry male individuals",1q21.3,1,151046704,BNIPL,rs6587553-A,rs6587553,0.1971,5e-11,0.0141
+30239722,Body mass index,"374,756 European ancestry male individuals",1p36.32,1,2571341,TNFRSF14 - PRXL2B,rs6667605-T,rs6667605,0.495,1e-10,0.0109
+30239722,Body mass index,"374,756 European ancestry male individuals",17q21.2,17,42554255,"HSD17B1-AS1, HSD17B1",rs676387-A,rs676387,0.3,2e-07,0.0098
+30239722,Body mass index,"434,794 European ancestry female individuals",13q32.1,13,96269937,HS6ST3,rs1927790-T,rs1927790,0.606,2e-17,0.014
+30239722,Body mass index,"434,794 European ancestry female individuals",9q33.1,9,117616205,ASTN2 - RPL35AP22,rs1928295-T,rs1928295,0.5712,2e-16,0.0134
+30239722,Body mass index,"434,794 European ancestry female individuals",9p21.1,9,29750169,LINGO2 - ME2P1,rs1932133-A,rs1932133,0.5846,7e-12,0.0112
+30239722,Body mass index,"434,794 European ancestry female individuals",13q12.2,13,28102834,FLT3 - CHCHD2P8,rs1933440-A,rs1933440,0.8396,3e-08,0.0146
+30239722,Body mass index,"434,794 European ancestry female individuals",13q12.2,13,27461925,MTIF3 - RNU6-63P,rs1967772-A,rs1967772,0.2719,9e-20,0.0173
+30239722,Body mass index,"434,794 European ancestry female individuals",6q24.2,6,142833749,HIVEP2,rs198665-A,rs198665,0.3911,5e-13,0.0122
+30239722,Body mass index,"434,794 European ancestry female individuals",16q23.3,16,81694476,CMIP,rs2012502-A,rs2012502,0.3826,2e-12,0.0119
+30239722,Body mass index,"434,794 European ancestry female individuals",5q35.1,5,171172323,RANBP17,rs2053682-A,rs2053682,0.6784,3e-20,0.017
+30239722,Body mass index,"434,794 European ancestry female individuals",16p13.3,16,4822969,GLYR1,rs2075466-C,rs2075466,0.2739,2e-12,0.0136
+30239722,Body mass index,"434,794 European ancestry female individuals",9p23,9,11425445,LINC03131 - JKAMPP1,rs2105054-T,rs2105054,0.4381,3e-12,0.012
+30239722,Body mass index,"434,794 European ancestry female individuals",5q13.3,5,75719417,POC5 - SLC25A5P9,rs2112347-T,rs2112347,0.6298,1e-61,0.0276
+30239722,Body mass index,"434,794 European ancestry female individuals",2q31.1,2,174152986,OLA1,rs2119137-A,rs2119137,0.6624,2e-13,0.0131
+30239722,Body mass index,"434,794 European ancestry female individuals",6p12.3,6,46407589,RCAN2,rs2153615-A,rs2153615,0.4447,9e-16,0.0137
+30239722,Body mass index,"434,794 European ancestry female individuals",11q25,11,133842787,SPATA19,rs2187449-A,rs2187449,0.7667,4e-14,0.0156
+30239722,Body mass index,"434,794 European ancestry female individuals",11q23.2,11,112956144,LINC02763 - NCAM1-AS2,rs2212450-T,rs2212450,0.5703,2e-06,0.0081
+30239722,Body mass index,"434,794 European ancestry female individuals",6p24.1,6,12124622,HIVEP1,rs2228213-A,rs2228213,0.3374,5e-17,0.0144
+30239722,Body mass index,"434,794 European ancestry female individuals",1q22,1,156481081,MEF2D,rs2274319-T,rs2274319,0.3461,2e-12,0.0126
+30239722,Body mass index,"434,794 European ancestry female individuals",9q33.3,9,124321795,NEK6,rs2274782-T,rs2274782,0.3596,3e-08,0.0098
+30239722,Body mass index,"434,794 European ancestry female individuals",7q22.1,7,103778399,RELN,rs2299383-T,rs2299383,0.3982,7.000000000000001e-23,0.0162
+30239722,Body mass index,"434,794 European ancestry female individuals",17q12,17,36510707,MYO19,rs2306593-T,rs2306593,0.4897,2e-22,0.0165
+30239722,Body mass index,"434,794 European ancestry female individuals",6q22.31,6,119892734,MAN1A1 - MIR3144,rs2357760-A,rs2357760,0.6735,2e-16,0.0143
+30239722,Body mass index,"434,794 European ancestry female individuals",2q22.3,2,147090322,LINC01911 - RNU6-692P,rs2381977-T,rs2381977,0.6114,2e-17,0.0165
+30239722,Body mass index,"434,794 European ancestry female individuals",11p14.1,11,29209187,LINC02742 - LINC02755,rs2452141-A,rs2452141,0.3615,7e-11,0.011
+30239722,Body mass index,"434,794 European ancestry female individuals",3q26.31,3,173389653,SPATA16 - NLGN1,rs247975-T,rs247975,0.4648,3e-21,0.0163
+30239722,Body mass index,"434,794 European ancestry female individuals",5q12.3,5,66904955,MAST4,rs249612-T,rs249612,0.7138,5e-13,0.0153

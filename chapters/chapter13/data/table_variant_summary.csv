@@ -1,0 +1,3 @@
+,mean_WIS,median_WIS,mean_abs_log_error,mean_log_error,coverage_95
+A: cases only,62925.945,52721.184,0.596,0.002,10.526
+B: cases plus genomes,344485.552,231550.877,1.18,1.07,0.0

@@ -1,0 +1,35 @@
+ id                                                                                                check result                                                                                               detail
+A.1 sample filters recomputed from the FASTA and the metadata: 431 genomes sampled, 395 with a day-le...   PASS                                                                               (431, 395, 327, 29903)
+A.2 ordinary least squares on the table: slope 6.59 × 10⁻⁴ per site per year (SE 1.4 × 10⁻⁵), 19.7 pe...   PASS (np.float64(0.0006588588202777416), 1.4362421609839404e-05, np.float64(19.7), np.float64(0.866), ...
+A.3 own date randomisation (1,000 shuffles): the observed slope exceeds every shuffled slope, which l...   PASS                                                         (np.float64(-9.7e-05), np.float64(0.000107))
+A.4 the Jukes–Cantor distance per site in the table is the substitution count over the genome length ...   PASS                                                                                  0.48222935348339746
+B.1 own simulation of 200 genealogies of 100 lineages (N0 = 1,000, r = 0.5): the skyline regression a...   PASS                         (np.float64(0.464), np.float64(0.035), np.float64(0.506), np.float64(0.034))
+B.2 output of ex6_skyline.R for the one genealogy: rate 0.39 (0.31 to 0.48), maximum likelihood 0.42 ...   PASS                                                                                                     
+C.1 closed-form apparent rate N(τ)/τ of the model recomputed at 1, 10, 100, 1,000 and 10,000 years: 4...   PASS                                                                                                     
+C.2 a fresh simulation of every mutation (600 lineages at 1, 10 and 100 years, different random numbe...   PASS                                              [np.float64(49.9), np.float64(46.25), np.float64(27.3)]
+C.3 dating with the 10-year rate: a 100-year divergence is dated at 59 years (59%), a 1,000-year dive...   PASS                                                                                                     
+C.4 reproduction numbers recomputed from R = 1/M(−r) with the gamma moment generating function (shape...   PASS                                                                                                     
+C.5 rate arithmetic of the text: 1 to 2 × 10⁻⁸ per generation at 25 years is 4 to 8 × 10⁻¹⁰ per year;...   PASS                                                                                                     
+D.1 own least-squares regression of root-to-tip distance on date, on the rerooted divergence tree of ...   PASS                               [(194, np.float64(0.001139), 0.59), (328, np.float64(0.000656), 0.87)]
+D.2 relations among the TreeTime runs: the imposed rates are half and twice the covariation rate with...   PASS                                                                                                     
+D.3 date randomisation with TreeTime: 50 shuffles for Ebola and 30 for SARS-CoV-2; every shuffle that...   PASS [(45, 50, 22.7, np.float64(0.0), np.float64(3.8)), (29, 30, 20.6, np.float64(0.0), np.float64(1.2))]
+D.4 rates per genome-year: Ebola 21.6 (least squares) and 17.6 ± 3.4 (covariation); SARS-CoV-2 16.6 w...   PASS                                                                      ('21.6', '17.6', '3.4', '16.6')
+D.5 the root rows of TreeTime's own dates.tsv (covariation runs) equal the table, and the calendar da...   PASS                                                                                                     
+D.6 first collection dates: Ebola 27 May 2014 and SARS-CoV-2 23 December 2019; the covariation root d...   PASS                                                                                            (79, 102)
+D.7 Ebola skyline: 8 intervals, positive sizes inside their bounds, a rise from 91 to a peak of 1,955...   PASS                                                                                       (91, 1955, 82)
+E.1 the numbered sections run from 1 to 16 in order; sections 6, 7, 8, 9, 12, 13 and 14 are the MRSA,...   PASS                                              [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+E.2                                  the in-text cross-references to sections point to the right numbers   PASS                                                                                                   []
+E.3 figure captions are numbered 1 to 5 in order (Figure 3 TreeTime, Figure 4 time-dependent rates, F...   PASS                                                                                      [1, 2, 3, 4, 5]
+E.4 ten learning objectives; no mention of uploaded files or drafts; the Soares and Rito review is ci...   PASS                                                                                                   10
+E.5 the Hands-on 3 table (rate per genome-year, R² and root date with its 90% interval, five analyses...   PASS                                                                                                   []
+E.6 sentences of Hands-on 3 that quote results (days before the first sample, the spread under impose...   PASS                                                                                                   []
+E.7 the Hands-on 4 tables (apparent rate by age, dating with the 10-year rate, reproduction numbers b...   PASS                                                                                   [True, True, True]
+E.8                            every DOI cited in the text is in the reference list, which holds 41 DOIs   PASS                                                                                         (38, 41, [])
+REP                                                 sars2_root_to_tip_table.csv reproduced byte for byte   PASS                                                                                                     
+REP                                                    table_time_dependent.csv reproduced byte for byte   PASS                                                                                                     
+REP                                             table_time_dependent_dating.csv reproduced byte for byte   PASS                                                                                                     
+REP                                                          table_growth_R.csv reproduced byte for byte   PASS                                                                                                     
+REP                                           ex6_skyline.R prints the numbers of ex6_skyline_output.txt   PASS                                                                                                     
+REP           the TreeTime runs rerun from scratch (RERUN=1) reproduce table_treetime.csv to six figures   PASS                                                                                                     
+
+32 of 32 checks passed

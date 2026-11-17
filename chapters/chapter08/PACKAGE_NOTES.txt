@@ -1,0 +1,77 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 8 - PHYLOGEOGRAPHY AND VISUALISATION OF SPREAD
+Book: Agentic AI-driven Molecular Epidemiology
+Package prepared 15 November 2026 (reviewed, extended and validated version)
+
+CONTENTS
+Chapter_8_Phylogeography_and_Visualisation_of_Spread.docx
+    The chapter: 20 sections, five hands-on exercises. A4 layout; equations are native Word equations.
+code/
+    ex8_1_dated_tree.py            Hands-on 1, steps 1-2 and the clock-rate grid of Hands-on 2: select genomes, align, build and date the tree
+    ex8_2_migration.py             Hands-on 1, step 3 and Hands-on 3: reconstruct places, count events, draw Figures 1, 2, 6, 7
+    ex8_3_sampling_bias.py         Hands-on 2: 75 balanced-subsample runs, Figure 3
+    ex8_4_clock_sensitivity_figure.py   Hands-on 2: Figure 4
+    ex8_5_dating_reruns.py         Hands-on 2: repeat the dating step N times (default 10, about 100 s each) and redo the place reconstruction on each tree
+    ex8_6_sampling_truth.py        Hands-on 5: 60 simulated epidemics in each of two scenarios, four sampling strategies scored against the truth (about 7 minutes)
+    ex8_7_popgen.py                Hands-on 4: diversity, Dxy, Hudson's Fst, Tajima's D and a Mantel test from the alignment (about 10 seconds)
+    ex8_8_tb_audit.py              reading a published study: recompute the figures of Li et al. (2024) from the counts in its text
+    ex8_9_new_figures.py           tables and Figures 5 and 9 from the reruns and the simulation
+    ex8_10_microreact_export.py    Hands-on 3, step 4: the tree and the metadata table for Microreact
+    phylo8.py                      helper functions (states, tree, ancestral-place reconstruction, events)
+    validate_ch8.py                independent recomputation of the numbers in the chapter (see CHECKS)
+data/
+    zika_all_meta.csv, zika_selected_meta.csv, zika_selected.fasta    metadata of the 1,635 GenBank Zika records and the 600 sampled genomes
+    zika_aln.fasta, zika_ml.nwk                                       alignment and maximum-likelihood tree
+    tt_dates.csv, zika_timetree.nwk, zika_node_dates.csv, zika_clock_outliers.csv, timetree_summary.json, rate_sensitivity.csv   the dating that the chapter uses
+    events.csv, state_summary.csv, bias_replicates.csv                migration events, per-country summary, subsample results
+    dating_reruns.csv                                                 ten reruns of the dating step (ex8_5)
+    sampling_truth_runs.csv                                           480 rows: 2 scenarios x 60 epidemics x 4 strategies (ex8_6)
+    table_popgen_*.csv, table_sampling_truth_summary.csv, table_dating_reruns_summary.csv, table_tb_audit.csv, table_tb_chi2.csv   results of the new scripts
+    microreact_tree.nwk, microreact_metadata.csv                      files to upload to Microreact
+    ne_50m_countries.geojson                                          Natural Earth country boundaries (public domain)
+figures/        Figures 1 to 10 and the chapter diagrams. File names keep the numbers of the scripts: fig5_map.png is Figure 6, fig6_timeline.png is Figure 7 and fig7_agentic_workflow_diagram.png is Figure 10;
+                fig5_dating_reruns.png, fig8_popgen.png and fig9_sampling_truth.png are Figures 5, 8 and 9.
+lecture/        MEPI7_Chapter8_Phylogeography_and_Visualisation_of_Spread_Lecture.pptx (34 slides, 5 native charts, notes on every slide), validate_slides_ch8.py, slide_validation_negative_control.csv
+review/         Chapter_8_Review_Evaluation_and_Benchmark.docx, validation_results_ch8.csv, eval_ch8.py, chapter_stats.csv, deck_metrics.json
+
+HOW TO RUN (from the cached data, a few minutes)
+Install: apt-get install mafft fasttree   (only to rebuild the alignment and tree)
+         pip install biopython treetime pandas numpy scipy matplotlib shapely
+    cd code; cp ../data/* .
+    python ex8_2_migration.py            # about 30 seconds; writes figs8/ and events.csv. Expected: 591 tips, 16 states, 92 events, 4 introductions into the Americas,
+                                         # main introduction Other Asia-Pacific to Brazil, 2012.21 to 2012.44, 487 tips
+    python ex8_3_sampling_bias.py        # about 80 seconds if bias_replicates.csv is deleted; expected: Nicaragua 24 outgoing events in the full sample, median 0, 0, 1 at caps 10, 20, 40
+    python ex8_4_clock_sensitivity_figure.py
+    python ex8_5_dating_reruns.py 10     # about 17 minutes; the dates differ from run to run (see below)
+    python ex8_6_sampling_truth.py       # about 7 minutes; then python ex8_9_new_figures.py
+    python ex8_7_popgen.py               # about 10 seconds
+    python ex8_8_tb_audit.py             # instant; 14 of 22 figures agree and 8 do not
+    python ex8_10_microreact_export.py   # instant; 591 rows, 39 countries
+REBUILD FROM GENBANK (internet needed; about 10 minutes): delete the files of data/ except ne_50m_countries.geojson, then python ex8_1_dated_tree.py (a second time if it stops during the clock-rate grid).
+    A fresh download samples a different random 600 genomes, because GenBank keeps growing, so numbers will be similar but not identical.
+
+THE DATING STEP IS NOT REPRODUCIBLE
+TreeTime (phylo-treetime 0.12.1) gives different dates when the dating step is run again on the same alignment and tree; fixing the random generators of Python and NumPy did not change that. Across ten reruns the date of the
+Brazilian common ancestor ranges from 2012.17 to 2012.86 (0.69 years; the chapter run, 2012.44, reports a 90% interval 0.36 years wide), the clock rate from 5.34 to 6.54 x 10^-4, the number of events from 91 to 93 and the number of
+introductions into the Americas is 4 (nine reruns) or 3 (one); the main introduction below 487 genomes is the same every time. The files in data/ are the dating of record for the chapter; place reconstruction on them reproduces exactly.
+The cause was not pinned down. Report the range over reruns beside any interval.
+
+CHECKS
+python validate_ch8.py --chapter ../Chapter_8_Phylogeography_and_Visualisation_of_Spread.docx [--doi] [--full] [--sim]
+    33 checks of the files and the chapter text; --doi resolves all 35 DOIs in Crossref (34); --full reruns the place reconstruction, the 75 subsamples, the population-genetic script, the audit, the figure tables, the Microreact export and
+    two epidemics per scenario and checks that the result files are reproduced (47; 48 with --doi); --sim, with --full, also reruns the dating step once (about 100 s) and checks that it lands inside the spread of the ten saved reruns (49).
+    Last result: see review/validation_results_ch8.csv. Altering three result files makes 7 of the 33 checks fail, as they should. Needs pandoc, python-docx, treetime, biopython, shapely.
+cd lecture; python validate_slides_ch8.py MEPI7_Chapter8_Phylogeography_and_Visualisation_of_Spread_Lecture.pptx --data ../data --chapter ../Chapter_8_Phylogeography_and_Visualisation_of_Spread.docx
+    24 checks. On a corrupted copy of the deck 6 of 24 fail, as they should (slide_validation_negative_control.csv). Needs python-pptx and pandoc.
+
+PROVENANCE AND LIMITS
+- Data: public GenBank records for Zika virus downloaded through NCBI Entrez on 8 November 2026; human samples with a country and a collection date (2006-2018), African-lineage sequences excluded so that one lineage sets the clock.
+- Dating and place reconstruction use TreeTime on one fixed tree per run; no tree uncertainty is carried, and no BEAST analysis was run. The weak clock signal (root-to-tip R2 = 0.23) was not recomputed by the validation script.
+- The estimated introduction into Brazil is earlier than the published estimate (May to December 2013, Faria et al. 2016) in the chapter run and in all ten reruns; it reaches that estimate only when the clock rate is fixed at a faster value.
+- Hands-on 5 is a simple simulation: two scenarios, about 140 to 160 sequenced hosts per epidemic, a genealogy with true times, no phylogenetic error and no within-host diversity. Read the direction of the bias and not its size.
+- Tajima's D has no significance test (it needs coalescent simulation); the Mantel test treats pairs of countries as independent although they share genomes.
+- The tuberculosis audit recomputes the figures printed in the text of Li et al. (2024) from the counts around them: 14 of 22 agree and 8 do not. The supplementary tables were not examined; the mismatches are probably typographical.
+- Nextstrain was not run (no Docker or conda runtime in the sandbox); its steps are described from the documentation. The Part B command treetime mugration was run on the chapter's tree.
+- The two papers supplied with the course (Chen et al. 2024; Li et al. 2024) are CC BY-NC-ND 4.0 and are paraphrased, not adapted. The Garrido-Benavent slides carry no licence statement and are paraphrased.
+- Equations in the Word file were verified by converting them back to LaTeX; they were not viewed in Word. Slides were rendered through LibreOffice and not opened in PowerPoint.

@@ -1,0 +1,31 @@
+background_hit,in_genomes_without_amrfinder_element,in_all_eight
+AAC(6')-Iaa,1,0
+AAC(6')-Iy,3,0
+ArnT,4,1
+CRP,4,1
+EF-Tu_R234F,2,0
+Escherichia coli MarR with mutation associated with multidrug resistance,4,1
+Escherichia coli acrA,4,1
+Escherichia coli mdfA,3,0
+Escherichia coli soxS with mutation conferring antibiotic resistance,4,1
+Klebsiella pneumoniae KpnE,4,1
+Klebsiella pneumoniae KpnF,4,1
+MdtK,4,1
+PBP3_D350N+S357N,4,1
+PmrF,4,1
+UhpT_E350Q,4,1
+adeF,3,0
+bacA,4,1
+baeR,4,1
+emrB,4,1
+emrR,4,1
+golS,4,1
+kdpE,4,1
+leuO,4,1
+marA,4,1
+mdsA,1,0
+mdsB,1,0
+msbA,4,1
+rsmA,4,1
+sdiA,4,1
+vanG,4,1

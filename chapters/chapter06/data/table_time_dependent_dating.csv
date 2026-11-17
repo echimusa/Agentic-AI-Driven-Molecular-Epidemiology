@@ -1,0 +1,5 @@
+true_age_years,expected_substitutions,estimated_age_years,ratio_estimated_to_true
+10,462.5385,10.0,1.0
+100,2729.3294,59.0076,0.5901
+1000,12000.0,259.4379,0.2594
+10000,102000.0,2205.2219,0.2205

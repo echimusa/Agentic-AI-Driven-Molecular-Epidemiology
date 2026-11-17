@@ -1,0 +1,7 @@
+comparison,model_a,model_b,ln_bf_ss,ln_bf_ps
+real dates against no dates (isochronous),het_strict,iso,49.302,45.911
+real dates against randomised dates 1,het_strict,dr1,44.377,44.768
+real dates against randomised dates 2,het_strict,dr2,47.127,45.081
+real dates against randomised dates 3,het_strict,dr3,47.838,46.028
+strict against relaxed clock,het_strict,het_relaxed,2.529,1.004
+relaxed against strict clock,het_relaxed,het_strict,-2.529,-1.004

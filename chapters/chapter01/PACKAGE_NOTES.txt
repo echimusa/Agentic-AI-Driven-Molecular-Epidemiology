@@ -1,0 +1,77 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 1 - PRINCIPLES, DESIGNS, AND APPLICATIONS OF MOLECULAR EPIDEMIOLOGY
+Book: Agentic AI-driven Molecular Epidemiology
+Package prepared 13 November 2026; revised 13 November 2026 (definitions from the CDC toolkit, modelling foundations, Hands-on 5, agentic AI foundations)
+
+CONTENTS
+Chapter_1_Principles_Designs_and_Applications_of_Molecular_Epidemiology.docx   the chapter (A4)
+code/
+    typing1.py                  helpers: Simpson's index of diversity, Wallace and adjusted Wallace coefficients, bootstrap intervals
+    ex1_0_prepare_typing.py     builds the typing table from the NCBI Pathogen Detection Salmonella files (needs the 883 MB metadata table; optional)
+    ex1_1_discrimination.py     Hands-on 1: discrimination and agreement of serotype, PFGE pattern and SNP cluster; Figure 1
+    ex1_2_snp_distance.py       Hands-on 2: pairwise SNP distance, sampling time and the clock for 195 Ebola genomes; Figure 2
+    ex1_2b_r_check.R            Hands-on 2: the SNP matrix and correlation recomputed in base R
+    ex1_3_design_simulation.py  Hands-on 3: simulation of how sampling fraction, study length and marker stability bias a clustering estimate; Figure 3
+    ex1_4_lineage_diversity.py  Hands-on 4: monthly SARS-CoV-2 lineage diversity for the UK and USA, observed and rarefied; Figure 7
+    epi_sim.py                  model of the three layers (branching-process transmission, Poisson mutation, sampling) used by Hands-on 5 and the agent example
+    ex1_5_epidemic_process.py   Hands-on 5: SNP distance by transmission steps, threshold sensitivity and PPV, importations, superspreading; Figure 8
+    ex1_5b_schematic_figures.py Figures 1 to 3: epidemic to tree, what sequencing adds to an investigation, sequencing workflow (redrawn from the CDC toolkit module)
+    triage_core.py              shared scenario and tools of the two triage agents (a cluster of 25 cases, nine new genomes; deterministic tools)
+    ex1_6_agent_loop.py         agentic AI foundations: a minimal agent loop with a rule-table planner (tools, policy, human gate) triaging nine new genomes; table and trace
+    validate_ch1.py             validation harness: recomputes the chapter's numbers with independent code and checks them against the result tables and the chapter text (--chapter, --full)
+    ex1_7_llm_agent_loop.py     the same triage with a language model choosing the tools through the Anthropic Messages API tool-use interface; guardrails G1 to G6 enforced in code; needs ANTHROPIC_API_KEY (live) or --mock (scripted stand-in, no key)
+    ex1_6b_agent_diagram.py     Figure 9: the agent loop, its parts and levels of autonomy
+    diag_util.py                drawing helpers for the diagrams
+figures/    all figures of the chapter and its diagrams (Figures 1 to 3, 8 and 9 are new; the former Figures 1 to 4 are now Figures 4 to 7 and the former Figure 5 is Figure 10)
+data/       result tables (table_*.csv) and the inputs needed to rerun every hands-on offline
+    typing_pfge_subset.csv.gz   the 5,731 Salmonella isolates in the NCBI table that carry a PFGE pattern, with serotype, SNP cluster and sector
+    ebola_aln.fasta, ebola_dates.csv   195 aligned Ebola virus genomes (NCBI BioProject PRJNA257197) and their sampling dates
+    table_sim_*.csv, table_agent_trace.csv, agent_trace.txt   results of Hands-on 5 and of the agent example
+    lapis_lineage_monthly.csv   monthly sequence counts by Pango lineage and Nextstrain clade, UK and USA, Jan 2020 to Dec 2024 (CoV-Spectrum open API)
+
+HOW TO RUN FROM THE SHIPPED DATA (about 2 minutes)
+Install: pip install pandas numpy scipy matplotlib biopython ; R (base only).
+    cd code ; cp ../data/* . ; mkdir -p figs1
+    python ex1_1_discrimination.py        # expected: 4,811 isolates; Simpson's D 0.957 (serotype), 0.995 (PFGE), 0.994 (SNP cluster); W(PFGE -> SNP cluster) 0.438
+    python ex1_2_snp_distance.py          # expected: median 6 SNPs; Spearman 0.317; AUC 0.668 for 'sampled within 30 days'
+    Rscript ex1_2b_r_check.R              # expected: 195 genomes; 18915 pairs; median 6 SNPs; 17.1% within 2 SNPs; Spearman 0.317
+    python ex1_3_design_simulation.py     # expected: at 36 months chain truth 0.372; estimates 0.106, 0.254, 0.351 at 20%, 60%, 100% sampled (about 1 minute; seeds fixed)
+    python ex1_4_lineage_diversity.py     # expected: UK rarefied D 0.043 in March 2021 and 0.979 in October 2023; observed and rarefied D differ by at most 0.005
+    python ex1_5_epidemic_process.py      # expected: direct pairs 1.01 SNPs on average and 40.5% identical; PPV of a 1-SNP threshold about 12% at 250 cases; no pairs between importations within 2 SNPs after 60 days (a few seconds)
+    python ex1_5b_schematic_figures.py ; python ex1_6b_agent_diagram.py   # redraw Figures 1 to 3 and 9
+    python ex1_6_agent_loop.py            # expected: 9 cases, 8 decided by the agent (5 correct, 3 wrong), 1 stopped at the quality gate
+    python ex1_7_llm_agent_loop.py --mock # no key needed; expected: guardrails fire in 6 of 9 case runs, 4 cases go to a person, 67% agreement with the rule-table agent
+    export ANTHROPIC_API_KEY=... ; python ex1_7_llm_agent_loop.py [--model claude-sonnet-5-5] [--runs 3]   # live run with a model (needs pip install anthropic; about 40 model calls)
+
+HOW TO REBUILD FROM PUBLIC SOURCES (internet needed)
+    Salmonella: download the Pathogen Detection metadata and cluster list (see Chapter 9) and run ex1_0_prepare_typing.py. Counts change as the NCBI table grows.
+    Ebola: the alignment comes from Chapter 13 (download of BioProject PRJNA257197, MAFFT alignment).
+    SARS-CoV-2: delete lapis_lineage_monthly.csv and rerun the query shown in the chapter against https://lapis.cov-spectrum.org/open/v2/ (one request per country and month; the script reads the cached file).
+
+PROVENANCE AND LIMITS
+- The 4,811 isolates with serotype, PFGE and SNP cluster are mostly food, animal and environmental isolates, not a random sample of Salmonella; PFGE patterns exist for only 5,731 of 911,210 isolates.
+- The Pathogen Detection SNP cluster is a single-linkage group at 50 SNPs, not an outbreak definition.
+- Sampling within 30 days is a proxy for closeness; the Ebola data contain no contact information.
+- The design simulation is deliberately simple: constant incidence, one transmission rate, random sampling, genotype change only at transmission.
+- Lineage names are revised over time, so later months have finer lineages; the open API holds only INSDC sequences.
+- Hands-on 5 and the agent example use an infinite-sites mutation model, a constant rate, random sampling, and an assumed generation interval (mean 15 days, shape 4); the Ebola virus rate is the one estimated in Chapter 5. The agent example uses a rule table as planner so that it runs without a language model; its results come from one seeded draw. The language-model script was NOT run live in preparing this chapter (no model key was available): its harness was tested with a scripted stand-in, and the SDK call parameters were checked against anthropic 2.8.0. Live results will vary between runs and models.
+- Figures 1 to 3 are original redrawings of ideas in the CDC toolkit module (the module's own images adapt material from The Washington Post, the Trevor Bedford group and Peter Thielen and are not reproduced). Figure 1 uses a raised mutation rate for legibility.
+- Every DOI was resolved against Crossref on 10 and 13 November 2026. The Word file was validated and rendered to PDF (29 A4 pages); this LibreOffice has no math component, so the equations were not seen rendered; not opened in Word itself.
+- The reference file Reference_chapter1.docx did not arrive with the request, so the chapter was built from the book plan and external sources.
+
+
+REVIEW AND VALIDATION (13 November 2026)
+review/                               validation_results_corrected.csv (64 checks, all PASS), validation_results_original_package_negative_control.csv (the same harness on the package before the corrections: 8 FAIL), independent_checks/ (exploratory scripts)
+python validate_ch1.py --chapter ../Chapter_1_Principles_Designs_and_Applications_of_Molecular_Epidemiology.docx   # 79 checks including the chapter text (needs pandoc)
+python validate_ch1.py --full         # also reruns every analysis in a scratch folder and checks that all result tables are reproduced byte for byte
+Corrections made in the review: (1) typing1.py gains subsample_ci and ex1_1 uses it: the bootstrap with replacement duplicated isolates and pushed the Wallace intervals up (the estimate sat at 14-18% of its interval); (2) ex1_4 now counts one type per Pango lineage name
+(the same lineage under two clades was counted twice in March-December 2020, inflating D by up to 0.21 in the USA) and uses the exact expected richness; (3) the chapter text was corrected for these changes, for the 'steady state' wording of Hands-on 3, for the Ebola rate (21 to 24 SNPs per genome-year),
+for the number of hands-on exercises (five), and for the roadmap titles.
+
+
+LECTURE DECK AND ITS EVALUATION (13 November 2026)
+lecture/                              MEPI7_Chapter1_Molecular_Epidemiology_Lecture.pptx, validate_slides.py (44 checks of the deck against the chapter and the result tables), source/ to rebuild it
+review/evaluation/                    scripts behind the slide and chapter benchmark (extract.py, numcheck2.py, coverage.py, chapters_bench.py)
+Changes made in the evaluation: the slides gained an overview slide (sample to inference), a division-of-labour slide (Figure 10), a book-roadmap backup slide, alt text on all 12 charts, rebalanced block timings and OPTIONAL markers; one speaker-note figure (72%) was corrected to 71%;
+the chapter's in-text citation 'BioMaster, 2026' now reads 'Su et al., 2026' to match its reference entry.

@@ -1,0 +1,3 @@
+dataset,taxa,quartets,four_point_zero_pct,four_point_median,four_point_p95,triples,three_point_zero_pct,three_point_median,three_point_p95,corr_obs_vs_tree,slope,mean_abs_residual_subs
+H3N2 HA (60 sequences),60,200000,42.428,1.036,4.229,200000,7.118,4.143,13.665,0.976,0.837,2.572
+Ebola virus (195 genomes),195,200000,92.542,0.009,0.987,200000,21.464,1.024,4.924,0.975,0.941,0.611

@@ -1,0 +1,4 @@
+posterior samples kept: 750
+top-ranked infector is the documented one: 14.7%
+mean posterior probability on the documented infector: 10.7%
+cases whose documented infector has posterior > 50%: 3 of 184

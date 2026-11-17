@@ -1,0 +1,2 @@
+countries,pairs,pearson_r,p_mantel_one_sided,spearman_rho,mean_fst,min_fst,max_fst
+10,45,-0.1685,0.7663,-0.1,0.3495,0.0276,0.615

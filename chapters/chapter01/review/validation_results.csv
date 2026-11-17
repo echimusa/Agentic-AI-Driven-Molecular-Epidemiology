@@ -1,0 +1,94 @@
+id,check,observed,expected,tolerance,result
+H1.1,isolates with all three typing levels,4811,4811,0.0,PASS
+H1.2,sector Food,2736,2736,0.0,PASS
+H1.2,sector Animal,943,943,0.0,PASS
+H1.2,sector Environment,686,686,0.0,PASS
+H1.2,sector Human,384,384,0.0,PASS
+H1.3,isolates with a PFGE XbaI pattern,5731,5731,0.0,PASS
+H1.4,US human isolates with a PFGE pattern,342,342,0.0,PASS
+H1.5,"Simpson D S (exact over 11,570,455 pairs)",0.957,0.957,0.0006,PASS
+H1.5,"Simpson D P (exact over 11,570,455 pairs)",0.995,0.995,0.0006,PASS
+H1.5,"Simpson D C (exact over 11,570,455 pairs)",0.994,0.994,0.0006,PASS
+H1.6,Wallace W(S->P),0.111,0.111,0.0006,PASS
+H1.6,Wallace W(P->S),0.933,0.933,0.0006,PASS
+H1.6,Wallace W(P->C),0.438,0.438,0.0006,PASS
+H1.6,Wallace W(C->P),0.385,0.385,0.0006,PASS
+H1.6,Wallace W(C->S),0.938,0.938,0.0006,PASS
+H1.6,Wallace W(S->C),0.127,0.127,0.0006,PASS
+H1.7,SNP clusters with more than one PFGE pattern,362,362,0.0,PASS
+H1.8,"commonest PFGE pattern: isolates, SNP clusters, serotypes","(251, 32, 5)","(251, 32, 5)",0.0,PASS
+H1.9,"interval for D (Serotype) is centred on the estimate (position within interval, 0.35-0.65)",0.51,"(0.35, 0.65)",0.0,PASS
+H1.9,"interval for D (PFGE (XbaI)) is centred on the estimate (position within interval, 0.35-0.65)",0.5,"(0.35, 0.65)",0.0,PASS
+H1.9,"interval for D (SNP cluster) is centred on the estimate (position within interval, 0.35-0.65)",0.55,"(0.35, 0.65)",0.0,PASS
+H1.10,interval for W(PFGE (XbaI)->SNP cluster) is centred on the estimate,0.5,"(0.35, 0.65)",0.0,PASS
+H1.10,interval for W(SNP cluster->PFGE (XbaI)) is centred on the estimate,0.51,"(0.35, 0.65)",0.0,PASS
+H1.10,interval for W(PFGE (XbaI)->Serotype) is centred on the estimate,0.5,"(0.35, 0.65)",0.0,PASS
+H1.10,interval for W(Serotype->PFGE (XbaI)) is centred on the estimate,0.52,"(0.35, 0.65)",0.0,PASS
+H1.10,interval for W(SNP cluster->Serotype) is centred on the estimate,0.5,"(0.35, 0.65)",0.0,PASS
+H1.10,interval for W(Serotype->SNP cluster) is centred on the estimate,0.5,"(0.35, 0.65)",0.0,PASS
+H2.1,"genomes, alignment length, pairs","(195, 18961, 18915)","(195, 18961, 18915)",0.0,PASS
+H2.2,median SNP distance,6.0,6,0.0,PASS
+H2.3,share of pairs within 2 SNPs (%),17.1,17.1,0.05,PASS
+H2.4,share identical (%),2.3,2.3,0.05,PASS
+H2.5,Spearman distance vs days,0.317,0.317,0.0006,PASS
+H2.6,AUC for sampling within 30 days,0.668,0.668,0.0006,PASS
+H2.7,threshold 0: sensitivity,5.1,5.1,0.06,PASS
+H2.7,threshold 0: PPV,94.8,94.8,0.06,PASS
+H2.7,threshold 2: sensitivity,32.0,32.0,0.06,PASS
+H2.7,threshold 2: PPV,80.3,80.3,0.06,PASS
+H2.7,threshold 5: sensitivity,63.1,63.1,0.06,PASS
+H2.7,threshold 5: PPV,55.3,55.3,0.06,PASS
+H2.8,clock: SNPs per genome-year at 1.11e-3 per site,21.0,21.0,0.05,PASS
+H2.9,"days to common ancestor for 1, 2, 5, 10 SNPs","(9, 17, 43, 87)","(9, 17, 43, 87)",0.0,PASS
+H3.1,"relative bias against the chain truth at 20% sampled, range (%)","(-78, -66)","(-78, -66)",0.0,PASS
+H3.2,chain truth rises by a factor of about three from 12 to 60 months,3.1,"(2.8, 3.3)",0.0,PASS
+H3.3,"analytic steady state, cases per month (40 / (1 - 0.75))",160,160,0.0,PASS
+H3.4,expected incidence at the start of the study window is below the steady state (text: 'a little below 160'),139,"(135, 150)",0.0,PASS
+H3.5,"incidence rise across the five-year window (%, text: about 5)",5.5,"(4, 7)",0.0,PASS
+H3.6,simulated cases per month in the windows (text: about 142),141.0,142,3.0,PASS
+H3.7,estimate equals the chain truth with a stable marker (0.368),0.368,0.368,0.0006,PASS
+H4.1,sequences UK and USA,"(3223704, 3728840)","(3223704, 3728840)",0.0,PASS
+H4.2,max |D recomputed (one type per lineage name) - D in table|,4.982878121373435e-05,0.0005,0.0005,PASS
+H4.3,max |observed - rarefied D| (text: never more than 0.004),0.0039,0.004,0.0005,PASS
+H4.4,United Kingdom: rarefied D minimum and maximum,"(np.float64(0.044), np.float64(0.979))","(0.044, 0.979)",0.0,PASS
+H4.4,USA: rarefied D minimum and maximum,"(np.float64(0.482), np.float64(0.982))","(0.482, 0.982)",0.0,PASS
+H4.5,"UK months above 10,000 sequences; median ratio of lineages seen to expected; maximum","(33, np.float64(3.7), np.float64(12.3))","(33, 3.7, 12.3)",0.0,PASS
+H5.1,mean SNPs between directly linked cases (6 fresh seeds); text: 1.01,1.03,1.01,0.06,PASS
+H5.2,analytic mean SNPs between a parent and a child,1.01,1.01,0.03,PASS
+H5.3,identical share among direct pairs (%); text 40-47,39.4,"(38, 48)",0.0,PASS
+H5.4,one-SNP sensitivity (%); text 73-75,73.0,"(71, 78)",0.0,PASS
+H5.5,one-SNP positive predictive value (%); text 12-14,12.2,"(10.5, 15.5)",0.0,PASS
+H5.6,pairs and direct pairs in the steps table,"(933750, 7470)","(933750, 7470)",0.0,PASS
+H6.1,rule agent: cases decided / correct / wrong / stopped at the gate,"(8, 5, 3, 1)","(8, 5, 3, 1)",0.0,PASS
+H6.3,new-4 nearest cluster member (SNPs),11,11,0.0,PASS
+H6.4,case outbreak size and cluster size,"(120, 25)","(120, 25)",0.0,PASS
+H6.5,guardrail test (scripted stand-in): agreement with the rule-table agent: 67%; sent to a person: 44%; guardrail events in 6 of 9 case runs,True,True,0.0,PASS
+TXT,chapter text contains '0.957 (0.955–0.959)',True,True,0.0,PASS
+TXT,chapter text contains '0.438 (0.399–0.477)',True,True,0.0,PASS
+TXT,chapter text contains '0.385 (0.353–0.416)',True,True,0.0,PASS
+TXT,chapter text contains '0.044 in March 2021',True,True,0.0,PASS
+TXT,chapter text contains '0.482 in April 2020',True,True,0.0,PASS
+TXT,chapter text contains '12.3 times',True,True,0.0,PASS
+TXT,chapter text contains 'within 0.004',True,True,0.0,PASS
+TXT,chapter text contains 'Hands-on 1 to 5',True,True,0.0,PASS
+TXT,chapter text contains 'steady state of 160',True,True,0.0,PASS
+TXT,chapter text contains '21 to 24',True,True,0.0,PASS
+TXT,chapter text no longer contains '0.043 in March 2021',True,True,0.0,PASS
+TXT,chapter text no longer contains '0.536 in February 2022',True,True,0.0,PASS
+TXT,chapter text no longer contains '300 bootstrap',True,True,0.0,PASS
+TXT,chapter text no longer contains '12.5 times',True,True,0.0,PASS
+TXT,chapter text no longer contains 'Hands-on 1 to 4',True,True,0.0,PASS
+REP,table_agent_trace.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_design_mutation.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_design_simulation.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_discrimination.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_lineage_diversity.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_mock_agent_trace.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_sim_introductions.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_sim_sampling.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_sim_steps.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_sim_superspreading.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_sim_threshold.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_snp_distance.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_snp_thresholds.csv reproduced byte for byte,True,True,0.0,PASS
+REP,table_wallace.csv reproduced byte for byte,True,True,0.0,PASS

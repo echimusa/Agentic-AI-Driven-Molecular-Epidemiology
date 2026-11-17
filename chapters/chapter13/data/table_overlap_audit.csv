@@ -1,0 +1,16 @@
+quantity,numerator,denominator,published,recomputed_pct,source
+Persons in both databases as a share of CTDB persons,894,2417,37%,36.99,results
+Persons in both databases as a share of GDB persons,894,2527,35%,35.38,results
+Contact-tracing links also found as molecular links,59,1373,4%,4.3,results
+Molecular links also found as contact-tracing links,59,3526,2%,1.67,results
+GDB persons in molecular clusters,1204,2527,48%,47.65,"abstract, results"
+Persons in both databases who cluster,583,894,65%,65.21,results
+Index cases in both databases who named a partner,494,894,55%,55.26,results
+Partners named by these 494: contacts attempted,687,1056,65%,65.06,results
+Of attempted: reached,631,687,92%,91.85,results
+Of reached: HIV-tested,446,631,71%,70.68,results
+"Reached, not tested and already diagnosed",24,185,13%,12.97,results
+Of those tested: HIV-diagnosed,121,446,27%,27.13,results
+Jaccard coefficient of persons,894,4050,0.22,0.2207,"abstract, results"
+"Jaccard coefficient of persons, with the abstract's 2,418",894,4051,0.22,0.2207,abstract
+Jaccard coefficient of links,59,4840,0.012,0.0122,"abstract, results"

@@ -1,0 +1,11 @@
+field,term,records,pct_of_field
+Host,not collected,2550,0.69
+Host,not provided,1932,0.52
+Isolation source,not collected,3214,0.61
+Isolation source,not provided,2596,0.49
+Isolation source,other,1072,0.2
+Isolation source,restricted access,8,0.0
+Place,not provided,4214,0.49
+Place,not collected,3237,0.38
+Place,missing,1060,0.12
+Place,restricted access,2,0.0

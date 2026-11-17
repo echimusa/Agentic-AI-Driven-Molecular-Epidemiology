@@ -1,0 +1,33 @@
+id,check,result,detail
+I.*,reruns of the scripts,SKIP,run with --full
+A.1,"line list: 11,903 cases with onset from 18 May 2014 to 12 September 2015; the busiest day is 20 October 2014 with 117 cases and the busiest week has 593",PASS,"(11903, Timestamp('2014-10-20 00:00:00'), np.int64(117))"
+A.2,"the Cori reproduction number on 1 October 2014 with a 14-day window is 1.42 (1.32 to 1.51), by a separate implementation",PASS,"['1.416', '1.323', '1.512']"
+A.3,"growth rate for 1 June to 15 September 2014 is 0.0192 per day (SE 0.0020), doubling 36.2 days, R 1.32; the generation interval of 10 days gives 1.20 and of 20 days 1.43 (separate optimiser)",PASS,"('0.01917', '0.00200', '1.321')"
+A.4,"simulation: the true growth rate for R = 1.5 and a gamma interval of mean 8 and SD 5 is 0.0549 per day (doubling 12.6 days), as in table_simulation13.csv; the genomic rate falls from 0.0092 to -0.0027 as tied events are spread apart",PASS,0.05492
+A.5,"variant forecasts: 19 origins; mean weighted interval score 62,926 for cases only and 344,486 for cases plus genomes; the second is better at 5 origins; 95% interval coverage 10.5% and 0% (recomputed from the forecast table)",PASS,"(19, '62926')"
+B.1,"SIR: with a fourth-order Runge-Kutta solver the peak is 3,008 infected on day 38.4, 94.06% are ever infected (final-size equation 94.03%), the early growth rate is 0.199 and the doubling time 3.49 days",PASS,"(np.float64(3008.0), np.float64(38.36), np.float64(0.9406), 0.9403)"
+B.2,"SIR control: halving beta on day 30 gives a peak of 2,057 on day 30 and a final size of 73.0%; 35% are infected or recovered by day 30; R(t) = R0 S/N is 1.00 at the peak",PASS,"(np.float64(2056.2), '34.8')"
+B.3,"generation-interval shape: R from r = 0.2 and a mean of 10 days is 3.00, 4.00, 5.06 and 7.39 (exponential, gamma 2, gamma 4, fixed); for Ebola 1.29, 1.32, 1.33 and 1.34; the closed form agrees with the Wallinga-Lipsitch integral",PASS,"['3.000', '4.000', '5.063', '7.389', '1.293', '1.321', '1.327', '1.341']"
+B.4,"windows: the reproduction number on 1 October 2014 for windows of 7, 14 and 28 days is 1.27, 1.42 and 1.53 with the intervals of table_windows.csv (separate implementation)",PASS,[]
+B.5,"windows: from the incidence peak, R stays below 1 for 14 days from 27 November, 29 November and 3 December 2014 (38, 40 and 44 days after the peak) for windows of 7, 14 and 28 days",PASS,"['2014-11-27', '2014-11-29', '2014-12-03']"
+B.6,"serial interval and reporting: 1.19, 1.42 and 1.63 on 1 October for means of 10, 15.3 and 20 days; with reporting falling to 50% in October the estimate for 1 November is 0.75 instead of 1.03",PASS,[]
+B.7,partial sampling (60 outbreaks with separate code): at a sampling probability of 0.3 about 9% of links have both ends sampled and the ratio is near 2; with assortative mixing and 0.6 against 0.3 the direct-link ratio is biased well above 2,PASS,"(np.float64(0.091), np.float64(2.04), np.float64(3.64))"
+B.8,"partial sampling in the result file: link shares of 100%, 25%, 9% and 1% for sampling probabilities of 1, 0.5, 0.3 and 0.1 (the square of the probability); the ratio estimated from direct links is within 0.1 of 2 when sampling is independent of mixing; assortative mixing with differential sampling gives a ratio above 3",PASS,
+B.9,"audit: every percentage published in the Rhode Island paper recomputes from its counts, and the Jaccard coefficients are 0.22 (persons, with 2,417 or 2,418) and 0.012 (links)",PASS,
+B.10,"audit: the abstract's cascade percentages imply 886, 824, 585 and 158 partners for the 1,342 named; independence implies a population of 6,832 persons with coverages of 35% and 37% (equal coverage 36%)",PASS,
+B.11,"capstone check: the consistent plan passes all ten rules; the plan with six planted faults fails exactly C2, C4, C5, C6, C7 and C10 (four rules pass)",PASS,"['C2', 'C4', 'C5', 'C6', 'C7', 'C10']"
+B.12,"capstone check: deliverables fall due in the order 13, 15, 22, 29 in plan A and the portfolio (29) falls after the report (22) in plan B; plan B has 620 words and 2 figures",PASS,
+G.1,"figures are numbered 13.1 to 13.12 in order, one caption for every image; 12 images (3 diagrams and 9 figures), 21 tables",PASS,"(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], 12, 21)"
+G.2,"fifteen learning objectives, from why genomes and cases answer different questions to the links with the earlier chapters",PASS,15
+G.3,"nine hands-on sections numbered 1 to 9 in order, then the capstone and the synthesis sections",PASS,"['Hands-on 1 (Python): reproduction number and growth rate from public case data', 'Hands-on 2 (Python): what the genomes show, and what they cannot', 'Hands-on 3 (Python"
+G.4,the sentences quote the validated numbers,PASS,[]
+G.5,the window table of the chapter equals the result file,PASS,"['7', '1.27 (1.16–1.39)', '0.24', '1.87', '27 November', '38']"
+G.6,the serial-interval table of the chapter equals the result file,PASS,"['10.0', '6.1', '1.19 (1.11–1.27)', '1.02']"
+G.7,the reporting-fall table of the chapter equals the result file,PASS,"['15 October', '77%', '1.14', '1.02', '0.90']"
+G.8,the partial-sampling table of the chapter equals the result file,PASS,"['pi = 1.0 (all cases sampled)', '100.0%', '1869', '2.00 (1.83–2.17)', '2.00 (1.83–2.17)', '0%', '0.00']"
+G.9,the audit table of the chapter equals the result file,PASS,"['Persons in both databases as a share of CTDB persons', '894', '2,417', '37%', '36.99']"
+G.10,the capstone-check table of the chapter equals the result file,PASS,"['C1', 'All five stages of the capstone workflow are present', 'pass', 'pass', '5 stages']"
+G.11,"the chapter links the 4 new DOIs read for this extension, with 21 distinct DOIs in all (17 in the original)",PASS,"(21, [])"
+G.12,every DOI of the chapter resolves in Crossref,SKIP,run with --doi
+H.1,all 12 figure files are present (3 diagrams and 9 figures),PASS,[]
+H.2,every Python script of the package compiles,PASS,[]

@@ -1,0 +1,27 @@
+assembly,amrfinder,rgi,result
+GCA_010670385.1,aadA2,aadA2,same name
+GCA_010670385.1,,aadA3,RGI only
+GCA_010670385.1,blaCARB-2,CARB-2,same name
+GCA_010670385.1,floR,,AMRFinderPlus only
+GCA_010670385.1,,qacEdelta1,RGI only
+GCA_010670385.1,sul1,sul1,same name
+GCA_010670385.1,tet(G),,AMRFinderPlus only
+GCA_011246915.1,aph(3'')-Ib,APH(3'')-Ib,same name
+GCA_011246915.1,aph(6)-Id,APH(6)-Id,same name
+GCA_011246915.1,blaCMY-2,CMY-2,same name
+GCA_011246915.1,floR,,AMRFinderPlus only
+GCA_011246915.1,sul2,sul2,same name
+GCA_011246915.1,blaTEM,TEM-206,"same family, different allele"
+GCA_011246915.1,tet(A),tet(A),same name
+GCA_018413125.1,aac(3)-IVa,AAC(3)-IVa,same name
+GCA_018413125.1,aph(3')-Ia,APH(3')-Ia,same name
+GCA_018413125.1,aph(4)-Ia,APH(4)-Ia,same name
+GCA_018413125.1,dfrA14,dfrA14,same name
+GCA_018413125.1,floR,,AMRFinderPlus only
+GCA_018413125.1,gyrA_D87Y,gyrA_D87Y,same name
+GCA_019546675.1,aph(3'')-Ib,,AMRFinderPlus only
+GCA_019546675.1,aph(6)-Id,APH(6)-Id,same name
+GCA_019546675.1,sul2,sul2,same name
+GCA_019546675.1,blaTEM-1,TEM-1,same name
+GCA_019546675.1,tet(B),tet(B),same name
+GCA_019546675.1,,tetR,RGI only

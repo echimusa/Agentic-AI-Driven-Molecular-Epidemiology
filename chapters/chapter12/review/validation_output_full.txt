@@ -1,0 +1,53 @@
+PASS  I.ex12_1 ex12_1 reruns from the shipped data without error
+PASS  I.ex12_2 ex12_2 reruns from the shipped data without error
+PASS  I.ex12_2b ex12_2b reruns from the shipped data without error
+PASS  I.ex12_3 ex12_3 reruns from the shipped data without error
+PASS  I.ex12_4 ex12_4 reruns from the shipped data without error
+PASS  I.ex12_5 ex12_5 reruns from the shipped data without error
+PASS  I.ex12_6 ex12_6 reruns from the shipped data without error
+PASS  I.ex12_7 ex12_7 reruns from the shipped data without error
+PASS  I.ex12_8 ex12_8 reruns from the shipped data without error
+PASS  I.ex12_9 ex12_9 reruns from the shipped data without error
+PASS  I.ex12_10 ex12_10 reruns from the shipped data without error
+PASS  I.tables every result table of the rerun is byte-identical to the shipped one
+PASS  A.1      911,210 isolates; collection dates to the day 14.1%, to the month 40.8%, to the year 36.4%, missing 8.7%
+PASS  A.2      completeness: day-level dates 8.5% and host 48.5% of human records; any date 91.3% of all
+PASS  A.3      timeliness: 328,107 human isolates, 60.5% released within a month, median lag 1 month
+PASS  A.4      Gini coefficient of isolates over population 0.905 (trapezoid rule, separate code); the top three economies hold 84.5%
+PASS  A.5      privacy: 54,691 day-level human records; 51.5% unique on place, date and serovar, and 12.9% when the date is rounded to the month
+PASS  A.5b     privacy: 12.9% unique at month resolution
+PASS  A.6      detection: 520 US clusters of three isolates, median delay 29 days, 52.1% within 30 days (Hands-on 4, separate code)
+PASS  B.1      sizing: the sequences needed for 0.5% to 10% at 90, 95 and 99% confidence, by a search that does not use the logarithm formula; 149 for 2% at 95%
+PASS  B.2      sizing: 149 sequences see a 2% variant with probability 0.9507 (exact), 600,000 simulated weeks agree within 0.003, and 148 sequences fall just short 
+PASS  B.3      sizing: 1.55 weeks at 96 sequences a week; the smallest frequency 96 sequences can see at 95% is 3.07%; the rule of three is within 2 of the exact num
+PASS  B.4      four departures: assay sensitivity 0.8 needs 186; a finite population of 2,000 with 40 carriers needs 143 (exact hypergeometric); 35 households of 10 
+PASS  B.5      the design-effect shortcut 1 + (m - 1) x rho = 3.7 gives 551 sequences, 57% above the exact 350
+PASS  B.6      weekly volume: the eight countries with most human isolates in 2022 and the smallest frequency a week can see at 95% (USA 0.35%, UK 1.88%, China 9.86%
+PASS  B.7      catchment: the chance of at least one shedder is 63.2% and 100% at 1 in 10,000, and 9.5% and 99.995% at 1 in 100,000
+PASS  B.8      allocation: median week of detection and local frequency at detection for 3 allocations x 4 groups, with a loop in place of the cumulative product
+PASS  B.9      allocation: a variant that emerges in the low-income group is seen in week 6 at 6.4% under the current pattern and in week 1 at 0.2% by population; th
+PASS  B.10     vocabulary: records, distinct strings, strings after lower-casing, top-10 and top-100 shares and strings used once, for place, host, isolation source 
+PASS  B.11     vocabulary: isolation source has 9,248 distinct strings, 8,481 after the clean-up, 51.5% used once; place reduces to 205 country names; the top 100 so
+PASS  B.12     sector rules: 91.1% of records classified, 4.4% with host or source text that is not recognised, 4.6% with neither; the commonest unrecognised string 
+PASS  B.13     host: 10 spellings name a human (99.97% 'Homo sapiens'); 'not collected' and 'not provided' are 0.69% and 0.52% of host entries
+PASS  B.14     embargo: median delay, 90th percentile, share within 30 days and mean isolates before detection for embargoes of 0, 30, 90, 180 and 365 days (separate
+PASS  B.15     embargo: the median delay rises from 29 to 59, 119, 209 and 394 days, day for day with the embargo, and no cluster is detected within 30 days under a 
+PASS  B.16     protocol check: the consistent protocol passes all ten rules; the protocol with six planted faults fails exactly R3, R4, R5, R7, R8, R9 and R10 (seven
+PASS  B.17     protocol check: the formula gives 149 sequences and 2 weeks at 96 a week (protocol B states 1 week), and the allocations of B add to 110% with a large
+PASS  G.1      figures are numbered 1 to 9 in order; 12 images (3 diagrams and 9 figures), 23 tables
+PASS  G.2      fourteen learning objectives, from the components of a system to the links with other chapters
+PASS  G.3      nine hands-on sections numbered 1 to 9 in order, then the protocol section
+PASS  G.4      the sentences quote the validated numbers and the dated policy status
+PASS  G.5      the sizing table of the chapter equals the result file
+PASS  G.6      the table of weekly volumes of the chapter equals the result file
+PASS  G.7      the table of departures from the formula equals the result file
+PASS  G.8      the allocation table of the chapter equals the result file (median weeks for 12 combinations)
+PASS  G.9      the vocabulary table of the chapter equals the result file
+PASS  G.10     the embargo table of the chapter equals the result file
+PASS  G.11     the protocol-check table of the chapter equals the result file
+PASS  G.12     the chapter links the 8 new DOIs read for this extension, with 20 distinct DOIs in all (12 in the original)
+PASS  G.13     every DOI of the chapter resolves in Crossref
+PASS  H.1      all 13 figure files are present (3 diagrams, 9 figures and the R Lorenz plot)
+PASS  H.2      every Python script of the package compiles
+
+51 PASS, 0 FAIL, 0 SKIP

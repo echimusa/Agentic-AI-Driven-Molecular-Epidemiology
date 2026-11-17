@@ -1,0 +1,9 @@
+dataset,alignment,sites,tree_length_per_site,tree_length_ratio_to_full,substitutions_claimed_for_the_genome,resolved_splits_of_full_tree_found
+H3N2 HA (60 sequences),full alignment,1762,0.1886,1.0,332.3132,1.0
+H3N2 HA (60 sequences),"variable sites, no correction",230,1.4371,7.6198,2532.1702,0.925
+H3N2 HA (60 sequences),"variable sites, +ASC",230,0.5162,2.737,909.5444,1.0
+H3N2 HA (60 sequences),"variable sites, constant-site counts (-fconst)",230,0.1848,0.9799,325.6176,1.0
+Ebola virus (195 genomes),full alignment,18961,0.0138,1.0,261.6618,1.0
+Ebola virus (195 genomes),"variable sites, no correction",241,1.083,78.4783,20534.763,0.96
+Ebola virus (195 genomes),"variable sites, +ASC",241,0.1038,7.5217,1968.1518,0.98
+Ebola virus (195 genomes),"variable sites, constant-site counts (-fconst)",241,0.0137,0.9928,259.7657,1.0

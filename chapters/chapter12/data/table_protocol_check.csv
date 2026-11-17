@@ -1,0 +1,21 @@
+protocol,rule,check,result,detail
+A: consistent,R1,The aim is one of the four aims of the Session 12 table,pass,detect new variants
+A: consistent,R2,"The target frequency and the confidence are stated, and the sequences needed follow from them",pass,149 sequences for 2% at 95%
+A: consistent,R3,"The weeks to detect stated in the protocol equal the sequences needed divided by the weekly capacity, rounded up",pass,"computed 1.55 weeks, so 2; stated 2"
+A: consistent,R4,The capacity allocated to the sites adds up to 100%,pass,sum 1.00
+A: consistent,R5,For a representative aim no site departs from its population share by more than 10 percentage points,pass,largest departure 2 points
+A: consistent,R6,"Turnaround targets are stated, and the outbreak target is not slower than the routine one",pass,14 against 14 days
+A: consistent,R7,"The minimum metadata names date, place, specimen type and host, and a standard is named",pass,missing: none; standard: PHA4GE contextual data specification
+A: consistent,R8,An open release does not combine day-level dates with place below country level (Hands-on 3),pass,"open release, month dates, place at country level; 51.5% of day-level human records were unique on place, date and serovar"
+A: consistent,R9,"The embargo is within the maximum the protocol allows, and its delay is stated",pass,30 days against 30; Hands-on 8 median delay with the closest tested embargo (30 days): 59 days
+A: consistent,R10,"A consent or legal basis, a credit rule and a review date are present",pass,consent: True; credit: True; review: 2027-06-30
+B: six planted faults,R1,The aim is one of the four aims of the Session 12 table,pass,detect new variants
+B: six planted faults,R2,"The target frequency and the confidence are stated, and the sequences needed follow from them",pass,149 sequences for 2% at 95%
+B: six planted faults,R3,"The weeks to detect stated in the protocol equal the sequences needed divided by the weekly capacity, rounded up",FAIL,"computed 1.55 weeks, so 2; stated 1"
+B: six planted faults,R4,The capacity allocated to the sites adds up to 100%,FAIL,sum 1.10
+B: six planted faults,R5,For a representative aim no site departs from its population share by more than 10 percentage points,FAIL,largest departure 12 points
+B: six planted faults,R6,"Turnaround targets are stated, and the outbreak target is not slower than the routine one",pass,14 against 14 days
+B: six planted faults,R7,"The minimum metadata names date, place, specimen type and host, and a standard is named",FAIL,"missing: ['host', 'specimen type']; standard: PHA4GE contextual data specification"
+B: six planted faults,R8,An open release does not combine day-level dates with place below country level (Hands-on 3),FAIL,"open release, day dates, place at district level; 51.5% of day-level human records were unique on place, date and serovar"
+B: six planted faults,R9,"The embargo is within the maximum the protocol allows, and its delay is stated",FAIL,120 days against 30; Hands-on 8 median delay with the closest tested embargo (90 days): 119 days
+B: six planted faults,R10,"A consent or legal basis, a credit rule and a review date are present",FAIL,consent: True; credit: True; review: None

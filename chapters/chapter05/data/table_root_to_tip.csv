@@ -1,0 +1,7 @@
+dataset,rooting,r2,slope_per_site_per_year,substitutions_per_genome_year,root_date,permutation_p,candidate_roots
+Ebola virus (195 genomes),best,0.58383,0.00125,23.66603,2014.2274,0.001,4257
+Ebola virus (195 genomes),midpoint,0.35652,0.00083,15.73238,2014.31541,,4257
+Ebola virus (195 genomes),random tip,0.40598,0.00094,17.77108,2014.23806,,4257
+H3N2 HA (60 sequences),best,0.79094,0.00311,5.48758,2011.89861,0.001,1267
+H3N2 HA (60 sequences),midpoint,0.70197,0.00252,4.44125,2011.20721,,1267
+H3N2 HA (60 sequences),random tip,0.10789,-0.00176,-3.09521,2027.60937,,1267

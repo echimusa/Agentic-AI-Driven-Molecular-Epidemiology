@@ -1,0 +1,9 @@
+field,Human,Food,Animal,Environment,all
+Isolate identifier (target accession),100.0,100.0,100.0,100.0,100.0
+Specimen identifier (BioSample),100.0,100.0,100.0,100.0,100.0
+Specimen type (isolation source),19.3,99.6,99.2,98.9,38.7
+Collection date (year),100.0,100.0,100.0,100.0,100.0
+Origin of the specimen (US state),1.0,92.8,85.0,59.2,22.0
+Identification (serovar),100.0,100.0,100.0,100.0,100.0
+Phenotypic data (susceptibility result),0.0,6.9,2.4,0.0,1.2
+Project of origin (BioProject centre),100.0,100.0,100.0,100.0,100.0

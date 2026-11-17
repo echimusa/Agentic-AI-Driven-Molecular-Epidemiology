@@ -1,0 +1,2 @@
+best_model_bic,loglik,bic_gap_GTR_F_G4,bic_gap_HKY_F_G4,bic_gap_GTR_F_I_G4,rf_restricted_vs_full,splits_restricted,splits_full,shared,internal_branches,resolved_branches,ufboot_ge95_resolved_pct,ufboot_ge80_resolved_pct,shalrt_ge80_resolved_pct,both_ufboot95_shalrt80_resolved_pct,unresolved_branches,ufboot_ge95_unresolved_pct,ufboot_lt50_unresolved_pct,corr_ufboot_shalrt_resolved
+HKY+F+I,-28599.452,40.862,9.955,41.849,0.0,50,50,50,192,50,76.0,86.0,66.0,58.0,142,0.0,87.324,0.526

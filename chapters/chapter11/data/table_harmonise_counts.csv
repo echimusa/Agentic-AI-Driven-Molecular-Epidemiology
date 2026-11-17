@@ -1,0 +1,7 @@
+category,variants
+same allele order,438
+"opposite allele order, not palindromic",364
+palindromic (A/T or C/G),125
+  of which frequency within 0.42 to 0.58 in either study,34
+not matched by alleles in either order or strand,0
+all variants in both files,927

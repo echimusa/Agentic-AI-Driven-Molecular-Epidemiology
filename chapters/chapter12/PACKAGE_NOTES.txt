@@ -1,0 +1,62 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 12 - GENOMIC SURVEILLANCE SYSTEMS, ETHICS AND DATA GOVERNANCE
+Book: Agentic AI-driven Molecular Epidemiology
+Package extended 16 November 2026 (first version 9 November 2026)
+
+CONTENTS
+Chapter_12_Genomic_Surveillance_Ethics_and_Data_Governance.docx   the chapter (A4): 14 objectives, nine hands-on sections, a protocol section, 9 numbered figures and 3 diagrams
+code/        amr9.py and surv12.py (helpers), ex12_0 .. ex12_10
+    ex12_0_prepare.py            reads the NCBI Pathogen Detection Salmonella table, parses dates, assigns sectors, writes sal_surv.pkl (needs the 883 MB table; not needed to rerun anything)
+    ex12_1_indicators.py         Hands-on 1: completeness and timeliness; Figure 1
+    ex12_2_equity.py             Hands-on 2: isolates per million people, Lorenz curve, Gini, income groups; Figure 2
+    ex12_2b_gini.R               Hands-on 2: the Gini coefficient recomputed in base R
+    ex12_3_privacy.py            Hands-on 3: k-anonymity of place, date and serovar; Figure 3
+    ex12_4_detection.py          Hands-on 4: detection delay of growing clusters; Figure 4
+    ex12_5_sizing.py             Hands-on 5: sequences needed for a variant frequency, departures from the formula, weekly volumes, catchments; Figure 5
+    ex12_6_allocation.py         Hands-on 6: time to detect a variant under three allocations of capacity across income groups; Figure 6
+    ex12_7_standards.py          Hands-on 7: the vocabulary of the public table and what the sector rules miss; Figure 7
+    ex12_8_embargo.py            Hands-on 8: detection delay of clusters under embargoes of 0 to 365 days; Figure 8
+    ex12_9_protocol.py           Hands-on 9: ten rules checked on a consistent protocol and on one with six planted faults
+    ex12_10_diagrams.py          the two new diagrams (release tiers, protocol flow)
+figures/     Figures 1 to 9, the R Lorenz plot and the three diagrams
+data/        result tables (table_*.csv) and the inputs that let every script rerun offline
+    sal_surv.csv.gz              the parsed surveillance table (911,210 isolates; 14 columns)
+    cluster_list_us.tsv          Pathogen Detection SNP-cluster assignments for US isolates
+    wb_countries.json, wb_pop.json   cached World Bank country classification and population (API data updated 8 October 2026)
+lecture/     MEPI7_Chapter12_Genomic_Surveillance_Lecture.pptx and validate_slides_ch12.py with its results
+review/      validate_ch12.py, its results, the evaluation report and the negative-control results
+
+HOW TO RUN
+Install: pip install pandas numpy scipy matplotlib python-docx python-pptx ; R (base only) ; pandoc
+Check everything:
+    cd review ; python validate_ch12.py --chapter ../Chapter_12_Genomic_Surveillance_Ethics_and_Data_Governance.docx --doi --full
+        default checks A, B, G, H recompute with code that does not import the chapter scripts (about 1 minute); --full reruns every script in a scratch folder and compares the tables byte for byte (about 1 minute more); --doi needs the network
+    cd ../lecture ; python validate_slides_ch12.py MEPI7_Chapter12_Genomic_Surveillance_Lecture.pptx --data ../data --chapter ../Chapter_12_Genomic_Surveillance_Ethics_and_Data_Governance.docx
+Rerun one exercise from the shipped data (cd code ; cp ../data/* . ; mkdir -p figs12):
+    python ex12_1_indicators.py       # expected: human isolates released within 1 month 60.5%; median lag 1, 5, 11, 17 months for human, food, animal, environment
+    python ex12_2_equity.py           # expected: Gini 0.905; 124 of 217 economies with an isolate; top 3 economies hold 84.5%
+    Rscript ex12_2b_gini.R            # expected: Gini 0.905
+    python ex12_3_privacy.py          # expected: 51.5% of day-level human records unique on place, date and serovar; 12.9% at month resolution
+    python ex12_4_detection.py        # expected: median detection delay 29 days (17 to 43 days by date placement)
+    python ex12_5_sizing.py           # expected: 149 sequences for a 2% variant at 95%, 1.55 weeks at 96 a week; 350 for household sampling
+    python ex12_6_allocation.py       # expected: a variant that emerges in the low-income group is seen in week 6 under the current pattern and week 1 by population
+    python ex12_7_standards.py        # expected: 9,248 isolation-source strings; sector rules classify 91.1% of records
+    python ex12_8_embargo.py          # expected: median delay 29, 59, 119, 209 and 394 days for embargoes of 0, 30, 90, 180 and 365 days
+    python ex12_9_protocol.py         # expected: protocol A passes 10 of 10 rules, protocol B 3 of 10
+HOW TO REBUILD FROM NCBI (internet needed)
+    Download the Salmonella metadata table (PDG000000002.4290) and cluster list from the NCBI Pathogen Detection FTP site (see Chapter 9), then python ex12_0_prepare.py.
+    The World Bank files are refreshed by deleting wb_countries.json and wb_pop.json. Counts change as the NCBI table grows.
+
+PROVENANCE AND LIMITS
+- The table holds only released isolates, so there is no denominator of cases; sequencing coverage cannot be computed from it. Hands-on 5 reads its weekly volume as an upper bound on what the sampling could see, not as capacity.
+- Release date is the public date of the sequence reads, not the date a result reached a public-health laboratory.
+- 87% of cluster dates are to the month; Hands-on 4 and 8 place them at day 15 (and Hands-on 4 bounds the effect at day 1 and 29).
+- k-anonymity measures look-alike records in the released table; uniqueness is not identification.
+- The Gini coefficient describes public Salmonella data, which reflect a few national programmes, not surveillance capacity for other pathogens.
+- Hands-on 6 is a model with stated settings (5,000 sequences a week, a variant starting at 0.1% and doubling every week, no travel). The public isolate shares stand in for today's sequencing effort. It is illustrative, not a forecast.
+- Hands-on 7 counts strings in one database. The Chapter 9 sector rules are written for the commonest spellings, so part of the unclassified records is a failure of the rules.
+- Hands-on 8 counts isolates collected before detection only among those later released, so it is a lower bound; clusters are defined from the final list.
+- Hands-on 9 checks arithmetic and completeness only; the thresholds (10 percentage points, 30-day embargo) are choices of the protocol. Passing says nothing about consent or fairness.
+- Policy status (Pandemic Agreement annex, Nagoya Protocol) is as of 16 November 2026. The Johns Hopkins report and the WHO consultation report were supplied with the course material (WHO: CC BY-NC-SA 3.0 IGO); the Struelens article is CC BY; the text paraphrases all sources.
+- The Word file and the deck were rendered with LibreOffice and not opened in Word or PowerPoint; the lecture was not timed live.

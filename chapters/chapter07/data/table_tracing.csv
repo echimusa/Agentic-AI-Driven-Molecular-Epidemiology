@@ -1,0 +1,25 @@
+window_days,contact_definition,recall,candidates_per_case,recall_per_candidate
+7,anyone,0.0217,42.5851,0.0005
+7,same family,0.0,0.6489,0.0
+7,same class,0.0217,19.8511,0.0011
+7,family or class,0.0217,20.2021,0.0011
+7,within 25 map units,0.0054,2.2606,0.0024
+7,within 100 map units,0.0163,18.0426,0.0009
+10,anyone,0.5707,57.8351,0.0099
+10,same family,0.2011,0.9362,0.2148
+10,same class,0.3641,24.3777,0.0149
+10,family or class,0.5217,24.9574,0.0209
+10,within 25 map units,0.2826,3.1649,0.0893
+10,within 100 map units,0.4185,24.2074,0.0173
+14,anyone,0.9837,73.016,0.0135
+14,same family,0.4076,1.1596,0.3515
+14,same class,0.587,28.0851,0.0209
+14,family or class,0.8913,28.8298,0.0309
+14,within 25 map units,0.5435,4.0,0.1359
+14,within 100 map units,0.7717,30.8936,0.025
+21,anyone,1.0,82.0319,0.0122
+21,same family,0.4185,1.1755,0.356
+21,same class,0.5924,30.3457,0.0195
+21,family or class,0.9076,31.1064,0.0292
+21,within 25 map units,0.5598,4.3032,0.1301
+21,within 100 map units,0.788,34.9149,0.0226

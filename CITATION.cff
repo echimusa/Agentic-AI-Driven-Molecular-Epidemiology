@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, data or teaching material, please cite the book and this repository."
+title: "Agentic AI-driven Molecular Epidemiology: code, data and teaching material"
+type: software
+authors:
+  - family-names: Chimusa
+    given-names: Emile Rugamika
+repository-code: "https://github.com/echimusa/Agentic-AI-Driven-Molecular-Epidemiology"
+url: "https://github.com/echimusa/Agentic-AI-Driven-Molecular-Epidemiology"
+license: MIT
+version: 0.1.0
+date-released: 2026-11-16

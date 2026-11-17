@@ -1,0 +1,36 @@
+study,item,reported,recomputed,agrees,note
+Klaas 2026,"isolates recovered: the eight sources add up to 1,016",1016.0,1016.0,True,
+Klaas 2026,isolates sequenced: the eight sources add up to 421,421.0,421.0,True,
+Klaas 2026,susceptible to all fourteen drugs (%),82.19,82.1853,True,346 of 421
+Klaas 2026,resistant isolates = 421 - 346,75.0,75.0,True,
+Klaas 2026,tetracycline resistance (%),13.06,13.0641,True,55 of 421
+Klaas 2026,ampicillin resistance (%),10.45,10.4513,True,44 of 421
+Klaas 2026,"resistant to more than one drug, of the 75 (%)",72.0,72.0,True,54 of 75
+Klaas 2026,"phenotypic MDR, of the 75 (%)",45.33,45.3333,True,34 of 75
+Klaas 2026,isolates with at least one ARG (%),17.8,17.8147,True,75 of 421
+Klaas 2026,"genotypic MDR, of the 75 with an ARG (%)",57.33,57.3333,True,43 of 75
+Klaas 2026,"genotypic MDR, of all 421 (%), as in the abstract",10.2,10.2138,True,43 of 421
+Klaas 2026,"isolates with a beta-lactam gene (%), as in the abstract",9.5,9.5012,True,40 of 421
+Klaas 2026,isolates with a plasmid replicon (%),72.4,72.4466,True,305 of 421; the paper gives the count only
+Klaas 2026,"pairwise comparisons exceed 88,000",88000.0,88000.0,True,"88,410 pairs"
+Klaas 2026,"pairs within 100 SNPs, of all pairs (%): less than 0.25%",0.25,0.25,True,"207 of 88,410 = 0.234%"
+Klaas 2026,close pairs from the same sample source (%),55.07,55.0725,True,114 of 207
+Klaas 2026,close pairs from different One Health domains (%): the paper says approximately 25%,25.0,22.2222,False,46 of 207
+Klaas 2026,"close pairs: same source + different domains + same domain, different source = 207",207.0,207.0,True,
+Klaas 2026,isolates with a close relative (%),50.59,50.5938,True,213 of 421
+Klaas 2026,isolates with a close relative in another source (%),27.08,27.0784,True,114 of 421
+Kitamura 2026,Salmonella isolates = human 623 + food 563 + animal 427,1613.0,1613.0,True,
+Kitamura 2026,Campylobacter isolates = 261 + 57 + 364,682.0,682.0,True,the split between sectors is read from Table 1
+Kitamura 2026,Enterococcus isolates = hospital 38 + chicken meat 34,72.0,72.0,True,
+McDermott slides,Salmonella: the column adds up,25703.0,25703.0,True,
+McDermott slides,Campylobacter: the column adds up,15382.0,15382.0,True,
+McDermott slides,Ecoli: the column adds up,7698.0,7698.0,True,
+McDermott slides,Enterococcus: the column adds up,2097.0,2097.0,True,
+McDermott slides,Spseudintermedius: the column adds up,855.0,855.0,True,
+McDermott slides,"human genomes = 8,629 + 1,041 + 617",10287.0,10287.0,True,
+McDermott slides,food-producing animal genomes,21628.0,21628.0,True,
+McDermott slides,retail meat genomes,17296.0,17296.0,True,
+McDermott slides,diagnostic laboratory genomes,2524.0,2524.0,True,
+McDermott slides,all genomes with phenotype data,51735.0,51735.0,True,
+McDermott slides,"all genomes, summed over the four sources",51735.0,51735.0,True,
+Muloi 2023,isolates screened for mcr-1 and sequenced (%),4.8,4.7805,True,"135 of 2,824; the paper gives the counts only"

@@ -1,0 +1,57 @@
+id,check,result,detail
+H1.1,"911,210 public Salmonella assemblies with length, contigs and N50",PASS,911210
+H1.2,median length 4.81 Mb (5th to 95th percentile 4.61–5.13); median contigs 51 (95th percentile 180); median N50 243 kb (5th percentile 56),PASS,
+H1.3,"robust length range 4.37–5.31 Mb; 98 too short and 8,841 too long (0.98%); extremes 3.87 and 6.33 Mb",PASS,"(np.float64(4.37), np.float64(5.31), 98, 8841)"
+H1.4,"failures: Lenient 9,923 (1.1%), Moderate 43,933 (4.8%), Strict 135,612 (14.9%)",PASS,"[9923, 43933, 135612]"
+H1.5,"failing on contigs alone 0.07%, 1.0%, 3.8%; on N50 alone 0.08%, 3.8%, 13.9%",PASS,"[np.float64(0.07), np.float64(1.04), np.float64(3.79), np.float64(0.08), np.float64(3.79), np.float64(13.85)]"
+H1.6,"91,679 genomes (10.1%) fail the strict rule and pass the moderate one",PASS,
+H1.7,moderate failure 8.3% in 2019 and 3.1% in 2024; median contigs 64 → 46; median N50 187 → 284 kb,PASS,"(np.float64(8.3), np.float64(3.1))"
+H1.8,"69 laboratories with at least 2,000 isolates; moderate failure IQR 1.3%–5.2%, range 0.5%–47.1%",PASS,"(69, np.float64(1.3), np.float64(5.2), np.float64(0.5), np.float64(47.1))"
+H1.9,"highest rates: Pathology Queensland 47.1% (5,236), Institut Pasteur 36.5%, a state laboratory 26.6% (38,287), the Chinese PLA CDC 25.6%",PASS,"[('Pathology Queensland', 47.1), ('Institut Pasteur', 36.5), ('FL', 26.6), ('The Chinese PLA Center for Disease Control and Prevention', 25.6)]"
+H1.10,"median length by serovar: paratyphi A 4.59 Mb shortest, I 4:i:- 5.04 Mb longest (serovars with 3,000+ isolates)",PASS,"('paratyphi a', 'i 4:i:-')"
+H1.11,moving from moderate to strict changes the usable share from 95% to 85%,PASS,
+H2.1,demo subsets: the arithmetic mean quality exceeds the error-probability mean in all four runs,PASS,"{'MiSeq': (np.float64(33.4), np.float64(20.2)), 'NovaSeq': (np.float64(35.6), np.float64(25.4)), 'Nanopore': (np.float64(17.0), np.float64(10.2)), 'Pa"
+H2.2,demo subsets: NovaSeq has exactly 4 distinct quality values; PacBio reaches Q90 or more; the trimming rule keeps 0% of the Nanopore bases,PASS,"(4, 93, np.float64(0.0))"
+H2.3,demo subsets: the MiSeq read GC is at least 3 points below that of the other three runs,PASS,"{'MiSeq': np.float64(48.2), 'NovaSeq': np.float64(53.2), 'Nanopore': np.float64(51.9), 'PacBio': np.float64(52.2)}"
+H2.4,"shipped read table: bases kept by the trimming rule 82.4%, 95.8%, 0.0%, 76.9%",PASS,"[np.float64(82.45), np.float64(95.78), np.float64(0.0), np.float64(76.94)]"
+H2.5,"Phred table: Q10, Q20, Q30, Q40 are characters + 5 ? I (codes 43, 53, 63, 73) and error probabilities 1 in 10 to 1 in 10,000",PASS,
+H3.1,"callable fraction at depth 5, 10, 20, 30, 50, 100 equals the exact negative-binomial tail P(depth >= 10) within 0.15 points",PASS,"{5: (np.float64(9.98), np.float64(9.97)), 10: (np.float64(46.6), np.float64(46.57)), 20: (np.float64(84.19), np.float64(84.2)), 30: (np.float64(94.28)"
+H3.2,"a pair that truly differs by 3 SNPs looks like 2 or fewer with probability 1 − callable³: within 4 points of the simulation at depth 10, 20, 30, 50",PASS,"{10: (np.float64(89.9), np.float64(87.75)), 20: (np.float64(40.3), np.float64(40.75)), 30: (np.float64(16.2), np.float64(16.0)), 50: (np.float64(3.7),"
+H3.3,text figures: 84% callable and 41% looking like 2 or fewer at 20-fold; 46.6% callable at 10-fold; 98.8% at 50-fold,PASS,
+H3.4,false SNPs at an allele-fraction threshold of 0.2 with hotspots 0.5%: exact expectation 73.9 against the simulation 73.4,PASS,
+H3.4,false SNPs at an allele-fraction threshold of 0.2 with 30% contamination: exact expectation 45.8 against the simulation 45.8,PASS,
+H3.4,false SNPs at an allele-fraction threshold of 0.2 with both: exact expectation 119.7 against the simulation 119.7,PASS,
+H3.5,true SNPs called with 10% contamination at a threshold of 0.9: fresh simulation 49.1% against the table 51.2%,PASS,
+H3.5,true SNPs called with 30% contamination at a threshold of 0.7: fresh simulation 48.9% against the table 47.4%,PASS,
+H3.5,true SNPs called with 30% contamination at a threshold of 0.9: fresh simulation 0.5% against the table 0.8%,PASS,
+H3.6,with 10–30% contamination at a threshold of 0.9 the 2-SNP rule calls the true-3 pair linked in 85–100% of replicates (all depths in the table),PASS,"(np.float64(85.5), np.float64(100.0))"
+H3.7,46–120 false SNPs per genome at a threshold of 0.2 with hotspots or mixtures (45.8 to 119.7),PASS,
+H4.1,"322,735 eligible Illumina isolates with laboratory, serovar, year and AMR count",PASS,322735
+H4.2,"crude odds ratio for a SNP cluster per 10-fold more contigs in all 322,735 isolates (0.64) and crude rate ratio for AMR genes (2.16) fall within the intervals of the 100,000 sample (0.57–0.68 and 2.10–2.18)",PASS,"(0.644, 2.156)"
+H4.3,"adjusted odds ratio (0.67) and rate ratio (1.94) on a fresh sample of 100,000 with a different solver agree with the chapter's 0.66 and 1.94 within 0.10 and 0.08",PASS,
+H4.4,"in-cluster share by contig decile: 95.5% in the lowest decile, a minimum of 91.1% at the fifth decile (57 contigs), 92.9% at the ninth and 91.3% at the top: not monotone",PASS,"[95.5, 94.1, 93.1, 91.3, 91.1, 91.5, 92.2, 92.7, 92.9, 91.3]"
+H4.5,mean AMR genes by decile rises from 2.3 to a peak of 4.9 at about 93 contigs and eases to 4.1,PASS,
+H4.6,92.6% of the sample in a SNP cluster; 4.0% fail the contig and N50 parts of the moderate rule (4.8% with the length criterion in Hands-on 1); mean AMR count 3.5 (all eligible isolates: shares within 0.5 points),PASS,"(np.float64(92.5), np.float64(4.1), np.float64(3.54))"
+TXT,chapter text contains '4.37–5.31 Mb',PASS,
+TXT,"chapter text contains '43,933'",PASS,
+TXT,"chapter text contains '135,612'",PASS,
+TXT,"chapter text contains '91,679'",PASS,
+TXT,chapter text contains '47.1%',PASS,
+TXT,chapter text contains 'Q20.4',PASS,
+TXT,chapter text contains '84%',PASS,
+TXT,chapter text contains '0.66 (0.59–0.74)',PASS,
+TXT,chapter text contains '1.94 (1.90–1.99)',PASS,
+TXT,chapter text contains 'lower odds',PASS,
+TXT,"chapter text no longer contains 'BioMaster, 2026'",PASS,
+TXT,chapter text no longer contains 'about one third less likely',PASS,
+TAB.1,"Hands-on 4 table: every estimate and interval equals the result table rounded half-up (0.62, 0.66 and 0.74, 1.94 ...)",PASS,
+TAB.2,"Hands-on 2 table: quality, errors per kb, Q30 and trimming rows equal the result table rounded half-up",PASS,
+TAB.3,Hands-on 1 table: failure shares and counts equal the result table rounded half-up,PASS,
+TAB.4,"Hands-on 3 depth table: callable, true SNPs called, mean distance and the at-most-2 share equal the result table rounded half-up",PASS,
+REP,table_assembly_qc.csv reproduced byte for byte,PASS,
+REP,table_assembly_qc_labs.csv reproduced byte for byte,PASS,
+REP,table_snp_depth.csv reproduced byte for byte,PASS,
+REP,table_snp_calling.csv reproduced byte for byte,PASS,
+REP,table_snp_threshold.csv reproduced byte for byte,PASS,
+REP,table_quality_typing.csv reproduced byte for byte,PASS,
+REP,table_quality_deciles.csv reproduced byte for byte,PASS,

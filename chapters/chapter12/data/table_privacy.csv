@@ -1,0 +1,19 @@
+records,qi_set,resolution,temporal_error_days,n,unique,below5,median_group
+day-level dates,country + date,day,0.0,54691,15.68,36.04,7.0
+day-level dates,country + date,week,1.88,54691,4.58,14.67,44.0
+day-level dates,country + date,month,8.0,54691,1.43,5.07,189.0
+day-level dates,country + date,year,94.83,54691,0.18,0.69,2086.0
+month-level dates,country + date,month,,351689,0.07,0.18,2283.0
+month-level dates,country + date,year,,351689,0.02,0.05,28850.0
+day-level dates,place below country + date,day,0.0,54691,19.84,43.94,6.0
+day-level dates,place below country + date,week,1.88,54691,6.68,18.85,35.0
+day-level dates,place below country + date,month,8.0,54691,2.64,7.69,153.0
+day-level dates,place below country + date,year,94.83,54691,0.62,1.86,1206.0
+month-level dates,place below country + date,month,,351689,0.12,0.3,2283.0
+month-level dates,place below country + date,year,,351689,0.04,0.1,28843.0
+day-level dates,place + date + serovar,day,0.0,54691,51.48,81.78,1.0
+day-level dates,place + date + serovar,week,1.88,54691,25.59,51.78,4.0
+day-level dates,place + date + serovar,month,8.0,54691,12.91,30.14,13.0
+day-level dates,place + date + serovar,year,94.83,54691,4.33,11.09,81.0
+month-level dates,place + date + serovar,month,,351689,4.41,11.5,81.0
+month-level dates,place + date + serovar,year,,351689,1.17,3.06,843.0

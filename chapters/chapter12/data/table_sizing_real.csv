@@ -1,0 +1,9 @@
+country,isolates_2022,per_week,smallest_frequency_pct_in_a_week,weeks_to_detect_2pct
+USA,45095,864.9,0.35,0.17
+United Kingdom,8226,157.8,1.88,0.94
+China,1504,28.8,9.86,5.17
+Australia,758,14.5,18.62,10.25
+Netherlands,333,6.4,37.44,23.33
+Canada,209,4.0,52.64,37.17
+New Zealand,177,3.4,58.62,43.89
+Japan,128,2.5,70.49,60.69

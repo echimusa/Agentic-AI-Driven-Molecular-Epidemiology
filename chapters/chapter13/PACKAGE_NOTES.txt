@@ -1,0 +1,60 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 13 - INTEGRATING MOLECULAR DATA WITH TRANSMISSION MODELS
+Book: Agentic AI-driven Molecular Epidemiology
+Package extended 16 November 2026 (first version 10 November 2026)
+
+CONTENTS
+Chapter_13_Integrating_Molecular_Data_with_Transmission_Models.docx   the chapter (A4): 15 objectives, nine hands-on sections, the capstone and synthesis sections, 9 numbered figures and 3 diagrams
+code/        ebolacore.py and coalfit13.py (helpers), ex13_1 .. ex13_10
+    ex13_1_ebola_rt.py            Hands-on 1: reproduction number and growth rate from the Sierra Leone Ebola line list; Figure 1
+    ex13_1b_r_check.R             Hands-on 1: the growth rate and one reproduction number recomputed in base R
+    ex13_2_genome_growth.py       Hands-on 2: alignment, tree, time-scaling and coalescent fit for 195 Ebola genomes; Figure 2
+    ex13_3_simulation.py          Hands-on 3: five-scenario simulation with a known growth rate; Figure 3
+    ex13_4_variants.py            Hands-on 4: two-variant renewal forecast of England cases; Figure 4
+    ex13_5_sir_gi.py              Hands-on 5: the SIR model, R0, doubling time and final size, and R from one growth rate under four generation-interval shapes; Figure 5
+    ex13_6_windows.py             Hands-on 6: window width, serial interval and a falling reporting fraction on the Ebola line list; Figure 6
+    ex13_7_partial_sampling.py    Hands-on 7: a partly sampled outbreak with a host attribute (a toy); Figure 7
+    ex13_8_integration_audit.py   Hands-on 8: recomputation of the published numbers of the Rhode Island HIV study, and what independence predicts; Figure 8
+    ex13_9_capstone_check.py      Hands-on 9: ten rules checked on a capstone plan and briefing, a consistent one and one with six planted faults
+    ex13_10_diagrams.py           the two new diagrams (capstone workflow, evidence to action)
+figures/     Figures 1 to 9 and the three diagrams
+data/        result tables (table_*.csv) and the inputs that let every script rerun offline
+    ebola_sl_linelist.csv         11,903-case Sierra Leone line list from the CRAN package outbreaks 1.9.0 (ebola_sierraleone_2014)
+    ebola.fasta, ebola_meta.csv   249 Ebola genomes of NCBI BioProject PRJNA257197 and their metadata
+    ebola_aln.fasta, ebola_ml.nwk, ebola_node_dates.csv, ebola_time.json   alignment, ML tree and time-scaled tree (cache)
+    england_cases.csv             England daily cases by specimen date (UKHSA data dashboard API)
+    lapis_uk_clades.csv           UK sequence counts by date and Nextstrain clade (CoV-Spectrum open API)
+    r_cases.npy                   growth rate and standard error written by ex13_1_ebola_rt.py
+lecture/     MEPI7_Chapter13_Linking_Molecular_Data_to_Transmission_Lecture.pptx and validate_slides_ch13.py with its results
+review/      validate_ch13.py, its results, the evaluation report and the negative-control results
+
+HOW TO RUN
+Install: pip install pandas numpy scipy matplotlib biopython treetime python-docx python-pptx ; R (base only) ; pandoc. MAFFT and FastTree are needed only to rebuild the tree.
+Check everything:
+    cd review ; python validate_ch13.py --chapter ../Chapter_13_Integrating_Molecular_Data_with_Transmission_Models.docx --doi --full
+        default checks A, B, G, H recompute with code that does not import the chapter scripts (a few seconds to a minute); --full reruns every script in a scratch folder and compares the tables byte for byte; --doi needs the network
+    cd ../lecture ; python validate_slides_ch13.py MEPI7_Chapter13_Linking_Molecular_Data_to_Transmission_Lecture.pptx --data ../data --chapter ../Chapter_13_Integrating_Molecular_Data_with_Transmission_Models.docx
+Rerun one exercise from the shipped data (cd code ; cp ../data/* . ; mkdir -p figs13):
+    python ex13_1_ebola_rt.py         # expected: r = 0.0192 per day (SE 0.0020), doubling 36.2 d, R = 1.32 (1.25-1.39) for 1 Jun to 15 Sep 2014
+    Rscript ex13_1b_r_check.R         # expected: r = 0.0192 (SE 0.0020); Rt on 1 Oct 2014 = 1.42 (1.32 to 1.51)
+    python ex13_2_genome_growth.py    # expected: 195 genomes; common ancestor 14 May 2014; genomic r between -0.003 and 0.009 per day by tie spacing
+    python ex13_3_simulation.py       # expected: true r 0.0549; scenario 2 case-based bias -0.013 with 0% coverage, genomic bias +0.002
+    python ex13_4_variants.py         # expected: cases-only mean WIS 62,926; cases-plus-genomes 344,486; B better at 5 of 19 origins
+    python ex13_5_sir_gi.py           # expected: R0 = 3, early growth 0.199 per day, doubling 3.49 days, peak 3,008 on day 38.4, final size 94.1%; R from r = 0.2 is 3.00, 4.00, 5.06, 7.39
+    python ex13_6_windows.py          # expected: R on 1 Oct 2014 of 1.27, 1.42, 1.53 for windows of 7, 14, 28 days; 0.75 instead of 1.03 for 1 Nov if reporting fell to 50%
+    python ex13_7_partial_sampling.py # expected: 9% of links seen at a sampling probability of 0.3; ratio 3.5 with assortative mixing and differential sampling (true 2)
+    python ex13_8_integration_audit.py  # expected: Jaccard 0.22 (persons) and 0.012 (links); independence implies a population of about 6,832
+    python ex13_9_capstone_check.py   # expected: plan A passes 10 of 10 rules, plan B 4 of 10
+HOW TO REBUILD FROM PUBLIC SOURCES (internet needed): see the notes at the top of the scripts; delete a data file and the script re-reads its source (genomes through NCBI E-utilities, England cases from the UKHSA API, variant counts from the CoV-Spectrum API). Public data are updated over time, so numbers can change slightly.
+
+PROVENANCE AND LIMITS
+- Case-based intervals use a quasi-Poisson model that ignores correlation between days; in the simulation they covered the truth in 57% of runs.
+- The genomic growth rate of Hands-on 2 is not identifiable from this tree (49 internal nodes for 195 tips); it is a sensitivity analysis, not an estimate.
+- Hands-on 3 uses the transmission tree as the genealogy and random genome sampling. Hands-on 4 holds reproduction numbers fixed over 14 days, uses final versions of the data and adds 10% lognormal noise; the genome-informed model scored worse overall.
+- Hands-on 5 uses homogeneous mixing and a constant infection rate apart from one control step. In Hands-on 6 the falling reporting fraction is a hypothetical, not a feature of the data.
+- Hands-on 7 is a toy branching process (Poisson offspring, no genomes, no within-host diversity); its nearest-sampled-ancestor analysis is partly an artefact of stopping each outbreak at 1,500 cases. It is not the method of Carson et al.
+- Hands-on 8 recomputes percentages from counts printed in a paper (Khanna et al. 2025, CC BY-NC-ND 4.0); no data are redistributed. The independence arithmetic is an illustration, not a model of the study. The abstract and the results of that paper use different counts for some quantities (see the chapter).
+- Hands-on 9 checks form only; the thresholds (500 words, one figure) are choices of the exercise. Dates are course days, with the portfolio and report one and two weeks after Session 15.
+- The malaria case study (Soulama et al. 2026) is a preprint under peer review. The Grubaugh et al. reading credited on the Session 14 and 15 slides was not used.
+- Every DOI was resolved against Crossref on 16 November 2026. The Word file and the deck were rendered with LibreOffice and not opened in Word or PowerPoint; the lecture was not timed live.

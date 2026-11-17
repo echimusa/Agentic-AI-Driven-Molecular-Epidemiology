@@ -1,0 +1,11 @@
+setting,value,naive,pcs
+risk gap (log odds),0.0,5.0,3.33
+risk gap (log odds),0.5,25.33,4.0
+risk gap (log odds),1.0,76.67,4.67
+risk gap (log odds),1.5,99.33,6.67
+risk gap (log odds),2.0,100.0,6.33
+informative background SNPs,0.0,100.0,100.0
+informative background SNPs,2.0,100.0,97.67
+informative background SNPs,5.0,100.0,63.67
+informative background SNPs,10.0,100.0,27.0
+informative background SNPs,30.0,100.0,8.0

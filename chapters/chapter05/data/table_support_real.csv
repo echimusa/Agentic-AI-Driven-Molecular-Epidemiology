@@ -1,0 +1,3 @@
+dataset,internal_branches,branches_shorter_than_one_substitution,resolved_splits,iqtree_support_type,iqtree_ge95_pct,iqtree_ge80_pct,iqtree_lt50_pct,nj_boot_ge95_pct,nj_boot_ge70_pct,nj_boot_lt50_pct,corr_nj_vs_iqtree
+H3N2 HA,57,17,40,UFBoot,62.5,85.0,5.0,22.5,72.5,17.5,0.81
+Ebola,192,142,50,SH-aLRT,14.0,64.0,4.0,14.0,44.0,16.0,0.45

@@ -1,0 +1,9 @@
+setting,interval,shape,R
+"SIR example (r = 0.200, mean interval 10 days)",Exponential (shape 1),1.0,3.0
+"SIR example (r = 0.200, mean interval 10 days)","Gamma, shape 2",2.0,4.0
+"SIR example (r = 0.200, mean interval 10 days)","Gamma, shape 4",4.0,5.0625
+"SIR example (r = 0.200, mean interval 10 days)",Fixed (R = exp(r T)),inf,7.38905609893065
+"Ebola, Sierra Leone (r = 0.0192, mean interval 15.3 days)",Exponential (shape 1),1.0,1.2932755375617935
+"Ebola, Sierra Leone (r = 0.0192, mean interval 15.3 days)","Gamma, shape 2.707",2.7065556711758583,1.3210781618545797
+"Ebola, Sierra Leone (r = 0.0192, mean interval 15.3 days)","Gamma, shape 4",4.0,1.3271349373457173
+"Ebola, Sierra Leone (r = 0.0192, mean interval 15.3 days)",Fixed (R = exp(r T)),inf,1.3408121836583982

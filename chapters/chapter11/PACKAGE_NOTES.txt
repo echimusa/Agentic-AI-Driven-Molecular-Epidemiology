@@ -1,0 +1,50 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 11 - MENDELIAN RANDOMISATION AND CAUSAL INFERENCE
+Book: Agentic AI-driven Molecular Epidemiology
+Package extended 16 November 2026 (first version 9 November 2026)
+
+CONTENTS
+Chapter_11_Mendelian_Randomisation_and_Causal_Inference.docx   the chapter (A4): 17 objectives, eleven hands-on sections, a reading checklist, 11 numbered figures and 4 diagrams
+code/        mr11.py (helpers, numpy only) and ex11_1 .. ex11_12
+    ex11_1_bmi_covid.py          Hands-on 1 and 2: body mass index -> hospitalised COVID-19; Figures 1 and 2
+    ex11_2b_r_check.R            Hands-on 2: the same estimators in base R
+    ex11_3_simulation.py         Hands-on 3: six-scenario simulation with a known truth; Figure 3
+    ex11_4_cis_mr.py             Hands-on 4: drug-target MR at IL6R with correlated variants; Figure 4
+    ex11_5_harmonise.py          Hands-on 5: four ways of preparing the same variants (why alleles must be harmonised)
+    ex11_6_vitamin_d.py          Hands-on 6: vitamin D and hospitalised COVID-19, 77 instruments; Figure 5
+    ex11_7_reconcile.py          Hands-on 7: confounding, reverse causation, weak instruments and the Steiger test, five scenarios; Figure 6
+    ex11_8_one_two_sample.py     Hands-on 8: one-sample and two-sample bias with weak instruments, and the winner's curse; Figure 7
+    ex11_9_binary_outcome.py     Hands-on 9: causal against conditional odds ratio, the size of the instrument test, bounds checked by a linear programme; Figure 8
+    ex11_10_mode_mvmr.py         Hands-on 10: weighted mode and the plurality rule, the mode on the BMI data, multivariable MR; Figure 9
+    ex11_11_family_design.py     Hands-on 11: within-family design against dynastic effects; Figure 10
+    ex11_12_diagrams.py          the two new diagrams
+figures/     the figures and diagrams of the chapter
+data/        result tables (table_*.csv) and the small cached inputs that let every script rerun offline
+lecture/     MEPI7_Chapter11_MR_Causal_Inference_Lecture.pptx and validate_slides_ch11.py with its results
+review/      validate_ch11.py, its results, the evaluation report and the negative-control results
+
+HOW TO RUN
+Install: pip install pandas numpy scipy matplotlib python-docx python-pptx ; R (base only) ; pandoc ; for a rebuild from public data also bcftools and tabix.
+Check everything:
+    cd review ; python validate_ch11.py --chapter ../Chapter_11_Mendelian_Randomisation_and_Causal_Inference.docx --doi --full
+        default checks A, B, G, H recompute with code that does not import the chapter scripts (about 80 seconds); --full reruns the fast scripts and compares their tables byte for byte (about 2 minutes more);
+        --sims adds the five long simulations of Hands-on 7 to 11 (about 5 minutes more, 7 to 8 minutes in all with --doi); --doi needs the network
+    cd ../lecture ; python validate_slides_ch11.py MEPI7_Chapter11_MR_Causal_Inference_Lecture.pptx --data ../data --chapter ../Chapter_11_Mendelian_Randomisation_and_Causal_Inference.docx
+Rerun one exercise from the shipped data (cd code ; cp ../data/* . ; mkdir -p figs11):
+    python ex11_1_bmi_covid.py   # expected: 893 instruments; IVW odds ratio 1.49 (1.37-1.63); MR-Egger 1.30; weighted median 1.36
+    Rscript ex11_2b_r_check.R    # expected: IVW beta 0.4005, Egger slope 0.2604, weighted median 0.3047, Q 962.4
+    python ex11_3_simulation.py  # expected: IVW mean 0.488 under directional pleiotropy (true effect 0.3), MR-Egger 0.333
+    python ex11_4_cis_mr.py      # expected: rs2228145 Wald ratio OR 1.64; correlated IVW OR 1.66, 1.76, 1.36 at r2 < 0.2, 0.4, 0.6
+    python ex11_5_harmonise.py ; python ex11_6_vitamin_d.py   # expected: 1.03 against 1.49 with and without harmonisation; vitamin D IVW OR 1.06
+    python ex11_7_reconcile.py ; ex11_8 ; ex11_9 ; ex11_10 ; ex11_11 ; ex11_12 (each writes its figure and tables; the long ones take about a minute each)
+REBUILD FROM PUBLIC DATA (internet needed): see the notes at the top of each script. Hands-on 6 reads 138 variants from the harmonised GWAS Catalog file GCST010144 with one tabix call (delete vitd_instruments.csv and vitd_hgi.csv, and put the catalogue associations table and the Chapter 10 file hgi_r5_slim.npz in the folder).
+
+PROVENANCE AND LIMITS
+- BMI, CRP and vitamin D effects are in each exposure file's own units; the BMI transformation was not verified. The vitamin D effects are per standard deviation of the log trait of the Manousaki study.
+- The BMI and COVID-19 studies overlap through the UK Biobank; so do the vitamin D and COVID-19 studies. Overlap is not quantified.
+- Correction made on this extension: the original text gave a minimum F of 30 (it is 29.6; 892 of 893 are 30 or more) and an odds ratio of 1.65 for rs2228145 (the table value 1.64496 rounds to 1.64).
+- Hands-on 6 finds 77 of the 136 variants it reads in the COVID-19 file; the others are rarer variants that the file does not carry.
+- Hands-on 7 to 11 are simulations with stated settings and a fixed seed; their results show mechanisms, not rates in a real study. The within-family simulation has no assortative mating.
+- The IL6R window (chr1:154.30-154.57 Mb, GRCh38) is approximate; the correlated-IVW estimate depends on the LD-pruning threshold.
+- The deck and the Word file were rendered with LibreOffice and not opened in PowerPoint or Word; the lecture was not timed live.

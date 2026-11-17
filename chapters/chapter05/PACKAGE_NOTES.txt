@@ -1,0 +1,67 @@
+NOTE: these are the original notes of the chapter package. The Word chapter, the lecture deck and the slide checks that they mention are not part of this repository; to compare the text of a chapter with the results, pass your own copy of the Word file to the check (scripts/run-chapter.sh N --docx FILE).
+
+CHAPTER 5 - PHYLOGENETIC INFERENCE
+Book: Agentic AI-driven Molecular Epidemiology
+Package prepared 13 November 2026; extended and revised 14 November 2026 (see REVIEW AND EXTENSION at the end)
+
+CONTENTS
+Chapter_5_Phylogenetic_Inference.docx   the chapter (A4; built from Markdown with pandoc; the equations are native Word equations)
+code/
+    ex5_0_download_h3n2.py        downloads 60 human H3N2 HA sequences (12 per year, 2014-2018) from NCBI (needs internet)
+    phylo_utils.py                helpers: alignment reading, p / JC69 / K80 distances, splits, Robinson-Foulds distance, tree drawing
+    ex5_1_distances_nj.py         Hands-on 1: distances, NJ and UPGMA against the ML tree; checks of the uploaded Biopython calls; Figure 1
+    ex5_1b_nj_bootstrap_ape.R     Hands-on 1 (R): the uploaded Chapter_5_1.R rewritten for the real data with ape only
+    ex5_2_likelihood.py           Hands-on 2: Felsenstein pruning written from scratch for JC69, K80, HKY85 and GTR, compared with IQ-TREE; AIC and BIC; Figure 2
+    ex5_3_bootstrap_accuracy.py   Hands-on 3: bootstrap from scratch (part A, real data), simulation of accuracy and calibration (part B, about 4-5 minutes), calibration check and Figure 3 (part C)
+    ex5_4_root_to_tip.py          Hands-on 4: every root tried, root-to-tip regression, date permutation test; Figure 4
+    ex5_5_agent_pipeline.py       Agentic example: logged tool calls, explicit checks and a human decision list (no language model needed)
+    ex5_6a_extract_cds.py         Hands-on 5 preparation: cuts the 1,701-nt coding region and the three codon-position files out of the H3N2 alignment
+    ex5_1c_tree_likeness.py       Hands-on 1, parts C and D: four-point and three-point tests, Fitch parsimony and log-likelihood of the ML, NJ and UPGMA trees
+    ex5_3d_ebola_full_support.py  Hands-on 3, part C: the Ebola tree with the whole ModelFinder set and the ultrafast bootstrap (reads ebola_full.*)
+    ex5_7_ascertainment.py        Hands-on 6: trees from variable sites only, with and without +ASC and -fconst (needs IQ-TREE 2; about 5 minutes)
+    ex5_8_recombination.py        Hands-on 7: recombination simulation, the substitution-cluster screen, masking and Figure 6 (needs FastTree; about 30 minutes; 'python ex5_8_recombination.py 15 figure' redraws the figure)
+    phylo_utils2.py               Fitch parsimony, binarisation and IQ-TREE evaluation of a fixed tree
+    validate_ch5.py               validation harness with independent recomputation (--chapter, --doi, --full, --sim)
+    diagram_reading_tree.py       the 'reading a tree' diagram
+    ex5_6_modelling_detail.py     Hands-on 5: ladder of 16 substitution models, codon-position partitions and parametric model adequacy; Figure 5
+    original_scripts/           the four scripts supplied with the first draft (they read a file from an address that returns HTTP 404)
+figures/    Figures 1-4, the R tree figure and the two chapter diagrams
+data/       inputs and results
+    ebola_aln.fasta, ebola_dates.csv   195 Ebola virus genomes (NCBI BioProject PRJNA257197), alignment and collection dates (Chapter 13)
+    h3n2_ha_raw.fasta, h3n2_ha_aln.fasta, h3n2_meta.csv   the 60 H3N2 sequences, their MAFFT alignment (1,762 positions) and accessions with years
+    h3n2_cds.fasta, h3n2_cp1-3.fasta, parts.nex   coding region, codon-position alignments and the partition file for Hands-on 5
+    h3n2.* and ebola.*              IQ-TREE 2.0.7 outputs (tree file and report) used by the scripts
+    table_*.csv, support_*.npy, calibration_check_raw.csv, agent_report_*.md, agent_log_*.json   results
+
+HOW TO RUN (about 2 minutes without part B)
+Tools: MAFFT 7, IQ-TREE 2 and FastTree 2 on the path (for part B and for regenerating the trees); Python with numpy pandas scipy biopython matplotlib; R with ape.
+    cd code ; cp ../data/* . ; mkdir -p figs5
+    python ex5_1_distances_nj.py          # expected: NJ shares 34 of 40 (H3N2) and 42 of 50 (Ebola) ML splits; UPGMA Robinson-Foulds 0.48 and 0.49
+    Rscript ex5_1b_nj_bootstrap_ape.R     # expected: NJ bootstrap >= 70 on 52.6% of the 57 internal nodes
+    python ex5_2_likelihood.py            # expected: pruning code matches IQ-TREE log-likelihoods to 0.04 or better; AIC picks GTR, BIC picks HKY85
+    python ex5_3_bootstrap_accuracy.py A  # real-data support; then C (needs the tables of part B, shipped); B regenerates the simulation tables
+    python ex5_4_root_to_tip.py           # expected: Ebola best-root R2 0.584, 23.7 substitutions per genome-year; permutation p 0.001
+    python ex5_5_agent_pipeline.py        # writes agent_report_*.md and agent_log_*.json
+    python ex5_6a_extract_cds.py ; python ex5_6_modelling_detail.py   # expected: gamma rates add about 62 log-likelihood units to every model; relative rates of codon positions 0.59, 0.53, 1.88; JC fails the constant-sites and transition-share checks (about 1 minute; needs IQ-TREE)
+To rebuild the trees: iqtree2 -s h3n2_ha_aln.fasta -m MFP -bb 1000 -nt 1 --prefix h3n2 -seed 1
+                      iqtree2 -s ebola_aln.fasta -m MFP -mset JC,K80,HKY,GTR -mrate E,G4 -alrt 1000 -nt 1 --prefix ebola -seed 1
+
+PROVENANCE AND LIMITS
+- The uploaded scripts read https://raw.githubusercontent.com/colinmeir/molecular_epi/... which returns HTTP 404, so they do not run as uploaded. DistanceCalculator('jc69') raises a ValueError in Biopython 1.88. The CrewAI example (Chapter_5_3.py) was read, not run (crewai is not installed and needs a language-model key).
+- The H3N2 sequences are a random draw of human isolates from the first 6,000 of 24,105 matching NCBI records; a later download can differ (the draw is seeded, but NCBI adds records). A first sample that included avian and swine hosts was replaced.
+- The Ebola tree used by Hands-on 1 to 5 comes from a restricted model set (JC, K80, HKY and GTR with equal or gamma rates) and the SH-aLRT; Hands-on 3, part C, reruns it with the whole of ModelFinder (HKY+F+I) and the ultrafast bootstrap and finds the same tree. The agent report reads the whole-model run.
+- Part B simulations use one substitution model (HKY, kappa 6), coalescent trees of 30 taxa and 20 replicates per setting; the bootstrap written here is for neighbour-joining only.
+- Hands-on 5 holds the ML topology fixed; the adequacy check is a parametric simulation with four statistics (a parametric bootstrap, not a full posterior predictive check); IQ-TREE 2.0.7 has no built-in adequacy test.
+- Root dates are regression intercepts and are not dated trees (Chapter 6).
+- Every DOI was resolved against Crossref (56 DOIs on 14 November 2026). The Word file renders to 24 A4 pages in LibreOffice, but this LibreOffice has no math component, so the equations did not appear in the rendered preview; they read back correctly from the Word file (pandoc round trip) and were not seen in Word. The validator's schema check reports errors on pandoc-generated styles, page margins and equation separators.
+- The uploaded draft was used for its structure (substitution models, distance methods, parsimony, ML, Bayesian inference, comparison table, agent example); its reference list was corrected (see the chapter's Sources).
+
+REVIEW AND EXTENSION (14 November 2026)
+python validate_ch5.py --chapter ../Chapter_5_Phylogenetic_Inference.docx            # 50 checks from the shipped files
+python validate_ch5.py --chapter ... --doi                                         # plus every DOI against Crossref (network)
+python validate_ch5.py --chapter ... --full [--sim]                                # plus byte-for-byte reruns of 17 result files (about 6 minutes); --sim adds the two long simulations
+lecture/    the Chapter 5 lecture deck (39 slides), validate_slides_ch5.py (36 checks), its negative control and its source
+review/     validation_results_ch5.csv, the evaluation report (Word) and the benchmark script and output
+Corrections: (1) kappa of K80 5.33, not 5.34; (2) H3N2 midpoint rate 4.4, not 4.5; (3) 1,762 sites, not 1,765, in the H3N2 rate; (4) four extra parameters of GTR against HKY85, not five; (5) the Ebola run with the whole model set and the ultrafast bootstrap; (6) 'Su et al., 2026'; (7) the mentions of the uploaded files and the draft were reworded.
+Additions: reading a tree; four-point and three-point conditions; Hands-on 1 parts C and D; ascertainment bias and Hands-on 6; recombination and Hands-on 7; the ultrafast bootstrap with the SH-aLRT as the course thresholds.
+Limits that remain: the screen of Hands-on 7 is not Gubbins and the simulation imports blocks only into whole clades; the content of the password-protected 7z file that came with the request was not used; the background-reading list is not cited in the text.

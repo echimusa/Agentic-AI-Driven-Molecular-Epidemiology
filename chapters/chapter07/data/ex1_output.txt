@@ -1,0 +1,10 @@
+188 cases, onset day 0-86, documented infector for 184
+serial interval (prodrome to prodrome): n=184 pairs, mean 10.4 d, median 10 d, gamma shape 39.2, scale 0.27; 0 pairs with interval < 1 d set aside
+offspring: mean 0.98, max 30 (case 45), NB dispersion k = 0.25, top 10% of cases cause 61% of infections, 67% infect nobody
+Rt peaks at 8.1 (95% CrI 6.0-10.4) on day 27; Rt < 1 from day 41
+                            top-1 correct  mean probability on true infector
+time only                           0.147                              0.105
+time + distance                     0.408                              0.164
+random among earlier cases          0.028                              0.028
+distance scale chosen per fold: [50, 50, 50, 50, 50]
+figures written to figs

@@ -1,0 +1,12 @@
+# Template, not yet run. Checks the chapters that need only Python and pandoc on every push.
+name: quick-check
+on: [push, pull_request]
+jobs:
+  ubuntu:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install the packages for Chapters 12 and 13
+        run: ./scripts/setup.sh --chapters 12,13
+      - name: Quick checks
+        run: ./scripts/run-all.sh --chapters 12,13

@@ -1,0 +1,7 @@
+quantity,value
+Conditional log odds ratio (model parameter b),0.5
+Causal log odds ratio per unit of X (integrating over U),0.4352838172427828
+"Observational logistic regression, mean",0.863025879267473
+"IV estimate (logistic G-Y over linear G-X), mean",0.3676374697060773
+"IV estimate, standard deviation over replicates",0.01464880861814523
+"IV estimate, mean model standard error",0.015511427351874881

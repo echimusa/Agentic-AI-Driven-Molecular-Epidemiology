@@ -1,0 +1,5 @@
+sector,isolates,with_ast,pct_ast,median_genes,mdr_geno,top_centre,top_serovar
+Human,293419,21,0.0,0.0,8.7,CDC,Enteritidis
+Food,60909,4217,6.9,1.0,25.4,FDA,Kentucky
+Animal,23384,568,2.4,0.0,21.5,FDA,Anatum
+Environment,9923,0,0.0,0.0,7.2,Center for Food Safety and Applied Nutrition,Newport

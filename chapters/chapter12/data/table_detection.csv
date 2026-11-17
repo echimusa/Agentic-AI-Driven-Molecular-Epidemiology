@@ -1,0 +1,7 @@
+setting,clusters,median_delay_days,p90_delay_days,within_14_days,within_30_days
+"k = 2, month dates at day 15",373,29.0,97.0,16.4,53.4
+"k = 3, month dates at day 15",520,29.0,92.0,18.3,52.1
+"k = 5, month dates at day 15",790,31.0,111.0,14.6,48.0
+"k = 10, month dates at day 15",1146,30.0,128.0,17.5,51.1
+"k = 3, month dates at day 1",520,43.0,106.0,1.5,25.2
+"k = 3, month dates at day 29",520,17.0,78.1,44.2,73.3

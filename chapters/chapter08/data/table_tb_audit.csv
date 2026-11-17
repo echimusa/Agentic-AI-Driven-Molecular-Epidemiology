@@ -1,0 +1,24 @@
+item,reported,recomputed,agrees,note
+New genomes + public genomes = all genomes,3204.0,3204.0,True,"1,449 + 1,755"
+Share of all genomes from Shandong (%),,45.2247,False,not stated in the paper
+Lineage 2 share of all genomes (%),85.7,85.6742,True,"2,745 of 3,204"
+Sublineage 2.2.1 share of all genomes (%),80.9,80.8677,True,"2,591 of 3,204"
+Sublineage 2.2.1 share of lineage 2 (%),94.4,94.3898,True,"2,591 of 2,745"
+Lineage 4 share of all genomes (%),13.8,13.8265,True,"443 of 3,204"
+Pansusceptible share (%),45.4,45.412,True,"1,455 of 3,204"
+MDR share of all genomes (%),27.6,41.0424,False,"1,315 of 3,204"
+Pre-XDR share of all genomes (%),13.4,13.4207,True,"430 of 3,204"
+Lineage 2 share of MDR (%),86.8,86.8441,True,"1,142 of 1,315"
+Lineage 4 share of MDR (%),12.8,12.7757,True,"168 of 1,315"
+Pyrazinamide resistance (%),12.8,10.5805,False,"339 of 3,204"
+Ethambutol resistance (%),12.8,26.6854,False,"855 of 3,204"
+Streptomycin resistance (%),12.8,34.3633,False,"1,101 of 3,204"
+Mean cluster size at 5 SNPs,3.05,2.9384,False,"1,384 strains in 471 clusters"
+Mean cluster size at 10 SNPs,3.17,3.1984,False,"1,596 strains in 499 clusters"
+Mean cluster size at 12 SNPs,3.18,3.2361,False,"1,631 strains in 504 clusters"
+"Clustered share, lineage 2 (%)",53.3,53.2605,True,"1,462 of 2,745"
+"Clustered share, sublineage 2.2.1 (%)",54.0,54.0332,True,"1,400 of 2,591"
+"Clustered share, lineage 4 (%)",29.8,29.7968,True,132 of 443
+Clustered strains in all (n),1596.0,1596.0,True,"L2 1,462 + L4 132 + L3 2 (L1 0)"
+Regional + cross-regional clusters = all clusters,499.0,499.0,True,413 + 86
+MDR isolates assigned to L4.8 (cannot exceed the 3 L4.8 isolates),80.0,3.0,False,80 reported; L4.8 n = 3 (L4.4 has 200)

@@ -1,0 +1,43 @@
+== new-1 (truth: same outbreak, callable 0.99)
+   step 1: qc_check          -> {"callable_fraction": 0.99, "passes_quality_gate": true, "required": 0.9}
+   step 2: nearest_distance  -> {"nearest_snps": 0, "cluster_members_within_2_snps": 4, "cluster_members_within_5_snps": 7, "cluster_size": 25}
+   step 3: decide            -> {"decision": "consistent with the cluster"}
+   step 4: draft_note        -> {"note": "new-1: consistent with the cluster; nearest cluster member 0 SNPs; 7 members within 5 SNPs."}
+== new-2 (truth: same outbreak, callable 0.98)
+   step 1: qc_check          -> {"callable_fraction": 0.98, "passes_quality_gate": true, "required": 0.9}
+   step 2: nearest_distance  -> {"nearest_snps": 2, "cluster_members_within_2_snps": 1, "cluster_members_within_5_snps": 3, "cluster_size": 25}
+   step 3: decide            -> {"decision": "consistent with the cluster"}
+   step 4: draft_note        -> {"note": "new-2: consistent with the cluster; nearest cluster member 2 SNPs; 3 members within 5 SNPs."}
+== new-3 (truth: importation, 14 days, callable 0.97)
+   step 1: qc_check          -> {"callable_fraction": 0.97, "passes_quality_gate": true, "required": 0.9}
+   step 2: nearest_distance  -> {"nearest_snps": 1, "cluster_members_within_2_snps": 2, "cluster_members_within_5_snps": 4, "cluster_size": 25}
+   step 3: decide            -> {"decision": "consistent with the cluster"}
+   step 4: draft_note        -> {"note": "new-3: consistent with the cluster; nearest cluster member 1 SNPs; 4 members within 5 SNPs."}
+== new-4 (truth: importation, 90 days, callable 0.99)
+   step 1: qc_check          -> {"callable_fraction": 0.99, "passes_quality_gate": true, "required": 0.9}
+   step 2: nearest_distance  -> {"nearest_snps": 11, "cluster_members_within_2_snps": 0, "cluster_members_within_5_snps": 0, "cluster_size": 25}
+   step 3: decide            -> {"decision": "not linked to the cluster"}
+   step 4: draft_note        -> {"note": "new-4: not linked to the cluster; nearest cluster member 11 SNPs; 0 members within 5 SNPs."}
+== new-5 (truth: same outbreak, callable 0.97)
+   step 1: qc_check          -> {"callable_fraction": 0.97, "passes_quality_gate": true, "required": 0.9}
+   step 2: nearest_distance  -> {"nearest_snps": 0, "cluster_members_within_2_snps": 3, "cluster_members_within_5_snps": 11, "cluster_size": 25}
+   step 3: decide            -> {"decision": "consistent with the cluster"}
+   step 4: draft_note        -> {"note": "new-5: consistent with the cluster; nearest cluster member 0 SNPs; 11 members within 5 SNPs."}
+== new-6 (truth: importation, 14 days, callable 0.96)
+   step 1: qc_check          -> {"callable_fraction": 0.96, "passes_quality_gate": true, "required": 0.9}
+   step 2: nearest_distance  -> {"nearest_snps": 1, "cluster_members_within_2_snps": 2, "cluster_members_within_5_snps": 5, "cluster_size": 25}
+   step 3: decide            -> {"decision": "consistent with the cluster"}
+   step 4: draft_note        -> {"note": "new-6: consistent with the cluster; nearest cluster member 1 SNPs; 5 members within 5 SNPs."}
+== new-7 (truth: same outbreak, poor coverage, callable 0.62)
+   step 1: qc_check          -> {"callable_fraction": 0.62, "passes_quality_gate": false, "required": 0.9}
+   step 2: stop_and_report   -> {"decision": "not assessed: coverage below the quality gate; resequence"}
+== new-8 (truth: importation, 90 days, callable 0.98)
+   step 1: qc_check          -> {"callable_fraction": 0.98, "passes_quality_gate": true, "required": 0.9}
+   step 2: nearest_distance  -> {"nearest_snps": 11, "cluster_members_within_2_snps": 0, "cluster_members_within_5_snps": 0, "cluster_size": 25}
+   step 3: decide            -> {"decision": "not linked to the cluster"}
+   step 4: draft_note        -> {"note": "new-8: not linked to the cluster; nearest cluster member 11 SNPs; 0 members within 5 SNPs."}
+== new-9 (truth: same outbreak, callable 0.99)
+   step 1: qc_check          -> {"callable_fraction": 0.99, "passes_quality_gate": true, "required": 0.9}
+   step 2: nearest_distance  -> {"nearest_snps": 9, "cluster_members_within_2_snps": 0, "cluster_members_within_5_snps": 0, "cluster_size": 25}
+   step 3: decide            -> {"decision": "not linked to the cluster"}
+   step 4: draft_note        -> {"note": "new-9: not linked to the cluster; nearest cluster member 9 SNPs; 0 members within 5 SNPs."}

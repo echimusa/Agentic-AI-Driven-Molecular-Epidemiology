@@ -1,0 +1,13 @@
+allocation,emerges_in,sequences_per_week,median_week_of_detection,p90_week,local_frequency_at_median_pct
+current,High income,4592.9,0,0,0.1
+current,Upper middle income,357.1,1,2,0.2
+current,Lower middle income,42.3,4,5,1.6
+current,Low income,7.8,6,8,6.4
+population,High income,854.7,0,1,0.1
+population,Upper middle income,1879.2,0,1,0.1
+population,Lower middle income,1797.6,0,1,0.1
+population,Low income,468.4,1,2,0.2
+floor,High income,3255.7,0,0,0.1
+floor,Upper middle income,714.2,0,2,0.1
+floor,Lower middle income,525.4,1,2,0.2
+floor,Low income,504.7,1,2,0.2

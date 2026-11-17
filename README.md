@@ -7,6 +7,7 @@ Code, data and checks for the 13 chapters of *Agentic AI-driven Molecular Epidem
 Ubuntu 22.04 or 24.04 (or WSL2 on Windows), with Bash:
 
 ```bash
+# get git installed if it is not yet by sudo apt-get install git
 git clone https://github.com/echimusa/Agentic-AI-Driven-Molecular-Epidemiology.git
 cd Agentic-AI-Driven-Molecular-Epidemiology
 ./scripts/setup.sh --chapters 12,13          # or leave out --chapters to prepare all 13
@@ -14,7 +15,7 @@ cd Agentic-AI-Driven-Molecular-Epidemiology
 ./scripts/run-chapter.sh 13
 ```
 
-Every script also exists for PowerShell (Windows, or Ubuntu with `pwsh`): `scripts/setup.ps1 -Chapters 12,13`, `scripts/check-install.ps1`, `scripts/run-chapter.ps1 -Chapter 13`.
+Every script also exists for PowerShell (Windows, or Ubuntu with `pwsh`): `scripts/setup.ps1 -Chapters 12,13`, `scripts/check-install.ps1`, `scripts/run-chapter.ps1 -Chapter 13`, `get git install on PowerShell windows with winget install --id Git.Git -e --source winget`.
 
 Windows without WSL2: see [docs/INSTALL-Windows.md](docs/INSTALL-Windows.md) (chapters 5, 6 and 7 need WSL2). Ubuntu in detail: [docs/INSTALL-Ubuntu.md](docs/INSTALL-Ubuntu.md).
 

@@ -1,0 +1,439 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    vm (AVX512, FMA3, 3 GB RAM)
+Command: iqtree2 -s snp_ebola_aln.fasta -m HKY+F+ASC+G4 -nt 1 --prefix asc_Ebola_ASC -seed 1 -redo -quiet
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov 14 18:40:20 2026
+Kernel:  AVX+FMA - 1 threads (1 CPU cores detected)
+
+Reading alignment file snp_ebola_aln.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 195 sequences with 241 columns, 200 distinct patterns
+84 parsimony-informative, 157 singleton sites, 0 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  KM034553.1    0.00%    passed     99.96%
+   2  KM034557.1    0.00%    passed     99.97%
+   3  KM034558.1    0.00%    passed     99.30%
+   4  KM034559.1    0.00%    passed     97.18%
+   5  KM034560.1    0.00%    passed     99.97%
+   6  KM034561.1    0.00%    passed     97.18%
+   7  KM034562.1    0.00%    passed     95.23%
+   8  KM034563.1    5.39%    passed     84.43%
+   9  KM233049.1    0.00%    passed     99.89%
+  10  KM233053.1    0.00%    passed     99.33%
+  11  KM034555.1    0.00%    passed     99.18%
+  12  KM233054.1    0.00%    passed     99.97%
+  13  KM233055.1    0.00%    passed     99.97%
+  14  KM233057.1    0.00%    passed     99.89%
+  15  KM233061.1    0.00%    passed     99.86%
+  16  KM233062.1    0.00%    passed     99.97%
+  17  KM233063.1    0.00%    passed     99.89%
+  18  KM233071.1    0.41%    passed     99.61%
+  19  KM233052.1    0.00%    passed     99.33%
+  20  KM233073.1    0.00%    passed     99.97%
+  21  KM233076.1    1.24%    passed     97.98%
+  22  KM233075.1    0.00%    passed     99.36%
+  23  KM233074.1    0.00%    passed     99.66%
+  24  KM233072.1    0.00%    passed     99.97%
+  25  KM233070.1    0.00%    passed     99.26%
+  26  KM233064.1    1.24%    passed     97.98%
+  27  KM233060.1    1.66%    passed     98.46%
+  28  KM233096.1    0.00%    passed     99.26%
+  29  KM233095.1    0.83%    passed     97.17%
+  30  KM233094.1    0.00%    passed     99.97%
+  31  KM233093.1    0.41%    passed     99.19%
+  32  KM233092.1    0.00%    passed     99.64%
+  33  KM233091.1    0.00%    passed     99.30%
+  34  KM233090.1    1.24%    passed     97.98%
+  35  KM233089.1    0.00%    passed     99.89%
+  36  KM233086.1    1.24%    passed     95.15%
+  37  KM233085.1    0.00%    passed     99.97%
+  38  KM233084.1    0.00%    passed     99.97%
+  39  KM233081.1    0.00%    passed     99.97%
+  40  KM233080.1    0.00%    passed     99.36%
+  41  KM233079.1    0.41%    passed     99.61%
+  42  KM233078.1    0.00%    passed     99.97%
+  43  KM233077.1    0.00%    passed     99.97%
+  44  KM233097.1    0.00%    passed     99.95%
+  45  KM233102.1    0.00%    passed     99.15%
+  46  KM233103.1    0.00%    passed     99.66%
+  47  KR105200.1    0.41%    passed     99.74%
+  48  KM233100.1    0.00%    passed     99.88%
+  49  KM233101.1    0.41%    passed     99.93%
+  50  KM233068.1    0.00%    passed     99.32%
+  51  KM233088.1    0.00%    passed     99.97%
+  52  KM233099.1    0.00%    passed     99.86%
+  53  KM233104.1    0.00%    passed     99.86%
+  54  KM233106.1    0.00%    passed     99.89%
+  55  KM233107.1    0.41%    passed     99.74%
+  56  KM233115.1    1.24%    passed     99.16%
+  57  KM233111.1    1.66%    passed     98.46%
+  58  KM233110.1    0.00%    passed     99.86%
+  59  KM233112.1    0.00%    passed     99.86%
+  60  KM233108.1    0.00%    passed     99.89%
+  61  KM233109.1    0.00%    passed     99.15%
+  62  KR105204.1    0.00%    passed     99.89%
+  63  KR105205.1    0.00%    passed     99.86%
+  64  KM233114.1    0.00%    passed     99.88%
+  65  KM233083.1    1.66%    passed     98.46%
+  66  KR105206.1    1.66%    passed     98.46%
+  67  KR105207.1    0.00%    passed     99.89%
+  68  KR105208.1    2.07%    passed     94.83%
+  69  KR105209.1    0.83%    passed     96.25%
+  70  KR105210.1    0.00%    passed     99.89%
+  71  KR105214.1    0.00%    passed     99.89%
+  72  KR105213.1    0.00%    passed     97.06%
+  73  KR105215.1    0.00%    passed     99.97%
+  74  KR105216.1    0.41%    passed     98.79%
+  75  KR105217.1    0.41%    passed     99.92%
+  76  KR105218.1    0.00%    passed     97.93%
+  77  KR105241.1    0.00%    passed     99.15%
+  78  KR105219.1    0.41%    passed     95.62%
+  79  KR105221.1    0.00%    passed     99.89%
+  80  KR105220.1    4.98%    passed     94.13%
+  81  KR105222.1    0.00%    passed     99.89%
+  82  KR105223.1    0.41%    passed     98.33%
+  83  KR105224.1    0.00%    passed     99.97%
+  84  KR105225.1    0.00%    passed     99.89%
+  85  KR105226.1    0.00%    passed     95.68%
+  86  KR105227.1    0.00%    passed     98.92%
+  87  KR105228.1    0.00%    passed     99.86%
+  88  KR105230.1    0.83%    passed     99.63%
+  89  KR105229.1    0.00%    passed     99.89%
+  90  KR105231.1    0.00%    passed     99.79%
+  91  KR105236.1    2.49%    passed     99.24%
+  92  KR105232.1    0.00%    passed     99.45%
+  93  KR105233.1    0.41%    passed     97.61%
+  94  KR105234.1    1.24%    passed     99.32%
+  95  KR105235.1    0.00%    passed     99.45%
+  96  KR105237.1    0.83%    passed     98.91%
+  97  KR105238.1    0.83%    passed     98.48%
+  98  KR105242.1    0.00%    passed     98.67%
+  99  KR105243.1    0.00%    passed     98.68%
+ 100  KR105240.1    0.00%    passed     99.86%
+ 101  KR105244.1    0.00%    passed     99.95%
+ 102  KR105245.1    2.90%    passed     99.24%
+ 103  KR105239.1    0.00%    passed     99.79%
+ 104  KR105246.1    2.90%    passed     99.50%
+ 105  KR105247.1    0.41%    passed     21.10%
+ 106  KR105248.1    0.00%    passed     98.84%
+ 107  KR105251.1    0.00%    passed     99.89%
+ 108  KR105252.1    0.00%    passed     97.87%
+ 109  KR105249.1    0.00%    passed     99.33%
+ 110  KR105250.1    0.83%    passed     99.52%
+ 111  KR105253.1    3.32%    passed     96.79%
+ 112  KR105256.1    0.00%    passed     99.36%
+ 113  KR105258.1    0.00%    passed     99.33%
+ 114  KR105261.1    4.56%    passed     97.09%
+ 115  KR105262.1    0.00%    passed     98.77%
+ 116  KR105263.1    0.83%    passed     99.93%
+ 117  KR105264.1    0.83%    passed     99.52%
+ 118  KR105265.1    1.24%    passed     99.32%
+ 119  KR105266.1    0.83%    passed     94.64%
+ 120  KR105270.1    0.41%    passed     99.40%
+ 121  KR105271.1    0.00%    passed     99.97%
+ 122  KR105268.1    0.41%    passed     96.96%
+ 123  KR105269.1    0.00%    passed     93.03%
+ 124  KR105273.1    1.66%    passed     97.71%
+ 125  KR105274.1    0.41%    passed     98.59%
+ 126  KR105275.1    0.41%    passed     97.16%
+ 127  KR105276.1    0.41%    passed     99.86%
+ 128  KR105286.1    0.00%    passed     99.32%
+ 129  KR105277.1    0.41%    passed     99.86%
+ 130  KR105279.1    0.41%    passed     99.40%
+ 131  KR105281.1    0.83%    passed     99.93%
+ 132  KR105282.1    3.32%    passed     99.07%
+ 133  KR105278.1    0.00%    passed     99.79%
+ 134  KR105280.1    0.83%    passed     99.52%
+ 135  KR105283.1    0.00%    passed     99.79%
+ 136  KR105284.1    0.00%    passed     99.79%
+ 137  KR105285.1    0.41%    passed     99.92%
+ 138  KR105287.1    0.41%    passed     99.86%
+ 139  KR105288.1    0.00%    passed     99.79%
+ 140  KR105289.1    0.41%    passed     99.74%
+ 141  KR105290.1    1.24%    passed     98.19%
+ 142  KR105291.1    0.41%    passed     84.63%
+ 143  KR105292.1    0.83%    passed     98.62%
+ 144  KR105293.1    0.41%    passed     99.40%
+ 145  KR105294.1    0.41%    passed     96.96%
+ 146  KR105297.1    2.90%    passed     98.30%
+ 147  KR105295.1    0.41%    passed     99.93%
+ 148  KR105296.1    4.15%    passed     89.27%
+ 149  KR105299.1    3.73%    passed     97.75%
+ 150  KR105298.1    0.00%    passed     93.03%
+ 151  KR105301.1    0.41%    passed     94.02%
+ 152  KR105300.1    0.00%    passed     58.50%
+ 153  KR105302.1    2.49%    passed     98.60%
+ 154  KR105303.1    0.00%    passed     99.15%
+ 155  KR105305.1    2.49%    passed     98.14%
+ 156  KR105306.1    0.41%    passed     98.71%
+ 157  KR105304.1    3.32%    passed     96.94%
+ 158  KR105307.1    1.24%    passed     99.71%
+ 159  KR105308.1    0.41%    passed     97.61%
+ 160  KR105310.1    2.07%    passed     97.14%
+ 161  KR105311.1    0.00%    passed     99.89%
+ 162  KR105312.1    0.00%    passed     81.31%
+ 163  KR105313.1    0.41%    passed     98.78%
+ 164  KR105314.1    3.32%    passed     99.65%
+ 165  KR105315.1    0.41%    passed     99.37%
+ 166  KR105317.1    0.41%    passed     91.39%
+ 167  KR105316.1    0.00%    passed     91.29%
+ 168  KR105318.1    0.00%    passed     92.05%
+ 169  KR105322.1    0.83%    passed     99.99%
+ 170  KR105321.1    0.41%    passed     99.61%
+ 171  KR105325.1    0.41%    passed     98.33%
+ 172  KR105326.1    0.00%    passed     99.33%
+ 173  KR105327.1    0.83%    passed     99.74%
+ 174  KR105320.1    0.41%    passed     99.71%
+ 175  KR105323.1    0.41%    passed     99.71%
+ 176  KR105324.1    0.41%    passed     99.71%
+ 177  KR105328.1    0.41%    passed     99.61%
+ 178  KR105329.1    1.66%    passed     99.21%
+ 179  KR105330.1    0.41%    passed     99.74%
+ 180  KR105331.1    0.00%    passed     86.85%
+ 181  KR105344.1    0.00%    passed     92.53%
+ 182  KR105343.1    0.00%    passed     99.18%
+ 183  KR105342.1    0.00%    passed     99.49%
+ 184  KR105341.1    0.00%    passed     96.46%
+ 185  KR105340.1    0.00%    passed     99.86%
+ 186  KR105333.1    0.00%    passed     87.19%
+ 187  KR105338.1    0.41%    passed     94.28%
+ 188  KR105337.1    1.24%    passed     94.45%
+ 189  KR105335.1    0.41%    passed     99.08%
+ 190  KR105332.1    0.00%    passed     99.97%
+ 191  KR105339.1    0.41%    passed     93.29%
+ 192  KR105347.1    1.66%    passed     97.34%
+ 193  KR105345.1    0.41%    passed     96.96%
+ 194  KR105346.1    0.41%    passed     98.49%
+ 195  KR105349.1    0.00%    passed     99.49%
+****  TOTAL         0.57%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KM034560.1 is identical to KM034557.1 but kept for subsequent analysis
+NOTE: KM233057.1 is identical to KM233049.1 but kept for subsequent analysis
+NOTE: KM233099.1 is identical to KM233061.1 but kept for subsequent analysis
+NOTE: KM233079.1 is identical to KM233071.1 but kept for subsequent analysis
+NOTE: KM233064.1 is identical to KM233076.1 but kept for subsequent analysis
+NOTE: KM233103.1 is identical to KM233074.1 but kept for subsequent analysis
+NOTE: KM233111.1 is identical to KM233060.1 but kept for subsequent analysis
+NOTE: KM233107.1 is identical to KR105200.1 but kept for subsequent analysis
+NOTE: KR105235.1 is identical to KR105232.1 but kept for subsequent analysis
+NOTE: KR105277.1 is identical to KR105276.1 but kept for subsequent analysis
+NOTE: KR105283.1 is identical to KR105278.1 but kept for subsequent analysis
+NOTE: KR105328.1 is identical to KR105321.1 but kept for subsequent analysis
+NOTE: KR105324.1 is identical to KR105320.1 but kept for subsequent analysis
+NOTE: 30 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KM233054.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233055.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233062.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233073.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233072.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233094.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233085.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233084.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233081.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233078.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233077.1 (identical to KM034557.1) is ignored but added at the end
+NOTE: KM233063.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KM233089.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KM233106.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KM233108.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KR105207.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KR105210.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KR105214.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KR105221.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KR105222.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KR105225.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KR105229.1 (identical to KM233049.1) is ignored but added at the end
+NOTE: KM233104.1 (identical to KM233061.1) is ignored but added at the end
+NOTE: KM233110.1 (identical to KM233061.1) is ignored but added at the end
+NOTE: KM233112.1 (identical to KM233061.1) is ignored but added at the end
+NOTE: KR105205.1 (identical to KM233061.1) is ignored but added at the end
+NOTE: KR105228.1 (identical to KM233061.1) is ignored but added at the end
+NOTE: KR105240.1 (identical to KM233061.1) is ignored but added at the end
+NOTE: KM233083.1 (identical to KM233060.1) is ignored but added at the end
+NOTE: KR105284.1 (identical to KR105278.1) is ignored but added at the end
+Alignment was printed to asc_Ebola_ASC.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to asc_Ebola_ASC.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2008.626
+2. Current log-likelihood: -1719.312
+3. Current log-likelihood: -1709.414
+4. Current log-likelihood: -1707.302
+5. Current log-likelihood: -1706.395
+6. Current log-likelihood: -1705.908
+7. Current log-likelihood: -1705.764
+8. Current log-likelihood: -1705.636
+9. Current log-likelihood: -1705.521
+10. Current log-likelihood: -1705.418
+Optimal log-likelihood: -1705.282
+Rate parameters:  A-C: 1.00000  A-G: 98.03363  A-T: 1.00000  C-G: 1.00000  C-T: 98.03363  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.188  G: 0.136  T: 0.363
+Gamma shape alpha: 3.269
+Parameters optimization took 10 rounds (0.722 sec)
+Computing ML distances based on estimated model parameters... 0.076 sec
+Computing BIONJ tree...
+0.015 seconds
+Log-likelihood of BIONJ tree: -1711.049
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.052 second
+Computing log-likelihood of 98 initial trees ... 1.303 seconds
+Current best score: -1705.282
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1703.551
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -1703.449
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -1702.572
+Iteration 10 / LogL: -1703.969 / Time: 0h:0m:14s
+Iteration 20 / LogL: -1704.807 / Time: 0h:0m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -1702.572 / CPU time: 25.324
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1734.195 / Time: 0h:0m:34s (0h:1m:26s left)
+Iteration 40 / LogL: -1718.407 / Time: 0h:0m:41s (0h:1m:8s left)
+Iteration 50 / LogL: -1702.642 / Time: 0h:0m:52s (0h:0m:57s left)
+Iteration 60 / LogL: -1702.666 / Time: 0h:1m:0s (0h:0m:44s left)
+Iteration 70 / LogL: -1702.675 / Time: 0h:1m:8s (0h:0m:33s left)
+Iteration 80 / LogL: -1713.868 / Time: 0h:1m:16s (0h:0m:23s left)
+Iteration 90 / LogL: -1752.831 / Time: 0h:1m:21s (0h:0m:12s left)
+Iteration 100 / LogL: -1703.477 / Time: 0h:1m:30s (0h:0m:3s left)
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:1m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1702.572
+2. Current log-likelihood: -1702.527
+3. Current log-likelihood: -1702.482
+4. Current log-likelihood: -1702.437
+5. Current log-likelihood: -1702.392
+6. Current log-likelihood: -1702.348
+7. Current log-likelihood: -1702.303
+8. Current log-likelihood: -1702.258
+9. Current log-likelihood: -1702.213
+10. Current log-likelihood: -1702.168
+11. Current log-likelihood: -1702.123
+12. Current log-likelihood: -1702.079
+13. Current log-likelihood: -1702.034
+14. Current log-likelihood: -1701.989
+15. Current log-likelihood: -1701.944
+16. Current log-likelihood: -1701.898
+17. Current log-likelihood: -1701.853
+18. Current log-likelihood: -1701.808
+19. Current log-likelihood: -1701.762
+20. Current log-likelihood: -1701.716
+21. Current log-likelihood: -1701.671
+22. Current log-likelihood: -1701.625
+23. Current log-likelihood: -1701.579
+24. Current log-likelihood: -1701.533
+25. Current log-likelihood: -1701.487
+26. Current log-likelihood: -1701.440
+27. Current log-likelihood: -1701.394
+28. Current log-likelihood: -1701.347
+29. Current log-likelihood: -1701.300
+30. Current log-likelihood: -1701.253
+31. Current log-likelihood: -1701.206
+32. Current log-likelihood: -1701.159
+33. Current log-likelihood: -1701.112
+34. Current log-likelihood: -1701.064
+35. Current log-likelihood: -1701.017
+36. Current log-likelihood: -1700.969
+37. Current log-likelihood: -1700.921
+38. Current log-likelihood: -1700.873
+39. Current log-likelihood: -1700.825
+40. Current log-likelihood: -1700.776
+41. Current log-likelihood: -1700.728
+42. Current log-likelihood: -1700.679
+43. Current log-likelihood: -1700.630
+44. Current log-likelihood: -1700.581
+45. Current log-likelihood: -1700.531
+46. Current log-likelihood: -1700.482
+47. Current log-likelihood: -1700.432
+48. Current log-likelihood: -1700.383
+49. Current log-likelihood: -1700.333
+50. Current log-likelihood: -1700.283
+51. Current log-likelihood: -1700.232
+52. Current log-likelihood: -1700.182
+53. Current log-likelihood: -1700.131
+54. Current log-likelihood: -1700.080
+55. Current log-likelihood: -1700.029
+56. Current log-likelihood: -1699.978
+57. Current log-likelihood: -1699.927
+58. Current log-likelihood: -1699.875
+59. Current log-likelihood: -1699.824
+60. Current log-likelihood: -1699.772
+61. Current log-likelihood: -1699.720
+62. Current log-likelihood: -1699.667
+63. Current log-likelihood: -1699.615
+64. Current log-likelihood: -1699.562
+65. Current log-likelihood: -1699.509
+66. Current log-likelihood: -1699.456
+67. Current log-likelihood: -1699.403
+68. Current log-likelihood: -1699.350
+69. Current log-likelihood: -1699.296
+70. Current log-likelihood: -1699.242
+71. Current log-likelihood: -1699.188
+72. Current log-likelihood: -1699.134
+73. Current log-likelihood: -1699.080
+74. Current log-likelihood: -1699.025
+75. Current log-likelihood: -1698.970
+76. Current log-likelihood: -1698.915
+77. Current log-likelihood: -1698.860
+78. Current log-likelihood: -1698.804
+79. Current log-likelihood: -1698.749
+80. Current log-likelihood: -1698.693
+81. Current log-likelihood: -1698.637
+82. Current log-likelihood: -1698.581
+83. Current log-likelihood: -1698.524
+84. Current log-likelihood: -1698.468
+85. Current log-likelihood: -1698.411
+86. Current log-likelihood: -1698.353
+87. Current log-likelihood: -1698.296
+88. Current log-likelihood: -1698.239
+89. Current log-likelihood: -1698.181
+90. Current log-likelihood: -1698.123
+91. Current log-likelihood: -1698.064
+92. Current log-likelihood: -1698.006
+93. Current log-likelihood: -1697.947
+94. Current log-likelihood: -1697.888
+95. Current log-likelihood: -1697.829
+96. Current log-likelihood: -1697.769
+97. Current log-likelihood: -1697.710
+98. Current log-likelihood: -1697.650
+99. Current log-likelihood: -1697.590
+Optimal log-likelihood: -1697.590
+Rate parameters:  A-C: 1.00000  A-G: 75.19263  A-T: 1.00000  C-G: 1.00000  C-T: 75.19263  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.188  G: 0.136  T: 0.363
+Gamma shape alpha: 1.678
+Parameters optimization took 99 rounds (4.003 sec)
+BEST SCORE FOUND : -1697.590
+Total tree length: 0.104
+
+Total number of iterations: 105
+CPU time used for tree search: 44.358 sec (0h:0m:44s)
+Wall-clock time used for tree search: 92.737 sec (0h:1m:32s)
+Total CPU time used: 46.922 sec (0h:0m:46s)
+Total wall-clock time used: 97.931 sec (0h:1m:37s)
+
+Analysis results written to: 
+  IQ-TREE report:                asc_Ebola_ASC.iqtree
+  Maximum-likelihood tree:       asc_Ebola_ASC.treefile
+  Likelihood distances:          asc_Ebola_ASC.mldist
+  Screen log file:               asc_Ebola_ASC.log
+
+Date and Time: Sat Nov 14 18:41:58 2026

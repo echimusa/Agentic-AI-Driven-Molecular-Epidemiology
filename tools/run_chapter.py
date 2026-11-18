@@ -43,7 +43,11 @@ def flat_workdir():
 if A.script:
     path = os.path.join(CH, "code", A.script)
     if not os.path.isfile(path): sys.exit(f"no such script: {path}\navailable: {', '.join(sorted(os.path.basename(f) for f in glob.glob(os.path.join(CH, 'code', 'ex*'))))}")
-    work = flat_workdir(); cmd = ["Rscript", A.script] if A.script.lower().endswith(".r") else [sys.executable, A.script]
+    work = flat_workdir()
+    if os.path.isdir(os.path.join(ROOT, "amrf")):  # AMRFinderPlus installed by scripts/setup-heavy.sh: the exercises of Chapter 9 call ./amrf/amrfinder and amrf/db
+        try: os.symlink(os.path.join(ROOT, "amrf"), os.path.join(work, "amrf"))
+        except OSError: pass
+    cmd = ["Rscript", A.script] if A.script.lower().endswith(".r") else [sys.executable, A.script]
     before = {f: os.path.getmtime(f) for f in glob.glob(os.path.join(work, "**", "*"), recursive=True) if os.path.isfile(f)}
     print(f"[chapter {n}] running {A.script} in {work}"); rc = subprocess.call(cmd, cwd=work, env=env)
     new = [os.path.relpath(f, work) for f in glob.glob(os.path.join(work, "**", "*"), recursive=True) if os.path.isfile(f) and (f not in before or os.path.getmtime(f) != before[f])]
@@ -51,6 +55,10 @@ if A.script:
 
 val = os.path.join(CH, "review", f"validate_ch{n}.py")
 if not os.path.isfile(val): sys.exit(f"missing validator {val}")
+rec = os.path.join(CH, "review")
+# A run without the chapter's Word file cannot produce the chapter-text rows of the committed record in review/, so it must not overwrite that record
+# (it would leave the repository modified for everyone who runs a check): keep the record and put this run's table in .work instead.
+keep = {} if docx else {f: open(f, "rb").read() for f in glob.glob(os.path.join(rec, "validation_results*.csv"))}
 args = ["--chapter", docx] if docx else []
 if not docx: print(f"[chapter {n}] no Word file given: the checks of the chapter text are skipped (the Word files are not in the repository; use --docx FILE)")
 for flag, on in (("--full", A.full), ("--doi", A.doi), ("--sim", A.sim)):
@@ -64,4 +72,10 @@ rc = subprocess.call([sys.executable, target] + args, cwd=cwd, env=env)
 if n <= 7:
     for f in glob.glob(os.path.join(cwd, "validation_results*.csv")): shutil.copy(f, os.path.join(CH, "review", os.path.basename(f)))
     if rc == 0: shutil.rmtree(cwd, ignore_errors=True)
+if keep:
+    out = os.path.join(CH, ".work"); os.makedirs(out, exist_ok=True)
+    for f, old in keep.items():
+        shutil.copy(f, os.path.join(out, os.path.basename(f)))
+        with open(f, "wb") as h: h.write(old)
+    print(f"[chapter {n}] the table of this run is in {out}; the record in review/ (which includes the checks of the chapter text) was left unchanged. Use --docx FILE to refresh the record.")
 print(f"[chapter {n}] exit code {rc} ({'all checks passed' if rc == 0 else 'see the lines marked FAIL above'})"); sys.exit(rc)

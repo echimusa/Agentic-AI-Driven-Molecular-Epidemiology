@@ -2,22 +2,30 @@
 # Install what the exercises of the chosen chapters need on Ubuntu (or WSL2 Ubuntu): system packages, a Python environment in .venv, and R packages in R/library.
 # Same job as setup.ps1.
 usage() { cat <<'USAGE'
-Usage: scripts/setup.sh [--chapters 12,13] [--rebuild] [--heavy] [--skip-system] [--dry-run]
+Usage: scripts/setup.sh [--chapters 12,13] [--rebuild] [--heavy] [--skip-system] [--here] [--dry-run]
   --chapters LIST   chapters to prepare, e.g. 12,13 or 1-5 (default 1-13)
   --rebuild         also install MAFFT, FastTree, bcftools, tabix and PLINK (to rebuild inputs from public sources)
   --heavy           also install Java, BLAST and HMMER for BEAST 2 and AMRFinderPlus (then run scripts/setup-heavy.sh)
   --skip-system     do not use apt (Python 3.12, R, pandoc and the tools are already installed)
+  --here            WSL2 only: set up in this folder even if it is on a Windows drive (by default it is copied to the Linux home folder first)
   --dry-run         print every step and run none
 USAGE
 }
 set -euo pipefail
 . "$(dirname "${BASH_SOURCE[0]}")/_common.sh"
-CHAPTERS_ARG="1-13"; REBUILD=""; HEAVY=""; SKIP=0; DRY=0
+CHAPTERS_ARG="1-13"; REBUILD=""; HEAVY=""; SKIP=0; DRY=0; HERE=0; ORIG=("$@")
 while [ $# -gt 0 ]; do case "$1" in
   --chapters) CHAPTERS_ARG="${2:?--chapters needs a list}"; shift 2;;
   --rebuild) REBUILD="--rebuild"; shift;; --heavy) HEAVY="--heavy"; shift;;
-  --skip-system) SKIP=1; shift;; --dry-run) DRY=1; shift;;
+  --skip-system) SKIP=1; shift;; --here) HERE=1; shift;; --dry-run) DRY=1; shift;;
   -h|--help) usage; exit 0;; *) usage; die "unknown option $1";; esac; done
+# WSL2 on a Windows drive (/mnt/c/...): slow, and files saved on Windows can have CRLF line endings. Copy the repository to the Linux home folder and run there.
+if grep -qi microsoft /proc/version 2>/dev/null && [[ "$ROOT" == /mnt/* ]]; then
+  if [ "$HERE" = 0 ]; then
+    say "this copy is on a Windows drive ($ROOT): copying it to the Linux home folder first (use --here to stay)"
+    MEPI_SRC="$ROOT" exec bash <(tr -d '\r' < "$ROOT/scripts/wsl-handoff.sh") "${ORIG[@]}"
+  else warn "running on a Windows drive: this is slow, and files saved on Windows can have CRLF line endings"; fi
+fi
 command -v python3 >/dev/null 2>&1 || [ "$SKIP" = 0 ] || die "python3 not found"
 CH="$(parse_chapters "$CHAPTERS_ARG")"
 if command -v python3 >/dev/null 2>&1; then eval "$(python3 "$ROOT/tools/needed.py" "${CH// /,}" $REBUILD $HEAVY)"
@@ -45,5 +53,9 @@ if [ -n "$R_PKGS" ]; then
   say "install R packages: $R_PKGS"
   if [ "$DRY" = 1 ]; then echo "    (dry run: not executed)"; else set_env; command -v Rscript >/dev/null 2>&1 || die "Rscript not found; install r-base"; Rscript "$ROOT/r-packages.R" $R_PKGS || warn "some R packages did not install; see the lines marked MISSING and docs/TROUBLESHOOTING.md"; fi
 fi
-[ -z "$HEAVY" ] || echo "Next, for BEAST 2 and AMRFinderPlus: scripts/setup-heavy.sh"
+if [ -n "$HEAVY" ]; then  # BEAST 2, Java, AMRFinderPlus and its database: check each one, install what is missing
+  say "check BEAST 2, Java and AMRFinderPlus, and install what is missing"
+  if [ "$DRY" = 1 ]; then bash "$ROOT/scripts/setup-heavy.sh" --chapters "${CH// /,}" --dry-run || true
+  else bash "$ROOT/scripts/setup-heavy.sh" --chapters "${CH// /,}" || warn "BEAST 2 or AMRFinderPlus is not fully installed: read the messages above, fix the cause and run scripts/setup-heavy.sh again"; fi
+fi
 if [ "$DRY" = 0 ]; then say "check the installation"; "$ROOT/scripts/check-install.sh" --chapters "${CH// /,}" || true; fi

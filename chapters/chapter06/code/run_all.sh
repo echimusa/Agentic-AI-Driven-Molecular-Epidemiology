@@ -1,6 +1,8 @@
 #!/bin/bash
 # Runs every BEAST 2 analysis of Hands-on 5, one after the other (1 CPU). Idempotent: finished runs are skipped.
-export PATH=/home/claude/beast/beast/bin:$PATH
+# BEAST 2 comes from scripts/setup-heavy.sh (tools/linux/bin) or from your own PATH
+export PATH="$(cd "$(dirname "$0")/../../.." && pwd)/tools/linux/bin:$PATH"
+command -v beast >/dev/null 2>&1 || { echo "beast not found: run scripts/setup-heavy.sh --chapters 6 from the repository folder" >&2; exit 1; }
 cd "$(dirname "$0")/xml" || exit 1
 run() { # name xml seed
   if [ -f "done_$1" ]; then echo "skip $1"; return 1; fi

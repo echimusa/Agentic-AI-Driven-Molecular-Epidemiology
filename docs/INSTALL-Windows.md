@@ -2,6 +2,25 @@
 
 There are two routes. **Route A (WSL2) is the supported one and covers all 13 chapters.** Route B runs most chapters natively. **Neither route has been tested on a Windows machine**: the steps follow the documentation of `winget`, WSL2 and the packages, and the Ubuntu steps they rely on were tested (see the root README). If a step fails, [TROUBLESHOOTING.md](TROUBLESHOOTING.md) has the likely causes.
 
+## Shortcut: let `setup.ps1` do the WSL2 part
+
+If you only want the chapters to work, run the setup script in a normal PowerShell window and let it split the work:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\scripts\setup.ps1
+```
+
+Chapters 1 to 4 and 8 to 13 are prepared on Windows. Chapters 5, 6 and 7 (IQ-TREE 2, FastTree, `mappy`, TransPhylo) are prepared inside WSL2 Ubuntu: the script finds your Ubuntu distribution, copies the repository into its Linux home folder (`~/<repository folder>`, leaving out the Windows-built `.venv` and `R\library`), strips Windows line endings, and runs `scripts/setup.sh` there. Ubuntu asks for your Linux password once, for `apt`.
+
+- If WSL2 or Ubuntu is missing, the script asks whether to install it (`wsl --install -d Ubuntu`, which needs administrator approval and a restart). Add `-InstallWsl` to skip the question. After the restart, open "Ubuntu" once from the Start menu to create your Linux user, then run `setup.ps1` again.
+- `-Heavy` also checks BEAST 2, Java and AMRFinderPlus (with its database) and installs what is missing, inside WSL2 (Chapters 6 and 9; about 650 MB).
+- `-SkipWsl` keeps everything on Windows; Chapters 5, 6 and 7 are then reported as not ready.
+- Inside WSL2 you can also run `bash scripts/setup.sh` from a folder on the Windows drive (`/mnt/c/...`): it copies the repository to the Linux home folder first. Add `--here` to stay where you are (slow).
+- Run the WSL chapters from Ubuntu: `cd ~/<repository folder>` and `bash scripts/run-chapter.sh 5`. The Linux copy is a separate copy: results appear there, and changes made on the Windows side reach it the next time you run `setup.ps1`.
+
+This shortcut has not been run on a real Windows machine. The PowerShell logic was exercised with a stand-in for `wsl.exe`, so if a step fails, the manual route below is the fallback.
+
 ## Route A: WSL2 with Ubuntu (all chapters)
 
 Most command-line tools of the book (IQ-TREE 2, MAFFT, FastTree, bcftools, PLINK, BEAST 2, AMRFinderPlus) and the `mappy` package have no ready Windows build, so the easy way is to run Ubuntu inside Windows.
@@ -9,12 +28,12 @@ Most command-line tools of the book (IQ-TREE 2, MAFFT, FastTree, bcftools, PLINK
 1. Open PowerShell **as administrator** and run:
 
    ```powershell
-   wsl --install -d Ubuntu-24.04
+   wsl --install -d Ubuntu
    ```
 
-   Restart when asked, then open "Ubuntu 24.04" from the Start menu and create a Linux user.
+   Restart when asked, then open "Ubuntu" from the Start menu and create a Linux user. `wsl --list --online` shows the distribution names your PC accepts; use `Ubuntu` if a versioned name such as `Ubuntu-24.04` is refused. The book was validated on Ubuntu 24.04; if `Ubuntu` installs a newer release and a package fails, see TROUBLESHOOTING.md.
 2. Inside Ubuntu, follow [INSTALL-Ubuntu.md](INSTALL-Ubuntu.md) from step 1. It uses the Bash scripts (`scripts/setup.sh`, `scripts/run-chapter.sh`); PowerShell is not needed inside WSL2. Keep the repository in your Linux home folder (for example `~/Agentic-AI-Driven-Molecular-Epidemiology`), not under `/mnt/c`, which is much slower.
-3. To open the results in Windows, use `\\wsl$\Ubuntu-24.04\home\<user>\Agentic-AI-Driven-Molecular-Epidemiology` in File Explorer.
+3. To open the results in Windows, use `\\wsl$\Ubuntu\home\<user>\Agentic-AI-Driven-Molecular-Epidemiology` in File Explorer.
 
 WSL2 needs Windows 10 version 2004 or later, or Windows 11, with virtualisation enabled in the BIOS.
 

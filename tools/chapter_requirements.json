@@ -19,6 +19,6 @@
     "12": {"title": "Surveillance, ethics, governance", "python": [], "r": [], "quick_tools": [], "rebuild_tools": []},
     "13": {"title": "Integrating data with transmission models", "python": ["biopython", "phylo-treetime"], "r": [], "quick_tools": [], "rebuild_tools": ["mafft", "FastTree"]}
   },
-  "apt": {"iqtree2": "iqtree", "FastTree": "fasttree", "mafft": "mafft", "bcftools": "bcftools", "tabix": "tabix", "plink1.9": "plink1.9", "pandoc": "pandoc", "beast2": "default-jre-headless", "amrfinder": "ncbi-blast+ hmmer", "rgi": "diamond-aligner prodigal ncbi-blast+ hmmer"},
+  "apt": {"iqtree2": "iqtree", "FastTree": "fasttree", "mafft": "mafft", "bcftools": "bcftools", "tabix": "tabix", "plink1.9": "plink1.9", "pandoc": "pandoc", "beast2": "", "amrfinder": "ncbi-blast+ hmmer", "rgi": "diamond-aligner prodigal ncbi-blast+ hmmer"},
   "winget": {"python": "Python.Python.3.12", "r": "RProject.R", "pandoc": "JohnMacFarlane.Pandoc", "git": "Git.Git", "java": "EclipseAdoptium.Temurin.21.JRE"}
 }

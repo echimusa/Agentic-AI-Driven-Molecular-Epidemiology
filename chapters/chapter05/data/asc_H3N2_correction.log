@@ -1,0 +1,236 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    vm (AVX512, FMA3, 3 GB RAM)
+Command: iqtree2 -s snp_h3n2_ha_aln.fasta -m HKY+F+G4 -nt 1 --prefix asc_H3N2_correction -seed 1 -redo -quiet
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov 14 18:37:18 2026
+Kernel:  AVX+FMA - 1 threads (1 CPU cores detected)
+
+Reading alignment file snp_h3n2_ha_aln.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 60 sequences with 230 columns, 195 distinct patterns
+119 parsimony-informative, 111 singleton sites, 0 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  MK641773.1    0.43%    passed     59.46%
+   2  MK641750.1    0.43%    passed     90.22%
+   3  MN394143.1    0.00%    passed     98.57%
+   4  MK641756.1    0.43%    passed     74.06%
+   5  MK641778.1    0.43%    passed     87.39%
+   6  MN394386.1    0.00%    passed     79.99%
+   7  MK641775.1    0.43%    passed     85.85%
+   8  MK641767.1    0.43%    passed     77.92%
+   9  KU289623.1    0.43%    passed     97.07%
+  10  MK641763.1    0.43%    passed     90.22%
+  11  MK641749.1    0.43%    passed     92.01%
+  12  MN372390.1    0.00%    passed     94.40%
+  13  KU289609.1    0.43%    passed     96.53%
+  14  KU289616.1    0.43%    passed     84.39%
+  15  KU289613.1    0.43%    passed     90.22%
+  16  KU289631.1    0.43%    passed     98.62%
+  17  MH410505.1    0.43%    passed     92.89%
+  18  KU289621.1    0.43%    passed     97.30%
+  19  KU289632.1    0.43%    passed     96.71%
+  20  MH410509.1    0.43%    passed     99.61%
+  21  KU289612.1    0.43%    passed     94.00%
+  22  MH410514.1    0.43%    passed     99.25%
+  23  MK641786.1    0.43%    passed     87.43%
+  24  KU289606.1    0.43%    passed     96.53%
+  25  MN300026.1    0.43%    passed     98.86%
+  26  CY257274.1    0.00%    passed     98.27%
+  27  MN299941.1    0.43%    passed     99.28%
+  28  CY257402.1    0.00%    passed     99.80%
+  29  CY257202.1    0.00%    passed     98.27%
+  30  MN300035.1    0.43%    passed     99.77%
+  31  MN299386.1    0.43%    passed     99.77%
+  32  CY257154.1    0.00%    passed     99.89%
+  33  MN300034.1    0.43%    passed     99.71%
+  34  MN300043.1    0.43%    passed     97.72%
+  35  CY256978.1    0.00%    passed     99.65%
+  36  CY257114.1    0.00%    passed     98.07%
+  37  MN571647.1    0.00%    passed     95.01%
+  38  MN299528.1    0.43%    passed     98.47%
+  39  MN299540.1    0.43%    passed     99.08%
+  40  CY226551.1    0.00%    passed     67.33%
+  41  CY230197.1    0.00%    passed     60.34%
+  42  MN299702.1    0.43%    passed     99.89%
+  43  MN299715.1    0.43%    passed     97.69%
+  44  MN299610.1    0.43%    passed     99.77%
+  45  MN299611.1    0.43%    passed     97.33%
+  46  MN299869.1    0.43%    passed     98.73%
+  47  MN299919.1    0.43%    passed     95.97%
+  48  MN299680.1    0.43%    passed     99.28%
+  49  MN538645.1    0.43%    passed     81.96%
+  50  MN572183.1    0.00%    passed     98.02%
+  51  MN568367.1    0.00%    passed     96.49%
+  52  MN538736.1    0.43%    passed     74.68%
+  53  MK898471.1    0.87%    passed     83.89%
+  54  MK856796.1    0.00%    passed     89.32%
+  55  MN574079.1    0.00%    passed     93.46%
+  56  MN568719.1    0.00%    passed     93.14%
+  57  MK857596.1    0.00%    passed     68.77%
+  58  MN572903.1    0.00%    passed     96.49%
+  59  MN538480.1    0.43%    passed     80.47%
+  60  MN538387.1    0.43%    passed     71.81%
+****  TOTAL         0.30%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MK641763.1 is identical to MK641750.1 but kept for subsequent analysis
+NOTE: MN299386.1 is identical to MN300035.1 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MN299610.1 (identical to MN300035.1) is ignored but added at the end
+Alignment was printed to asc_H3N2_correction.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to asc_H3N2_correction.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2283.867
+2. Current log-likelihood: -2186.116
+3. Current log-likelihood: -2184.771
+4. Current log-likelihood: -2184.331
+5. Current log-likelihood: -2183.885
+6. Current log-likelihood: -2183.435
+7. Current log-likelihood: -2182.978
+8. Current log-likelihood: -2182.516
+9. Current log-likelihood: -2182.047
+10. Current log-likelihood: -2181.573
+11. Current log-likelihood: -2181.092
+12. Current log-likelihood: -2180.605
+13. Current log-likelihood: -2180.112
+14. Current log-likelihood: -2179.611
+15. Current log-likelihood: -2179.104
+16. Current log-likelihood: -2178.589
+17. Current log-likelihood: -2178.067
+18. Current log-likelihood: -2177.538
+19. Current log-likelihood: -2177.000
+20. Current log-likelihood: -2176.455
+21. Current log-likelihood: -2175.901
+22. Current log-likelihood: -2175.339
+23. Current log-likelihood: -2174.768
+24. Current log-likelihood: -2174.188
+25. Current log-likelihood: -2173.599
+26. Current log-likelihood: -2173.000
+27. Current log-likelihood: -2172.391
+28. Current log-likelihood: -2171.771
+29. Current log-likelihood: -2171.141
+30. Current log-likelihood: -2170.500
+31. Current log-likelihood: -2169.848
+32. Current log-likelihood: -2169.183
+33. Current log-likelihood: -2168.507
+34. Current log-likelihood: -2167.818
+35. Current log-likelihood: -2167.115
+36. Current log-likelihood: -2166.399
+37. Current log-likelihood: -2165.668
+38. Current log-likelihood: -2164.923
+39. Current log-likelihood: -2164.162
+40. Current log-likelihood: -2163.385
+41. Current log-likelihood: -2162.592
+42. Current log-likelihood: -2161.781
+43. Current log-likelihood: -2160.951
+44. Current log-likelihood: -2160.103
+45. Current log-likelihood: -2159.234
+46. Current log-likelihood: -2158.345
+47. Current log-likelihood: -2157.433
+48. Current log-likelihood: -2156.499
+49. Current log-likelihood: -2155.540
+50. Current log-likelihood: -2154.556
+51. Current log-likelihood: -2153.544
+52. Current log-likelihood: -2152.505
+53. Current log-likelihood: -2151.435
+54. Current log-likelihood: -2150.334
+55. Current log-likelihood: -2149.199
+56. Current log-likelihood: -2148.029
+57. Current log-likelihood: -2146.820
+58. Current log-likelihood: -2145.572
+59. Current log-likelihood: -2144.280
+60. Current log-likelihood: -2142.941
+61. Current log-likelihood: -2141.554
+62. Current log-likelihood: -2140.113
+63. Current log-likelihood: -2138.615
+64. Current log-likelihood: -2137.056
+65. Current log-likelihood: -2135.429
+66. Current log-likelihood: -2133.730
+67. Current log-likelihood: -2131.952
+68. Current log-likelihood: -2130.087
+69. Current log-likelihood: -2128.128
+70. Current log-likelihood: -2126.064
+71. Current log-likelihood: -2123.885
+72. Current log-likelihood: -2121.578
+73. Current log-likelihood: -2119.129
+74. Current log-likelihood: -2116.521
+75. Current log-likelihood: -2113.733
+76. Current log-likelihood: -2110.745
+77. Current log-likelihood: -2107.529
+78. Current log-likelihood: -2104.056
+79. Current log-likelihood: -2100.297
+80. Current log-likelihood: -2096.220
+81. Current log-likelihood: -2091.805
+82. Current log-likelihood: -2087.062
+83. Current log-likelihood: -2082.080
+84. Current log-likelihood: -2069.440
+Optimal log-likelihood: -2069.429
+Rate parameters:  A-C: 1.00000  A-G: 6.97127  A-T: 1.00000  C-G: 1.00000  C-T: 6.97127  G-T: 1.00000
+Base frequencies:  A: 0.320  C: 0.211  G: 0.240  T: 0.229
+Gamma shape alpha: 998.444
+Parameters optimization took 84 rounds (1.302 sec)
+Computing ML distances based on estimated model parameters... 0.010 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -2064.920
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.283 second
+Computing log-likelihood of 98 initial trees ... 0.387 seconds
+Current best score: -2060.742
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2060.723
+Iteration 10 / LogL: -2060.812 / Time: 0h:0m:2s
+Iteration 20 / LogL: -2060.813 / Time: 0h:0m:2s
+Finish initializing candidate tree set (19)
+Current best tree score: -2060.723 / CPU time: 1.407
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2066.081 / Time: 0h:0m:3s (0h:0m:8s left)
+Iteration 40 / LogL: -2060.724 / Time: 0h:0m:4s (0h:0m:6s left)
+Iteration 50 / LogL: -2060.727 / Time: 0h:0m:5s (0h:0m:5s left)
+Iteration 60 / LogL: -2060.726 / Time: 0h:0m:5s (0h:0m:4s left)
+Iteration 70 / LogL: -2060.726 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 80 / LogL: -2066.082 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 90 / LogL: -2077.028 / Time: 0h:0m:8s (0h:0m:1s left)
+Iteration 100 / LogL: -2060.726 / Time: 0h:0m:9s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2060.723
+Optimal log-likelihood: -2060.723
+Rate parameters:  A-C: 1.00000  A-G: 7.10055  A-T: 1.00000  C-G: 1.00000  C-T: 7.10055  G-T: 1.00000
+Base frequencies:  A: 0.320  C: 0.211  G: 0.240  T: 0.229
+Gamma shape alpha: 998.444
+Parameters optimization took 1 rounds (0.014 sec)
+BEST SCORE FOUND : -2060.723
+Total tree length: 1.437
+
+Total number of iterations: 102
+CPU time used for tree search: 3.900 sec (0h:0m:3s)
+Wall-clock time used for tree search: 8.023 sec (0h:0m:8s)
+Total CPU time used: 4.570 sec (0h:0m:4s)
+Total wall-clock time used: 9.385 sec (0h:0m:9s)
+
+Analysis results written to: 
+  IQ-TREE report:                asc_H3N2_correction.iqtree
+  Maximum-likelihood tree:       asc_H3N2_correction.treefile
+  Likelihood distances:          asc_H3N2_correction.mldist
+  Screen log file:               asc_H3N2_correction.log
+
+Date and Time: Sat Nov 14 18:37:28 2026

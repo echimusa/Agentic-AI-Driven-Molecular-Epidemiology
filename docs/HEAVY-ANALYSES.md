@@ -4,7 +4,7 @@ The quick checks and the full reruns read the shipped results of these analyses;
 
 | Chapter | Analysis | Needs | Time (one processor) |
 |---|---|---|---|
-| 6 | Hands-on 5: BEAST 2 chains and path sampling for six models on 60 Ebola genomes | BEAST 2.7.7 with the MODEL_SELECTION package 1.6.2 (`scripts/setup-heavy.ps1`), Java | about 90 minutes (`code/run_all.sh`) |
+| 6 | Hands-on 5: BEAST 2 chains and path sampling for six models on 60 Ebola genomes | BEAST 2.7.7 with the MODEL_SELECTION package 1.6.2 (`scripts/setup.sh --heavy`; BEAST 2 brings its own Java 17) | about 90 minutes (`code/run_all.sh`) |
 | 6 | Hands-on 3: TreeTime reruns for Ebola virus and SARS-CoV-2 | `phylo-treetime`, FastTree | about 25 minutes (`run-chapter.ps1 -Chapter 6 -Full -Sim`) |
 | 7 | Hands-on 5: 12 TransPhylo runs | R packages `TransPhylo`, `coda` | about 40 minutes |
 | 9 | Hands-on 5: AMRFinderPlus on eight assemblies | AMRFinderPlus 4.2.7, its database (release 4.2/2026-10-29.1, 43 files), BLAST+, HMMER | about 1.5 minutes per genome |
@@ -12,16 +12,28 @@ The quick checks and the full reruns read the shipped results of these analyses;
 | 9 | Hands-on 1: the NCBI Pathogen Detection Salmonella table | a download of 883 MB; the table keeps growing, so counts change | download time |
 | 10 | Hands-on 2 and 3: harmonised COVID-19 HGI file (336 MB) and a chromosome 22 VCF (205 MB) | downloads from EBI | download time |
 
-## BEAST 2 and AMRFinderPlus
+## BEAST 2, Java and AMRFinderPlus: one command
 
 ```bash
-./scripts/setup.sh --chapters 6,9 --heavy      # Java, BLAST, HMMER and the other tools
-./scripts/setup-heavy.sh                       # BEAST 2.7.7, its MODEL_SELECTION package, and the AMRFinderPlus binaries
+./scripts/setup.sh --chapters 6,9 --heavy
 ```
 
-(PowerShell: `./scripts/setup.ps1 -Chapters 6,9 -Heavy` and `./scripts/setup-heavy.ps1`.)
+(PowerShell: `./scripts/setup.ps1 -Chapters 6,9 -Heavy`; on Windows this part runs inside WSL2 Ubuntu.)
 
-`setup-heavy.sh` downloads BEAST 2 into `tools/linux/` and AMRFinderPlus into `amrf/`. The other scripts add `tools/linux/bin` to the `PATH` themselves; add it to your own shell with `export PATH=$PWD/tools/linux/bin:$PATH`. Then download the 43 files of the AMRFinderPlus database release 4.2/2026-10-29.1 from `https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/` into `amrf/db` and run `amrf/amrfinder_index amrf/db`. The built-in updater failed in the environment used to prepare the chapter, which is why the files were fetched by hand.
+After the usual setup, this runs `scripts/setup-heavy.sh`, which checks each piece and installs only what is missing, so it is safe to run again:
+
+| Piece | Checked how | If missing |
+|---|---|---|
+| BEAST 2.7.7 (Chapter 6) | `tools/linux/bin/beast` or `beast` on your `PATH` reports version 2.7.7 | downloads the Linux build (95 MB) into `tools/linux/` |
+| Java | BEAST 2 includes its own Java 17 (`tools/linux/beast/jre`) | only if that is absent: a system Java 17 or newer is checked, and `openjdk-17-jre-headless` is installed with `apt` |
+| MODEL_SELECTION 1.6.2 (Chapter 6, path sampling) | `~/.beast/2.7/MODEL_SELECTION/version.xml` | downloads the package into `~/.beast/2.7` |
+| AMRFinderPlus 4.2.7 (Chapter 9) | `amrf/amrfinder --version` | downloads the binaries (6 MB) into `amrf/` |
+| BLAST+ and HMMER | `makeblastdb` and `hmmpress` exist | installed with `apt` (they build the database index) |
+| AMRFinderPlus database 4.2/2026-10-29.1 | all 43 files in `amrf/db`, `version.txt` says 2026-10-29.1, and the index was built | downloads the missing files from NCBI (132 MB) and runs `amrf/amrfinder_index amrf/db` |
+
+`scripts/setup-heavy.sh --chapters 6` (or `9`) prepares one chapter only; `--force` installs again; `--dry-run` only reports. It needs about 360 MB of free disk space for BEAST 2 and about 300 MB for AMRFinderPlus, an x86-64 Linux system, and a network connection. `scripts/check-install.sh --chapters 6,9` lists what is installed. The other scripts add `tools/linux/bin` to the `PATH` themselves; add it to your own shell with `export PATH=$PWD/tools/linux/bin:$PATH`. `run-chapter.sh 9 --script ex9_5_amrfinder_genomes.py` finds `amrf/` for you.
+
+The AMRFinderPlus database is pinned to release 2026-10-29.1 so that the results of the chapter can be reproduced; the built-in updater (`amrfinder -u`) would fetch a newer release and the counts could change.
 
 For BEAST 2 in Chapter 6:
 

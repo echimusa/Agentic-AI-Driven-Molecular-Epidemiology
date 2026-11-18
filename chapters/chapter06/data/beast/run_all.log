@@ -1,0 +1,48 @@
+start mcmc_het_strict_s1 08:31:29
+end mcmc_het_strict_s1 exit 0 626 s
+start mcmc_het_strict_s2 08:41:55
+end mcmc_het_strict_s2 exit 0 638 s
+start mcmc_het_relaxed 08:52:33
+skip mcmc_het_strict_s1
+skip mcmc_het_strict_s2
+start mcmc_het_relaxed 09:21:15
+end mcmc_het_relaxed exit 0 589 s
+start ps_het_strict 09:31:04
+end ps_het_strict exit 0 524 s
+start ps_iso 09:39:48
+end ps_iso exit 0 555 s
+start ps_dr1 09:49:03
+skip mcmc_het_strict_s1
+skip mcmc_het_strict_s2
+skip mcmc_het_relaxed
+skip ps_het_strict
+skip ps_iso
+start ps_dr1 10:08:46
+end ps_dr1 exit 0 526 s
+start ps_dr2 10:17:32
+end ps_dr2 exit 0 537 s
+start ps_dr3 10:26:29
+end ps_dr3 exit 0 544 s
+start ps_het_relaxed 10:35:33
+skip mcmc_het_strict_s1
+skip mcmc_het_strict_s2
+skip mcmc_het_relaxed
+skip ps_het_strict
+skip ps_iso
+skip ps_dr1
+skip ps_dr2
+skip ps_dr3
+start ps_het_relaxed 11:17:51
+end ps_het_relaxed exit 0 678 s
+ALLDONE
+start mcmc_het_strict_s1 11:34:25
+end mcmc_het_strict_s1 exit 0 551 s
+skip mcmc_het_strict_s2
+skip mcmc_het_relaxed
+skip ps_het_strict
+skip ps_iso
+skip ps_dr1
+skip ps_dr2
+skip ps_dr3
+skip ps_het_relaxed
+ALLDONE

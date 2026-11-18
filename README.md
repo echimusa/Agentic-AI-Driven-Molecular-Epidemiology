@@ -7,7 +7,6 @@ Code, data and checks for the 13 chapters of *Agentic AI-driven Molecular Epidem
 Ubuntu 22.04 or 24.04 (or WSL2 on Windows), with Bash:
 
 ```bash
-# get git installed if it is not yet by sudo apt-get install git
 git clone https://github.com/echimusa/Agentic-AI-Driven-Molecular-Epidemiology.git
 cd Agentic-AI-Driven-Molecular-Epidemiology
 ./scripts/setup.sh --chapters 12,13          # or leave out --chapters to prepare all 13
@@ -15,10 +14,11 @@ cd Agentic-AI-Driven-Molecular-Epidemiology
 ./scripts/run-chapter.sh 13
 ```
 
-Every script also exists for PowerShell (Windows, or Ubuntu with `pwsh`): `scripts/setup.ps1 -Chapters 12,13`, `scripts/check-install.ps1`, `scripts/run-chapter.ps1 -Chapter 13`, `get git install on PowerShell windows with winget install --id Git.Git -e --source winget`.
-If Powershell flag error on policies, to clear the flag on all of them at once `Get-ChildItem -Recurse -Filter *.ps1 | Unblock-File`
-If Powershell still flag error do `powershell -ExecutionPolicy Bypass -File .\scripts\setup.ps1`
-Windows without WSL2: see [docs/INSTALL-Windows.md](docs/INSTALL-Windows.md) (chapters 5, 6 and 7 need WSL2). Ubuntu in detail: [docs/INSTALL-Ubuntu.md](docs/INSTALL-Ubuntu.md).
+To repeat the BEAST 2 (Chapter 6) and AMRFinderPlus (Chapter 9) analyses, add `--heavy`: `./scripts/setup.sh --chapters 6,9 --heavy` checks BEAST 2, Java and AMRFinderPlus with its database, and downloads and installs only what is missing (about 650 MB; see [docs/HEAVY-ANALYSES.md](docs/HEAVY-ANALYSES.md)).
+
+Every script also exists for PowerShell (Windows, or Ubuntu with `pwsh`): `scripts/setup.ps1 -Chapters 12,13`, `scripts/check-install.ps1`, `scripts/run-chapter.ps1 -Chapter 13`.
+
+Windows: run `scripts/setup.ps1` in PowerShell. It prepares Chapters 1 to 4 and 8 to 13 on Windows and sends Chapters 5, 6 and 7 (which need IQ-TREE 2, FastTree, `mappy` and TransPhylo) to WSL2 Ubuntu automatically, offering to install WSL2 first; see [docs/INSTALL-Windows.md](docs/INSTALL-Windows.md). Ubuntu in detail: [docs/INSTALL-Ubuntu.md](docs/INSTALL-Ubuntu.md).
 
 ## The chapters
 
@@ -63,8 +63,3 @@ requirements.txt      pinned Python packages      r-packages.R   R packages
 - Code: MIT ([LICENSE](LICENSE)). Text, figures, tables and bibliography: CC BY 4.0 ([LICENSE-CC-BY-4.0.txt](LICENSE-CC-BY-4.0.txt)). Data keep the terms of their sources ([docs/DATA.md](docs/DATA.md)); the licences of every source are in [docs/SOURCE-LICENCES.csv](docs/SOURCE-LICENCES.csv). See [LICENSING.md](LICENSING.md).
 - Cite as in `CITATION.cff`. Repository: https://github.com/echimusa/Agentic-AI-Driven-Molecular-Epidemiology
 - The repository is about 222 MB. No file is above 50 MB (the Chapter 10 genotype extract is stored compressed, 0.7 MB); the largest is `chapters/chapter11/data/chr1_il6r_eur.gt` (14 MB).
-
-contact : 
-Prof. Emile R. Chimusa
-Email: emile.chimusa@northumbria.ac.uk or echimusa@gmail.com
-WhatApp: +353 89 262 0356

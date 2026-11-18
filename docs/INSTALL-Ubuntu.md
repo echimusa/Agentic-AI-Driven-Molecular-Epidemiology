@@ -24,7 +24,7 @@ cd Agentic-AI-Driven-Molecular-Epidemiology
 ./scripts/setup.sh                      # all 13 chapters
 ./scripts/setup.sh --chapters 12,13     # only what these chapters need (ranges work too: 1-5)
 ./scripts/setup.sh --rebuild            # also MAFFT, FastTree, bcftools, tabix, PLINK, to rebuild inputs from public sources
-./scripts/setup.sh --heavy              # also Java, BLAST and HMMER for BEAST 2 and AMRFinderPlus (then ./scripts/setup-heavy.sh)
+./scripts/setup.sh --heavy              # also checks BEAST 2 (with its Java), AMRFinderPlus and its database, and installs what is missing
 ./scripts/setup.sh --dry-run            # print every step and run none
 ./scripts/setup.sh --help
 ```

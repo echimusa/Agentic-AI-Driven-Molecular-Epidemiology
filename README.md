@@ -16,7 +16,8 @@ cd Agentic-AI-Driven-Molecular-Epidemiology
 ```
 
 Every script also exists for PowerShell (Windows, or Ubuntu with `pwsh`): `scripts/setup.ps1 -Chapters 12,13`, `scripts/check-install.ps1`, `scripts/run-chapter.ps1 -Chapter 13`, `get git install on PowerShell windows with winget install --id Git.Git -e --source winget`.
-
+Is Powershell flag error on policies, to clear the flag on all of them at once `Get-ChildItem -Recurse -Filter *.ps1 | Unblock-File`
+Is Powershell still flag error do `powershell -ExecutionPolicy Bypass -File .\scripts\setup.ps1`
 Windows without WSL2: see [docs/INSTALL-Windows.md](docs/INSTALL-Windows.md) (chapters 5, 6 and 7 need WSL2). Ubuntu in detail: [docs/INSTALL-Ubuntu.md](docs/INSTALL-Ubuntu.md).
 
 ## The chapters
